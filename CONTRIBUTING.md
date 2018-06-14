@@ -22,3 +22,4 @@ Below are the set of guidelines for contributing to this project.
 #### Editing or deleting existing country
 
 1. Provide a link for reference along with the pull request.
+2. When deleting a country, kindly delete the correcponding state list. DONOT ALTER THE COUNTRY ID.
