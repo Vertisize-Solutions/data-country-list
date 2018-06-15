@@ -4,6 +4,9 @@ INSERT INTO dbo.StateMaster
         StateName -- Administrative divisions
     )
 VALUES
+
+    -- Afghanistan
+    -- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
     (1, N"Badakhshan"),
     (1, N"Badghis"),
     (1, N"Baghlan"),
@@ -38,6 +41,9 @@ VALUES
     (1, N"Takhar"),
     (1, N"Wardak"),
     (1, N"Zabul"),
+
+    -- Albania
+    -- Ref: https://en.wikipedia.org/wiki/Albania#Administrative_divisions
     (2, N"Shkodër"),
     (2, N"Kukës"),
     (2, N"Lezhë"),
@@ -50,6 +56,9 @@ VALUES
     (2, N"Berat"),
     (2, N"Vlorë"),
     (2, N"Gjirokastër"),
+
+    -- Algeria
+    -- Ref: https://en.wikipedia.org/wiki/Algeria#Administrative_divisions
     (3, N"Adrar"),
     (3, N"Chlef"),
     (3, N"Laghouat"),
@@ -98,6 +107,9 @@ VALUES
     (3, N"Ain Timouchent"),
     (3, N"Ghardaia"),
     (3, N"Relizane"),
+
+    -- Andorra
+    -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Andorra
     (4, N"Andorra la Vella"),
     (4, N"Canillo"),
     (4, N"Encamp"),
@@ -105,6 +117,9 @@ VALUES
     (4, N"La Massana"),
     (4, N"Ordino"),
     (4, N"Sant Julià de Lòria"),
+
+    -- Angola
+    -- Ref: https://en.wikipedia.org/wiki/Angola#Administrative_divisions
     (5, N"Bengo"),
     (5, N"Benguela"),
     (5, N"Bié"),
@@ -123,6 +138,9 @@ VALUES
     (5, N"Namibe"),
     (5, N"Uíge"),
     (5, N"Zaire"),
+
+    -- Antigua and Barbuda
+    -- Ref: https://en.wikipedia.org/wiki/Antigua_and_Barbuda#Administrative_divisions
     (6, N"Saint George"),
     (6, N"Saint John"),
     (6, N"Saint Mary"),
@@ -131,6 +149,9 @@ VALUES
     (6, N"Saint Philip"),
     (6, N"Barbuda"),
     (6, N"Redonda"),
+
+    -- Argentina
+    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Argentina
     (7, N"Buenos Aires"),
     (7, N"Catamarca"),
     (7, N"Chaco"),
@@ -155,6 +176,9 @@ VALUES
     (7, N"Santiago del Estero"),
     (7, N"Tierra del Fuego"),
     (7, N"Tucumán"),
+
+    -- Armenia
+    -- Ref: https://en.wikipedia.org/wiki/Armenia#Administrative_divisions
     (8, N"Aragatsotn"),
     (8, N"Ararat"),
     (8, N"Armavir"),
@@ -166,12 +190,18 @@ VALUES
     (8, N"Tavush"),
     (8, N"Vayots Dzor"),
     (8, N"Yerevan"),
+
+    -- Australia
+    -- Ref: https://en.wikipedia.org/wiki/Australia#States_and_territories
     (9, N"New South Wales"),
     (9, N"Queensland"),
     (9, N"South Australia"),
     (9, N"Tasmania"),
     (9, N"Victoria"),
     (9, N"Western Australia"),
+
+    -- Austria
+    -- Ref: https://en.wikipedia.org/wiki/Austria#Administrative_divisions
     (10, N"Burgenland"),
     (10, N"Carinthia"),
     (10, N"Lower Austria"),
@@ -181,6 +211,9 @@ VALUES
     (10, N"Upper Austria"),
     (10, N"Vienna"),
     (10, N"Vorarlberg"),
+
+    -- Azerbaijan
+    -- Ref: https://en.wikipedia.org/wiki/Azerbaijan#Administrative_divisions
     (11, N"Absheron"),
     (11, N"Khizi"),
     (11, N"Baku"),
@@ -259,6 +292,9 @@ VALUES
     (11, N"Tartar"),
     (11, N"Khankendi"),
     (11, N"Shusha"),
+
+    -- The Bahamas
+    -- Ref: https://en.wikipedia.org/wiki/The_Bahamas#Administrative_divisions
     (12, N"Acklins"),
     (12, N"Berry Islands"),
     (12, N"Bimini"),
@@ -291,10 +327,16 @@ VALUES
     (12, N"Spanish Wells, Eleuthera"),    
     (12, N"West Grand Bahama"),
     (12, N"New Providence"),
+
+    -- Bahrain
+    -- Ref: https://en.wikipedia.org/wiki/Bahrain#Governorates
     (13, N"Capital Governorate"),
     (13, N"Muharraq Governorate"),
     (13, N"Northern Governorate"),
     (13, N"Southern Governorate"),
+
+    -- Bangladesh
+    -- Ref: https://en.wikipedia.org/wiki/Bangladesh#Administrative_geography
     (14, N"Barisal"),
     (14, N"Chittagong"),
     (14, N"Dhaka"),
@@ -303,6 +345,9 @@ VALUES
     (14, N"Rajshahi"),
     (14, N"Rangpur"),
     (14, N"Sylhet"),
+
+    -- Barbados
+    -- Ref: https://en.wikipedia.org/wiki/Barbados#Administrative_divisions
     (15, N"Christ Church"),
     (15, N"Saint Andrew"),
     (15, N"Saint George"),
@@ -314,6 +359,9 @@ VALUES
     (15, N"Saint Joseph"),
     (15, N"Saint John"),
     (15, N"Saint James"),
+
+    -- Belarus
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Belarus
     (16, N"City of Minsk"),
     (16, N"Brest"),
     (16, N"Gomel"),
@@ -321,6 +369,9 @@ VALUES
     (16, N"Mogilev"),
     (16, N"Minsk"),
     (16, N"Vitebsk"),
+
+    -- Belgium
+    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Belgium
     (17, N"Antwerp"),
     (17, N"East Flanders"),
     (17, N"Flemish Brabant"),
@@ -332,12 +383,18 @@ VALUES
     (17, N"Walloon Brabant"),
     (17, N"West Flanders"),
     (17, N"Brussels-Capital Region"),
+
+    -- Belize
+    -- Ref: https://en.wikipedia.org/wiki/Belize#Administrative_divisions
     (18, N"Belize"),
     (18, N"Cayo"),
     (18, N"Corozal"),
     (18, N"Orange Walk"),
     (18, N"Stann Creek"),
     (18, N"Toledo"),
+    
+    -- Benin
+    -- Ref: https://en.wikipedia.org/wiki/Benin#Departments_and_communes
     (19, N"Alibori"),
     (19, N"Atakora"),
     (19, N"Atlantique"),
@@ -350,6 +407,9 @@ VALUES
     (19, N"Ouémé"),
     (19, N"Plateau"),
     (19, N"Zou"),
+    
+    -- Bhutan
+    -- Ref: https://en.wikipedia.org/wiki/Bhutan#Political_divisions
     (20, N"Bumthang"),
     (20, N"Chukha"),
     (20, N"Dagana"),
@@ -370,6 +430,9 @@ VALUES
     (20, N"Tsirang"),
     (20, N"Wangdue Phodrang"),
     (20, N"Zhemgang"),
+    
+    -- Bolivia
+    -- Ref: https://en.wikipedia.org/wiki/Bolivia#Administrative_divisions
     (21, N"Pando"),
     (21, N"La Paz"),
     (21, N"Beni"),
@@ -379,8 +442,14 @@ VALUES
     (21, N"Potosí"),
     (21, N"Chuquisaca"),
     (21, N"Tarija"),
+    
+    -- Bosnia and Herzegovina
+    -- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_Bosnia_and_Herzegovina
     (22, N"Federation of Bosnia and Herzegovina"),
     (22, N"Republika Srpska"),
+    
+    -- Botswana
+    -- Ref: https://en.wikipedia.org/wiki/Botswana#Administrative_divisions
     (23, N"Southern District"),
     (23, N"South-East District"),
     (23, N"Kweneng District"),
@@ -390,6 +459,9 @@ VALUES
     (23, N"North-West District"),
     (23, N"Ghanzi District"),
     (23, N"Kgalagadi District"),
+    
+    -- Brazil
+    -- Ref: https://en.wikipedia.org/wiki/Brazil#Administrative_divisions
     (24, N"Acre"),
     (24, N"Alagoas"),
     (24, N"Amapá"),
@@ -418,10 +490,16 @@ VALUES
     (24, N"São Paulo"),
     (24, N"Tocantins"),
     (24, N"Federal District"),
+    
+    -- Brunei
+    -- Ref: https://en.wikipedia.org/wiki/Brunei#Administrative_divisions
     (25, N"Belait"),
     (25, N"Brunei-Muara"),
     (25, N"Temburong"),
     (25, N"Tutong"),
+    
+    -- Bulgaria
+    -- Ref: https://en.wikipedia.org/wiki/Bulgaria#Administrative_divisions
     (26, N"Sofia-Grad"),
     (26, N"Blagoevgrad"),
     (26, N"Burgas"),
@@ -450,6 +528,9 @@ VALUES
     (26, N"Vidin"),
     (26, N"Vratsa"),
     (26, N"Yambol"),
+    
+    -- Burkina Faso
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Burkina_Faso
     (27, N"Boucle du Mouhoun"),
     (27, N"Cascades"),
     (27, N"Centre"),
@@ -463,6 +544,9 @@ VALUES
     (27, N"Plateau-Central"),
     (27, N"Sahel"),
     (27, N"Sud-Ouest"),
+    
+    -- Burundi
+    -- Ref: https://en.wikipedia.org/wiki/Burundi#Subdivisions
     (28, N"Bubanza"),
     (28, N"Bujumbura Mairie"),
     (28, N"Bujumbura Rural"),
@@ -481,6 +565,9 @@ VALUES
     (28, N"Rumonge"),
     (28, N"Rutana"),
     (28, N"Ruyigi"),
+    
+    -- Cabo Verde
+    -- Ref: https://en.wikipedia.org/wiki/Cape_Verde#Administrative_divisions
     (29, N"Ribeira Grande"),
     (29, N"Paúl"),
     (29, N"Porto Novo"),
@@ -503,6 +590,9 @@ VALUES
     (29, N"Santa Catarina do Fogo"),
     (29, N"Mosteiros"),
     (29, N"Brava"),
+    
+    -- Cambodia
+    -- Ref: https://en.wikipedia.org/wiki/Cambodia#Administrative_divisions
     (30, N"Banteay Meanchey"),
     (30, N"Battambang"),
     (30, N"Kampong Cham"),
@@ -528,6 +618,9 @@ VALUES
     (30, N"Svay Rieng"),
     (30, N"Takéo"),
     (30, N"Tboung Khmom"),
+    
+    -- Cameroon
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Cameroon
     (31, N"Adamawa"),
     (31, N"Central Cameroon"),
     (31, N"East Cameroon"),
@@ -538,6 +631,9 @@ VALUES
     (31, N"South Cameroon"),
     (31, N"Southwest Cameroon"),
     (31, N"West Cameroon"),
+    
+    -- Canada
+    -- Ref: https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada#Provinces
     (32, N"Alberta"),
     (32, N"British Columbia"),
     (32, N"Manitoba"),
@@ -548,6 +644,9 @@ VALUES
     (32, N"Prince Edward Island"),
     (32, N"Quebec"),
     (32, N"Saskatchewan"),
+    
+    -- Central African Republic
+    -- Ref: https://en.wikipedia.org/wiki/Central_African_Republic#Prefectures_and_sub-prefectures
     (33, N"Bamingui-Bangoran"),
     (33, N"Bangui"),
     (33, N"Basse-Kotto"),
@@ -565,6 +664,9 @@ VALUES
     (33, N"Ouham-Pendé"),
     (33, N"Sangha-Mbaéré"),
     (33, N"Vakaga"),
+    
+    -- Chad
+    -- Ref: https://en.wikipedia.org/wiki/Chad#Administrative_divisions
     (34, N"Bahr El Gazel"),
     (34, N"Batha"),
     (34, N"Borkou"),
@@ -588,6 +690,9 @@ VALUES
     (34, N"Tandjilé"),
     (34, N"Tibesti"),
     (34, N"Wadi Fira"),
+
+    -- Chile
+    -- Ref: https://en.wikipedia.org/wiki/Chile#Administrative_divisions
     (35, N"Arica y Parinacota"),
     (35, N"Tarapacá"),
     (35, N"Antofagasta"),
@@ -604,6 +709,7 @@ VALUES
     (35, N"Aysén del General Carlos Ibáñez del Campo"),
     (35, N"Magallanes and Chilean Antarctica"),
 
+    -- China
     -- Ref: https://en.wikipedia.org/wiki/Provinces_of_China#List_of_province-level_divisions
     (36, N"Anhui"),
     (36, N"Beijing"),
@@ -640,6 +746,7 @@ VALUES
     (36, N"Yunnan"),
     (36, N"Zhejiang"),
 
+    -- Colombia
     -- Ref: https://en.wikipedia.org/wiki/Colombia#Administrative_divisions
     (37, N"Amazonas"),
     (37, N"Antioquia"),
@@ -674,4 +781,7 @@ VALUES
     (37, N"Vaupés"),
     (37, N"Vichada"),
     (37, N"Bogotá"),
+
+    -- Comoros
+    -- Ref: 
     (38, N""),
