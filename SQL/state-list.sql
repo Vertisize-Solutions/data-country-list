@@ -379,4 +379,6 @@ VALUES
     (21, N"Potosí"),
     (21, N"Chuquisaca"),
     (21, N"Tarija"),
-    (22, N""),
+    (22, N"Federation of Bosnia and Herzegovina"),
+    (22, N"Republika Srpska"),
+    (23, N""),
