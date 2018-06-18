@@ -914,8 +914,33 @@ VALUES
     (46, N"Ryanggang"),
     
     -- DR Congo
-    -- Ref: 
-    (47, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo#Provinces
+    (47, N"Kinshasa"),
+    (47, N"Kongo Central"),
+    (47, N"Kwango"),
+    (47, N"Kwilu Province"),
+    (47, N"Mai-Ndombe Province"),
+    (47, N"Kasaï Province"),
+    (47, N"Kasaï-Central"),
+    (47, N"Kasaï-Oriental"),
+    (47, N"Lomami Province"),
+    (47, N"Sankuru"),
+    (47, N"Maniema"),
+    (47, N"South Kivu"),
+    (47, N"North Kivu"),
+    (47, N"Ituri Province"),
+    (47, N"Haut-Uele"),
+    (47, N"Tshopo"),
+    (47, N"Bas-Uele"),
+    (47, N"Nord-Ubangi"),
+    (47, N"Mongala"),
+    (47, N"Sud-Ubangi"),
+    (47, N"Équateur"),
+    (47, N"Tshuapa"),
+    (47, N"Tanganyika Province"),
+    (47, N"Haut-Lomami"),
+    (47, N"Lualaba Province"),
+    (47, N"Haut-Katanga Province"),
     
     -- Denmark
     -- Ref: 
