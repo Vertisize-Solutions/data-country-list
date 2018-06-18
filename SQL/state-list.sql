@@ -855,8 +855,23 @@ VALUES
     (42, N"City of Zagreb"),
     
     -- Cuba
-    -- Ref: 
-    (43, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Cuba#Administrative_divisions
+    (43, N"Pinar del Río"),
+    (43, N"Artemisa"),
+    (43, N"Havana"),
+    (43, N"Mayabeque"),
+    (43, N"Matanzas"),
+    (43, N"Cienfuegos"),
+    (43, N"Villa Clara"),
+    (43, N"Sancti Spíritus"),
+    (43, N"Ciego de Ávila"),
+    (43, N"Camagüey"),
+    (43, N"Las Tunas"),
+    (43, N"Granma"),
+    (43, N"Holguín"),
+    (43, N"Santiago de Cuba"),
+    (43, N"Guantánamo"),
+    (43, N"Isla de la Juventud"),
     
     -- Cyprus
     -- Ref: 
