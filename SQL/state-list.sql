@@ -951,8 +951,13 @@ VALUES
     (48, N"Syddanmark"),
     
     -- Faroe Islands
-    -- Ref: 
-    (49, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_the_Faroe_Islands
+    (49, N"Eysturoyar"),
+    (49, N"Norðoyar"),
+    (49, N"Sandoyar"),
+    (49, N"Streymoyar"),
+    (49, N"Suðuroyar"),
+    (49, N"Vága"),
     
     -- Greenland
     -- Ref: 
