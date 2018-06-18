@@ -968,13 +968,27 @@ VALUES
     (50, N"Sermersooq"),
     
     -- Djibouti
-    -- Ref: 
-    (51, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Djibouti#Administrative_divisions
+    (51, N"Ali Sabieh"),
+    (51, N"Arta"),
+    (51, N"Dikhil"),
+    (51, N"Djibouti"),
+    (51, N"Obock"),
+    (51, N"Tadjourah"),
     
     -- Dominica
-    -- Ref: 
-    (52, N""),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Dominica#Government_and_administrative_divisions
+    (52, N"Saint Andrew Parish"),
+    (52, N"Saint David Parish"),
+    (52, N"Saint George Parish"),
+    (52, N"Saint John Parish"),
+    (52, N"Saint Joseph Parish"),
+    (52, N"Saint Luke Parish"),
+    (52, N"Saint Mark Parish"),
+    (52, N"Saint Patrick Parish"),
+    (52, N"Saint Paul Parish"),
+    (52, N"Saint Peter Parish"),
+
     -- Dominican Republic
     -- Ref: 
     (53, N""),
