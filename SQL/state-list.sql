@@ -789,12 +789,29 @@ VALUES
     (38, N"Ndzuwani"),
 
     -- Congo
-    -- Ref: 
-    (39, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Republic_of_the_Congo#Administrative_divisions
+    (39, N"Bouenza"),
+    (39, N"Cuvette"),
+    (39, N"Cuvette-Ouest"),
+    (39, N"Kouilou"),
+    (39, N"Lékoumou"),
+    (39, N"Brazzaville"),
+    (39, N"Likouala"),
+    (39, N"Niari"),
+    (39, N"Plateaux"),
+    (39, N"Pool"),
+    (39, N"Sangha"),
+    (39, N"Pointe Noire"),
 
     -- Costa Rica
-    -- Ref: 
-    (40, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Costa_Rica#Administrative_divisions
+    (40, N"Alajuela"),
+    (40, N"Cartago"),
+    (40, N"Guanacaste"),
+    (40, N"Heredia"),
+    (40, N"Limón"),
+    (40, N"Puntarenas"),
+    (40, N"San José"),
     
     -- Ivory Coast
     -- Ref: 
