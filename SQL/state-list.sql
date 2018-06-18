@@ -1119,9 +1119,23 @@ VALUES
     (58, N"Southern Red Sea"),
     
     -- Estonia
-    -- Ref: 
-    (59, N""),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Counties_of_Estonia#List_of_counties
+    (59, N"Harju"),
+    (59, N"Hiiu"),
+    (59, N"Ida-Viru"),
+    (59, N"Jõgeva"),
+    (59, N"Järva"),
+    (59, N"Lääne"),
+    (59, N"Lääne-Viru"),
+    (59, N"Põlva"),
+    (59, N"Pärnu"),
+    (59, N"Rapla"),
+    (59, N"Saare"),
+    (59, N"Tartu"),
+    (59, N"Valga"),
+    (59, N"Viljandi"),
+    (59, N"Võru"),
+
     -- Ethiopia
     -- Ref: 
     (60, N""),
