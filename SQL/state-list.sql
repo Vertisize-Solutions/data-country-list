@@ -1187,8 +1187,25 @@ VALUES
     (63, N"Åland Islands"),
 
     -- France
-    -- Ref: 
-    (64, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_France#Regions_and_their_capitals
+    (64, N"Grand Est"),
+    (64, N"Nouvelle-Aquitaine"),
+    (64, N"Auvergne-Rhône-Alpes"),
+    (64, N"Bourgogne-Franche-Comté"),
+    (64, N"Brittany"),
+    (64, N"Centre-Val de Loire"),
+    (64, N"Île-de-France"),
+    (64, N"Occitanie"),
+    (64, N"Hauts-de-France"),
+    (64, N"Normandy"),
+    (64, N"Pays de la Loire"),
+    (64, N"Provence-Alpes-Côte d'Azur"),
+    (64, N"Corsica"),
+    (64, N"French Guiana"),
+    (64, N"Guadeloupe"),
+    (64, N"Martinique"),
+    (64, N"Mayotte"),
+    (64, N"Réunion"),
     
     -- Gabon
     -- Ref: 
