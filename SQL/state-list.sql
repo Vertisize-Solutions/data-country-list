@@ -960,8 +960,12 @@ VALUES
     (49, N"Vága"),
     
     -- Greenland
-    -- Ref: 
-    (50, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Greenland
+    (50, N"Avannaata"),
+    (50, N"Kujalleq"),
+    (50, N"Qeqertalik"),
+    (50, N"Qeqqata"),
+    (50, N"Sermersooq"),
     
     -- Djibouti
     -- Ref: 
