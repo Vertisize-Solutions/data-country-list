@@ -883,8 +883,21 @@ VALUES
     (44, N"Paphos"),
     
     -- Czech Republic
-    -- Ref: 
-    (45, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Czech_Republic#Administrative_divisions
+    (45, N"Prague"),
+    (45, N"Central Bohemian"),
+    (45, N"South Bohemian"),
+    (45, N"Plzeň"),
+    (45, N"Karlovy Vary"),
+    (45, N"Ústí nad Labem"),
+    (45, N"Liberec"),
+    (45, N"Hradec Králové"),
+    (45, N"Pardubice"),
+    (45, N"Olomouc"),
+    (45, N"Moravian-Silesian"),
+    (45, N"South Moravian"),
+    (45, N"Zlín"),
+    (45, N"Vysočina"),
     
     -- North Korea
     -- Ref: 
