@@ -943,8 +943,12 @@ VALUES
     (47, N"Haut-Katanga Province"),
     
     -- Denmark
-    -- Ref: 
-    (48, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Denmark#Administrative_divisions
+    (48, N"Hovedstaden"),
+    (48, N"Midtjylland"),
+    (48, N"Nordjylland"),
+    (48, N"Sjælland"),
+    (48, N"Syddanmark"),
     
     -- Faroe Islands
     -- Ref: 
