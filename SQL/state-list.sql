@@ -1158,8 +1158,11 @@ VALUES
     (61, N"Shiselweni"),
     
     -- Fiji
-    -- Ref: 
-    (62, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Fiji#Administrative_divisions
+    (62, N"Central Division"),
+    (62, N"Eastern Division"),
+    (62, N"Northern Division"),
+    (62, N"Western Division"),
     
     -- Finland
     -- Ref: 
