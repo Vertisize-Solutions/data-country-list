@@ -900,8 +900,18 @@ VALUES
     (45, N"Vysočina"),
     
     -- North Korea
-    -- Ref: 
-    (46, N""),
+    -- Ref: https://en.wikipedia.org/wiki/North_Korea#Administrative_divisions
+    (46, N"Pyongyang"),
+    (46, N"Rason"),
+    (46, N"South Pyongan"),
+    (46, N"North Pyongan"),
+    (46, N"Chagang"),
+    (46, N"South Hwanghae"),
+    (46, N"North Hwanghae"),
+    (46, N"Kangwon"),
+    (46, N"South Hamgyong"),
+    (46, N"North Hamgyong"),
+    (46, N"Ryanggang"),
     
     -- DR Congo
     -- Ref: 
