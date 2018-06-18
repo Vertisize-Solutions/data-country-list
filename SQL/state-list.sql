@@ -831,8 +831,28 @@ VALUES
     (41, N"Zanzan"),
     
     -- Croatia
-    -- Ref: 
-    (42, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Counties_of_Croatia#Current
+    (42, N"Bjelovar-Bilogora"),
+    (42, N"Brod-Posavina"),
+    (42, N"Dubrovnik-Neretva"),
+    (42, N"Istria"),
+    (42, N"Karlovac"),
+    (42, N"Koprivnica-Križevci"),
+    (42, N"Krapina-Zagorje"),
+    (42, N"Lika-Senj"),
+    (42, N"Međimurje"),
+    (42, N"Osijek-Baranja"),
+    (42, N"Požega-Slavonia"),
+    (42, N"Primorje-Gorski Kotar"),
+    (42, N"Šibenik-Knin"),
+    (42, N"Sisak-Moslavina"),
+    (42, N"Split-Dalmatia"),
+    (42, N"Varaždin"),
+    (42, N"Virovitica-Podravina"),
+    (42, N"Vukovar-Srijem"),
+    (42, N"Zadar"),
+    (42, N"Zagreb County"),
+    (42, N"City of Zagreb"),
     
     -- Cuba
     -- Ref: 
