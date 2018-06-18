@@ -783,5 +783,631 @@ VALUES
     (37, N"Bogotá"),
 
     -- Comoros
+    -- Ref: http://www.worldcitiesdb.com/Comoros/state
+    (38, N"Moheli"),
+    (38, N"Grande Comore"),
+    (38, N"Ndzuwani"),
+
+    -- Congo
     -- Ref: 
-    (38, N""),
+    (39, N""),
+
+    -- Costa Rica
+    -- Ref: 
+    (40, N""),
+    
+    -- Ivory Coast
+    -- Ref: 
+    (41, N""),
+    
+    -- Croatia
+    -- Ref: 
+    (42, N""),
+    
+    -- Cuba
+    -- Ref: 
+    (43, N""),
+    
+    -- Cyprus
+    -- Ref: 
+    (44, N""),
+    
+    -- Czech Republic
+    -- Ref: 
+    (45, N""),
+    
+    -- North Korea
+    -- Ref: 
+    (46, N""),
+    
+    -- DR Congo
+    -- Ref: 
+    (47, N""),
+    
+    -- Denmark
+    -- Ref: 
+    (48, N""),
+    
+    -- Faroe Islands
+    -- Ref: 
+    (49, N""),
+    
+    -- Greenland
+    -- Ref: 
+    (50, N""),
+    
+    -- Djibouti
+    -- Ref: 
+    (51, N""),
+    
+    -- Dominica
+    -- Ref: 
+    (52, N""),
+    
+    -- Dominican Republic
+    -- Ref: 
+    (53, N""),
+    
+    -- Ecuador
+    -- Ref: 
+    (54, N""),
+    
+    -- Egypt
+    -- Ref: 
+    (55, N""),
+    
+    -- El Salvador
+    -- Ref: 
+    (56, N""),
+    
+    -- Equatorial Guinea
+    -- Ref: 
+    (57, N""),
+    
+    -- Eritrea
+    -- Ref: 
+    (58, N""),
+    
+    -- Estonia
+    -- Ref: 
+    (59, N""),
+    
+    -- Ethiopia
+    -- Ref: 
+    (60, N""),
+    
+    -- Swaziland
+    -- Ref: 
+    (61, N""),
+    
+    -- Fiji
+    -- Ref: 
+    (62, N""),
+    
+    -- Finland
+    -- Ref: 
+    (63, N""),
+    
+    -- France
+    -- Ref: 
+    (64, N""),
+    
+    -- Gabon
+    -- Ref: 
+    (65, N""),
+    
+    -- The Gambia
+    -- Ref: 
+    (66, N""),
+    
+    -- Georgia
+    -- Ref: 
+    (67, N""),
+    
+    -- Germany
+    -- Ref: 
+    (68, N""),
+    
+    -- Ghana
+    -- Ref: 
+    (69, N""),
+    
+    -- Greece
+    -- Ref: 
+    (70, N""),
+    
+    -- Grenada
+    -- Ref: 
+    (71, N""),
+    
+    -- Guatemala
+    -- Ref: 
+    (72, N""),
+    
+    -- Guinea
+    -- Ref: 
+    (73, N""),
+    
+    -- Guinea-Bissau
+    -- Ref: 
+    (74, N""),
+    
+    -- Guyana
+    -- Ref: 
+    (75, N""),
+    
+    -- Haiti
+    -- Ref: 
+    (76, N""),
+    
+    -- Honduras
+    -- Ref: 
+    (77, N""),
+    
+    -- Hungary
+    -- Ref: 
+    (78, N""),
+    
+    -- Iceland
+    -- Ref: 
+    (79, N""),
+    
+    -- India
+    -- Ref: 
+    (80, N""),
+    
+    -- Indonesia
+    -- Ref: 
+    (81, N""),
+    
+    -- Iran
+    -- Ref: 
+    (82, N""),
+    
+    -- Iraq
+    -- Ref: 
+    (83, N""),
+    
+    -- Ireland
+    -- Ref: 
+    (84, N""),
+    
+    -- Israel
+    -- Ref: 
+    (85, N""),
+    
+    -- Italy
+    -- Ref: 
+    (86, N""),
+    
+    -- Jamaica
+    -- Ref: 
+    (87, N""),
+    
+    -- Japan
+    -- Ref: 
+    (88, N""),
+    
+    -- Jordan
+    -- Ref: 
+    (89, N""),
+    
+    -- Kazakhstan
+    -- Ref: 
+    (90, N""),
+    
+    -- Kenya
+    -- Ref: 
+    (91, N""),
+    
+    -- Kiribati
+    -- Ref: 
+    (92, N""),
+    
+    -- Kuwait
+    -- Ref: 
+    (93, N""),
+    
+    -- Kyrgyzstan
+    -- Ref: 
+    (94, N""),
+    
+    -- Laos
+    -- Ref: 
+    (95, N""),
+    
+    -- Latvia
+    -- Ref: 
+    (96, N""),
+    
+    -- Lebanon
+    -- Ref: 
+    (97, N""),
+    
+    -- Lesotho
+    -- Ref: 
+    (98, N""),
+    
+    -- Liberia
+    -- Ref: 
+    (99, N""),
+    
+    -- Libya
+    -- Ref: 
+    (100, N""),
+    
+    -- Liechtenstein
+    -- Ref: 
+    (101, N""),
+    
+    -- Lithuania
+    -- Ref: 
+    (102, N""),
+    
+    -- Luxembourg
+    -- Ref: 
+    (103, N""),
+    
+    -- Madagascar
+    -- Ref: 
+    (104, N""),
+    
+    -- Malawi
+    -- Ref: 
+    (105, N""),
+    
+    -- Malaysia
+    -- Ref: 
+    (106, N""),
+    
+    -- Maldives
+    -- Ref: 
+    (107, N""),
+    
+    -- Mali
+    -- Ref: 
+    (108, N""),
+    
+    -- Malta
+    -- Ref: 
+    (109, N""),
+    
+    -- Marshall Islands
+    -- Ref: 
+    (110, N""),
+    
+    -- Mauritania
+    -- Ref: 
+    (111, N""),
+    
+    -- Mauritius
+    -- Ref: 
+    (112, N""),
+    
+    -- Mexico
+    -- Ref: 
+    (113, N""),
+    
+    -- Federated States of Micronesia
+    -- Ref: 
+    (114, N""),
+    
+    -- Monaco
+    -- Ref: 
+    (115, N""),
+    
+    -- Mongolia
+    -- Ref: 
+    (116, N""),
+    
+    -- Montenegro
+    -- Ref: 
+    (117, N""),
+    
+    -- Morocco
+    -- Ref: 
+    (118, N""),
+    
+    -- Mozambique
+    -- Ref: 
+    (119, N""),
+    
+    -- Myanmar
+    -- Ref: 
+    (120, N""),
+    
+    -- Namibia
+    -- Ref: 
+    (121, N""),
+    
+    -- Nauru
+    -- Ref: 
+    (122, N""),
+    
+    -- Nepal
+    -- Ref: 
+    (123, N""),
+    
+    -- Netherlands
+    -- Ref: 
+    (124, N""),
+    
+    -- New Zealand
+    -- Ref: 
+    (125, N""),
+    
+    -- Nicaragua
+    -- Ref: 
+    (126, N""),
+    
+    -- Niger
+    -- Ref: 
+    (127, N""),
+    
+    -- Nigeria
+    -- Ref: 
+    (128, N""),
+    
+    -- Norway
+    -- Ref: 
+    (129, N""),
+    
+    -- Oman
+    -- Ref: 
+    (130, N""),
+    
+    -- Pakistan
+    -- Ref: 
+    (131, N""),
+    
+    -- Palau
+    -- Ref: 
+    (132, N""),
+    
+    -- Palestine
+    -- Ref: 
+    (133, N""),
+    
+    -- Panama
+    -- Ref: 
+    (134, N""),
+    
+    -- Papua New Guinea
+    -- Ref: 
+    (135, N""),
+    
+    -- Paraguay
+    -- Ref: 
+    (136, N""),
+    
+    -- Peru
+    -- Ref: 
+    (137, N""),
+    
+    -- Philippines
+    -- Ref: 
+    (138, N""),
+    
+    -- Poland
+    -- Ref: 
+    (139, N""),
+    
+    -- Portugal
+    -- Ref: 
+    (140, N""),
+    
+    -- Qatar
+    -- Ref: 
+    (141, N""),
+    
+    -- Romania
+    -- Ref: 
+    (142, N""),
+    
+    -- Russia
+    -- Ref: 
+    (143, N""),
+    
+    -- Rwanda
+    -- Ref: 
+    (144, N""),
+    
+    -- Saint Kitts and Nevis
+    -- Ref: 
+    (145, N""),
+    
+    -- Saint Lucia
+    -- Ref: 
+    (146, N""),
+    
+    -- Saint Vincent
+    -- Ref: 
+    (147, N""),
+    
+    -- Samoa
+    -- Ref: 
+    (148, N""),
+    
+    -- San Marino
+    -- Ref: 
+    (149, N""),
+    
+    -- São Tomé and Príncipe
+    -- Ref: 
+    (150, N""),
+    
+    -- Saudi Arabia
+    -- Ref: 
+    (151, N""),
+    
+    -- Senegal
+    -- Ref: 
+    (152, N""),
+    
+    -- Serbia
+    -- Ref: 
+    (153, N""),
+    
+    -- Seychelles
+    -- Ref: 
+    (154, N""),
+    
+    -- Sierra Leone
+    -- Ref: 
+    (155, N""),
+    
+    -- Singapore
+    -- Ref: 
+    (156, N""),
+    
+    -- Slovakia
+    -- Ref: 
+    (157, N""),
+    
+    -- Slovenia
+    -- Ref: 
+    (158, N""),
+    
+    -- Solomon Islands
+    -- Ref: 
+    (159, N""),
+    
+    -- Somalia
+    -- Ref: 
+    (160, N""),
+    
+    -- South Africa
+    -- Ref: 
+    (161, N""),
+    
+    -- South Sudan
+    -- Ref: 
+    (162, N""),
+    
+    -- Spain
+    -- Ref: 
+    (163, N""),
+    
+    -- Sri Lanka
+    -- Ref: 
+    (164, N""),
+    
+    -- North Sudan
+    -- Ref: 
+    (165, N""),
+    
+    -- Suriname
+    -- Ref: 
+    (166, N""),
+    
+    -- Swaziland
+    -- Ref: 
+    (167, N""),
+    
+    -- Sweden
+    -- Ref: 
+    (168, N""),
+    
+    -- Switzerland
+    -- Ref: 
+    (169, N""),
+    
+    -- Syria
+    -- Ref: 
+    (170, N""),
+    
+    -- Tajikistan
+    -- Ref: 
+    (171, N""),
+    
+    -- Tanzania
+    -- Ref: 
+    (172, N""),
+    
+    -- Thailand
+    -- Ref: 
+    (173, N""),
+    
+    -- Togo
+    -- Ref: 
+    (174, N""),
+    
+    -- Tonga
+    -- Ref: 
+    (175, N""),
+    
+    -- Trinidad and Tobago
+    -- Ref: 
+    (176, N""),
+    
+    -- Tunisia
+    -- Ref: 
+    (177, N""),
+    
+    -- Turkey
+    -- Ref: 
+    (178, N""),
+    
+    -- Turkmenistan
+    -- Ref: 
+    (179, N""),
+    
+    -- Tuvalu
+    -- Ref: 
+    (180, N""),
+    
+    -- Uganda
+    -- Ref: 
+    (181, N""),
+    
+    -- Ukraine
+    -- Ref: 
+    (182, N""),
+    
+    -- United Arab Emirates
+    -- Ref: 
+    (183, N""),
+    
+    -- United Kingdom
+    -- Ref: 
+    (184, N""),
+    
+    -- United States
+    -- Ref: 
+    (185, N""),
+    
+    -- Uruguay
+    -- Ref: 
+    (186, N""),
+    
+    -- Uzbekistan
+    -- Ref: 
+    (187, N""),
+    
+    -- Vanuatu
+    -- Ref: 
+    (188, N""),
+    
+    -- Vatican City
+    -- Ref: 
+    (189, N""),
+    
+    -- Venezuela
+    -- Ref: 
+    (190, N""),
+    
+    -- Vietnam
+    -- Ref: 
+    (191, N""),
+    
+    -- Yemen
+    -- Ref: 
+    (192, N""),
+    
+    -- Zambia
+    -- Ref: 
+    (193, N""),
+    
+    -- Zimbabwe
+    -- Ref: 
+    (194, N""),
