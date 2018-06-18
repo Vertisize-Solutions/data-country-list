@@ -990,24 +990,124 @@ VALUES
     (52, N"Saint Peter Parish"),
 
     -- Dominican Republic
-    -- Ref: 
-    (53, N""),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Dominican_Republic#Statistics
+    (53, N"Azua"),
+    (53, N"Baoruco"),
+    (53, N"Barahona"),
+    (53, N"Dajabón"),
+    (53, N"Distrito Nacional"),
+    (53, N"Duarte"),
+    (53, N"El Seibo"),
+    (53, N"Elías Piña"),
+    (53, N"Espaillat"),
+    (53, N"Hato Mayor"),
+    (53, N"Hermanas Mirabal"),
+    (53, N"Independencia"),
+    (53, N"La Altagracia"),
+    (53, N"La Romana"),
+    (53, N"La Vega"),
+    (53, N"María Trinidad Sánchez"),
+    (53, N"Monseñor Nouel"),
+    (53, N"Monte Cristi"),
+    (53, N"Monte Plata"),
+    (53, N"Pedernales"),
+    (53, N"Peravia"),
+    (53, N"Puerto Plata"),
+    (53, N"Samaná"),
+    (53, N"San Cristóbal"),
+    (53, N"San José de Ocoa"),
+    (53, N"San Juan"),
+    (53, N"San Pedro de Macorís"),
+    (53, N"Sánchez Ramírez"),
+    (53, N"Santiago"),
+    (53, N"Santiago Rodríguez"),
+    (53, N"Santo Domingo"),
+    (53, N"Valverde"),
+
     -- Ecuador
-    -- Ref: 
-    (54, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Ecuador#Administrative_divisions
+    (54, N"Azuay"),
+    (54, N"Bolívar"),
+    (54, N"Cañar"),
+    (54, N"Carchi"),
+    (54, N"Chimborazo"),
+    (54, N"Cotopaxi"),
+    (54, N"El Oro"),
+    (54, N"Esmeraldas"),
+    (54, N"Galápagos"),
+    (54, N"Guayas"),
+    (54, N"Imbabura"),
+    (54, N"Loja"),
+    (54, N"Los Ríos"),
+    (54, N"Manabí"),
+    (54, N"Morona-Santiago"),
+    (54, N"Napo"),
+    (54, N"Orellana"),
+    (54, N"Pastaza"),
+    (54, N"Pichincha"),
+    (54, N"Santa Elena"),
+    (54, N"Santo Domingo de los Tsáchilas"),
+    (54, N"Sucumbíos"),
+    (54, N"Tungurahua"),
+    (54, N"Zamora-Chinchipe"),
     
     -- Egypt
-    -- Ref: 
-    (55, N""),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Egypt#Administrative_divisions
+    (55, N"Matrouh"),
+    (55, N"Alexandria"),
+    (55, N"Beheira"),
+    (55, N"Kafr El Sheikh"),
+    (55, N"Dakahlia"),
+    (55, N"Damietta"),
+    (55, N"Port Said"),
+    (55, N"North Sinai"),
+    (55, N"Gharbia"),
+    (55, N"Monufia"),
+    (55, N"Qalyubia"),
+    (55, N"Sharqia"),
+    (55, N"Ismailia"),
+    (55, N"Giza"),
+    (55, N"Faiyum"),
+    (55, N"Cairo"),
+    (55, N"Suez"),
+    (55, N"South Sinai"),
+    (55, N"Beni Suef"),
+    (55, N"Minya"),
+    (55, N"New Valley"),
+    (55, N"Asyut"),
+    (55, N"Red Sea"),
+    (55, N"Sohag"),
+    (55, N"Qena"),
+    (55, N"Luxor"),
+    (55, N"Aswan"),
+
     -- El Salvador
-    -- Ref: 
-    (56, N""),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Departments_of_El_Salvador
+    (56, N"Ahuachapán"),
+    (56, N"Cabañas"),
+    (56, N"Chalatenango"),
+    (56, N"Cuscatlán"),
+    (56, N"La Libertad"),
+    (56, N"La Paz"),
+    (56, N"La Unión"),
+    (56, N"Morazán"),
+    (56, N"San Miguel"),
+    (56, N"San Salvador"),
+    (56, N"San Vicente"),
+    (56, N"Santa Ana"),
+    (56, N"Sonsonate"),
+    (56, N"Usulután"),
+
     -- Equatorial Guinea
-    -- Ref: 
-    (57, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Equatorial_Guinea#Administrative_divisions
+    (57, N"Djibloho"),
+    (57, N"Annobón"),
+    (57, N"Bioko Norte"),
+    (57, N"Bioko Sur"),
+    (57, N"Centro Sur"),
+    (57, N"Kié-Ntem"),
+    (57, N"Litoral"),
+    (57, N"Wele-Nzas"),
     
     -- Eritrea
     -- Ref: 
