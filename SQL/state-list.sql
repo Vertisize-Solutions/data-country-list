@@ -1110,8 +1110,13 @@ VALUES
     (57, N"Wele-Nzas"),
     
     -- Eritrea
-    -- Ref: 
-    (58, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Eritrea#Administrative_divisions
+    (58, N"Central"),
+    (58, N"Anseba"),
+    (58, N"Gash-Barka"),
+    (58, N"Southern"),
+    (58, N"Northern Red Sea"),
+    (58, N"Southern Red Sea"),
     
     -- Estonia
     -- Ref: 
