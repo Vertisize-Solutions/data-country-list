@@ -874,8 +874,13 @@ VALUES
     (43, N"Isla de la Juventud"),
     
     -- Cyprus
-    -- Ref: 
-    (44, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Cyprus#Administrative_divisions
+    (44, N"Nicosia"),
+    (44, N"Famagusta"),
+    (44, N"Kyrenia"),
+    (44, N"Larnaca"),
+    (44, N"Limassol"),
+    (44, N"Paphos"),
     
     -- Czech Republic
     -- Ref: 
