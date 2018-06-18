@@ -1151,8 +1151,11 @@ VALUES
     (60, N"Tigray"),
     
     -- Swaziland
-    -- Ref: 
-    (61, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Swaziland#Administrative_divisions
+    (61, N"Hhohho"),
+    (61, N"Lubombo"),
+    (61, N"Manzini"),
+    (61, N"Shiselweni"),
     
     -- Fiji
     -- Ref: 
