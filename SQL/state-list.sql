@@ -1165,9 +1165,27 @@ VALUES
     (62, N"Western Division"),
     
     -- Finland
-    -- Ref: 
-    (63, N""),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Finland
+    (63, N"Lapland"),
+    (63, N"Northern Ostrobothnia"),
+    (63, N"Kainuu"),
+    (63, N"North Karelia"),
+    (63, N"Northern Savonia"),
+    (63, N"Southern Savonia"),
+    (63, N"Southern Ostrobothnia"),
+    (63, N"Central Ostrobothnia"),
+    (63, N"Ostrobothnia"),
+    (63, N"Pirkanmaa"),
+    (63, N"Central Finland"),
+    (63, N"Satakunta"),
+    (63, N"Southwest Finland"),
+    (63, N"South Karelia"),
+    (63, N"Päijänne Tavastia"),
+    (63, N"Tavastia Proper"),
+    (63, N"Uusimaa"),
+    (63, N"Kymenlaakso"),
+    (63, N"Åland Islands"),
+
     -- France
     -- Ref: 
     (64, N""),
