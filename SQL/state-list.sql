@@ -1137,8 +1137,18 @@ VALUES
     (59, N"Võru"),
 
     -- Ethiopia
-    -- Ref: 
-    (60, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Ethiopia
+    (60, N"Addis Ababa"),
+    (60, N"Afar"),
+    (60, N"Amhara"),
+    (60, N"Benishangul-Gumuz"),
+    (60, N"Dire Dawa"),
+    (60, N"Gambela"),
+    (60, N"Harari"),
+    (60, N"Oromia"),
+    (60, N"Somali"),
+    (60, N"Southern Nations, Nationalities, and Peoples' Region"),
+    (60, N"Tigray"),
     
     -- Swaziland
     -- Ref: 
