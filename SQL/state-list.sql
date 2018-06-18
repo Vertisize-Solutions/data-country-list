@@ -814,8 +814,21 @@ VALUES
     (40, N"San José"),
     
     -- Ivory Coast
-    -- Ref: 
-    (41, N""),
+    -- Ref: https://en.wikipedia.org/wiki/Ivory_Coast#Administrative_divisions
+    (41, N"Abidjan"),
+    (41, N"Bas-Sassandra"),
+    (41, N"Comoé"),
+    (41, N"Denguélé"),
+    (41, N"Gôh-Djiboua"),
+    (41, N"Lacs"),
+    (41, N"Lagunes"),
+    (41, N"Montagnes"),
+    (41, N"Sassandra-Marahoué"),
+    (41, N"Savanes"),
+    (41, N"Vallée du Bandama"),
+    (41, N"Woroba"),
+    (41, N"Yamoussoukro"),
+    (41, N"Zanzan"),
     
     -- Croatia
     -- Ref: 
