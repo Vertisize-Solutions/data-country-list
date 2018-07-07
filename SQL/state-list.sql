@@ -1221,8 +1221,15 @@ VALUES
     
     -- The Gambia
     -- Ref: https://en.wikipedia.org/wiki/The_Gambia#Administrative_divisions
-    (66, N''),
-    
+    (66, N'Banjul'),
+    (66, N'Kanifing'),
+    (66, N'Brikama'),
+    (66, N'Mansa Konko'),
+    (66, N'Kerewan'),
+    (66, N'Kuntaur'),
+    (66, N'Janjanbureh'),
+    (66, N'Basse'),
+
     -- Georgia
     -- Ref: 
     (67, N''),
