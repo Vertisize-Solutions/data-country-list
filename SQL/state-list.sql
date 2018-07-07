@@ -1208,11 +1208,19 @@ VALUES
     (64, N'Réunion'),
     
     -- Gabon
-    -- Ref: 
-    (65, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Gabon#Administrative_divisions
+    (65, N'Estuaire'),
+    (65, N'Haut-Ogooué'),
+    (65, N'Moyen-Ogooué'),
+    (65, N'Ngounié'),
+    (65, N'Nyanga'),
+    (65, N'Ogooué-Ivindo'),
+    (65, N'Ogooué-Lolo'),
+    (65, N'Ogooué-Maritime'),
+    (65, N'Woleu-Ntem'),
     
     -- The Gambia
-    -- Ref: 
+    -- Ref: https://en.wikipedia.org/wiki/The_Gambia#Administrative_divisions
     (66, N''),
     
     -- Georgia
