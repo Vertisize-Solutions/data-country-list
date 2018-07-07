@@ -1265,9 +1265,18 @@ VALUES
     (68, N'Thuringia'),
 
     -- Ghana
-    -- Ref: 
-    (69, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Ghana#Administrative_divisions
+    (69, N'Ashanti Region'),
+    (69, N'Brong-Ahafo Region'),
+    (69, N'Central Region'),
+    (69, N'Eastern Region'),
+    (69, N'Greater Accra Region'),
+    (69, N'Northern Region'),
+    (69, N'Upper East Region'),
+    (69, N'Upper West Region'),
+    (69, N'Volta Region'),
+    (69, N'Western Region'),
+
     -- Greece
     -- Ref: 
     (70, N''),
