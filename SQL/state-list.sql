@@ -1231,9 +1231,20 @@ VALUES
     (66, N'Basse'),
 
     -- Georgia
-    -- Ref: 
-    (67, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Georgia_(country)#Administrative_divisions
+    (67, N'Abkhazia'),
+    (67, N'Adjara'),
+    (67, N'Guria'),
+    (67, N'Imereti'),
+    (67, N'Kakheti'),
+    (67, N'Kvemo Kartli'),
+    (67, N'Mtskheta-Mtianeti'),
+    (67, N'Racha-Lechkhumi and Kvemo Svaneti'),
+    (67, N'Samegrelo-Zemo Svaneti'),
+    (67, N'Samtskhe-Javakheti'),
+    (67, N'Shida Kartli'),
+    (67, N'Tbilisi'),
+
     -- Germany
     -- Ref: 
     (68, N''),
