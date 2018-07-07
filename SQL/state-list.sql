@@ -1278,8 +1278,21 @@ VALUES
     (69, N'Western Region'),
 
     -- Greece
-    -- Ref: 
-    (70, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Greece#Administrative_divisions
+    (70, N'Attica'),
+    (70, N'Central Greece'),
+    (70, N'Central Macedonia'),
+    (70, N'Crete'),
+    (70, N'East Macedonia and Thrace'),
+    (70, N'Epirus'),
+    (70, N'Ionian Islands'),
+    (70, N'North Aegean'),
+    (70, N'Peloponnese'),
+    (70, N'South Aegean'),
+    (70, N'Thessaly'),
+    (70, N'West Greece'),
+    (70, N'West Macedonia'),
+    (70, N'Mount Athos'),
     
     -- Grenada
     -- Ref: 
