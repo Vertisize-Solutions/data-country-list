@@ -1246,9 +1246,24 @@ VALUES
     (67, N'Tbilisi'),
 
     -- Germany
-    -- Ref: 
-    (68, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/States_of_Germany#List
+    (68, N'Baden-Württemberg'),
+    (68, N'Bavaria'),
+    (68, N'Berlin'),
+    (68, N'Brandenburg'),
+    (68, N'Bremen'),
+    (68, N'Hamburg'),
+    (68, N'Hesse'),
+    (68, N'Lower Saxony'),
+    (68, N'Mecklenburg-Vorpommern'),
+    (68, N'North Rhine-Westphalia'),
+    (68, N'Rhineland-Palatinate'),
+    (68, N'Saarland'),
+    (68, N'Saxony'),
+    (68, N'Saxony-Anhalt'),
+    (68, N'Schleswig-Holstein'),
+    (68, N'Thuringia'),
+
     -- Ghana
     -- Ref: 
     (69, N''),
