@@ -1295,29 +1295,91 @@ VALUES
     (70, N'Mount Athos'),
     
     -- Grenada
-    -- Ref: 
-    (71, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Grenada
+    (71, N'Saint Andrew'),
+    (71, N'Saint David'),
+    (71, N'Saint George'),
+    (71, N'Saint John'),
+    (71, N'Saint Mark'),
+    (71, N'Saint Patrick'),
+    (71, N'Carriacou'),
+    (71, N'Petite Martinique'),
+    (71, N'Grenada'),
     
     -- Guatemala
-    -- Ref: 
-    (72, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Departments_of_Guatemala
+    (72, N'Alta Verapaz'),
+    (72, N'Baja Verapaz'),
+    (72, N'Chimaltenango'),
+    (72, N'Chiquimula'),
+    (72, N'El Progreso'),
+    (72, N'Escuintla'),
+    (72, N'Guatemala'),
+    (72, N'Huehuetenango'),
+    (72, N'Izabal'),
+    (72, N'Jalapa'),
+    (72, N'Jutiapa'),
+    (72, N'Petén'),
+    (72, N'Quetzaltenango'),
+    (72, N'Quiché'),
+    (72, N'Retalhuleu'),
+    (72, N'Sacatepéquez'),
+    (72, N'San Marcos'),
+    (72, N'Santa Rosa'),
+    (72, N'Sololá'),
+    (72, N'Suchitepéquez'),
+    (72, N'Totonicapán'),
+    (72, N'Zacapa'),
+
     -- Guinea
-    -- Ref: 
-    (73, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Guinea#Government_divisions
+    (73, N'Conakry Region'),
+    (73, N'Nzérékoré Region'),
+    (73, N'Kankan Region'),
+    (73, N'Kindia Region'),
+    (73, N'Boké Region'),
+    (73, N'Labé Region'),
+    (73, N'Faranah Region'),
+    (73, N'Mamou Region'),
     
     -- Guinea-Bissau
-    -- Ref: 
-    (74, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Guinea-Bissau#Administrative_divisions
+    (74, N'Bafatá'),
+    (74, N'Biombo'),
+    (74, N'Bissau'),
+    (74, N'Bolama'),
+    (74, N'Cacheu'),
+    (74, N'Gabu'),
+    (74, N'Oio'),
+    (74, N'Quinara'),
+    (74, N'Tombali'),
     
     -- Guyana
-    -- Ref: 
-    (75, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Guyana#Regions_and_Neighbourhood_Councils
+    (75, N'Barima-Waini'),
+    (75, N'Pomeroon-Supenaam'),
+    (75, N'Essequibo Islands-West Demerara'),
+    (75, N'Demerara-Mahaica'),
+    (75, N'Mahaica-Berbice'),
+    (75, N'East Berbice-Corentyne'),
+    (75, N'Cuyuni-Mazaruni'),
+    (75, N'Potaro-Siparuni'),
+    (75, N'Upper Takutu-Upper Essequibo'),
+    (75, N'Upper Demerara-Berbice'),
     
     -- Haiti
-    -- Ref: 
-    (76, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Haiti#Administrative_divisions
+    (76, N'Nord-Ouest'),
+    (76, N'Nord'),
+    (76, N'Nord-Est'),
+    (76, N'Artibonite'),
+    (76, N'Centre'),
+    (76, N'Ouest'),
+    (76, N'Grand''Anse'),
+    (76, N'Nippes'),
+    (76, N'Sud'),
+    (76, N'Sud-Est'),
+
     -- Honduras
     -- Ref: 
     (77, N''),
