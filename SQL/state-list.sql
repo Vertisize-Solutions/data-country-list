@@ -1381,12 +1381,48 @@ VALUES
     (76, N'Sud-Est'),
 
     -- Honduras
-    -- Ref: 
-    (77, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Honduras#Administrative_divisions
+    (77, N'Atlántida'),
+    (77, N'Choluteca'),
+    (77, N'Colón'),
+    (77, N'Comayagua'),
+    (77, N'Copán'),
+    (77, N'Cortés'),
+    (77, N'El Paraíso'),
+    (77, N'Francisco Morazán'),
+    (77, N'Gracias a Dios'),
+    (77, N'Intibucá'),
+    (77, N'Islas de la Bahía'),
+    (77, N'La Paz'),
+    (77, N'Lempira'),
+    (77, N'Ocotepeque'),
+    (77, N'Olancho'),
+    (77, N'Santa Bárbara'),
+    (77, N'Valle'),
+    (77, N'Yoro'),
     
     -- Hungary
-    -- Ref: 
-    (78, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Hungary#Administrative_divisions
+    (78, N'Bács-Kiskun'),
+    (78, N'Baranya'),
+    (78, N'Békés'),
+    (78, N'Borsod-Abaúj-Zemplén'),
+    (78, N'Capital City of Budapest'),
+    (78, N'Csongrád'),
+    (78, N'Fejér'),
+    (78, N'Győr-Moson-Sopron'),
+    (78, N'Hajdú-Bihar'),
+    (78, N'Heves'),
+    (78, N'Jász-Nagykun-Szolnok'),
+    (78, N'Komárom-Esztergom'),
+    (78, N'Nógrád'),
+    (78, N'Pest'),
+    (78, N'Somogy'),
+    (78, N'Szabolcs-Szatmár-Bereg'),
+    (78, N'Tolna'),
+    (78, N'Vas'),
+    (78, N'Veszprém'),
+    (78, N'Zala'),
     
     -- Iceland
     -- Ref: 
