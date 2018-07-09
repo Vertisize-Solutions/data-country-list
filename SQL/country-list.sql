@@ -1,7 +1,7 @@
 INSERT INTO dbo.CountryMaster
     (
         CountryId,
-        COuntryName, -- Short name
+        CountryName, -- Short name
         OfficialName,
         PhoneCode, -- Stored as csv
         CountryCode -- ISO3166 Code
