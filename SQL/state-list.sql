@@ -1425,13 +1425,53 @@ VALUES
     (78, N'Zala'),
     
     -- Iceland
-    -- Ref: 
-    (79, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Constituencies_of_Iceland
+    (79, N'Reykjavík North'),
+    (79, N'Reykjavík South'),
+    (79, N'Northwest Constituency'),
+    (79, N'Northeast Constituency'),
+    (79, N'South Constituency'),
+    (79, N'Southwest Constituency'),
     
     -- India
-    -- Ref: 
-    (80, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_India#States_and_union_territories
+    (80, N'Andhra Pradesh'),
+    (80, N'Arunachal Pradesh'),
+    (80, N'Assam'),
+    (80, N'Bihar'),
+    (80, N'Chhattisgarh'),
+    (80, N'Goa'),
+    (80, N'Gujarat'),
+    (80, N'Haryana'),
+    (80, N'Himachal Pradesh'),
+    (80, N'Jammu and Kashmir'),
+    (80, N'Jharkhand'),
+    (80, N'Karnataka'),
+    (80, N'Kerala'),
+    (80, N'Madhya Pradesh'),
+    (80, N'Maharashtra'),
+    (80, N'Manipur'),
+    (80, N'Meghalaya'),
+    (80, N'Mizoram'),
+    (80, N'Nagaland'),
+    (80, N'Odisha'),
+    (80, N'Punjab'),
+    (80, N'Rajasthan'),
+    (80, N'Sikkim'),
+    (80, N'Tamil Nadu'),
+    (80, N'Telangana'),
+    (80, N'Tripura'),
+    (80, N'Uttar Pradesh'),
+    (80, N'Uttarakhand'),
+    (80, N'West Bengal'),
+    (80, N'Andaman and Nicobar Islands'),
+    (80, N'Chandigarh'),
+    (80, N'Dadra and Nagar Haveli'),
+    (80, N'Daman and Diu'),
+    (80, N'Lakshadweep'),
+    (80, N'Delhi'),
+    (80, N'Puducherry'),
+
     -- Indonesia
     -- Ref: 
     (81, N''),
