@@ -1473,24 +1473,115 @@ VALUES
     (80, N'Puducherry'),
 
     -- Indonesia
-    -- Ref: 
-    (81, N''),
-    
+    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Indonesia#Table_of_provinces
+    (81, N'Aceh'),
+    (81, N'Bali'),
+    (81, N'Bangka Belitung Islands'),
+    (81, N'Banten'),
+    (81, N'Bengkulu'),
+    (81, N'Central Java'),
+    (81, N'Central Kalimantan'),
+    (81, N'Central Sulawesi'),
+    (81, N'East Java'),
+    (81, N'East Kalimantan'),
+    (81, N'East Nusa Tenggara'),
+    (81, N'Gorontalo'),
+    (81, N'Jakarta Special Capital Region'),
+    (81, N'Jambi'),
+    (81, N'Lampung'),
+    (81, N'Maluku'),
+    (81, N'North Kalimantan'),
+    (81, N'North Maluku'),
+    (81, N'North Sulawesi'),
+    (81, N'North Sumatra'),
+    (81, N'Special Region of Papua'),
+    (81, N'Riau'),
+    (81, N'Riau Islands'),
+    (81, N'South Kalimantan'),
+    (81, N'South Sulawesi'),
+    (81, N'South Sumatra'),
+    (81, N'Southeast Sulawesi'),
+    (81, N'West Java'),
+    (81, N'West Kalimantan'),
+    (81, N'West Nusa Tenggara'),
+    (81, N'Special Region of West Papua'),
+    (81, N'West Sulawesi'),
+    (81, N'West Sumatra'),
+    (81, N'Special Region of Yogyakarta'),
+
     -- Iran
-    -- Ref: 
-    (82, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Iran#Current_administrative_regions
+    (82, N'Tehran'),
+    (82, N'Isfahan'),
+    (82, N'Tabriz'),
+    (82, N'Kermanshah'),
+    (82, N'Mashhad'),
     
     -- Iraq
-    -- Ref: 
-    (83, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Iraq#Administrative_divisions
+    (83, N'Dohuk'),
+    (83, N'Nineveh'),
+    (83, N'Erbil'),
+    (83, N'Kirkuk'),
+    (83, N'Sulaymaniyah'),
+    (83, N'Saladin'),
+    (83, N'Al Anbar'),
+    (83, N'Baghdad'),
+    (83, N'Diyala'),
+    (83, N'Karbala'),
+    (83, N'Babil'),
+    (83, N'Wasit'),
+    (83, N'Najaf'),
+    (83, N'Al-Qādisiyyah'),
+    (83, N'Maysan'),
+    (83, N'Muthanna'),
+    (83, N'Dhi Qar'),
+    (83, N'Basra'),
+    (83, N'Halabja'),
     
     -- Ireland
-    -- Ref: 
-    (84, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Republic_of_Ireland#Local_government
+    (84, N'Fingal'),
+    (84, N'Dublin City'),
+    (84, N'Dún Laoghaire–Rathdown'),
+    (84, N'South Dublin'),
+    (84, N'Wicklow'),
+    (84, N'Wexford'),
+    (84, N'Carlow'),
+    (84, N'Kildare'),
+    (84, N'Meath'),
+    (84, N'Louth'),
+    (84, N'Monaghan'),
+    (84, N'Cavan'),
+    (84, N'Longford'),
+    (84, N'Westmeath'),
+    (84, N'Offaly'),
+    (84, N'Laois'),
+    (84, N'Kilkenny'),
+    (84, N'Waterford'),
+    (84, N'Cork City'),
+    (84, N'Cork'),
+    (84, N'Kerry'),
+    (84, N'Limerick'),
+    (84, N'Tipperary'),
+    (84, N'Clare'),
+    (84, N'Galway'),
+    (84, N'Galway City'),
+    (84, N'Mayo'),
+    (84, N'Roscommon'),
+    (84, N'Sligo'),
+    (84, N'Leitrim'),
+    (84, N'Donegal'),
     
     -- Israel
-    -- Ref: 
-    (85, N''),
+    -- Ref: https://en.wikipedia.org/wiki/Israel#Administrative_divisions
+    (85, N'Jerusalem'),
+    (85, N'North'),
+    (85, N'Haifa'),
+    (85, N'Center'),
+    (85, N'Tel Aviv'),
+    (85, N'South'),
+    (85, N'Judea and Samaria'),
     
     -- Italy
     -- Ref: 
