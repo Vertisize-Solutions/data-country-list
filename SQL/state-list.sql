@@ -1,12 +1,11 @@
+-- Afghanistan
+-- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName -- Administrative divisions
     )
 VALUES
-
-    -- Afghanistan
-    -- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
     (1, N'Badakhshan'),
     (1, N'Badghis'),
     (1, N'Baghlan'),
@@ -40,10 +39,17 @@ VALUES
     (1, N'Sar-e Pol'),
     (1, N'Takhar'),
     (1, N'Wardak'),
-    (1, N'Zabul'),
+    (1, N'Zabul')
+GO
 
-    -- Albania
-    -- Ref: https://en.wikipedia.org/wiki/Albania#Administrative_divisions
+-- Albania
+-- Ref: https://en.wikipedia.org/wiki/Albania#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (2, N'Shkodër'),
     (2, N'Kukës'),
     (2, N'Lezhë'),
@@ -55,10 +61,17 @@ VALUES
     (2, N'Fier'),
     (2, N'Berat'),
     (2, N'Vlorë'),
-    (2, N'Gjirokastër'),
+    (2, N'Gjirokastër')
+GO
 
-    -- Algeria
-    -- Ref: https://en.wikipedia.org/wiki/Algeria#Administrative_divisions
+-- Algeria
+-- Ref: https://en.wikipedia.org/wiki/Algeria#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (3, N'Adrar'),
     (3, N'Chlef'),
     (3, N'Laghouat'),
@@ -106,20 +119,34 @@ VALUES
     (3, N'Naâma'),
     (3, N'Ain Timouchent'),
     (3, N'Ghardaia'),
-    (3, N'Relizane'),
+    (3, N'Relizane')
+GO    
 
-    -- Andorra
-    -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Andorra
+-- Andorra
+-- Ref: https://en.wikipedia.org/wiki/Parishes_of_Andorra
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (4, N'Andorra la Vella'),
     (4, N'Canillo'),
     (4, N'Encamp'),
     (4, N'Escaldes-Engordany'),
     (4, N'La Massana'),
     (4, N'Ordino'),
-    (4, N'Sant Julià de Lòria'),
+    (4, N'Sant Julià de Lòria')
+GO    
 
-    -- Angola
-    -- Ref: https://en.wikipedia.org/wiki/Angola#Administrative_divisions
+-- Angola
+-- Ref: https://en.wikipedia.org/wiki/Angola#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (5, N'Bengo'),
     (5, N'Benguela'),
     (5, N'Bié'),
@@ -137,10 +164,17 @@ VALUES
     (5, N'Moxico'),
     (5, N'Namibe'),
     (5, N'Uíge'),
-    (5, N'Zaire'),
+    (5, N'Zaire')
+GO    
 
-    -- Antigua and Barbuda
-    -- Ref: https://en.wikipedia.org/wiki/Antigua_and_Barbuda#Administrative_divisions
+-- Antigua and Barbuda
+-- Ref: https://en.wikipedia.org/wiki/Antigua_and_Barbuda#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (6, N'Saint George'),
     (6, N'Saint John'),
     (6, N'Saint Mary'),
@@ -148,10 +182,17 @@ VALUES
     (6, N'Saint Peter'),
     (6, N'Saint Philip'),
     (6, N'Barbuda'),
-    (6, N'Redonda'),
+    (6, N'Redonda')
+GO    
 
-    -- Argentina
-    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Argentina
+-- Argentina
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Argentina
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (7, N'Buenos Aires'),
     (7, N'Catamarca'),
     (7, N'Chaco'),
@@ -175,10 +216,17 @@ VALUES
     (7, N'Santa Fe'),
     (7, N'Santiago del Estero'),
     (7, N'Tierra del Fuego'),
-    (7, N'Tucumán'),
+    (7, N'Tucumán')
+GO    
 
-    -- Armenia
-    -- Ref: https://en.wikipedia.org/wiki/Armenia#Administrative_divisions
+-- Armenia
+-- Ref: https://en.wikipedia.org/wiki/Armenia#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (8, N'Aragatsotn'),
     (8, N'Ararat'),
     (8, N'Armavir'),
@@ -189,19 +237,33 @@ VALUES
     (8, N'Syunik'),
     (8, N'Tavush'),
     (8, N'Vayots Dzor'),
-    (8, N'Yerevan'),
+    (8, N'Yerevan')
+GO
 
-    -- Australia
-    -- Ref: https://en.wikipedia.org/wiki/Australia#States_and_territories
+-- Australia
+-- Ref: https://en.wikipedia.org/wiki/Australia#States_and_territories
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (9, N'New South Wales'),
     (9, N'Queensland'),
     (9, N'South Australia'),
     (9, N'Tasmania'),
     (9, N'Victoria'),
-    (9, N'Western Australia'),
+    (9, N'Western Australia')
+GO    
 
-    -- Austria
-    -- Ref: https://en.wikipedia.org/wiki/Austria#Administrative_divisions
+-- Austria
+-- Ref: https://en.wikipedia.org/wiki/Austria#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (10, N'Burgenland'),
     (10, N'Carinthia'),
     (10, N'Lower Austria'),
@@ -210,10 +272,17 @@ VALUES
     (10, N'Tyrol'),
     (10, N'Upper Austria'),
     (10, N'Vienna'),
-    (10, N'Vorarlberg'),
+    (10, N'Vorarlberg')
+GO    
 
-    -- Azerbaijan
-    -- Ref: https://en.wikipedia.org/wiki/Azerbaijan#Administrative_divisions
+-- Azerbaijan
+-- Ref: https://en.wikipedia.org/wiki/Azerbaijan#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (11, N'Absheron'),
     (11, N'Khizi'),
     (11, N'Baku'),
@@ -291,10 +360,17 @@ VALUES
     (11, N'Shusha'),
     (11, N'Tartar'),
     (11, N'Khankendi'),
-    (11, N'Shusha'),
+    (11, N'Shusha')
+GO    
 
-    -- The Bahamas
-    -- Ref: https://en.wikipedia.org/wiki/The_Bahamas#Administrative_divisions
+-- The Bahamas
+-- Ref: https://en.wikipedia.org/wiki/The_Bahamas#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (12, N'Acklins'),
     (12, N'Berry Islands'),
     (12, N'Bimini'),
@@ -314,7 +390,7 @@ VALUES
     (12, N'Long Island'),
     (12, N'Mangrove Cay, Andros'),
     (12, N'Mayaguana'),
-    (12, N'Moore's Island, Abaco'),
+    (12, N'Moore`s Island, Abaco'),
     (12, N'North Abaco'),
     (12, N'North Andros'),
     (12, N'North Eleuthera'),
@@ -326,17 +402,31 @@ VALUES
     (12, N'South Eleuthera'),
     (12, N'Spanish Wells, Eleuthera'),    
     (12, N'West Grand Bahama'),
-    (12, N'New Providence'),
+    (12, N'New Providence')
+GO    
 
-    -- Bahrain
-    -- Ref: https://en.wikipedia.org/wiki/Bahrain#Governorates
+-- Bahrain
+-- Ref: https://en.wikipedia.org/wiki/Bahrain#Governorates
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (13, N'Capital Governorate'),
     (13, N'Muharraq Governorate'),
     (13, N'Northern Governorate'),
-    (13, N'Southern Governorate'),
+    (13, N'Southern Governorate')
+GO
 
-    -- Bangladesh
-    -- Ref: https://en.wikipedia.org/wiki/Bangladesh#Administrative_geography
+-- Bangladesh
+-- Ref: https://en.wikipedia.org/wiki/Bangladesh#Administrative_geography
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (14, N'Barisal'),
     (14, N'Chittagong'),
     (14, N'Dhaka'),
@@ -344,10 +434,17 @@ VALUES
     (14, N'Mymensingh'),
     (14, N'Rajshahi'),
     (14, N'Rangpur'),
-    (14, N'Sylhet'),
+    (14, N'Sylhet')
+GO    
 
-    -- Barbados
-    -- Ref: https://en.wikipedia.org/wiki/Barbados#Administrative_divisions
+-- Barbados
+-- Ref: https://en.wikipedia.org/wiki/Barbados#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (15, N'Christ Church'),
     (15, N'Saint Andrew'),
     (15, N'Saint George'),
@@ -358,20 +455,34 @@ VALUES
     (15, N'Saint Lucy'),
     (15, N'Saint Joseph'),
     (15, N'Saint John'),
-    (15, N'Saint James'),
+    (15, N'Saint James')
+GO    
 
-    -- Belarus
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Belarus
+-- Belarus
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Belarus
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (16, N'City of Minsk'),
     (16, N'Brest'),
     (16, N'Gomel'),
     (16, N'Grodno'),
     (16, N'Mogilev'),
     (16, N'Minsk'),
-    (16, N'Vitebsk'),
+    (16, N'Vitebsk')
+GO
 
-    -- Belgium
-    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Belgium
+-- Belgium
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Belgium
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (17, N'Antwerp'),
     (17, N'East Flanders'),
     (17, N'Flemish Brabant'),
@@ -382,19 +493,33 @@ VALUES
     (17, N'Namur'),
     (17, N'Walloon Brabant'),
     (17, N'West Flanders'),
-    (17, N'Brussels-Capital Region'),
+    (17, N'Brussels-Capital Region')
+GO
 
-    -- Belize
-    -- Ref: https://en.wikipedia.org/wiki/Belize#Administrative_divisions
+-- Belize
+-- Ref: https://en.wikipedia.org/wiki/Belize#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (18, N'Belize'),
     (18, N'Cayo'),
     (18, N'Corozal'),
     (18, N'Orange Walk'),
     (18, N'Stann Creek'),
-    (18, N'Toledo'),
+    (18, N'Toledo')
+GO
     
-    -- Benin
-    -- Ref: https://en.wikipedia.org/wiki/Benin#Departments_and_communes
+-- Benin
+-- Ref: https://en.wikipedia.org/wiki/Benin#Departments_and_communes
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (19, N'Alibori'),
     (19, N'Atakora'),
     (19, N'Atlantique'),
@@ -406,10 +531,17 @@ VALUES
     (19, N'Mono'),
     (19, N'Ouémé'),
     (19, N'Plateau'),
-    (19, N'Zou'),
+    (19, N'Zou')
+GO
     
-    -- Bhutan
-    -- Ref: https://en.wikipedia.org/wiki/Bhutan#Political_divisions
+-- Bhutan
+-- Ref: https://en.wikipedia.org/wiki/Bhutan#Political_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (20, N'Bumthang'),
     (20, N'Chukha'),
     (20, N'Dagana'),
@@ -429,10 +561,17 @@ VALUES
     (20, N'Trongsa'),
     (20, N'Tsirang'),
     (20, N'Wangdue Phodrang'),
-    (20, N'Zhemgang'),
+    (20, N'Zhemgang')
+GO    
     
-    -- Bolivia
-    -- Ref: https://en.wikipedia.org/wiki/Bolivia#Administrative_divisions
+-- Bolivia
+-- Ref: https://en.wikipedia.org/wiki/Bolivia#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (21, N'Pando'),
     (21, N'La Paz'),
     (21, N'Beni'),
@@ -441,15 +580,29 @@ VALUES
     (21, N'Santa Cruz'),
     (21, N'Potosí'),
     (21, N'Chuquisaca'),
-    (21, N'Tarija'),
+    (21, N'Tarija')
+GO
     
-    -- Bosnia and Herzegovina
-    -- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_Bosnia_and_Herzegovina
+-- Bosnia and Herzegovina
+-- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_Bosnia_and_Herzegovina
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (22, N'Federation of Bosnia and Herzegovina'),
-    (22, N'Republika Srpska'),
+    (22, N'Republika Srpska')
+GO    
     
-    -- Botswana
-    -- Ref: https://en.wikipedia.org/wiki/Botswana#Administrative_divisions
+-- Botswana
+-- Ref: https://en.wikipedia.org/wiki/Botswana#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (23, N'Southern District'),
     (23, N'South-East District'),
     (23, N'Kweneng District'),
@@ -458,10 +611,17 @@ VALUES
     (23, N'North-East District'),
     (23, N'North-West District'),
     (23, N'Ghanzi District'),
-    (23, N'Kgalagadi District'),
+    (23, N'Kgalagadi District')
+GO
     
-    -- Brazil
-    -- Ref: https://en.wikipedia.org/wiki/Brazil#Administrative_divisions
+-- Brazil
+-- Ref: https://en.wikipedia.org/wiki/Brazil#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (24, N'Acre'),
     (24, N'Alagoas'),
     (24, N'Amapá'),
@@ -489,17 +649,31 @@ VALUES
     (24, N'Sergipe'),
     (24, N'São Paulo'),
     (24, N'Tocantins'),
-    (24, N'Federal District'),
+    (24, N'Federal District')
+GO    
     
-    -- Brunei
-    -- Ref: https://en.wikipedia.org/wiki/Brunei#Administrative_divisions
+-- Brunei
+-- Ref: https://en.wikipedia.org/wiki/Brunei#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (25, N'Belait'),
     (25, N'Brunei-Muara'),
     (25, N'Temburong'),
-    (25, N'Tutong'),
+    (25, N'Tutong')
+GO    
     
-    -- Bulgaria
-    -- Ref: https://en.wikipedia.org/wiki/Bulgaria#Administrative_divisions
+-- Bulgaria
+-- Ref: https://en.wikipedia.org/wiki/Bulgaria#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (26, N'Sofia-Grad'),
     (26, N'Blagoevgrad'),
     (26, N'Burgas'),
@@ -527,10 +701,17 @@ VALUES
     (26, N'Veliko Tarnovo'),
     (26, N'Vidin'),
     (26, N'Vratsa'),
-    (26, N'Yambol'),
+    (26, N'Yambol')
+GO
     
-    -- Burkina Faso
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Burkina_Faso
+-- Burkina Faso
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Burkina_Faso
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (27, N'Boucle du Mouhoun'),
     (27, N'Cascades'),
     (27, N'Centre'),
@@ -543,10 +724,17 @@ VALUES
     (27, N'Nord'),
     (27, N'Plateau-Central'),
     (27, N'Sahel'),
-    (27, N'Sud-Ouest'),
+    (27, N'Sud-Ouest')
+GO    
     
-    -- Burundi
-    -- Ref: https://en.wikipedia.org/wiki/Burundi#Subdivisions
+-- Burundi
+-- Ref: https://en.wikipedia.org/wiki/Burundi#Subdivisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (28, N'Bubanza'),
     (28, N'Bujumbura Mairie'),
     (28, N'Bujumbura Rural'),
@@ -564,10 +752,17 @@ VALUES
     (28, N'Ngozi'),
     (28, N'Rumonge'),
     (28, N'Rutana'),
-    (28, N'Ruyigi'),
+    (28, N'Ruyigi')
+GO    
     
-    -- Cabo Verde
-    -- Ref: https://en.wikipedia.org/wiki/Cape_Verde#Administrative_divisions
+-- Cabo Verde
+-- Ref: https://en.wikipedia.org/wiki/Cape_Verde#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (29, N'Ribeira Grande'),
     (29, N'Paúl'),
     (29, N'Porto Novo'),
@@ -589,10 +784,17 @@ VALUES
     (29, N'São Filipe'),
     (29, N'Santa Catarina do Fogo'),
     (29, N'Mosteiros'),
-    (29, N'Brava'),
+    (29, N'Brava')
+GO    
     
-    -- Cambodia
-    -- Ref: https://en.wikipedia.org/wiki/Cambodia#Administrative_divisions
+-- Cambodia
+-- Ref: https://en.wikipedia.org/wiki/Cambodia#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (30, N'Banteay Meanchey'),
     (30, N'Battambang'),
     (30, N'Kampong Cham'),
@@ -617,10 +819,17 @@ VALUES
     (30, N'Stung Treng'),
     (30, N'Svay Rieng'),
     (30, N'Takéo'),
-    (30, N'Tboung Khmom'),
+    (30, N'Tboung Khmom')
+GO    
     
-    -- Cameroon
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Cameroon
+-- Cameroon
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Cameroon
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (31, N'Adamawa'),
     (31, N'Central Cameroon'),
     (31, N'East Cameroon'),
@@ -630,10 +839,17 @@ VALUES
     (31, N'Northwest Cameroon'),
     (31, N'South Cameroon'),
     (31, N'Southwest Cameroon'),
-    (31, N'West Cameroon'),
+    (31, N'West Cameroon')
+GO
     
-    -- Canada
-    -- Ref: https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada#Provinces
+-- Canada
+-- Ref: https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada#Provinces
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (32, N'Alberta'),
     (32, N'British Columbia'),
     (32, N'Manitoba'),
@@ -643,10 +859,17 @@ VALUES
     (32, N'Ontario'),
     (32, N'Prince Edward Island'),
     (32, N'Quebec'),
-    (32, N'Saskatchewan'),
+    (32, N'Saskatchewan')
+GO    
     
-    -- Central African Republic
-    -- Ref: https://en.wikipedia.org/wiki/Central_African_Republic#Prefectures_and_sub-prefectures
+-- Central African Republic
+-- Ref: https://en.wikipedia.org/wiki/Central_African_Republic#Prefectures_and_sub-prefectures
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (33, N'Bamingui-Bangoran'),
     (33, N'Bangui'),
     (33, N'Basse-Kotto'),
@@ -658,15 +881,23 @@ VALUES
     (33, N'Mbomou'),
     (33, N'Nana-Grébizi'),
     (33, N'Nana-Mambéré'),
-    (33, N'Ombella-M'Poko'),
+    (33, N'Ombella-M`Poko'),
     (33, N'Ouaka'),
     (33, N'Ouham'),
     (33, N'Ouham-Pendé'),
     (33, N'Sangha-Mbaéré'),
-    (33, N'Vakaga'),
+    (33, N'Vakaga')
+GO    
+
     
-    -- Chad
-    -- Ref: https://en.wikipedia.org/wiki/Chad#Administrative_divisions
+-- Chad
+-- Ref: https://en.wikipedia.org/wiki/Chad#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (34, N'Bahr El Gazel'),
     (34, N'Batha'),
     (34, N'Borkou'),
@@ -683,16 +914,23 @@ VALUES
     (34, N'Mayo-Kebbi Est'),
     (34, N'Mayo-Kebbi Ouest'),
     (34, N'Moyen-Chari'),
-    (34, N'N'Djamena'),
+    (34, N'N Djamena'),
     (34, N'Ouaddaï'),
     (34, N'Salamat'),
     (34, N'Sila'),
     (34, N'Tandjilé'),
     (34, N'Tibesti'),
-    (34, N'Wadi Fira'),
+    (34, N'Wadi Fira')
+GO    
 
-    -- Chile
-    -- Ref: https://en.wikipedia.org/wiki/Chile#Administrative_divisions
+-- Chile
+-- Ref: https://en.wikipedia.org/wiki/Chile#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (35, N'Arica y Parinacota'),
     (35, N'Tarapacá'),
     (35, N'Antofagasta'),
@@ -700,17 +938,24 @@ VALUES
     (35, N'Coquimbo'),
     (35, N'Valparaíso'),
     (35, N'Santiago Metropolitan'),
-    (35, N'Libertador General Bernardo O'Higgins'),
+    (35, N'Libertador General Bernardo O`Higgins'),
     (35, N'Maule'),
     (35, N'Biobío'),
     (35, N'Araucanía'),
     (35, N'Los Ríos'),
     (35, N'Los Lagos'),
     (35, N'Aysén del General Carlos Ibáñez del Campo'),
-    (35, N'Magallanes and Chilean Antarctica'),
+    (35, N'Magallanes and Chilean Antarctica')
+GO
 
-    -- China
-    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_China#List_of_province-level_divisions
+-- China
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_China#List_of_province-level_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (36, N'Anhui'),
     (36, N'Beijing'),
     (36, N'Chongqing'),
@@ -744,10 +989,17 @@ VALUES
     (36, N'Tibet'),
     (36, N'Xinjiang Uyghur'),
     (36, N'Yunnan'),
-    (36, N'Zhejiang'),
+    (36, N'Zhejiang')
+GO
 
-    -- Colombia
-    -- Ref: https://en.wikipedia.org/wiki/Colombia#Administrative_divisions
+-- Colombia
+-- Ref: https://en.wikipedia.org/wiki/Colombia#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (37, N'Amazonas'),
     (37, N'Antioquia'),
     (37, N'Arauca'),
@@ -780,16 +1032,30 @@ VALUES
     (37, N'Valle del Cauca'),
     (37, N'Vaupés'),
     (37, N'Vichada'),
-    (37, N'Bogotá'),
+    (37, N'Bogotá')
+GO
 
-    -- Comoros
-    -- Ref: http://www.worldcitiesdb.com/Comoros/state
+-- Comoros
+-- Ref: http://www.worldcitiesdb.com/Comoros/state
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (38, N'Moheli'),
     (38, N'Grande Comore'),
-    (38, N'Ndzuwani'),
+    (38, N'Ndzuwani')
+GO
 
-    -- Congo
-    -- Ref: https://en.wikipedia.org/wiki/Republic_of_the_Congo#Administrative_divisions
+-- Congo
+-- Ref: https://en.wikipedia.org/wiki/Republic_of_the_Congo#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (39, N'Bouenza'),
     (39, N'Cuvette'),
     (39, N'Cuvette-Ouest'),
@@ -801,20 +1067,34 @@ VALUES
     (39, N'Plateaux'),
     (39, N'Pool'),
     (39, N'Sangha'),
-    (39, N'Pointe Noire'),
+    (39, N'Pointe Noire')
+GO
 
-    -- Costa Rica
-    -- Ref: https://en.wikipedia.org/wiki/Costa_Rica#Administrative_divisions
+-- Costa Rica
+-- Ref: https://en.wikipedia.org/wiki/Costa_Rica#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (40, N'Alajuela'),
     (40, N'Cartago'),
     (40, N'Guanacaste'),
     (40, N'Heredia'),
     (40, N'Limón'),
     (40, N'Puntarenas'),
-    (40, N'San José'),
+    (40, N'San José')
+GO
     
-    -- Ivory Coast
-    -- Ref: https://en.wikipedia.org/wiki/Ivory_Coast#Administrative_divisions
+-- Ivory Coast
+-- Ref: https://en.wikipedia.org/wiki/Ivory_Coast#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (41, N'Abidjan'),
     (41, N'Bas-Sassandra'),
     (41, N'Comoé'),
@@ -828,10 +1108,17 @@ VALUES
     (41, N'Vallée du Bandama'),
     (41, N'Woroba'),
     (41, N'Yamoussoukro'),
-    (41, N'Zanzan'),
+    (41, N'Zanzan')
+GO
     
-    -- Croatia
-    -- Ref: https://en.wikipedia.org/wiki/Counties_of_Croatia#Current
+-- Croatia
+-- Ref: https://en.wikipedia.org/wiki/Counties_of_Croatia#Current
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (42, N'Bjelovar-Bilogora'),
     (42, N'Brod-Posavina'),
     (42, N'Dubrovnik-Neretva'),
@@ -852,10 +1139,17 @@ VALUES
     (42, N'Vukovar-Srijem'),
     (42, N'Zadar'),
     (42, N'Zagreb County'),
-    (42, N'City of Zagreb'),
+    (42, N'City of Zagreb')
+GO
     
-    -- Cuba
-    -- Ref: https://en.wikipedia.org/wiki/Cuba#Administrative_divisions
+-- Cuba
+-- Ref: https://en.wikipedia.org/wiki/Cuba#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (43, N'Pinar del Río'),
     (43, N'Artemisa'),
     (43, N'Havana'),
@@ -871,19 +1165,33 @@ VALUES
     (43, N'Holguín'),
     (43, N'Santiago de Cuba'),
     (43, N'Guantánamo'),
-    (43, N'Isla de la Juventud'),
+    (43, N'Isla de la Juventud')
+GO
     
-    -- Cyprus
-    -- Ref: https://en.wikipedia.org/wiki/Cyprus#Administrative_divisions
+-- Cyprus
+-- Ref: https://en.wikipedia.org/wiki/Cyprus#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (44, N'Nicosia'),
     (44, N'Famagusta'),
     (44, N'Kyrenia'),
     (44, N'Larnaca'),
     (44, N'Limassol'),
-    (44, N'Paphos'),
+    (44, N'Paphos')
+GO
     
-    -- Czech Republic
-    -- Ref: https://en.wikipedia.org/wiki/Czech_Republic#Administrative_divisions
+-- Czech Republic
+-- Ref: https://en.wikipedia.org/wiki/Czech_Republic#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (45, N'Prague'),
     (45, N'Central Bohemian'),
     (45, N'South Bohemian'),
@@ -897,10 +1205,17 @@ VALUES
     (45, N'Moravian-Silesian'),
     (45, N'South Moravian'),
     (45, N'Zlín'),
-    (45, N'Vysočina'),
+    (45, N'Vysočina')
+GO
     
-    -- North Korea
-    -- Ref: https://en.wikipedia.org/wiki/North_Korea#Administrative_divisions
+-- North Korea
+-- Ref: https://en.wikipedia.org/wiki/North_Korea#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (46, N'Pyongyang'),
     (46, N'Rason'),
     (46, N'South Pyongan'),
@@ -911,10 +1226,17 @@ VALUES
     (46, N'Kangwon'),
     (46, N'South Hamgyong'),
     (46, N'North Hamgyong'),
-    (46, N'Ryanggang'),
-    
-    -- DR Congo
-    -- Ref: https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo#Provinces
+    (46, N'Ryanggang')
+GO
+
+-- DR Congo
+-- Ref: https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo#Provinces
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (47, N'Kinshasa'),
     (47, N'Kongo Central'),
     (47, N'Kwango'),
@@ -940,44 +1262,79 @@ VALUES
     (47, N'Tanganyika Province'),
     (47, N'Haut-Lomami'),
     (47, N'Lualaba Province'),
-    (47, N'Haut-Katanga Province'),
+    (47, N'Haut-Katanga Province')
+GO
     
-    -- Denmark
-    -- Ref: https://en.wikipedia.org/wiki/Denmark#Administrative_divisions
+-- Denmark
+-- Ref: https://en.wikipedia.org/wiki/Denmark#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (48, N'Hovedstaden'),
     (48, N'Midtjylland'),
     (48, N'Nordjylland'),
     (48, N'Sjælland'),
-    (48, N'Syddanmark'),
+    (48, N'Syddanmark')
+GO
     
-    -- Faroe Islands
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_the_Faroe_Islands
+-- Faroe Islands
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_the_Faroe_Islands
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (49, N'Eysturoyar'),
     (49, N'Norðoyar'),
     (49, N'Sandoyar'),
     (49, N'Streymoyar'),
     (49, N'Suðuroyar'),
-    (49, N'Vága'),
+    (49, N'Vága')
+GO
     
-    -- Greenland
-    -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Greenland
+-- Greenland
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Greenland
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (50, N'Avannaata'),
     (50, N'Kujalleq'),
     (50, N'Qeqertalik'),
     (50, N'Qeqqata'),
-    (50, N'Sermersooq'),
+    (50, N'Sermersooq')
+GO
     
-    -- Djibouti
-    -- Ref: https://en.wikipedia.org/wiki/Djibouti#Administrative_divisions
+-- Djibouti
+-- Ref: https://en.wikipedia.org/wiki/Djibouti#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (51, N'Ali Sabieh'),
     (51, N'Arta'),
     (51, N'Dikhil'),
     (51, N'Djibouti'),
     (51, N'Obock'),
-    (51, N'Tadjourah'),
+    (51, N'Tadjourah')
+GO
     
-    -- Dominica
-    -- Ref: https://en.wikipedia.org/wiki/Dominica#Government_and_administrative_divisions
+-- Dominica
+-- Ref: https://en.wikipedia.org/wiki/Dominica#Government_and_administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (52, N'Saint Andrew Parish'),
     (52, N'Saint David Parish'),
     (52, N'Saint George Parish'),
@@ -987,10 +1344,17 @@ VALUES
     (52, N'Saint Mark Parish'),
     (52, N'Saint Patrick Parish'),
     (52, N'Saint Paul Parish'),
-    (52, N'Saint Peter Parish'),
+    (52, N'Saint Peter Parish')
+GO
 
-    -- Dominican Republic
-    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Dominican_Republic#Statistics
+-- Dominican Republic
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Dominican_Republic#Statistics
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (53, N'Azua'),
     (53, N'Baoruco'),
     (53, N'Barahona'),
@@ -1022,10 +1386,17 @@ VALUES
     (53, N'Santiago'),
     (53, N'Santiago Rodríguez'),
     (53, N'Santo Domingo'),
-    (53, N'Valverde'),
+    (53, N'Valverde')
+GO
 
-    -- Ecuador
-    -- Ref: https://en.wikipedia.org/wiki/Ecuador#Administrative_divisions
+-- Ecuador
+-- Ref: https://en.wikipedia.org/wiki/Ecuador#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (54, N'Azuay'),
     (54, N'Bolívar'),
     (54, N'Cañar'),
@@ -1049,10 +1420,17 @@ VALUES
     (54, N'Santo Domingo de los Tsáchilas'),
     (54, N'Sucumbíos'),
     (54, N'Tungurahua'),
-    (54, N'Zamora-Chinchipe'),
+    (54, N'Zamora-Chinchipe')
+GO
     
-    -- Egypt
-    -- Ref: https://en.wikipedia.org/wiki/Egypt#Administrative_divisions
+-- Egypt
+-- Ref: https://en.wikipedia.org/wiki/Egypt#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (55, N'Matrouh'),
     (55, N'Alexandria'),
     (55, N'Beheira'),
@@ -1079,10 +1457,17 @@ VALUES
     (55, N'Sohag'),
     (55, N'Qena'),
     (55, N'Luxor'),
-    (55, N'Aswan'),
+    (55, N'Aswan')
+GO
 
-    -- El Salvador
-    -- Ref: https://en.wikipedia.org/wiki/Departments_of_El_Salvador
+-- El Salvador
+-- Ref: https://en.wikipedia.org/wiki/Departments_of_El_Salvador
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (56, N'Ahuachapán'),
     (56, N'Cabañas'),
     (56, N'Chalatenango'),
@@ -1096,10 +1481,17 @@ VALUES
     (56, N'San Vicente'),
     (56, N'Santa Ana'),
     (56, N'Sonsonate'),
-    (56, N'Usulután'),
+    (56, N'Usulután')
+GO
 
-    -- Equatorial Guinea
-    -- Ref: https://en.wikipedia.org/wiki/Equatorial_Guinea#Administrative_divisions
+-- Equatorial Guinea
+-- Ref: https://en.wikipedia.org/wiki/Equatorial_Guinea#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (57, N'Djibloho'),
     (57, N'Annobón'),
     (57, N'Bioko Norte'),
@@ -1107,19 +1499,33 @@ VALUES
     (57, N'Centro Sur'),
     (57, N'Kié-Ntem'),
     (57, N'Litoral'),
-    (57, N'Wele-Nzas'),
+    (57, N'Wele-Nzas')
+GO
     
-    -- Eritrea
-    -- Ref: https://en.wikipedia.org/wiki/Eritrea#Administrative_divisions
+-- Eritrea
+-- Ref: https://en.wikipedia.org/wiki/Eritrea#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (58, N'Central'),
     (58, N'Anseba'),
     (58, N'Gash-Barka'),
     (58, N'Southern'),
     (58, N'Northern Red Sea'),
-    (58, N'Southern Red Sea'),
+    (58, N'Southern Red Sea')
+GO
     
-    -- Estonia
-    -- Ref: https://en.wikipedia.org/wiki/Counties_of_Estonia#List_of_counties
+-- Estonia
+-- Ref: https://en.wikipedia.org/wiki/Counties_of_Estonia#List_of_counties
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (59, N'Harju'),
     (59, N'Hiiu'),
     (59, N'Ida-Viru'),
@@ -1134,10 +1540,17 @@ VALUES
     (59, N'Tartu'),
     (59, N'Valga'),
     (59, N'Viljandi'),
-    (59, N'Võru'),
+    (59, N'Võru')
+GO
 
-    -- Ethiopia
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Ethiopia
+-- Ethiopia
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Ethiopia
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (60, N'Addis Ababa'),
     (60, N'Afar'),
     (60, N'Amhara'),
@@ -1148,24 +1561,45 @@ VALUES
     (60, N'Oromia'),
     (60, N'Somali'),
     (60, N'Southern Nations, Nationalities, and Peoples'' Region'),
-    (60, N'Tigray'),
+    (60, N'Tigray')
+GO
     
-    -- Swaziland
-    -- Ref: https://en.wikipedia.org/wiki/Swaziland#Administrative_divisions
+-- Swaziland
+-- Ref: https://en.wikipedia.org/wiki/Swaziland#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (61, N'Hhohho'),
     (61, N'Lubombo'),
     (61, N'Manzini'),
-    (61, N'Shiselweni'),
+    (61, N'Shiselweni')
+GO
     
-    -- Fiji
-    -- Ref: https://en.wikipedia.org/wiki/Fiji#Administrative_divisions
+-- Fiji
+-- Ref: https://en.wikipedia.org/wiki/Fiji#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (62, N'Central Division'),
     (62, N'Eastern Division'),
     (62, N'Northern Division'),
-    (62, N'Western Division'),
+    (62, N'Western Division')
+GO
     
-    -- Finland
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Finland
+-- Finland
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Finland
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (63, N'Lapland'),
     (63, N'Northern Ostrobothnia'),
     (63, N'Kainuu'),
@@ -1184,10 +1618,17 @@ VALUES
     (63, N'Tavastia Proper'),
     (63, N'Uusimaa'),
     (63, N'Kymenlaakso'),
-    (63, N'Åland Islands'),
+    (63, N'Åland Islands')
+GO
 
-    -- France
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_France#Regions_and_their_capitals
+-- France
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_France#Regions_and_their_capitals
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (64, N'Grand Est'),
     (64, N'Nouvelle-Aquitaine'),
     (64, N'Auvergne-Rhône-Alpes'),
@@ -1205,10 +1646,17 @@ VALUES
     (64, N'Guadeloupe'),
     (64, N'Martinique'),
     (64, N'Mayotte'),
-    (64, N'Réunion'),
+    (64, N'Réunion')
+GO
     
-    -- Gabon
-    -- Ref: https://en.wikipedia.org/wiki/Gabon#Administrative_divisions
+-- Gabon
+-- Ref: https://en.wikipedia.org/wiki/Gabon#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (65, N'Estuaire'),
     (65, N'Haut-Ogooué'),
     (65, N'Moyen-Ogooué'),
@@ -1217,10 +1665,17 @@ VALUES
     (65, N'Ogooué-Ivindo'),
     (65, N'Ogooué-Lolo'),
     (65, N'Ogooué-Maritime'),
-    (65, N'Woleu-Ntem'),
+    (65, N'Woleu-Ntem')
+GO
     
-    -- The Gambia
-    -- Ref: https://en.wikipedia.org/wiki/The_Gambia#Administrative_divisions
+-- The Gambia
+-- Ref: https://en.wikipedia.org/wiki/The_Gambia#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (66, N'Banjul'),
     (66, N'Kanifing'),
     (66, N'Brikama'),
@@ -1228,10 +1683,17 @@ VALUES
     (66, N'Kerewan'),
     (66, N'Kuntaur'),
     (66, N'Janjanbureh'),
-    (66, N'Basse'),
+    (66, N'Basse')
+GO
 
-    -- Georgia
-    -- Ref: https://en.wikipedia.org/wiki/Georgia_(country)#Administrative_divisions
+-- Georgia
+-- Ref: https://en.wikipedia.org/wiki/Georgia_(country)#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (67, N'Abkhazia'),
     (67, N'Adjara'),
     (67, N'Guria'),
@@ -1243,10 +1705,17 @@ VALUES
     (67, N'Samegrelo-Zemo Svaneti'),
     (67, N'Samtskhe-Javakheti'),
     (67, N'Shida Kartli'),
-    (67, N'Tbilisi'),
+    (67, N'Tbilisi')
+GO
 
-    -- Germany
-    -- Ref: https://en.wikipedia.org/wiki/States_of_Germany#List
+-- Germany
+-- Ref: https://en.wikipedia.org/wiki/States_of_Germany#List
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (68, N'Baden-Württemberg'),
     (68, N'Bavaria'),
     (68, N'Berlin'),
@@ -1262,10 +1731,17 @@ VALUES
     (68, N'Saxony'),
     (68, N'Saxony-Anhalt'),
     (68, N'Schleswig-Holstein'),
-    (68, N'Thuringia'),
+    (68, N'Thuringia')
+GO
 
-    -- Ghana
-    -- Ref: https://en.wikipedia.org/wiki/Ghana#Administrative_divisions
+-- Ghana
+-- Ref: https://en.wikipedia.org/wiki/Ghana#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (69, N'Ashanti Region'),
     (69, N'Brong-Ahafo Region'),
     (69, N'Central Region'),
@@ -1275,10 +1751,17 @@ VALUES
     (69, N'Upper East Region'),
     (69, N'Upper West Region'),
     (69, N'Volta Region'),
-    (69, N'Western Region'),
+    (69, N'Western Region')
+GO
 
-    -- Greece
-    -- Ref: https://en.wikipedia.org/wiki/Greece#Administrative_divisions
+-- Greece
+-- Ref: https://en.wikipedia.org/wiki/Greece#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (70, N'Attica'),
     (70, N'Central Greece'),
     (70, N'Central Macedonia'),
@@ -1292,10 +1775,17 @@ VALUES
     (70, N'Thessaly'),
     (70, N'West Greece'),
     (70, N'West Macedonia'),
-    (70, N'Mount Athos'),
+    (70, N'Mount Athos')
+GO
     
-    -- Grenada
-    -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Grenada
+-- Grenada
+-- Ref: https://en.wikipedia.org/wiki/Parishes_of_Grenada
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (71, N'Saint Andrew'),
     (71, N'Saint David'),
     (71, N'Saint George'),
@@ -1304,10 +1794,17 @@ VALUES
     (71, N'Saint Patrick'),
     (71, N'Carriacou'),
     (71, N'Petite Martinique'),
-    (71, N'Grenada'),
+    (71, N'Grenada')
+GO
     
-    -- Guatemala
-    -- Ref: https://en.wikipedia.org/wiki/Departments_of_Guatemala
+-- Guatemala
+-- Ref: https://en.wikipedia.org/wiki/Departments_of_Guatemala
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (72, N'Alta Verapaz'),
     (72, N'Baja Verapaz'),
     (72, N'Chimaltenango'),
@@ -1329,10 +1826,17 @@ VALUES
     (72, N'Sololá'),
     (72, N'Suchitepéquez'),
     (72, N'Totonicapán'),
-    (72, N'Zacapa'),
+    (72, N'Zacapa')
+GO
 
-    -- Guinea
-    -- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Guinea#Government_divisions
+-- Guinea
+-- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Guinea#Government_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (73, N'Conakry Region'),
     (73, N'Nzérékoré Region'),
     (73, N'Kankan Region'),
@@ -1340,10 +1844,17 @@ VALUES
     (73, N'Boké Region'),
     (73, N'Labé Region'),
     (73, N'Faranah Region'),
-    (73, N'Mamou Region'),
+    (73, N'Mamou Region')
+GO
     
-    -- Guinea-Bissau
-    -- Ref: https://en.wikipedia.org/wiki/Guinea-Bissau#Administrative_divisions
+-- Guinea-Bissau
+-- Ref: https://en.wikipedia.org/wiki/Guinea-Bissau#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (74, N'Bafatá'),
     (74, N'Biombo'),
     (74, N'Bissau'),
@@ -1352,10 +1863,17 @@ VALUES
     (74, N'Gabu'),
     (74, N'Oio'),
     (74, N'Quinara'),
-    (74, N'Tombali'),
+    (74, N'Tombali')
+GO
     
-    -- Guyana
-    -- Ref: https://en.wikipedia.org/wiki/Guyana#Regions_and_Neighbourhood_Councils
+-- Guyana
+-- Ref: https://en.wikipedia.org/wiki/Guyana#Regions_and_Neighbourhood_Councils
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (75, N'Barima-Waini'),
     (75, N'Pomeroon-Supenaam'),
     (75, N'Essequibo Islands-West Demerara'),
@@ -1365,10 +1883,17 @@ VALUES
     (75, N'Cuyuni-Mazaruni'),
     (75, N'Potaro-Siparuni'),
     (75, N'Upper Takutu-Upper Essequibo'),
-    (75, N'Upper Demerara-Berbice'),
+    (75, N'Upper Demerara-Berbice')
+GO
     
-    -- Haiti
-    -- Ref: https://en.wikipedia.org/wiki/Haiti#Administrative_divisions
+-- Haiti
+-- Ref: https://en.wikipedia.org/wiki/Haiti#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (76, N'Nord-Ouest'),
     (76, N'Nord'),
     (76, N'Nord-Est'),
@@ -1378,10 +1903,17 @@ VALUES
     (76, N'Grand''Anse'),
     (76, N'Nippes'),
     (76, N'Sud'),
-    (76, N'Sud-Est'),
+    (76, N'Sud-Est')
+GO
 
-    -- Honduras
-    -- Ref: https://en.wikipedia.org/wiki/Honduras#Administrative_divisions
+-- Honduras
+-- Ref: https://en.wikipedia.org/wiki/Honduras#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (77, N'Atlántida'),
     (77, N'Choluteca'),
     (77, N'Colón'),
@@ -1399,10 +1931,17 @@ VALUES
     (77, N'Olancho'),
     (77, N'Santa Bárbara'),
     (77, N'Valle'),
-    (77, N'Yoro'),
+    (77, N'Yoro')
+GO
     
-    -- Hungary
-    -- Ref: https://en.wikipedia.org/wiki/Hungary#Administrative_divisions
+-- Hungary
+-- Ref: https://en.wikipedia.org/wiki/Hungary#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (78, N'Bács-Kiskun'),
     (78, N'Baranya'),
     (78, N'Békés'),
@@ -1422,19 +1961,33 @@ VALUES
     (78, N'Tolna'),
     (78, N'Vas'),
     (78, N'Veszprém'),
-    (78, N'Zala'),
+    (78, N'Zala')
+GO
     
-    -- Iceland
-    -- Ref: https://en.wikipedia.org/wiki/Constituencies_of_Iceland
+-- Iceland
+-- Ref: https://en.wikipedia.org/wiki/Constituencies_of_Iceland
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (79, N'Reykjavík North'),
     (79, N'Reykjavík South'),
     (79, N'Northwest Constituency'),
     (79, N'Northeast Constituency'),
     (79, N'South Constituency'),
-    (79, N'Southwest Constituency'),
+    (79, N'Southwest Constituency')
+GO
     
-    -- India
-    -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_India#States_and_union_territories
+-- India
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_India#States_and_union_territories
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (80, N'Andhra Pradesh'),
     (80, N'Arunachal Pradesh'),
     (80, N'Assam'),
@@ -1470,10 +2023,17 @@ VALUES
     (80, N'Daman and Diu'),
     (80, N'Lakshadweep'),
     (80, N'Delhi'),
-    (80, N'Puducherry'),
+    (80, N'Puducherry')
+GO
 
-    -- Indonesia
-    -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Indonesia#Table_of_provinces
+-- Indonesia
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Indonesia#Table_of_provinces
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (81, N'Aceh'),
     (81, N'Bali'),
     (81, N'Bangka Belitung Islands'),
@@ -1507,18 +2067,32 @@ VALUES
     (81, N'Special Region of West Papua'),
     (81, N'West Sulawesi'),
     (81, N'West Sumatra'),
-    (81, N'Special Region of Yogyakarta'),
+    (81, N'Special Region of Yogyakarta')
+GO
 
-    -- Iran
-    -- Ref: https://en.wikipedia.org/wiki/Regions_of_Iran#Current_administrative_regions
+-- Iran
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Iran#Current_administrative_regions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (82, N'Tehran'),
     (82, N'Isfahan'),
     (82, N'Tabriz'),
     (82, N'Kermanshah'),
-    (82, N'Mashhad'),
+    (82, N'Mashhad')
+GO
     
-    -- Iraq
-    -- Ref: https://en.wikipedia.org/wiki/Iraq#Administrative_divisions
+-- Iraq
+-- Ref: https://en.wikipedia.org/wiki/Iraq#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (83, N'Dohuk'),
     (83, N'Nineveh'),
     (83, N'Erbil'),
@@ -1537,10 +2111,17 @@ VALUES
     (83, N'Muthanna'),
     (83, N'Dhi Qar'),
     (83, N'Basra'),
-    (83, N'Halabja'),
-    
-    -- Ireland
-    -- Ref: https://en.wikipedia.org/wiki/Republic_of_Ireland#Local_government
+    (83, N'Halabja')
+GO
+
+-- Ireland
+-- Ref: https://en.wikipedia.org/wiki/Republic_of_Ireland#Local_government
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (84, N'Fingal'),
     (84, N'Dublin City'),
     (84, N'Dún Laoghaire–Rathdown'),
@@ -1571,21 +2152,36 @@ VALUES
     (84, N'Roscommon'),
     (84, N'Sligo'),
     (84, N'Leitrim'),
-    (84, N'Donegal'),
+    (84, N'Donegal')
+GO
     
-    -- Israel
-    -- Ref: https://en.wikipedia.org/wiki/Israel#Administrative_divisions
+-- Israel
+-- Ref: https://en.wikipedia.org/wiki/Israel#Administrative_divisions
+INSERT INTO dbo.StateMaster
+    (
+        CountryId,
+        StateName
+    )
+VALUES
     (85, N'Jerusalem'),
     (85, N'North'),
     (85, N'Haifa'),
     (85, N'Center'),
     (85, N'Tel Aviv'),
     (85, N'South'),
-    (85, N'Judea and Samaria'),
+    (85, N'Judea and Samaria')
+GO
     
-    -- Italy
-    -- Ref: 
-    (86, N''),
+-- Italy
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
+    (86, N'')
+GO
     
     -- Jamaica
     -- Ref: 
