@@ -1,3404 +1,4180 @@
 -- Afghanistan
 -- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AF'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName -- Administrative divisions
     )
 VALUES
-    (1, N'Badakhshan'),
-    (1, N'Badghis'),
-    (1, N'Baghlan'),
-    (1, N'Balkh'),
-    (1, N'Bamyan'),
-    (1, N'Daykundi'),
-    (1, N'Farah'),
-    (1, N'Faryab'),
-    (1, N'Ghazni'),
-    (1, N'Ghor'),
-    (1, N'Helmand'),
-    (1, N'Herat'),
-    (1, N'Jowzjan'),
-    (1, N'Kabul'),
-    (1, N'Kandahar'),
-    (1, N'Kapisa'),
-    (1, N'Khost'),
-    (1, N'Kunar'),
-    (1, N'Kunduz'),
-    (1, N'Laghman'),
-    (1, N'Logar'),
-    (1, N'Nangarhar'),
-    (1, N'Nimruz'),
-    (1, N'Nuristan'),
-    (1, N'Oruzgan'),
-    (1, N'Paktia'),
-    (1, N'Paktika'),
-    (1, N'Panjshir'),
-    (1, N'Parwan'),
-    (1, N'Samangan'),
-    (1, N'Sar-e Pol'),
-    (1, N'Takhar'),
-    (1, N'Wardak'),
-    (1, N'Zabul')
+    (@CountryId, N'Badakhshan'),
+    (@CountryId, N'Badghis'),
+    (@CountryId, N'Baghlan'),
+    (@CountryId, N'Balkh'),
+    (@CountryId, N'Bamyan'),
+    (@CountryId, N'Daykundi'),
+    (@CountryId, N'Farah'),
+    (@CountryId, N'Faryab'),
+    (@CountryId, N'Ghazni'),
+    (@CountryId, N'Ghor'),
+    (@CountryId, N'Helmand'),
+    (@CountryId, N'Herat'),
+    (@CountryId, N'Jowzjan'),
+    (@CountryId, N'Kabul'),
+    (@CountryId, N'Kandahar'),
+    (@CountryId, N'Kapisa'),
+    (@CountryId, N'Khost'),
+    (@CountryId, N'Kunar'),
+    (@CountryId, N'Kunduz'),
+    (@CountryId, N'Laghman'),
+    (@CountryId, N'Logar'),
+    (@CountryId, N'Nangarhar'),
+    (@CountryId, N'Nimruz'),
+    (@CountryId, N'Nuristan'),
+    (@CountryId, N'Oruzgan'),
+    (@CountryId, N'Paktia'),
+    (@CountryId, N'Paktika'),
+    (@CountryId, N'Panjshir'),
+    (@CountryId, N'Parwan'),
+    (@CountryId, N'Samangan'),
+    (@CountryId, N'Sar-e Pol'),
+    (@CountryId, N'Takhar'),
+    (@CountryId, N'Wardak'),
+    (@CountryId, N'Zabul')
 GO
 
 -- Albania
 -- Ref: https://en.wikipedia.org/wiki/Albania#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AL'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (2, N'Shkodër'),
-    (2, N'Kukës'),
-    (2, N'Lezhë'),
-    (2, N'Dibër'),
-    (2, N'Durrës'),
-    (2, N'Tiranë'),
-    (2, N'Elbasan'),
-    (2, N'Korçë'),
-    (2, N'Fier'),
-    (2, N'Berat'),
-    (2, N'Vlorë'),
-    (2, N'Gjirokastër')
+    (@CountryId, N'Shkodër'),
+    (@CountryId, N'Kukës'),
+    (@CountryId, N'Lezhë'),
+    (@CountryId, N'Dibër'),
+    (@CountryId, N'Durrës'),
+    (@CountryId, N'Tiranë'),
+    (@CountryId, N'Elbasan'),
+    (@CountryId, N'Korçë'),
+    (@CountryId, N'Fier'),
+    (@CountryId, N'Berat'),
+    (@CountryId, N'Vlorë'),
+    (@CountryId, N'Gjirokastër')
 GO
 
 -- Algeria
 -- Ref: https://en.wikipedia.org/wiki/Algeria#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DZ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (3, N'Adrar'),
-    (3, N'Chlef'),
-    (3, N'Laghouat'),
-    (3, N'Oum El Bouaghi'),
-    (3, N'Batna'),
-    (3, N'Béjaïa'),
-    (3, N'Biskra'),
-    (3, N'Béchar'),
-    (3, N'Blida'),
-    (3, N'Bouïra'),
-    (3, N'Tamanrasset'),
-    (3, N'Tébessa'),
-    (3, N'Tlemcen'),
-    (3, N'Tiaret'),
-    (3, N'Tizi Ouzou'),
-    (3, N'Algiers'),
-    (3, N'Djelfa'),
-    (3, N'Jijel'),
-    (3, N'Sétif'),
-    (3, N'Saïda'),
-    (3, N'Skikda'),
-    (3, N'Sidi Bel Abbès'),
-    (3, N'Annaba'),
-    (3, N'Guelma'),
-    (3, N'Constantine'),
-    (3, N'Médéa'),
-    (3, N'Mostaganem'),
-    (3, N'M''Sila'),
-    (3, N'Mascara'),
-    (3, N'Ouargla'),
-    (3, N'Oran'),
-    (3, N'El Bayadh'),
-    (3, N'Illizi'),
-    (3, N'Bordj Bou Arréridj'),
-    (3, N'Boumerdes'),
-    (3, N'El Taref'),
-    (3, N'Tindouf'),
-    (3, N'Tissemsilt'),
-    (3, N'El Oued'),
-    (3, N'Khenchela'),
-    (3, N'Souk Ahras'),
-    (3, N'Tipaza'),
-    (3, N'Mila'),
-    (3, N'Ain Defla'),
-    (3, N'Naâma'),
-    (3, N'Ain Timouchent'),
-    (3, N'Ghardaia'),
-    (3, N'Relizane')
+    (@CountryId, N'Adrar'),
+    (@CountryId, N'Chlef'),
+    (@CountryId, N'Laghouat'),
+    (@CountryId, N'Oum El Bouaghi'),
+    (@CountryId, N'Batna'),
+    (@CountryId, N'Béjaïa'),
+    (@CountryId, N'Biskra'),
+    (@CountryId, N'Béchar'),
+    (@CountryId, N'Blida'),
+    (@CountryId, N'Bouïra'),
+    (@CountryId, N'Tamanrasset'),
+    (@CountryId, N'Tébessa'),
+    (@CountryId, N'Tlemcen'),
+    (@CountryId, N'Tiaret'),
+    (@CountryId, N'Tizi Ouzou'),
+    (@CountryId, N'Algiers'),
+    (@CountryId, N'Djelfa'),
+    (@CountryId, N'Jijel'),
+    (@CountryId, N'Sétif'),
+    (@CountryId, N'Saïda'),
+    (@CountryId, N'Skikda'),
+    (@CountryId, N'Sidi Bel Abbès'),
+    (@CountryId, N'Annaba'),
+    (@CountryId, N'Guelma'),
+    (@CountryId, N'Constantine'),
+    (@CountryId, N'Médéa'),
+    (@CountryId, N'Mostaganem'),
+    (@CountryId, N'M''Sila'),
+    (@CountryId, N'Mascara'),
+    (@CountryId, N'Ouargla'),
+    (@CountryId, N'Oran'),
+    (@CountryId, N'El Bayadh'),
+    (@CountryId, N'Illizi'),
+    (@CountryId, N'Bordj Bou Arréridj'),
+    (@CountryId, N'Boumerdes'),
+    (@CountryId, N'El Taref'),
+    (@CountryId, N'Tindouf'),
+    (@CountryId, N'Tissemsilt'),
+    (@CountryId, N'El Oued'),
+    (@CountryId, N'Khenchela'),
+    (@CountryId, N'Souk Ahras'),
+    (@CountryId, N'Tipaza'),
+    (@CountryId, N'Mila'),
+    (@CountryId, N'Ain Defla'),
+    (@CountryId, N'Naâma'),
+    (@CountryId, N'Ain Timouchent'),
+    (@CountryId, N'Ghardaia'),
+    (@CountryId, N'Relizane')
 GO    
 
 -- Andorra
 -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Andorra
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AD'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (4, N'Andorra la Vella'),
-    (4, N'Canillo'),
-    (4, N'Encamp'),
-    (4, N'Escaldes-Engordany'),
-    (4, N'La Massana'),
-    (4, N'Ordino'),
-    (4, N'Sant Julià de Lòria')
+    (@CountryId, N'Andorra la Vella'),
+    (@CountryId, N'Canillo'),
+    (@CountryId, N'Encamp'),
+    (@CountryId, N'Escaldes-Engordany'),
+    (@CountryId, N'La Massana'),
+    (@CountryId, N'Ordino'),
+    (@CountryId, N'Sant Julià de Lòria')
 GO    
 
 -- Angola
 -- Ref: https://en.wikipedia.org/wiki/Angola#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AO'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (5, N'Bengo'),
-    (5, N'Benguela'),
-    (5, N'Bié'),
-    (5, N'Cabinda'),
-    (5, N'Cuando Cubango'),
-    (5, N'Cuanza Norte'),
-    (5, N'Cuanza Sul'),
-    (5, N'Cunene'),
-    (5, N'Huambo'),
-    (5, N'Huíla'),
-    (5, N'Luanda'),
-    (5, N'Lunda Norte'),
-    (5, N'Lunda Sul'),
-    (5, N'Malanje'),
-    (5, N'Moxico'),
-    (5, N'Namibe'),
-    (5, N'Uíge'),
-    (5, N'Zaire')
+    (@CountryId, N'Bengo'),
+    (@CountryId, N'Benguela'),
+    (@CountryId, N'Bié'),
+    (@CountryId, N'Cabinda'),
+    (@CountryId, N'Cuando Cubango'),
+    (@CountryId, N'Cuanza Norte'),
+    (@CountryId, N'Cuanza Sul'),
+    (@CountryId, N'Cunene'),
+    (@CountryId, N'Huambo'),
+    (@CountryId, N'Huíla'),
+    (@CountryId, N'Luanda'),
+    (@CountryId, N'Lunda Norte'),
+    (@CountryId, N'Lunda Sul'),
+    (@CountryId, N'Malanje'),
+    (@CountryId, N'Moxico'),
+    (@CountryId, N'Namibe'),
+    (@CountryId, N'Uíge'),
+    (@CountryId, N'Zaire')
 GO    
 
 -- Antigua and Barbuda
 -- Ref: https://en.wikipedia.org/wiki/Antigua_and_Barbuda#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AG'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (6, N'Saint George'),
-    (6, N'Saint John'),
-    (6, N'Saint Mary'),
-    (6, N'Saint Paul'),
-    (6, N'Saint Peter'),
-    (6, N'Saint Philip'),
-    (6, N'Barbuda'),
-    (6, N'Redonda')
+    (@CountryId, N'Saint George'),
+    (@CountryId, N'Saint John'),
+    (@CountryId, N'Saint Mary'),
+    (@CountryId, N'Saint Paul'),
+    (@CountryId, N'Saint Peter'),
+    (@CountryId, N'Saint Philip'),
+    (@CountryId, N'Barbuda'),
+    (@CountryId, N'Redonda')
 GO    
 
 -- Argentina
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Argentina
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (7, N'Buenos Aires'),
-    (7, N'Catamarca'),
-    (7, N'Chaco'),
-    (7, N'Chubut'),
-    (7, N'Ciudad de Buenos Aires'),
-    (7, N'Corrientes'),
-    (7, N'Córdoba'),
-    (7, N'Entre Ríos'),
-    (7, N'Formosa'),
-    (7, N'Jujuy'),
-    (7, N'La Pampa'),
-    (7, N'La Rioja'),
-    (7, N'Mendoza'),
-    (7, N'Misiones'),
-    (7, N'Neuquén'),
-    (7, N'Río Negro'),
-    (7, N'Salta'),
-    (7, N'San Juan'),
-    (7, N'San Luis'),
-    (7, N'Santa Cruz'),
-    (7, N'Santa Fe'),
-    (7, N'Santiago del Estero'),
-    (7, N'Tierra del Fuego'),
-    (7, N'Tucumán')
+    (@CountryId, N'Buenos Aires'),
+    (@CountryId, N'Catamarca'),
+    (@CountryId, N'Chaco'),
+    (@CountryId, N'Chubut'),
+    (@CountryId, N'Ciudad de Buenos Aires'),
+    (@CountryId, N'Corrientes'),
+    (@CountryId, N'Córdoba'),
+    (@CountryId, N'Entre Ríos'),
+    (@CountryId, N'Formosa'),
+    (@CountryId, N'Jujuy'),
+    (@CountryId, N'La Pampa'),
+    (@CountryId, N'La Rioja'),
+    (@CountryId, N'Mendoza'),
+    (@CountryId, N'Misiones'),
+    (@CountryId, N'Neuquén'),
+    (@CountryId, N'Río Negro'),
+    (@CountryId, N'Salta'),
+    (@CountryId, N'San Juan'),
+    (@CountryId, N'San Luis'),
+    (@CountryId, N'Santa Cruz'),
+    (@CountryId, N'Santa Fe'),
+    (@CountryId, N'Santiago del Estero'),
+    (@CountryId, N'Tierra del Fuego'),
+    (@CountryId, N'Tucumán')
 GO    
 
 -- Armenia
 -- Ref: https://en.wikipedia.org/wiki/Armenia#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AM'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (8, N'Aragatsotn'),
-    (8, N'Ararat'),
-    (8, N'Armavir'),
-    (8, N'Gegharkunik'),
-    (8, N'Kotayk'),
-    (8, N'Lori'),
-    (8, N'Shirak'),
-    (8, N'Syunik'),
-    (8, N'Tavush'),
-    (8, N'Vayots Dzor'),
-    (8, N'Yerevan')
+    (@CountryId, N'Aragatsotn'),
+    (@CountryId, N'Ararat'),
+    (@CountryId, N'Armavir'),
+    (@CountryId, N'Gegharkunik'),
+    (@CountryId, N'Kotayk'),
+    (@CountryId, N'Lori'),
+    (@CountryId, N'Shirak'),
+    (@CountryId, N'Syunik'),
+    (@CountryId, N'Tavush'),
+    (@CountryId, N'Vayots Dzor'),
+    (@CountryId, N'Yerevan')
 GO
 
 -- Australia
 -- Ref: https://en.wikipedia.org/wiki/Australia#States_and_territories
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AU'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (9, N'New South Wales'),
-    (9, N'Queensland'),
-    (9, N'South Australia'),
-    (9, N'Tasmania'),
-    (9, N'Victoria'),
-    (9, N'Western Australia')
+    (@CountryId, N'New South Wales'),
+    (@CountryId, N'Queensland'),
+    (@CountryId, N'South Australia'),
+    (@CountryId, N'Tasmania'),
+    (@CountryId, N'Victoria'),
+    (@CountryId, N'Western Australia')
 GO    
 
 -- Austria
 -- Ref: https://en.wikipedia.org/wiki/Austria#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AT'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (10, N'Burgenland'),
-    (10, N'Carinthia'),
-    (10, N'Lower Austria'),
-    (10, N'Salzburg'),
-    (10, N'Styria'),
-    (10, N'Tyrol'),
-    (10, N'Upper Austria'),
-    (10, N'Vienna'),
-    (10, N'Vorarlberg')
+    (@CountryId, N'Burgenland'),
+    (@CountryId, N'Carinthia'),
+    (@CountryId, N'Lower Austria'),
+    (@CountryId, N'Salzburg'),
+    (@CountryId, N'Styria'),
+    (@CountryId, N'Tyrol'),
+    (@CountryId, N'Upper Austria'),
+    (@CountryId, N'Vienna'),
+    (@CountryId, N'Vorarlberg')
 GO    
 
 -- Azerbaijan
 -- Ref: https://en.wikipedia.org/wiki/Azerbaijan#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AZ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (11, N'Absheron'),
-    (11, N'Khizi'),
-    (11, N'Baku'),
-    (11, N'Sumqayit'),
-    (11, N'Aghjabadi'),
-    (11, N'Aghdash'),
-    (11, N'Barda'),
-    (11, N'Beylagan'),
-    (11, N'Bilasuvar'),
-    (11, N'Goychay'),
-    (11, N'Hajigabul'),
-    (11, N'Imishli'),
-    (11, N'Kurdamir'),
-    (11, N'Neftchala'),
-    (11, N'Saatly'),
-    (11, N'Sabirabad'),
-    (11, N'Salyan'),
-    (11, N'Ujar'),
-    (11, N'Yevlakh'),
-    (11, N'Zardab'),
-    (11, N'Mingachevir'),
-    (11, N'Shirvan'),
-    (11, N'Yevlakh'),
-    (11, N'Aghsu'),
-    (11, N'Gobustan'),
-    (11, N'Ismailly'),
-    (11, N'Shamakhy'),
-    (11, N'Aghstafa'),
-    (11, N'Dashkasan'),
-    (11, N'Gadabay'),
-    (11, N'Gazakh'),
-    (11, N'Goygol'),
-    (11, N'Goranboy'),
-    (11, N'Samukh'),
-    (11, N'Shamkir'),
-    (11, N'Tovuz'),
-    (11, N'Ganja'),
-    (11, N'Naftalan'),
-    (11, N'Guba'),
-    (11, N'Gusar'),
-    (11, N'Khachmaz'),
-    (11, N'Shabran'),
-    (11, N'Siyazan'),
-    (11, N'Gubadly'),
-    (11, N'Kalbajar'),
-    (11, N'Lachin'),
-    (11, N'Zangilan'),
-    (11, N'Astara'),
-    (11, N'Jalilabad'),
-    (11, N'Lankaran'),
-    (11, N'Lerik'),
-    (11, N'Masally'),
-    (11, N'Yardimly'),
-    (11, N'Lankaran'),
-    (11, N'Babek'),
-    (11, N'Julfa'),
-    (11, N'Kangarli'),
-    (11, N'Ordubad'),
-    (11, N'Sadarak'),
-    (11, N'Shahbuz'),
-    (11, N'Sharur'),
-    (11, N'Nakhchivan'),
-    (11, N'Balakan'),
-    (11, N'Gabala'),
-    (11, N'Gakh'),
-    (11, N'Oghuz'),
-    (11, N'Shaki'),
-    (11, N'Zaqatala'),
-    (11, N'Shaki'),
-    (11, N'Aghdam'),
-    (11, N'Fuzuli'),
-    (11, N'Jabrayil'),
-    (11, N'Khojaly'),
-    (11, N'Khojavend'),
-    (11, N'Shusha'),
-    (11, N'Tartar'),
-    (11, N'Khankendi'),
-    (11, N'Shusha')
+    (@CountryId, N'Absheron'),
+    (@CountryId, N'Khizi'),
+    (@CountryId, N'Baku'),
+    (@CountryId, N'Sumqayit'),
+    (@CountryId, N'Aghjabadi'),
+    (@CountryId, N'Aghdash'),
+    (@CountryId, N'Barda'),
+    (@CountryId, N'Beylagan'),
+    (@CountryId, N'Bilasuvar'),
+    (@CountryId, N'Goychay'),
+    (@CountryId, N'Hajigabul'),
+    (@CountryId, N'Imishli'),
+    (@CountryId, N'Kurdamir'),
+    (@CountryId, N'Neftchala'),
+    (@CountryId, N'Saatly'),
+    (@CountryId, N'Sabirabad'),
+    (@CountryId, N'Salyan'),
+    (@CountryId, N'Ujar'),
+    (@CountryId, N'Yevlakh'),
+    (@CountryId, N'Zardab'),
+    (@CountryId, N'Mingachevir'),
+    (@CountryId, N'Shirvan'),
+    (@CountryId, N'Yevlakh'),
+    (@CountryId, N'Aghsu'),
+    (@CountryId, N'Gobustan'),
+    (@CountryId, N'Ismailly'),
+    (@CountryId, N'Shamakhy'),
+    (@CountryId, N'Aghstafa'),
+    (@CountryId, N'Dashkasan'),
+    (@CountryId, N'Gadabay'),
+    (@CountryId, N'Gazakh'),
+    (@CountryId, N'Goygol'),
+    (@CountryId, N'Goranboy'),
+    (@CountryId, N'Samukh'),
+    (@CountryId, N'Shamkir'),
+    (@CountryId, N'Tovuz'),
+    (@CountryId, N'Ganja'),
+    (@CountryId, N'Naftalan'),
+    (@CountryId, N'Guba'),
+    (@CountryId, N'Gusar'),
+    (@CountryId, N'Khachmaz'),
+    (@CountryId, N'Shabran'),
+    (@CountryId, N'Siyazan'),
+    (@CountryId, N'Gubadly'),
+    (@CountryId, N'Kalbajar'),
+    (@CountryId, N'Lachin'),
+    (@CountryId, N'Zangilan'),
+    (@CountryId, N'Astara'),
+    (@CountryId, N'Jalilabad'),
+    (@CountryId, N'Lankaran'),
+    (@CountryId, N'Lerik'),
+    (@CountryId, N'Masally'),
+    (@CountryId, N'Yardimly'),
+    (@CountryId, N'Lankaran'),
+    (@CountryId, N'Babek'),
+    (@CountryId, N'Julfa'),
+    (@CountryId, N'Kangarli'),
+    (@CountryId, N'Ordubad'),
+    (@CountryId, N'Sadarak'),
+    (@CountryId, N'Shahbuz'),
+    (@CountryId, N'Sharur'),
+    (@CountryId, N'Nakhchivan'),
+    (@CountryId, N'Balakan'),
+    (@CountryId, N'Gabala'),
+    (@CountryId, N'Gakh'),
+    (@CountryId, N'Oghuz'),
+    (@CountryId, N'Shaki'),
+    (@CountryId, N'Zaqatala'),
+    (@CountryId, N'Shaki'),
+    (@CountryId, N'Aghdam'),
+    (@CountryId, N'Fuzuli'),
+    (@CountryId, N'Jabrayil'),
+    (@CountryId, N'Khojaly'),
+    (@CountryId, N'Khojavend'),
+    (@CountryId, N'Shusha'),
+    (@CountryId, N'Tartar'),
+    (@CountryId, N'Khankendi'),
+    (@CountryId, N'Shusha')
 GO    
 
 -- The Bahamas
 -- Ref: https://en.wikipedia.org/wiki/The_Bahamas#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BS'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (12, N'Acklins'),
-    (12, N'Berry Islands'),
-    (12, N'Bimini'),
-    (12, N'Black Point, Exuma'),
-    (12, N'Cat Island'),
-    (12, N'Central Abaco'),
-    (12, N'Central Andros'),
-    (12, N'Central Eleuthera'),
-    (12, N'City of Freeport, Grand Bahama'),
-    (12, N'Crooked Island'),
-    (12, N'East Grand Bahama'),
-    (12, N'Exuma'),
-    (12, N'Grand Cay, Abaco'),
-    (12, N'Harbour Island, Eleuthera'),
-    (12, N'Hope Town, Abaco'),
-    (12, N'Inagua'),
-    (12, N'Long Island'),
-    (12, N'Mangrove Cay, Andros'),
-    (12, N'Mayaguana'),
-    (12, N'Moore`s Island, Abaco'),
-    (12, N'North Abaco'),
-    (12, N'North Andros'),
-    (12, N'North Eleuthera'),
-    (12, N'Ragged Island'),
-    (12, N'Rum Cay'),
-    (12, N'San Salvador'),
-    (12, N'South Abaco'),
-    (12, N'South Andros'),
-    (12, N'South Eleuthera'),
-    (12, N'Spanish Wells, Eleuthera'),    
-    (12, N'West Grand Bahama'),
-    (12, N'New Providence')
+    (@CountryId, N'Acklins'),
+    (@CountryId, N'Berry Islands'),
+    (@CountryId, N'Bimini'),
+    (@CountryId, N'Black Point, Exuma'),
+    (@CountryId, N'Cat Island'),
+    (@CountryId, N'Central Abaco'),
+    (@CountryId, N'Central Andros'),
+    (@CountryId, N'Central Eleuthera'),
+    (@CountryId, N'City of Freeport, Grand Bahama'),
+    (@CountryId, N'Crooked Island'),
+    (@CountryId, N'East Grand Bahama'),
+    (@CountryId, N'Exuma'),
+    (@CountryId, N'Grand Cay, Abaco'),
+    (@CountryId, N'Harbour Island, Eleuthera'),
+    (@CountryId, N'Hope Town, Abaco'),
+    (@CountryId, N'Inagua'),
+    (@CountryId, N'Long Island'),
+    (@CountryId, N'Mangrove Cay, Andros'),
+    (@CountryId, N'Mayaguana'),
+    (@CountryId, N'Moore`s Island, Abaco'),
+    (@CountryId, N'North Abaco'),
+    (@CountryId, N'North Andros'),
+    (@CountryId, N'North Eleuthera'),
+    (@CountryId, N'Ragged Island'),
+    (@CountryId, N'Rum Cay'),
+    (@CountryId, N'San Salvador'),
+    (@CountryId, N'South Abaco'),
+    (@CountryId, N'South Andros'),
+    (@CountryId, N'South Eleuthera'),
+    (@CountryId, N'Spanish Wells, Eleuthera'),    
+    (@CountryId, N'West Grand Bahama'),
+    (@CountryId, N'New Providence')
 GO    
 
 -- Bahrain
 -- Ref: https://en.wikipedia.org/wiki/Bahrain#Governorates
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BH'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (13, N'Capital Governorate'),
-    (13, N'Muharraq Governorate'),
-    (13, N'Northern Governorate'),
-    (13, N'Southern Governorate')
+    (@CountryId, N'Capital Governorate'),
+    (@CountryId, N'Muharraq Governorate'),
+    (@CountryId, N'Northern Governorate'),
+    (@CountryId, N'Southern Governorate')
 GO
 
 -- Bangladesh
 -- Ref: https://en.wikipedia.org/wiki/Bangladesh#Administrative_geography
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BD'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (14, N'Barisal'),
-    (14, N'Chittagong'),
-    (14, N'Dhaka'),
-    (14, N'Khulna'),
-    (14, N'Mymensingh'),
-    (14, N'Rajshahi'),
-    (14, N'Rangpur'),
-    (14, N'Sylhet')
+    (@CountryId, N'Barisal'),
+    (@CountryId, N'Chittagong'),
+    (@CountryId, N'Dhaka'),
+    (@CountryId, N'Khulna'),
+    (@CountryId, N'Mymensingh'),
+    (@CountryId, N'Rajshahi'),
+    (@CountryId, N'Rangpur'),
+    (@CountryId, N'Sylhet')
 GO    
 
 -- Barbados
 -- Ref: https://en.wikipedia.org/wiki/Barbados#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BB'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (15, N'Christ Church'),
-    (15, N'Saint Andrew'),
-    (15, N'Saint George'),
-    (15, N'Saint Thomas'),
-    (15, N'Saint Philip'),
-    (15, N'Saint Peter'),
-    (15, N'Saint Michael'),
-    (15, N'Saint Lucy'),
-    (15, N'Saint Joseph'),
-    (15, N'Saint John'),
-    (15, N'Saint James')
+    (@CountryId, N'Christ Church'),
+    (@CountryId, N'Saint Andrew'),
+    (@CountryId, N'Saint George'),
+    (@CountryId, N'Saint Thomas'),
+    (@CountryId, N'Saint Philip'),
+    (@CountryId, N'Saint Peter'),
+    (@CountryId, N'Saint Michael'),
+    (@CountryId, N'Saint Lucy'),
+    (@CountryId, N'Saint Joseph'),
+    (@CountryId, N'Saint John'),
+    (@CountryId, N'Saint James')
 GO    
 
 -- Belarus
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Belarus
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BY'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (16, N'City of Minsk'),
-    (16, N'Brest'),
-    (16, N'Gomel'),
-    (16, N'Grodno'),
-    (16, N'Mogilev'),
-    (16, N'Minsk'),
-    (16, N'Vitebsk')
+    (@CountryId, N'City of Minsk'),
+    (@CountryId, N'Brest'),
+    (@CountryId, N'Gomel'),
+    (@CountryId, N'Grodno'),
+    (@CountryId, N'Mogilev'),
+    (@CountryId, N'Minsk'),
+    (@CountryId, N'Vitebsk')
 GO
 
 -- Belgium
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Belgium
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BE'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (17, N'Antwerp'),
-    (17, N'East Flanders'),
-    (17, N'Flemish Brabant'),
-    (17, N'Hainaut'),
-    (17, N'Limburg'),
-    (17, N'Liège'),
-    (17, N'Luxembourg'),
-    (17, N'Namur'),
-    (17, N'Walloon Brabant'),
-    (17, N'West Flanders'),
-    (17, N'Brussels-Capital Region')
+    (@CountryId, N'Antwerp'),
+    (@CountryId, N'East Flanders'),
+    (@CountryId, N'Flemish Brabant'),
+    (@CountryId, N'Hainaut'),
+    (@CountryId, N'Limburg'),
+    (@CountryId, N'Liège'),
+    (@CountryId, N'Luxembourg'),
+    (@CountryId, N'Namur'),
+    (@CountryId, N'Walloon Brabant'),
+    (@CountryId, N'West Flanders'),
+    (@CountryId, N'Brussels-Capital Region')
 GO
 
 -- Belize
 -- Ref: https://en.wikipedia.org/wiki/Belize#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BZ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (18, N'Belize'),
-    (18, N'Cayo'),
-    (18, N'Corozal'),
-    (18, N'Orange Walk'),
-    (18, N'Stann Creek'),
-    (18, N'Toledo')
+    (@CountryId, N'Belize'),
+    (@CountryId, N'Cayo'),
+    (@CountryId, N'Corozal'),
+    (@CountryId, N'Orange Walk'),
+    (@CountryId, N'Stann Creek'),
+    (@CountryId, N'Toledo')
 GO
     
 -- Benin
 -- Ref: https://en.wikipedia.org/wiki/Benin#Departments_and_communes
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BJ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (19, N'Alibori'),
-    (19, N'Atakora'),
-    (19, N'Atlantique'),
-    (19, N'Borgou'),
-    (19, N'Collines'),
-    (19, N'Donga'),
-    (19, N'Kouffo'),
-    (19, N'Littoral'),
-    (19, N'Mono'),
-    (19, N'Ouémé'),
-    (19, N'Plateau'),
-    (19, N'Zou')
+    (@CountryId, N'Alibori'),
+    (@CountryId, N'Atakora'),
+    (@CountryId, N'Atlantique'),
+    (@CountryId, N'Borgou'),
+    (@CountryId, N'Collines'),
+    (@CountryId, N'Donga'),
+    (@CountryId, N'Kouffo'),
+    (@CountryId, N'Littoral'),
+    (@CountryId, N'Mono'),
+    (@CountryId, N'Ouémé'),
+    (@CountryId, N'Plateau'),
+    (@CountryId, N'Zou')
 GO
     
 -- Bhutan
 -- Ref: https://en.wikipedia.org/wiki/Bhutan#Political_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BT'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (20, N'Bumthang'),
-    (20, N'Chukha'),
-    (20, N'Dagana'),
-    (20, N'Gasa'),
-    (20, N'Haa'),
-    (20, N'Lhuntse'),
-    (20, N'Mongar'),
-    (20, N'Paro'),
-    (20, N'Pemagatshel'),
-    (20, N'Punakha'),
-    (20, N'Samdrup Jongkhar'),
-    (20, N'Samtse'),
-    (20, N'Sarpang'),
-    (20, N'Thimphu'),
-    (20, N'Trashigang'),
-    (20, N'Trashiyangtse'),
-    (20, N'Trongsa'),
-    (20, N'Tsirang'),
-    (20, N'Wangdue Phodrang'),
-    (20, N'Zhemgang')
+    (@CountryId, N'Bumthang'),
+    (@CountryId, N'Chukha'),
+    (@CountryId, N'Dagana'),
+    (@CountryId, N'Gasa'),
+    (@CountryId, N'Haa'),
+    (@CountryId, N'Lhuntse'),
+    (@CountryId, N'Mongar'),
+    (@CountryId, N'Paro'),
+    (@CountryId, N'Pemagatshel'),
+    (@CountryId, N'Punakha'),
+    (@CountryId, N'Samdrup Jongkhar'),
+    (@CountryId, N'Samtse'),
+    (@CountryId, N'Sarpang'),
+    (@CountryId, N'Thimphu'),
+    (@CountryId, N'Trashigang'),
+    (@CountryId, N'Trashiyangtse'),
+    (@CountryId, N'Trongsa'),
+    (@CountryId, N'Tsirang'),
+    (@CountryId, N'Wangdue Phodrang'),
+    (@CountryId, N'Zhemgang')
 GO    
     
 -- Bolivia
 -- Ref: https://en.wikipedia.org/wiki/Bolivia#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BO'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (21, N'Pando'),
-    (21, N'La Paz'),
-    (21, N'Beni'),
-    (21, N'Oruro'),
-    (21, N'Cochabamba'),
-    (21, N'Santa Cruz'),
-    (21, N'Potosí'),
-    (21, N'Chuquisaca'),
-    (21, N'Tarija')
+    (@CountryId, N'Pando'),
+    (@CountryId, N'La Paz'),
+    (@CountryId, N'Beni'),
+    (@CountryId, N'Oruro'),
+    (@CountryId, N'Cochabamba'),
+    (@CountryId, N'Santa Cruz'),
+    (@CountryId, N'Potosí'),
+    (@CountryId, N'Chuquisaca'),
+    (@CountryId, N'Tarija')
 GO
     
 -- Bosnia and Herzegovina
 -- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_Bosnia_and_Herzegovina
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BA'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (22, N'Federation of Bosnia and Herzegovina'),
-    (22, N'Republika Srpska')
+    (@CountryId, N'Federation of Bosnia and Herzegovina'),
+    (@CountryId, N'Republika Srpska')
 GO    
     
 -- Botswana
 -- Ref: https://en.wikipedia.org/wiki/Botswana#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BW'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (23, N'Southern District'),
-    (23, N'South-East District'),
-    (23, N'Kweneng District'),
-    (23, N'Kgatleng District'),
-    (23, N'Central District'),
-    (23, N'North-East District'),
-    (23, N'North-West District'),
-    (23, N'Ghanzi District'),
-    (23, N'Kgalagadi District')
+    (@CountryId, N'Southern District'),
+    (@CountryId, N'South-East District'),
+    (@CountryId, N'Kweneng District'),
+    (@CountryId, N'Kgatleng District'),
+    (@CountryId, N'Central District'),
+    (@CountryId, N'North-East District'),
+    (@CountryId, N'North-West District'),
+    (@CountryId, N'Ghanzi District'),
+    (@CountryId, N'Kgalagadi District')
 GO
     
 -- Brazil
 -- Ref: https://en.wikipedia.org/wiki/Brazil#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (24, N'Acre'),
-    (24, N'Alagoas'),
-    (24, N'Amapá'),
-    (24, N'Amazonas'),
-    (24, N'Bahia'),
-    (24, N'Ceará'),
-    (24, N'Distrito Federal'),
-    (24, N'Espírito Santo'),
-    (24, N'Goiás'),
-    (24, N'Maranhão'),
-    (24, N'Mato Grosso'),
-    (24, N'Mato Grosso do Sul'),
-    (24, N'Minas Gerais'),
-    (24, N'Paraná'),
-    (24, N'Paraíba'),
-    (24, N'Pará'),
-    (24, N'Pernambuco'),
-    (24, N'Piauí'),
-    (24, N'Rio de Janeiro'),
-    (24, N'Rio Grande do Norte'),
-    (24, N'Rio Grande do Sul'),
-    (24, N'Rondônia'),
-    (24, N'Roraima'),
-    (24, N'Santa Catarina'),
-    (24, N'Sergipe'),
-    (24, N'São Paulo'),
-    (24, N'Tocantins'),
-    (24, N'Federal District')
+    (@CountryId, N'Acre'),
+    (@CountryId, N'Alagoas'),
+    (@CountryId, N'Amapá'),
+    (@CountryId, N'Amazonas'),
+    (@CountryId, N'Bahia'),
+    (@CountryId, N'Ceará'),
+    (@CountryId, N'Distrito Federal'),
+    (@CountryId, N'Espírito Santo'),
+    (@CountryId, N'Goiás'),
+    (@CountryId, N'Maranhão'),
+    (@CountryId, N'Mato Grosso'),
+    (@CountryId, N'Mato Grosso do Sul'),
+    (@CountryId, N'Minas Gerais'),
+    (@CountryId, N'Paraná'),
+    (@CountryId, N'Paraíba'),
+    (@CountryId, N'Pará'),
+    (@CountryId, N'Pernambuco'),
+    (@CountryId, N'Piauí'),
+    (@CountryId, N'Rio de Janeiro'),
+    (@CountryId, N'Rio Grande do Norte'),
+    (@CountryId, N'Rio Grande do Sul'),
+    (@CountryId, N'Rondônia'),
+    (@CountryId, N'Roraima'),
+    (@CountryId, N'Santa Catarina'),
+    (@CountryId, N'Sergipe'),
+    (@CountryId, N'São Paulo'),
+    (@CountryId, N'Tocantins'),
+    (@CountryId, N'Federal District')
 GO    
     
 -- Brunei
 -- Ref: https://en.wikipedia.org/wiki/Brunei#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BN'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (25, N'Belait'),
-    (25, N'Brunei-Muara'),
-    (25, N'Temburong'),
-    (25, N'Tutong')
+    (@CountryId, N'Belait'),
+    (@CountryId, N'Brunei-Muara'),
+    (@CountryId, N'Temburong'),
+    (@CountryId, N'Tutong')
 GO    
     
 -- Bulgaria
 -- Ref: https://en.wikipedia.org/wiki/Bulgaria#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BG'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (26, N'Sofia-Grad'),
-    (26, N'Blagoevgrad'),
-    (26, N'Burgas'),
-    (26, N'Dobrich'),
-    (26, N'Gabrovo'),
-    (26, N'Haskovo'),
-    (26, N'Kardzhali'),
-    (26, N'Kyustendil'),
-    (26, N'Lovech'),
-    (26, N'Montana'),
-    (26, N'Pazardzhik'),
-    (26, N'Pernik'),
-    (26, N'Pleven'),
-    (26, N'Plovdiv'),
-    (26, N'Razgrad'),
-    (26, N'Ruse'),
-    (26, N'Shumen'),
-    (26, N'Silistra'),
-    (26, N'Sliven'),
-    (26, N'Smolyan'),
-    (26, N'Sofia Province'),
-    (26, N'Stara Zagora'),
-    (26, N'Targovishte'),
-    (26, N'Varna'),
-    (26, N'Veliko Tarnovo'),
-    (26, N'Vidin'),
-    (26, N'Vratsa'),
-    (26, N'Yambol')
+    (@CountryId, N'Sofia-Grad'),
+    (@CountryId, N'Blagoevgrad'),
+    (@CountryId, N'Burgas'),
+    (@CountryId, N'Dobrich'),
+    (@CountryId, N'Gabrovo'),
+    (@CountryId, N'Haskovo'),
+    (@CountryId, N'Kardzhali'),
+    (@CountryId, N'Kyustendil'),
+    (@CountryId, N'Lovech'),
+    (@CountryId, N'Montana'),
+    (@CountryId, N'Pazardzhik'),
+    (@CountryId, N'Pernik'),
+    (@CountryId, N'Pleven'),
+    (@CountryId, N'Plovdiv'),
+    (@CountryId, N'Razgrad'),
+    (@CountryId, N'Ruse'),
+    (@CountryId, N'Shumen'),
+    (@CountryId, N'Silistra'),
+    (@CountryId, N'Sliven'),
+    (@CountryId, N'Smolyan'),
+    (@CountryId, N'Sofia Province'),
+    (@CountryId, N'Stara Zagora'),
+    (@CountryId, N'Targovishte'),
+    (@CountryId, N'Varna'),
+    (@CountryId, N'Veliko Tarnovo'),
+    (@CountryId, N'Vidin'),
+    (@CountryId, N'Vratsa'),
+    (@CountryId, N'Yambol')
 GO
     
 -- Burkina Faso
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Burkina_Faso
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BF'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (27, N'Boucle du Mouhoun'),
-    (27, N'Cascades'),
-    (27, N'Centre'),
-    (27, N'Centre-Est'),
-    (27, N'Centre-Nord'),
-    (27, N'Centre-Ouest'),
-    (27, N'Centre-Sud'),
-    (27, N'Est'),
-    (27, N'Hauts-Bassins'),
-    (27, N'Nord'),
-    (27, N'Plateau-Central'),
-    (27, N'Sahel'),
-    (27, N'Sud-Ouest')
+    (@CountryId, N'Boucle du Mouhoun'),
+    (@CountryId, N'Cascades'),
+    (@CountryId, N'Centre'),
+    (@CountryId, N'Centre-Est'),
+    (@CountryId, N'Centre-Nord'),
+    (@CountryId, N'Centre-Ouest'),
+    (@CountryId, N'Centre-Sud'),
+    (@CountryId, N'Est'),
+    (@CountryId, N'Hauts-Bassins'),
+    (@CountryId, N'Nord'),
+    (@CountryId, N'Plateau-Central'),
+    (@CountryId, N'Sahel'),
+    (@CountryId, N'Sud-Ouest')
 GO    
     
 -- Burundi
 -- Ref: https://en.wikipedia.org/wiki/Burundi#Subdivisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BI'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (28, N'Bubanza'),
-    (28, N'Bujumbura Mairie'),
-    (28, N'Bujumbura Rural'),
-    (28, N'Bururi'),
-    (28, N'Cankuzo'),
-    (28, N'Cibitoke'),
-    (28, N'Gitega'),
-    (28, N'Karuzi'),
-    (28, N'Kayanza'),
-    (28, N'Kirundo'),
-    (28, N'Makamba'),
-    (28, N'Muramvya'),
-    (28, N'Muyinga'),
-    (28, N'Mwaro'),
-    (28, N'Ngozi'),
-    (28, N'Rumonge'),
-    (28, N'Rutana'),
-    (28, N'Ruyigi')
+    (@CountryId, N'Bubanza'),
+    (@CountryId, N'Bujumbura Mairie'),
+    (@CountryId, N'Bujumbura Rural'),
+    (@CountryId, N'Bururi'),
+    (@CountryId, N'Cankuzo'),
+    (@CountryId, N'Cibitoke'),
+    (@CountryId, N'Gitega'),
+    (@CountryId, N'Karuzi'),
+    (@CountryId, N'Kayanza'),
+    (@CountryId, N'Kirundo'),
+    (@CountryId, N'Makamba'),
+    (@CountryId, N'Muramvya'),
+    (@CountryId, N'Muyinga'),
+    (@CountryId, N'Mwaro'),
+    (@CountryId, N'Ngozi'),
+    (@CountryId, N'Rumonge'),
+    (@CountryId, N'Rutana'),
+    (@CountryId, N'Ruyigi')
 GO    
     
 -- Cabo Verde
 -- Ref: https://en.wikipedia.org/wiki/Cape_Verde#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CV'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (29, N'Ribeira Grande'),
-    (29, N'Paúl'),
-    (29, N'Porto Novo'),
-    (29, N'São Vicente'),
-    (29, N'Ribeira Brava'),
-    (29, N'Tarrafal de São Nicolau'),
-    (29, N'Sal'),
-    (29, N'Boa Vista'),
-    (29, N'Maio'),
-    (29, N'Praia'),
-    (29, N'São Domingos'),
-    (29, N'Santa Catarina'),
-    (29, N'São Salvador do Mundo'),
-    (29, N'Santa Cruz'),
-    (29, N'São Lourenço dos Órgãos'),
-    (29, N'Ribeira Grande de Santiago'),
-    (29, N'São Miguel'),
-    (29, N'Tarrafal'),
-    (29, N'São Filipe'),
-    (29, N'Santa Catarina do Fogo'),
-    (29, N'Mosteiros'),
-    (29, N'Brava')
+    (@CountryId, N'Ribeira Grande'),
+    (@CountryId, N'Paúl'),
+    (@CountryId, N'Porto Novo'),
+    (@CountryId, N'São Vicente'),
+    (@CountryId, N'Ribeira Brava'),
+    (@CountryId, N'Tarrafal de São Nicolau'),
+    (@CountryId, N'Sal'),
+    (@CountryId, N'Boa Vista'),
+    (@CountryId, N'Maio'),
+    (@CountryId, N'Praia'),
+    (@CountryId, N'São Domingos'),
+    (@CountryId, N'Santa Catarina'),
+    (@CountryId, N'São Salvador do Mundo'),
+    (@CountryId, N'Santa Cruz'),
+    (@CountryId, N'São Lourenço dos Órgãos'),
+    (@CountryId, N'Ribeira Grande de Santiago'),
+    (@CountryId, N'São Miguel'),
+    (@CountryId, N'Tarrafal'),
+    (@CountryId, N'São Filipe'),
+    (@CountryId, N'Santa Catarina do Fogo'),
+    (@CountryId, N'Mosteiros'),
+    (@CountryId, N'Brava')
 GO    
     
 -- Cambodia
 -- Ref: https://en.wikipedia.org/wiki/Cambodia#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KH'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (30, N'Banteay Meanchey'),
-    (30, N'Battambang'),
-    (30, N'Kampong Cham'),
-    (30, N'Kampong Chhnang'),
-    (30, N'Kampong Speu'),
-    (30, N'Kampong Thom'),
-    (30, N'Kampot'),
-    (30, N'Kandal'),
-    (30, N'Kep'),
-    (30, N'Koh Kong'),
-    (30, N'Kratié'),
-    (30, N'Mondulkiri'),
-    (30, N'Oddar Meanchey'),
-    (30, N'Pailin'),
-    (30, N'Phnom Penh'),
-    (30, N'Preah Sihanouk'),
-    (30, N'Preah Vihear'),
-    (30, N'Pursat'),
-    (30, N'Prey Veng'),
-    (30, N'Ratanakiri'),
-    (30, N'Siem Reap'),
-    (30, N'Stung Treng'),
-    (30, N'Svay Rieng'),
-    (30, N'Takéo'),
-    (30, N'Tboung Khmom')
+    (@CountryId, N'Banteay Meanchey'),
+    (@CountryId, N'Battambang'),
+    (@CountryId, N'Kampong Cham'),
+    (@CountryId, N'Kampong Chhnang'),
+    (@CountryId, N'Kampong Speu'),
+    (@CountryId, N'Kampong Thom'),
+    (@CountryId, N'Kampot'),
+    (@CountryId, N'Kandal'),
+    (@CountryId, N'Kep'),
+    (@CountryId, N'Koh Kong'),
+    (@CountryId, N'Kratié'),
+    (@CountryId, N'Mondulkiri'),
+    (@CountryId, N'Oddar Meanchey'),
+    (@CountryId, N'Pailin'),
+    (@CountryId, N'Phnom Penh'),
+    (@CountryId, N'Preah Sihanouk'),
+    (@CountryId, N'Preah Vihear'),
+    (@CountryId, N'Pursat'),
+    (@CountryId, N'Prey Veng'),
+    (@CountryId, N'Ratanakiri'),
+    (@CountryId, N'Siem Reap'),
+    (@CountryId, N'Stung Treng'),
+    (@CountryId, N'Svay Rieng'),
+    (@CountryId, N'Takéo'),
+    (@CountryId, N'Tboung Khmom')
 GO    
     
 -- Cameroon
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Cameroon
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CM'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (31, N'Adamawa'),
-    (31, N'Central Cameroon'),
-    (31, N'East Cameroon'),
-    (31, N'Far North Cameroon'),
-    (31, N'Littoral Cameroon'),
-    (31, N'North Cameroon'),
-    (31, N'Northwest Cameroon'),
-    (31, N'South Cameroon'),
-    (31, N'Southwest Cameroon'),
-    (31, N'West Cameroon')
+    (@CountryId, N'Adamawa'),
+    (@CountryId, N'Central Cameroon'),
+    (@CountryId, N'East Cameroon'),
+    (@CountryId, N'Far North Cameroon'),
+    (@CountryId, N'Littoral Cameroon'),
+    (@CountryId, N'North Cameroon'),
+    (@CountryId, N'Northwest Cameroon'),
+    (@CountryId, N'South Cameroon'),
+    (@CountryId, N'Southwest Cameroon'),
+    (@CountryId, N'West Cameroon')
 GO
     
 -- Canada
 -- Ref: https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada#Provinces
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CA'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (32, N'Alberta'),
-    (32, N'British Columbia'),
-    (32, N'Manitoba'),
-    (32, N'New Brunswick'),
-    (32, N'Newfoundland and Labrador'),
-    (32, N'Nova Scotia'),
-    (32, N'Ontario'),
-    (32, N'Prince Edward Island'),
-    (32, N'Quebec'),
-    (32, N'Saskatchewan')
+    (@CountryId, N'Alberta'),
+    (@CountryId, N'British Columbia'),
+    (@CountryId, N'Manitoba'),
+    (@CountryId, N'New Brunswick'),
+    (@CountryId, N'Newfoundland and Labrador'),
+    (@CountryId, N'Nova Scotia'),
+    (@CountryId, N'Ontario'),
+    (@CountryId, N'Prince Edward Island'),
+    (@CountryId, N'Quebec'),
+    (@CountryId, N'Saskatchewan')
 GO    
     
 -- Central African Republic
 -- Ref: https://en.wikipedia.org/wiki/Central_African_Republic#Prefectures_and_sub-prefectures
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CF'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (33, N'Bamingui-Bangoran'),
-    (33, N'Bangui'),
-    (33, N'Basse-Kotto'),
-    (33, N'Haut-Mbomou'),
-    (33, N'Haute-Kotto'),
-    (33, N'Kémo'),
-    (33, N'Lobaye'),
-    (33, N'Mambéré-Kadéï'),
-    (33, N'Mbomou'),
-    (33, N'Nana-Grébizi'),
-    (33, N'Nana-Mambéré'),
-    (33, N'Ombella-M`Poko'),
-    (33, N'Ouaka'),
-    (33, N'Ouham'),
-    (33, N'Ouham-Pendé'),
-    (33, N'Sangha-Mbaéré'),
-    (33, N'Vakaga')
+    (@CountryId, N'Bamingui-Bangoran'),
+    (@CountryId, N'Bangui'),
+    (@CountryId, N'Basse-Kotto'),
+    (@CountryId, N'Haut-Mbomou'),
+    (@CountryId, N'Haute-Kotto'),
+    (@CountryId, N'Kémo'),
+    (@CountryId, N'Lobaye'),
+    (@CountryId, N'Mambéré-Kadéï'),
+    (@CountryId, N'Mbomou'),
+    (@CountryId, N'Nana-Grébizi'),
+    (@CountryId, N'Nana-Mambéré'),
+    (@CountryId, N'Ombella-M`Poko'),
+    (@CountryId, N'Ouaka'),
+    (@CountryId, N'Ouham'),
+    (@CountryId, N'Ouham-Pendé'),
+    (@CountryId, N'Sangha-Mbaéré'),
+    (@CountryId, N'Vakaga')
 GO    
 
     
 -- Chad
 -- Ref: https://en.wikipedia.org/wiki/Chad#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TD'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (34, N'Bahr El Gazel'),
-    (34, N'Batha'),
-    (34, N'Borkou'),
-    (34, N'Chari-Baguirmi'),
-    (34, N'Ennedi-Est'),
-    (34, N'Ennedi-Ouest'),
-    (34, N'Guéra'),
-    (34, N'Hadjer-Lamis'),
-    (34, N'Kanem'),
-    (34, N'Lac'),
-    (34, N'Logone Occidental'),
-    (34, N'Logone Oriental'),
-    (34, N'Mandoul'),
-    (34, N'Mayo-Kebbi Est'),
-    (34, N'Mayo-Kebbi Ouest'),
-    (34, N'Moyen-Chari'),
-    (34, N'N Djamena'),
-    (34, N'Ouaddaï'),
-    (34, N'Salamat'),
-    (34, N'Sila'),
-    (34, N'Tandjilé'),
-    (34, N'Tibesti'),
-    (34, N'Wadi Fira')
+    (@CountryId, N'Bahr El Gazel'),
+    (@CountryId, N'Batha'),
+    (@CountryId, N'Borkou'),
+    (@CountryId, N'Chari-Baguirmi'),
+    (@CountryId, N'Ennedi-Est'),
+    (@CountryId, N'Ennedi-Ouest'),
+    (@CountryId, N'Guéra'),
+    (@CountryId, N'Hadjer-Lamis'),
+    (@CountryId, N'Kanem'),
+    (@CountryId, N'Lac'),
+    (@CountryId, N'Logone Occidental'),
+    (@CountryId, N'Logone Oriental'),
+    (@CountryId, N'Mandoul'),
+    (@CountryId, N'Mayo-Kebbi Est'),
+    (@CountryId, N'Mayo-Kebbi Ouest'),
+    (@CountryId, N'Moyen-Chari'),
+    (@CountryId, N'N Djamena'),
+    (@CountryId, N'Ouaddaï'),
+    (@CountryId, N'Salamat'),
+    (@CountryId, N'Sila'),
+    (@CountryId, N'Tandjilé'),
+    (@CountryId, N'Tibesti'),
+    (@CountryId, N'Wadi Fira')
 GO    
 
 -- Chile
 -- Ref: https://en.wikipedia.org/wiki/Chile#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CL'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (35, N'Arica y Parinacota'),
-    (35, N'Tarapacá'),
-    (35, N'Antofagasta'),
-    (35, N'Atacama'),
-    (35, N'Coquimbo'),
-    (35, N'Valparaíso'),
-    (35, N'Santiago Metropolitan'),
-    (35, N'Libertador General Bernardo O`Higgins'),
-    (35, N'Maule'),
-    (35, N'Biobío'),
-    (35, N'Araucanía'),
-    (35, N'Los Ríos'),
-    (35, N'Los Lagos'),
-    (35, N'Aysén del General Carlos Ibáñez del Campo'),
-    (35, N'Magallanes and Chilean Antarctica')
+    (@CountryId, N'Arica y Parinacota'),
+    (@CountryId, N'Tarapacá'),
+    (@CountryId, N'Antofagasta'),
+    (@CountryId, N'Atacama'),
+    (@CountryId, N'Coquimbo'),
+    (@CountryId, N'Valparaíso'),
+    (@CountryId, N'Santiago Metropolitan'),
+    (@CountryId, N'Libertador General Bernardo O`Higgins'),
+    (@CountryId, N'Maule'),
+    (@CountryId, N'Biobío'),
+    (@CountryId, N'Araucanía'),
+    (@CountryId, N'Los Ríos'),
+    (@CountryId, N'Los Lagos'),
+    (@CountryId, N'Aysén del General Carlos Ibáñez del Campo'),
+    (@CountryId, N'Magallanes and Chilean Antarctica')
 GO
 
 -- China
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_China#List_of_province-level_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CN'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (36, N'Anhui'),
-    (36, N'Beijing'),
-    (36, N'Chongqing'),
-    (36, N'Fujian'),
-    (36, N'Gansu'),
-    (36, N'Guangdong'),
-    (36, N'Guangxi Zhuang'),
-    (36, N'Guizhou'),
-    (36, N'Hainan'),
-    (36, N'Hebei'),
-    (36, N'Heilongjiang'),
-    (36, N'Henan'),
-    (36, N'Hong Kong'),
-    (36, N'Hubei'),
-    (36, N'Hunan'),
-    (36, N'Inner Mongolia'),
-    (36, N'Jiangsu'),
-    (36, N'Jiangxi'),
-    (36, N'Jilin'),
-    (36, N'Liaoning'),
-    (36, N'Macau'),
-    (36, N'Ningxia Hui'),
-    (36, N'Qinghai'),
-    (36, N'Shaanxi'),
-    (36, N'Shandong'),
-    (36, N'Shanghai'),
-    (36, N'Shanxi'),
-    (36, N'Sichuan'),
-    (36, N'Taiwan'),
-    (36, N'Tianjin'),
-    (36, N'Tibet'),
-    (36, N'Xinjiang Uyghur'),
-    (36, N'Yunnan'),
-    (36, N'Zhejiang')
+    (@CountryId, N'Anhui'),
+    (@CountryId, N'Beijing'),
+    (@CountryId, N'Chongqing'),
+    (@CountryId, N'Fujian'),
+    (@CountryId, N'Gansu'),
+    (@CountryId, N'Guangdong'),
+    (@CountryId, N'Guangxi Zhuang'),
+    (@CountryId, N'Guizhou'),
+    (@CountryId, N'Hainan'),
+    (@CountryId, N'Hebei'),
+    (@CountryId, N'Heilongjiang'),
+    (@CountryId, N'Henan'),
+    (@CountryId, N'Hong Kong'),
+    (@CountryId, N'Hubei'),
+    (@CountryId, N'Hunan'),
+    (@CountryId, N'Inner Mongolia'),
+    (@CountryId, N'Jiangsu'),
+    (@CountryId, N'Jiangxi'),
+    (@CountryId, N'Jilin'),
+    (@CountryId, N'Liaoning'),
+    (@CountryId, N'Macau'),
+    (@CountryId, N'Ningxia Hui'),
+    (@CountryId, N'Qinghai'),
+    (@CountryId, N'Shaanxi'),
+    (@CountryId, N'Shandong'),
+    (@CountryId, N'Shanghai'),
+    (@CountryId, N'Shanxi'),
+    (@CountryId, N'Sichuan'),
+    (@CountryId, N'Taiwan'),
+    (@CountryId, N'Tianjin'),
+    (@CountryId, N'Tibet'),
+    (@CountryId, N'Xinjiang Uyghur'),
+    (@CountryId, N'Yunnan'),
+    (@CountryId, N'Zhejiang')
 GO
 
 -- Colombia
 -- Ref: https://en.wikipedia.org/wiki/Colombia#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CO'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (37, N'Amazonas'),
-    (37, N'Antioquia'),
-    (37, N'Arauca'),
-    (37, N'Atlántico'),
-    (37, N'Bolívar'),
-    (37, N'Boyacá'),
-    (37, N'Caldas'),
-    (37, N'Caquetá'),
-    (37, N'Casanare'),
-    (37, N'Cauca'),
-    (37, N'Cesar'),
-    (37, N'Chocó'),
-    (37, N'Córdoba'),
-    (37, N'Cundinamarca'),
-    (37, N'Guainía'),
-    (37, N'Guaviare'),
-    (37, N'Huila'),
-    (37, N'La Guajira'),
-    (37, N'Magdalena'),
-    (37, N'Meta'),
-    (37, N'Nariño'),
-    (37, N'Norte de Santander'),
-    (37, N'Putumayo'),
-    (37, N'Quindío'),
-    (37, N'Risaralda'),
-    (37, N'San Andrés, Providencia and Santa Catalina'),
-    (37, N'Santander'),
-    (37, N'Sucre'),
-    (37, N'Tolima'),
-    (37, N'Valle del Cauca'),
-    (37, N'Vaupés'),
-    (37, N'Vichada'),
-    (37, N'Bogotá')
+    (@CountryId, N'Amazonas'),
+    (@CountryId, N'Antioquia'),
+    (@CountryId, N'Arauca'),
+    (@CountryId, N'Atlántico'),
+    (@CountryId, N'Bolívar'),
+    (@CountryId, N'Boyacá'),
+    (@CountryId, N'Caldas'),
+    (@CountryId, N'Caquetá'),
+    (@CountryId, N'Casanare'),
+    (@CountryId, N'Cauca'),
+    (@CountryId, N'Cesar'),
+    (@CountryId, N'Chocó'),
+    (@CountryId, N'Córdoba'),
+    (@CountryId, N'Cundinamarca'),
+    (@CountryId, N'Guainía'),
+    (@CountryId, N'Guaviare'),
+    (@CountryId, N'Huila'),
+    (@CountryId, N'La Guajira'),
+    (@CountryId, N'Magdalena'),
+    (@CountryId, N'Meta'),
+    (@CountryId, N'Nariño'),
+    (@CountryId, N'Norte de Santander'),
+    (@CountryId, N'Putumayo'),
+    (@CountryId, N'Quindío'),
+    (@CountryId, N'Risaralda'),
+    (@CountryId, N'San Andrés, Providencia and Santa Catalina'),
+    (@CountryId, N'Santander'),
+    (@CountryId, N'Sucre'),
+    (@CountryId, N'Tolima'),
+    (@CountryId, N'Valle del Cauca'),
+    (@CountryId, N'Vaupés'),
+    (@CountryId, N'Vichada'),
+    (@CountryId, N'Bogotá')
 GO
 
 -- Comoros
 -- Ref: http://www.worldcitiesdb.com/Comoros/state
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KM'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (38, N'Moheli'),
-    (38, N'Grande Comore'),
-    (38, N'Ndzuwani')
+    (@CountryId, N'Moheli'),
+    (@CountryId, N'Grande Comore'),
+    (@CountryId, N'Ndzuwani')
 GO
 
 -- Congo
 -- Ref: https://en.wikipedia.org/wiki/Republic_of_the_Congo#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CG'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (39, N'Bouenza'),
-    (39, N'Cuvette'),
-    (39, N'Cuvette-Ouest'),
-    (39, N'Kouilou'),
-    (39, N'Lékoumou'),
-    (39, N'Brazzaville'),
-    (39, N'Likouala'),
-    (39, N'Niari'),
-    (39, N'Plateaux'),
-    (39, N'Pool'),
-    (39, N'Sangha'),
-    (39, N'Pointe Noire')
+    (@CountryId, N'Bouenza'),
+    (@CountryId, N'Cuvette'),
+    (@CountryId, N'Cuvette-Ouest'),
+    (@CountryId, N'Kouilou'),
+    (@CountryId, N'Lékoumou'),
+    (@CountryId, N'Brazzaville'),
+    (@CountryId, N'Likouala'),
+    (@CountryId, N'Niari'),
+    (@CountryId, N'Plateaux'),
+    (@CountryId, N'Pool'),
+    (@CountryId, N'Sangha'),
+    (@CountryId, N'Pointe Noire')
 GO
 
 -- Costa Rica
 -- Ref: https://en.wikipedia.org/wiki/Costa_Rica#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (40, N'Alajuela'),
-    (40, N'Cartago'),
-    (40, N'Guanacaste'),
-    (40, N'Heredia'),
-    (40, N'Limón'),
-    (40, N'Puntarenas'),
-    (40, N'San José')
+    (@CountryId, N'Alajuela'),
+    (@CountryId, N'Cartago'),
+    (@CountryId, N'Guanacaste'),
+    (@CountryId, N'Heredia'),
+    (@CountryId, N'Limón'),
+    (@CountryId, N'Puntarenas'),
+    (@CountryId, N'San José')
 GO
     
 -- Ivory Coast
 -- Ref: https://en.wikipedia.org/wiki/Ivory_Coast#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CI'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (41, N'Abidjan'),
-    (41, N'Bas-Sassandra'),
-    (41, N'Comoé'),
-    (41, N'Denguélé'),
-    (41, N'Gôh-Djiboua'),
-    (41, N'Lacs'),
-    (41, N'Lagunes'),
-    (41, N'Montagnes'),
-    (41, N'Sassandra-Marahoué'),
-    (41, N'Savanes'),
-    (41, N'Vallée du Bandama'),
-    (41, N'Woroba'),
-    (41, N'Yamoussoukro'),
-    (41, N'Zanzan')
+    (@CountryId, N'Abidjan'),
+    (@CountryId, N'Bas-Sassandra'),
+    (@CountryId, N'Comoé'),
+    (@CountryId, N'Denguélé'),
+    (@CountryId, N'Gôh-Djiboua'),
+    (@CountryId, N'Lacs'),
+    (@CountryId, N'Lagunes'),
+    (@CountryId, N'Montagnes'),
+    (@CountryId, N'Sassandra-Marahoué'),
+    (@CountryId, N'Savanes'),
+    (@CountryId, N'Vallée du Bandama'),
+    (@CountryId, N'Woroba'),
+    (@CountryId, N'Yamoussoukro'),
+    (@CountryId, N'Zanzan')
 GO
     
 -- Croatia
 -- Ref: https://en.wikipedia.org/wiki/Counties_of_Croatia#Current
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (42, N'Bjelovar-Bilogora'),
-    (42, N'Brod-Posavina'),
-    (42, N'Dubrovnik-Neretva'),
-    (42, N'Istria'),
-    (42, N'Karlovac'),
-    (42, N'Koprivnica-Križevci'),
-    (42, N'Krapina-Zagorje'),
-    (42, N'Lika-Senj'),
-    (42, N'Međimurje'),
-    (42, N'Osijek-Baranja'),
-    (42, N'Požega-Slavonia'),
-    (42, N'Primorje-Gorski Kotar'),
-    (42, N'Šibenik-Knin'),
-    (42, N'Sisak-Moslavina'),
-    (42, N'Split-Dalmatia'),
-    (42, N'Varaždin'),
-    (42, N'Virovitica-Podravina'),
-    (42, N'Vukovar-Srijem'),
-    (42, N'Zadar'),
-    (42, N'Zagreb County'),
-    (42, N'City of Zagreb')
+    (@CountryId, N'Bjelovar-Bilogora'),
+    (@CountryId, N'Brod-Posavina'),
+    (@CountryId, N'Dubrovnik-Neretva'),
+    (@CountryId, N'Istria'),
+    (@CountryId, N'Karlovac'),
+    (@CountryId, N'Koprivnica-Križevci'),
+    (@CountryId, N'Krapina-Zagorje'),
+    (@CountryId, N'Lika-Senj'),
+    (@CountryId, N'Međimurje'),
+    (@CountryId, N'Osijek-Baranja'),
+    (@CountryId, N'Požega-Slavonia'),
+    (@CountryId, N'Primorje-Gorski Kotar'),
+    (@CountryId, N'Šibenik-Knin'),
+    (@CountryId, N'Sisak-Moslavina'),
+    (@CountryId, N'Split-Dalmatia'),
+    (@CountryId, N'Varaždin'),
+    (@CountryId, N'Virovitica-Podravina'),
+    (@CountryId, N'Vukovar-Srijem'),
+    (@CountryId, N'Zadar'),
+    (@CountryId, N'Zagreb County'),
+    (@CountryId, N'City of Zagreb')
 GO
     
 -- Cuba
 -- Ref: https://en.wikipedia.org/wiki/Cuba#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CU'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (43, N'Pinar del Río'),
-    (43, N'Artemisa'),
-    (43, N'Havana'),
-    (43, N'Mayabeque'),
-    (43, N'Matanzas'),
-    (43, N'Cienfuegos'),
-    (43, N'Villa Clara'),
-    (43, N'Sancti Spíritus'),
-    (43, N'Ciego de Ávila'),
-    (43, N'Camagüey'),
-    (43, N'Las Tunas'),
-    (43, N'Granma'),
-    (43, N'Holguín'),
-    (43, N'Santiago de Cuba'),
-    (43, N'Guantánamo'),
-    (43, N'Isla de la Juventud')
+    (@CountryId, N'Pinar del Río'),
+    (@CountryId, N'Artemisa'),
+    (@CountryId, N'Havana'),
+    (@CountryId, N'Mayabeque'),
+    (@CountryId, N'Matanzas'),
+    (@CountryId, N'Cienfuegos'),
+    (@CountryId, N'Villa Clara'),
+    (@CountryId, N'Sancti Spíritus'),
+    (@CountryId, N'Ciego de Ávila'),
+    (@CountryId, N'Camagüey'),
+    (@CountryId, N'Las Tunas'),
+    (@CountryId, N'Granma'),
+    (@CountryId, N'Holguín'),
+    (@CountryId, N'Santiago de Cuba'),
+    (@CountryId, N'Guantánamo'),
+    (@CountryId, N'Isla de la Juventud')
 GO
     
 -- Cyprus
 -- Ref: https://en.wikipedia.org/wiki/Cyprus#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CY'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (44, N'Nicosia'),
-    (44, N'Famagusta'),
-    (44, N'Kyrenia'),
-    (44, N'Larnaca'),
-    (44, N'Limassol'),
-    (44, N'Paphos')
+    (@CountryId, N'Nicosia'),
+    (@CountryId, N'Famagusta'),
+    (@CountryId, N'Kyrenia'),
+    (@CountryId, N'Larnaca'),
+    (@CountryId, N'Limassol'),
+    (@CountryId, N'Paphos')
 GO
     
 -- Czech Republic
 -- Ref: https://en.wikipedia.org/wiki/Czech_Republic#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CZ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (45, N'Prague'),
-    (45, N'Central Bohemian'),
-    (45, N'South Bohemian'),
-    (45, N'Plzeň'),
-    (45, N'Karlovy Vary'),
-    (45, N'Ústí nad Labem'),
-    (45, N'Liberec'),
-    (45, N'Hradec Králové'),
-    (45, N'Pardubice'),
-    (45, N'Olomouc'),
-    (45, N'Moravian-Silesian'),
-    (45, N'South Moravian'),
-    (45, N'Zlín'),
-    (45, N'Vysočina')
+    (@CountryId, N'Prague'),
+    (@CountryId, N'Central Bohemian'),
+    (@CountryId, N'South Bohemian'),
+    (@CountryId, N'Plzeň'),
+    (@CountryId, N'Karlovy Vary'),
+    (@CountryId, N'Ústí nad Labem'),
+    (@CountryId, N'Liberec'),
+    (@CountryId, N'Hradec Králové'),
+    (@CountryId, N'Pardubice'),
+    (@CountryId, N'Olomouc'),
+    (@CountryId, N'Moravian-Silesian'),
+    (@CountryId, N'South Moravian'),
+    (@CountryId, N'Zlín'),
+    (@CountryId, N'Vysočina')
 GO
     
 -- North Korea
 -- Ref: https://en.wikipedia.org/wiki/North_Korea#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KP'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (46, N'Pyongyang'),
-    (46, N'Rason'),
-    (46, N'South Pyongan'),
-    (46, N'North Pyongan'),
-    (46, N'Chagang'),
-    (46, N'South Hwanghae'),
-    (46, N'North Hwanghae'),
-    (46, N'Kangwon'),
-    (46, N'South Hamgyong'),
-    (46, N'North Hamgyong'),
-    (46, N'Ryanggang')
+    (@CountryId, N'Pyongyang'),
+    (@CountryId, N'Rason'),
+    (@CountryId, N'South Pyongan'),
+    (@CountryId, N'North Pyongan'),
+    (@CountryId, N'Chagang'),
+    (@CountryId, N'South Hwanghae'),
+    (@CountryId, N'North Hwanghae'),
+    (@CountryId, N'Kangwon'),
+    (@CountryId, N'South Hamgyong'),
+    (@CountryId, N'North Hamgyong'),
+    (@CountryId, N'Ryanggang')
 GO
 
 -- DR Congo
 -- Ref: https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo#Provinces
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CD'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (47, N'Kinshasa'),
-    (47, N'Kongo Central'),
-    (47, N'Kwango'),
-    (47, N'Kwilu Province'),
-    (47, N'Mai-Ndombe Province'),
-    (47, N'Kasaï Province'),
-    (47, N'Kasaï-Central'),
-    (47, N'Kasaï-Oriental'),
-    (47, N'Lomami Province'),
-    (47, N'Sankuru'),
-    (47, N'Maniema'),
-    (47, N'South Kivu'),
-    (47, N'North Kivu'),
-    (47, N'Ituri Province'),
-    (47, N'Haut-Uele'),
-    (47, N'Tshopo'),
-    (47, N'Bas-Uele'),
-    (47, N'Nord-Ubangi'),
-    (47, N'Mongala'),
-    (47, N'Sud-Ubangi'),
-    (47, N'Équateur'),
-    (47, N'Tshuapa'),
-    (47, N'Tanganyika Province'),
-    (47, N'Haut-Lomami'),
-    (47, N'Lualaba Province'),
-    (47, N'Haut-Katanga Province')
+    (@CountryId, N'Kinshasa'),
+    (@CountryId, N'Kongo Central'),
+    (@CountryId, N'Kwango'),
+    (@CountryId, N'Kwilu Province'),
+    (@CountryId, N'Mai-Ndombe Province'),
+    (@CountryId, N'Kasaï Province'),
+    (@CountryId, N'Kasaï-Central'),
+    (@CountryId, N'Kasaï-Oriental'),
+    (@CountryId, N'Lomami Province'),
+    (@CountryId, N'Sankuru'),
+    (@CountryId, N'Maniema'),
+    (@CountryId, N'South Kivu'),
+    (@CountryId, N'North Kivu'),
+    (@CountryId, N'Ituri Province'),
+    (@CountryId, N'Haut-Uele'),
+    (@CountryId, N'Tshopo'),
+    (@CountryId, N'Bas-Uele'),
+    (@CountryId, N'Nord-Ubangi'),
+    (@CountryId, N'Mongala'),
+    (@CountryId, N'Sud-Ubangi'),
+    (@CountryId, N'Équateur'),
+    (@CountryId, N'Tshuapa'),
+    (@CountryId, N'Tanganyika Province'),
+    (@CountryId, N'Haut-Lomami'),
+    (@CountryId, N'Lualaba Province'),
+    (@CountryId, N'Haut-Katanga Province')
 GO
     
 -- Denmark
 -- Ref: https://en.wikipedia.org/wiki/Denmark#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DK'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (48, N'Hovedstaden'),
-    (48, N'Midtjylland'),
-    (48, N'Nordjylland'),
-    (48, N'Sjælland'),
-    (48, N'Syddanmark')
+    (@CountryId, N'Hovedstaden'),
+    (@CountryId, N'Midtjylland'),
+    (@CountryId, N'Nordjylland'),
+    (@CountryId, N'Sjælland'),
+    (@CountryId, N'Syddanmark')
 GO
     
 -- Faroe Islands
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_the_Faroe_Islands
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FO'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (49, N'Eysturoyar'),
-    (49, N'Norðoyar'),
-    (49, N'Sandoyar'),
-    (49, N'Streymoyar'),
-    (49, N'Suðuroyar'),
-    (49, N'Vága')
+    (@CountryId, N'Eysturoyar'),
+    (@CountryId, N'Norðoyar'),
+    (@CountryId, N'Sandoyar'),
+    (@CountryId, N'Streymoyar'),
+    (@CountryId, N'Suðuroyar'),
+    (@CountryId, N'Vága')
 GO
     
 -- Greenland
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Greenland
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GL'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (50, N'Avannaata'),
-    (50, N'Kujalleq'),
-    (50, N'Qeqertalik'),
-    (50, N'Qeqqata'),
-    (50, N'Sermersooq')
+    (@CountryId, N'Avannaata'),
+    (@CountryId, N'Kujalleq'),
+    (@CountryId, N'Qeqertalik'),
+    (@CountryId, N'Qeqqata'),
+    (@CountryId, N'Sermersooq')
 GO
     
 -- Djibouti
 -- Ref: https://en.wikipedia.org/wiki/Djibouti#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DJ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (51, N'Ali Sabieh'),
-    (51, N'Arta'),
-    (51, N'Dikhil'),
-    (51, N'Djibouti'),
-    (51, N'Obock'),
-    (51, N'Tadjourah')
+    (@CountryId, N'Ali Sabieh'),
+    (@CountryId, N'Arta'),
+    (@CountryId, N'Dikhil'),
+    (@CountryId, N'Djibouti'),
+    (@CountryId, N'Obock'),
+    (@CountryId, N'Tadjourah')
 GO
     
 -- Dominica
 -- Ref: https://en.wikipedia.org/wiki/Dominica#Government_and_administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DM'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (52, N'Saint Andrew Parish'),
-    (52, N'Saint David Parish'),
-    (52, N'Saint George Parish'),
-    (52, N'Saint John Parish'),
-    (52, N'Saint Joseph Parish'),
-    (52, N'Saint Luke Parish'),
-    (52, N'Saint Mark Parish'),
-    (52, N'Saint Patrick Parish'),
-    (52, N'Saint Paul Parish'),
-    (52, N'Saint Peter Parish')
+    (@CountryId, N'Saint Andrew Parish'),
+    (@CountryId, N'Saint David Parish'),
+    (@CountryId, N'Saint George Parish'),
+    (@CountryId, N'Saint John Parish'),
+    (@CountryId, N'Saint Joseph Parish'),
+    (@CountryId, N'Saint Luke Parish'),
+    (@CountryId, N'Saint Mark Parish'),
+    (@CountryId, N'Saint Patrick Parish'),
+    (@CountryId, N'Saint Paul Parish'),
+    (@CountryId, N'Saint Peter Parish')
 GO
 
 -- Dominican Republic
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Dominican_Republic#Statistics
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DO'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (53, N'Azua'),
-    (53, N'Baoruco'),
-    (53, N'Barahona'),
-    (53, N'Dajabón'),
-    (53, N'Distrito Nacional'),
-    (53, N'Duarte'),
-    (53, N'El Seibo'),
-    (53, N'Elías Piña'),
-    (53, N'Espaillat'),
-    (53, N'Hato Mayor'),
-    (53, N'Hermanas Mirabal'),
-    (53, N'Independencia'),
-    (53, N'La Altagracia'),
-    (53, N'La Romana'),
-    (53, N'La Vega'),
-    (53, N'María Trinidad Sánchez'),
-    (53, N'Monseñor Nouel'),
-    (53, N'Monte Cristi'),
-    (53, N'Monte Plata'),
-    (53, N'Pedernales'),
-    (53, N'Peravia'),
-    (53, N'Puerto Plata'),
-    (53, N'Samaná'),
-    (53, N'San Cristóbal'),
-    (53, N'San José de Ocoa'),
-    (53, N'San Juan'),
-    (53, N'San Pedro de Macorís'),
-    (53, N'Sánchez Ramírez'),
-    (53, N'Santiago'),
-    (53, N'Santiago Rodríguez'),
-    (53, N'Santo Domingo'),
-    (53, N'Valverde')
+    (@CountryId, N'Azua'),
+    (@CountryId, N'Baoruco'),
+    (@CountryId, N'Barahona'),
+    (@CountryId, N'Dajabón'),
+    (@CountryId, N'Distrito Nacional'),
+    (@CountryId, N'Duarte'),
+    (@CountryId, N'El Seibo'),
+    (@CountryId, N'Elías Piña'),
+    (@CountryId, N'Espaillat'),
+    (@CountryId, N'Hato Mayor'),
+    (@CountryId, N'Hermanas Mirabal'),
+    (@CountryId, N'Independencia'),
+    (@CountryId, N'La Altagracia'),
+    (@CountryId, N'La Romana'),
+    (@CountryId, N'La Vega'),
+    (@CountryId, N'María Trinidad Sánchez'),
+    (@CountryId, N'Monseñor Nouel'),
+    (@CountryId, N'Monte Cristi'),
+    (@CountryId, N'Monte Plata'),
+    (@CountryId, N'Pedernales'),
+    (@CountryId, N'Peravia'),
+    (@CountryId, N'Puerto Plata'),
+    (@CountryId, N'Samaná'),
+    (@CountryId, N'San Cristóbal'),
+    (@CountryId, N'San José de Ocoa'),
+    (@CountryId, N'San Juan'),
+    (@CountryId, N'San Pedro de Macorís'),
+    (@CountryId, N'Sánchez Ramírez'),
+    (@CountryId, N'Santiago'),
+    (@CountryId, N'Santiago Rodríguez'),
+    (@CountryId, N'Santo Domingo'),
+    (@CountryId, N'Valverde')
 GO
 
 -- Ecuador
 -- Ref: https://en.wikipedia.org/wiki/Ecuador#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EC'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (54, N'Azuay'),
-    (54, N'Bolívar'),
-    (54, N'Cañar'),
-    (54, N'Carchi'),
-    (54, N'Chimborazo'),
-    (54, N'Cotopaxi'),
-    (54, N'El Oro'),
-    (54, N'Esmeraldas'),
-    (54, N'Galápagos'),
-    (54, N'Guayas'),
-    (54, N'Imbabura'),
-    (54, N'Loja'),
-    (54, N'Los Ríos'),
-    (54, N'Manabí'),
-    (54, N'Morona-Santiago'),
-    (54, N'Napo'),
-    (54, N'Orellana'),
-    (54, N'Pastaza'),
-    (54, N'Pichincha'),
-    (54, N'Santa Elena'),
-    (54, N'Santo Domingo de los Tsáchilas'),
-    (54, N'Sucumbíos'),
-    (54, N'Tungurahua'),
-    (54, N'Zamora-Chinchipe')
+    (@CountryId, N'Azuay'),
+    (@CountryId, N'Bolívar'),
+    (@CountryId, N'Cañar'),
+    (@CountryId, N'Carchi'),
+    (@CountryId, N'Chimborazo'),
+    (@CountryId, N'Cotopaxi'),
+    (@CountryId, N'El Oro'),
+    (@CountryId, N'Esmeraldas'),
+    (@CountryId, N'Galápagos'),
+    (@CountryId, N'Guayas'),
+    (@CountryId, N'Imbabura'),
+    (@CountryId, N'Loja'),
+    (@CountryId, N'Los Ríos'),
+    (@CountryId, N'Manabí'),
+    (@CountryId, N'Morona-Santiago'),
+    (@CountryId, N'Napo'),
+    (@CountryId, N'Orellana'),
+    (@CountryId, N'Pastaza'),
+    (@CountryId, N'Pichincha'),
+    (@CountryId, N'Santa Elena'),
+    (@CountryId, N'Santo Domingo de los Tsáchilas'),
+    (@CountryId, N'Sucumbíos'),
+    (@CountryId, N'Tungurahua'),
+    (@CountryId, N'Zamora-Chinchipe')
 GO
     
 -- Egypt
 -- Ref: https://en.wikipedia.org/wiki/Egypt#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EG'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (55, N'Matrouh'),
-    (55, N'Alexandria'),
-    (55, N'Beheira'),
-    (55, N'Kafr El Sheikh'),
-    (55, N'Dakahlia'),
-    (55, N'Damietta'),
-    (55, N'Port Said'),
-    (55, N'North Sinai'),
-    (55, N'Gharbia'),
-    (55, N'Monufia'),
-    (55, N'Qalyubia'),
-    (55, N'Sharqia'),
-    (55, N'Ismailia'),
-    (55, N'Giza'),
-    (55, N'Faiyum'),
-    (55, N'Cairo'),
-    (55, N'Suez'),
-    (55, N'South Sinai'),
-    (55, N'Beni Suef'),
-    (55, N'Minya'),
-    (55, N'New Valley'),
-    (55, N'Asyut'),
-    (55, N'Red Sea'),
-    (55, N'Sohag'),
-    (55, N'Qena'),
-    (55, N'Luxor'),
-    (55, N'Aswan')
+    (@CountryId, N'Matrouh'),
+    (@CountryId, N'Alexandria'),
+    (@CountryId, N'Beheira'),
+    (@CountryId, N'Kafr El Sheikh'),
+    (@CountryId, N'Dakahlia'),
+    (@CountryId, N'Damietta'),
+    (@CountryId, N'Port Said'),
+    (@CountryId, N'North Sinai'),
+    (@CountryId, N'Gharbia'),
+    (@CountryId, N'Monufia'),
+    (@CountryId, N'Qalyubia'),
+    (@CountryId, N'Sharqia'),
+    (@CountryId, N'Ismailia'),
+    (@CountryId, N'Giza'),
+    (@CountryId, N'Faiyum'),
+    (@CountryId, N'Cairo'),
+    (@CountryId, N'Suez'),
+    (@CountryId, N'South Sinai'),
+    (@CountryId, N'Beni Suef'),
+    (@CountryId, N'Minya'),
+    (@CountryId, N'New Valley'),
+    (@CountryId, N'Asyut'),
+    (@CountryId, N'Red Sea'),
+    (@CountryId, N'Sohag'),
+    (@CountryId, N'Qena'),
+    (@CountryId, N'Luxor'),
+    (@CountryId, N'Aswan')
 GO
 
 -- El Salvador
 -- Ref: https://en.wikipedia.org/wiki/Departments_of_El_Salvador
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SV'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (56, N'Ahuachapán'),
-    (56, N'Cabañas'),
-    (56, N'Chalatenango'),
-    (56, N'Cuscatlán'),
-    (56, N'La Libertad'),
-    (56, N'La Paz'),
-    (56, N'La Unión'),
-    (56, N'Morazán'),
-    (56, N'San Miguel'),
-    (56, N'San Salvador'),
-    (56, N'San Vicente'),
-    (56, N'Santa Ana'),
-    (56, N'Sonsonate'),
-    (56, N'Usulután')
+    (@CountryId, N'Ahuachapán'),
+    (@CountryId, N'Cabañas'),
+    (@CountryId, N'Chalatenango'),
+    (@CountryId, N'Cuscatlán'),
+    (@CountryId, N'La Libertad'),
+    (@CountryId, N'La Paz'),
+    (@CountryId, N'La Unión'),
+    (@CountryId, N'Morazán'),
+    (@CountryId, N'San Miguel'),
+    (@CountryId, N'San Salvador'),
+    (@CountryId, N'San Vicente'),
+    (@CountryId, N'Santa Ana'),
+    (@CountryId, N'Sonsonate'),
+    (@CountryId, N'Usulután')
 GO
 
 -- Equatorial Guinea
 -- Ref: https://en.wikipedia.org/wiki/Equatorial_Guinea#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GQ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (57, N'Djibloho'),
-    (57, N'Annobón'),
-    (57, N'Bioko Norte'),
-    (57, N'Bioko Sur'),
-    (57, N'Centro Sur'),
-    (57, N'Kié-Ntem'),
-    (57, N'Litoral'),
-    (57, N'Wele-Nzas')
+    (@CountryId, N'Djibloho'),
+    (@CountryId, N'Annobón'),
+    (@CountryId, N'Bioko Norte'),
+    (@CountryId, N'Bioko Sur'),
+    (@CountryId, N'Centro Sur'),
+    (@CountryId, N'Kié-Ntem'),
+    (@CountryId, N'Litoral'),
+    (@CountryId, N'Wele-Nzas')
 GO
     
 -- Eritrea
 -- Ref: https://en.wikipedia.org/wiki/Eritrea#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ER'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (58, N'Central'),
-    (58, N'Anseba'),
-    (58, N'Gash-Barka'),
-    (58, N'Southern'),
-    (58, N'Northern Red Sea'),
-    (58, N'Southern Red Sea')
+    (@CountryId, N'Central'),
+    (@CountryId, N'Anseba'),
+    (@CountryId, N'Gash-Barka'),
+    (@CountryId, N'Southern'),
+    (@CountryId, N'Northern Red Sea'),
+    (@CountryId, N'Southern Red Sea')
 GO
     
 -- Estonia
 -- Ref: https://en.wikipedia.org/wiki/Counties_of_Estonia#List_of_counties
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EE'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (59, N'Harju'),
-    (59, N'Hiiu'),
-    (59, N'Ida-Viru'),
-    (59, N'Jõgeva'),
-    (59, N'Järva'),
-    (59, N'Lääne'),
-    (59, N'Lääne-Viru'),
-    (59, N'Põlva'),
-    (59, N'Pärnu'),
-    (59, N'Rapla'),
-    (59, N'Saare'),
-    (59, N'Tartu'),
-    (59, N'Valga'),
-    (59, N'Viljandi'),
-    (59, N'Võru')
+    (@CountryId, N'Harju'),
+    (@CountryId, N'Hiiu'),
+    (@CountryId, N'Ida-Viru'),
+    (@CountryId, N'Jõgeva'),
+    (@CountryId, N'Järva'),
+    (@CountryId, N'Lääne'),
+    (@CountryId, N'Lääne-Viru'),
+    (@CountryId, N'Põlva'),
+    (@CountryId, N'Pärnu'),
+    (@CountryId, N'Rapla'),
+    (@CountryId, N'Saare'),
+    (@CountryId, N'Tartu'),
+    (@CountryId, N'Valga'),
+    (@CountryId, N'Viljandi'),
+    (@CountryId, N'Võru')
 GO
 
 -- Ethiopia
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Ethiopia
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ET'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (60, N'Addis Ababa'),
-    (60, N'Afar'),
-    (60, N'Amhara'),
-    (60, N'Benishangul-Gumuz'),
-    (60, N'Dire Dawa'),
-    (60, N'Gambela'),
-    (60, N'Harari'),
-    (60, N'Oromia'),
-    (60, N'Somali'),
-    (60, N'Southern Nations, Nationalities, and Peoples'' Region'),
-    (60, N'Tigray')
+    (@CountryId, N'Addis Ababa'),
+    (@CountryId, N'Afar'),
+    (@CountryId, N'Amhara'),
+    (@CountryId, N'Benishangul-Gumuz'),
+    (@CountryId, N'Dire Dawa'),
+    (@CountryId, N'Gambela'),
+    (@CountryId, N'Harari'),
+    (@CountryId, N'Oromia'),
+    (@CountryId, N'Somali'),
+    (@CountryId, N'Southern Nations, Nationalities, and Peoples'' Region'),
+    (@CountryId, N'Tigray')
 GO
     
 -- Swaziland
 -- Ref: https://en.wikipedia.org/wiki/Swaziland#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SZ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (61, N'Hhohho'),
-    (61, N'Lubombo'),
-    (61, N'Manzini'),
-    (61, N'Shiselweni')
+    (@CountryId, N'Hhohho'),
+    (@CountryId, N'Lubombo'),
+    (@CountryId, N'Manzini'),
+    (@CountryId, N'Shiselweni')
 GO
     
 -- Fiji
 -- Ref: https://en.wikipedia.org/wiki/Fiji#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FJ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (62, N'Central Division'),
-    (62, N'Eastern Division'),
-    (62, N'Northern Division'),
-    (62, N'Western Division')
+    (@CountryId, N'Central Division'),
+    (@CountryId, N'Eastern Division'),
+    (@CountryId, N'Northern Division'),
+    (@CountryId, N'Western Division')
 GO
     
 -- Finland
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Finland
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FI'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (63, N'Lapland'),
-    (63, N'Northern Ostrobothnia'),
-    (63, N'Kainuu'),
-    (63, N'North Karelia'),
-    (63, N'Northern Savonia'),
-    (63, N'Southern Savonia'),
-    (63, N'Southern Ostrobothnia'),
-    (63, N'Central Ostrobothnia'),
-    (63, N'Ostrobothnia'),
-    (63, N'Pirkanmaa'),
-    (63, N'Central Finland'),
-    (63, N'Satakunta'),
-    (63, N'Southwest Finland'),
-    (63, N'South Karelia'),
-    (63, N'Päijänne Tavastia'),
-    (63, N'Tavastia Proper'),
-    (63, N'Uusimaa'),
-    (63, N'Kymenlaakso'),
-    (63, N'Åland Islands')
+    (@CountryId, N'Lapland'),
+    (@CountryId, N'Northern Ostrobothnia'),
+    (@CountryId, N'Kainuu'),
+    (@CountryId, N'North Karelia'),
+    (@CountryId, N'Northern Savonia'),
+    (@CountryId, N'Southern Savonia'),
+    (@CountryId, N'Southern Ostrobothnia'),
+    (@CountryId, N'Central Ostrobothnia'),
+    (@CountryId, N'Ostrobothnia'),
+    (@CountryId, N'Pirkanmaa'),
+    (@CountryId, N'Central Finland'),
+    (@CountryId, N'Satakunta'),
+    (@CountryId, N'Southwest Finland'),
+    (@CountryId, N'South Karelia'),
+    (@CountryId, N'Päijänne Tavastia'),
+    (@CountryId, N'Tavastia Proper'),
+    (@CountryId, N'Uusimaa'),
+    (@CountryId, N'Kymenlaakso'),
+    (@CountryId, N'Åland Islands')
 GO
 
 -- France
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_France#Regions_and_their_capitals
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (64, N'Grand Est'),
-    (64, N'Nouvelle-Aquitaine'),
-    (64, N'Auvergne-Rhône-Alpes'),
-    (64, N'Bourgogne-Franche-Comté'),
-    (64, N'Brittany'),
-    (64, N'Centre-Val de Loire'),
-    (64, N'Île-de-France'),
-    (64, N'Occitanie'),
-    (64, N'Hauts-de-France'),
-    (64, N'Normandy'),
-    (64, N'Pays de la Loire'),
-    (64, N'Provence-Alpes-Côte d''Azur'),
-    (64, N'Corsica'),
-    (64, N'French Guiana'),
-    (64, N'Guadeloupe'),
-    (64, N'Martinique'),
-    (64, N'Mayotte'),
-    (64, N'Réunion')
+    (@CountryId, N'Grand Est'),
+    (@CountryId, N'Nouvelle-Aquitaine'),
+    (@CountryId, N'Auvergne-Rhône-Alpes'),
+    (@CountryId, N'Bourgogne-Franche-Comté'),
+    (@CountryId, N'Brittany'),
+    (@CountryId, N'Centre-Val de Loire'),
+    (@CountryId, N'Île-de-France'),
+    (@CountryId, N'Occitanie'),
+    (@CountryId, N'Hauts-de-France'),
+    (@CountryId, N'Normandy'),
+    (@CountryId, N'Pays de la Loire'),
+    (@CountryId, N'Provence-Alpes-Côte d''Azur'),
+    (@CountryId, N'Corsica'),
+    (@CountryId, N'French Guiana'),
+    (@CountryId, N'Guadeloupe'),
+    (@CountryId, N'Martinique'),
+    (@CountryId, N'Mayotte'),
+    (@CountryId, N'Réunion')
 GO
     
 -- Gabon
 -- Ref: https://en.wikipedia.org/wiki/Gabon#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GA'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (65, N'Estuaire'),
-    (65, N'Haut-Ogooué'),
-    (65, N'Moyen-Ogooué'),
-    (65, N'Ngounié'),
-    (65, N'Nyanga'),
-    (65, N'Ogooué-Ivindo'),
-    (65, N'Ogooué-Lolo'),
-    (65, N'Ogooué-Maritime'),
-    (65, N'Woleu-Ntem')
+    (@CountryId, N'Estuaire'),
+    (@CountryId, N'Haut-Ogooué'),
+    (@CountryId, N'Moyen-Ogooué'),
+    (@CountryId, N'Ngounié'),
+    (@CountryId, N'Nyanga'),
+    (@CountryId, N'Ogooué-Ivindo'),
+    (@CountryId, N'Ogooué-Lolo'),
+    (@CountryId, N'Ogooué-Maritime'),
+    (@CountryId, N'Woleu-Ntem')
 GO
     
 -- The Gambia
 -- Ref: https://en.wikipedia.org/wiki/The_Gambia#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GM'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (66, N'Banjul'),
-    (66, N'Kanifing'),
-    (66, N'Brikama'),
-    (66, N'Mansa Konko'),
-    (66, N'Kerewan'),
-    (66, N'Kuntaur'),
-    (66, N'Janjanbureh'),
-    (66, N'Basse')
+    (@CountryId, N'Banjul'),
+    (@CountryId, N'Kanifing'),
+    (@CountryId, N'Brikama'),
+    (@CountryId, N'Mansa Konko'),
+    (@CountryId, N'Kerewan'),
+    (@CountryId, N'Kuntaur'),
+    (@CountryId, N'Janjanbureh'),
+    (@CountryId, N'Basse')
 GO
 
 -- Georgia
 -- Ref: https://en.wikipedia.org/wiki/Georgia_(country)#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GE'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (67, N'Abkhazia'),
-    (67, N'Adjara'),
-    (67, N'Guria'),
-    (67, N'Imereti'),
-    (67, N'Kakheti'),
-    (67, N'Kvemo Kartli'),
-    (67, N'Mtskheta-Mtianeti'),
-    (67, N'Racha-Lechkhumi and Kvemo Svaneti'),
-    (67, N'Samegrelo-Zemo Svaneti'),
-    (67, N'Samtskhe-Javakheti'),
-    (67, N'Shida Kartli'),
-    (67, N'Tbilisi')
+    (@CountryId, N'Abkhazia'),
+    (@CountryId, N'Adjara'),
+    (@CountryId, N'Guria'),
+    (@CountryId, N'Imereti'),
+    (@CountryId, N'Kakheti'),
+    (@CountryId, N'Kvemo Kartli'),
+    (@CountryId, N'Mtskheta-Mtianeti'),
+    (@CountryId, N'Racha-Lechkhumi and Kvemo Svaneti'),
+    (@CountryId, N'Samegrelo-Zemo Svaneti'),
+    (@CountryId, N'Samtskhe-Javakheti'),
+    (@CountryId, N'Shida Kartli'),
+    (@CountryId, N'Tbilisi')
 GO
 
 -- Germany
 -- Ref: https://en.wikipedia.org/wiki/States_of_Germany#List
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DE'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (68, N'Baden-Württemberg'),
-    (68, N'Bavaria'),
-    (68, N'Berlin'),
-    (68, N'Brandenburg'),
-    (68, N'Bremen'),
-    (68, N'Hamburg'),
-    (68, N'Hesse'),
-    (68, N'Lower Saxony'),
-    (68, N'Mecklenburg-Vorpommern'),
-    (68, N'North Rhine-Westphalia'),
-    (68, N'Rhineland-Palatinate'),
-    (68, N'Saarland'),
-    (68, N'Saxony'),
-    (68, N'Saxony-Anhalt'),
-    (68, N'Schleswig-Holstein'),
-    (68, N'Thuringia')
+    (@CountryId, N'Baden-Württemberg'),
+    (@CountryId, N'Bavaria'),
+    (@CountryId, N'Berlin'),
+    (@CountryId, N'Brandenburg'),
+    (@CountryId, N'Bremen'),
+    (@CountryId, N'Hamburg'),
+    (@CountryId, N'Hesse'),
+    (@CountryId, N'Lower Saxony'),
+    (@CountryId, N'Mecklenburg-Vorpommern'),
+    (@CountryId, N'North Rhine-Westphalia'),
+    (@CountryId, N'Rhineland-Palatinate'),
+    (@CountryId, N'Saarland'),
+    (@CountryId, N'Saxony'),
+    (@CountryId, N'Saxony-Anhalt'),
+    (@CountryId, N'Schleswig-Holstein'),
+    (@CountryId, N'Thuringia')
 GO
 
 -- Ghana
 -- Ref: https://en.wikipedia.org/wiki/Ghana#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GH'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (69, N'Ashanti Region'),
-    (69, N'Brong-Ahafo Region'),
-    (69, N'Central Region'),
-    (69, N'Eastern Region'),
-    (69, N'Greater Accra Region'),
-    (69, N'Northern Region'),
-    (69, N'Upper East Region'),
-    (69, N'Upper West Region'),
-    (69, N'Volta Region'),
-    (69, N'Western Region')
+    (@CountryId, N'Ashanti Region'),
+    (@CountryId, N'Brong-Ahafo Region'),
+    (@CountryId, N'Central Region'),
+    (@CountryId, N'Eastern Region'),
+    (@CountryId, N'Greater Accra Region'),
+    (@CountryId, N'Northern Region'),
+    (@CountryId, N'Upper East Region'),
+    (@CountryId, N'Upper West Region'),
+    (@CountryId, N'Volta Region'),
+    (@CountryId, N'Western Region')
 GO
 
 -- Greece
 -- Ref: https://en.wikipedia.org/wiki/Greece#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (70, N'Attica'),
-    (70, N'Central Greece'),
-    (70, N'Central Macedonia'),
-    (70, N'Crete'),
-    (70, N'East Macedonia and Thrace'),
-    (70, N'Epirus'),
-    (70, N'Ionian Islands'),
-    (70, N'North Aegean'),
-    (70, N'Peloponnese'),
-    (70, N'South Aegean'),
-    (70, N'Thessaly'),
-    (70, N'West Greece'),
-    (70, N'West Macedonia'),
-    (70, N'Mount Athos')
+    (@CountryId, N'Attica'),
+    (@CountryId, N'Central Greece'),
+    (@CountryId, N'Central Macedonia'),
+    (@CountryId, N'Crete'),
+    (@CountryId, N'East Macedonia and Thrace'),
+    (@CountryId, N'Epirus'),
+    (@CountryId, N'Ionian Islands'),
+    (@CountryId, N'North Aegean'),
+    (@CountryId, N'Peloponnese'),
+    (@CountryId, N'South Aegean'),
+    (@CountryId, N'Thessaly'),
+    (@CountryId, N'West Greece'),
+    (@CountryId, N'West Macedonia'),
+    (@CountryId, N'Mount Athos')
 GO
     
 -- Grenada
 -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Grenada
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GD'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (71, N'Saint Andrew'),
-    (71, N'Saint David'),
-    (71, N'Saint George'),
-    (71, N'Saint John'),
-    (71, N'Saint Mark'),
-    (71, N'Saint Patrick'),
-    (71, N'Carriacou'),
-    (71, N'Petite Martinique'),
-    (71, N'Grenada')
+    (@CountryId, N'Saint Andrew'),
+    (@CountryId, N'Saint David'),
+    (@CountryId, N'Saint George'),
+    (@CountryId, N'Saint John'),
+    (@CountryId, N'Saint Mark'),
+    (@CountryId, N'Saint Patrick'),
+    (@CountryId, N'Carriacou'),
+    (@CountryId, N'Petite Martinique'),
+    (@CountryId, N'Grenada')
 GO
     
 -- Guatemala
 -- Ref: https://en.wikipedia.org/wiki/Departments_of_Guatemala
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GT'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (72, N'Alta Verapaz'),
-    (72, N'Baja Verapaz'),
-    (72, N'Chimaltenango'),
-    (72, N'Chiquimula'),
-    (72, N'El Progreso'),
-    (72, N'Escuintla'),
-    (72, N'Guatemala'),
-    (72, N'Huehuetenango'),
-    (72, N'Izabal'),
-    (72, N'Jalapa'),
-    (72, N'Jutiapa'),
-    (72, N'Petén'),
-    (72, N'Quetzaltenango'),
-    (72, N'Quiché'),
-    (72, N'Retalhuleu'),
-    (72, N'Sacatepéquez'),
-    (72, N'San Marcos'),
-    (72, N'Santa Rosa'),
-    (72, N'Sololá'),
-    (72, N'Suchitepéquez'),
-    (72, N'Totonicapán'),
-    (72, N'Zacapa')
+    (@CountryId, N'Alta Verapaz'),
+    (@CountryId, N'Baja Verapaz'),
+    (@CountryId, N'Chimaltenango'),
+    (@CountryId, N'Chiquimula'),
+    (@CountryId, N'El Progreso'),
+    (@CountryId, N'Escuintla'),
+    (@CountryId, N'Guatemala'),
+    (@CountryId, N'Huehuetenango'),
+    (@CountryId, N'Izabal'),
+    (@CountryId, N'Jalapa'),
+    (@CountryId, N'Jutiapa'),
+    (@CountryId, N'Petén'),
+    (@CountryId, N'Quetzaltenango'),
+    (@CountryId, N'Quiché'),
+    (@CountryId, N'Retalhuleu'),
+    (@CountryId, N'Sacatepéquez'),
+    (@CountryId, N'San Marcos'),
+    (@CountryId, N'Santa Rosa'),
+    (@CountryId, N'Sololá'),
+    (@CountryId, N'Suchitepéquez'),
+    (@CountryId, N'Totonicapán'),
+    (@CountryId, N'Zacapa')
 GO
 
 -- Guinea
 -- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Guinea#Government_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GN'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (73, N'Conakry Region'),
-    (73, N'Nzérékoré Region'),
-    (73, N'Kankan Region'),
-    (73, N'Kindia Region'),
-    (73, N'Boké Region'),
-    (73, N'Labé Region'),
-    (73, N'Faranah Region'),
-    (73, N'Mamou Region')
+    (@CountryId, N'Conakry Region'),
+    (@CountryId, N'Nzérékoré Region'),
+    (@CountryId, N'Kankan Region'),
+    (@CountryId, N'Kindia Region'),
+    (@CountryId, N'Boké Region'),
+    (@CountryId, N'Labé Region'),
+    (@CountryId, N'Faranah Region'),
+    (@CountryId, N'Mamou Region')
 GO
     
 -- Guinea-Bissau
 -- Ref: https://en.wikipedia.org/wiki/Guinea-Bissau#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GW'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (74, N'Bafatá'),
-    (74, N'Biombo'),
-    (74, N'Bissau'),
-    (74, N'Bolama'),
-    (74, N'Cacheu'),
-    (74, N'Gabu'),
-    (74, N'Oio'),
-    (74, N'Quinara'),
-    (74, N'Tombali')
+    (@CountryId, N'Bafatá'),
+    (@CountryId, N'Biombo'),
+    (@CountryId, N'Bissau'),
+    (@CountryId, N'Bolama'),
+    (@CountryId, N'Cacheu'),
+    (@CountryId, N'Gabu'),
+    (@CountryId, N'Oio'),
+    (@CountryId, N'Quinara'),
+    (@CountryId, N'Tombali')
 GO
     
 -- Guyana
 -- Ref: https://en.wikipedia.org/wiki/Guyana#Regions_and_Neighbourhood_Councils
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GY'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (75, N'Barima-Waini'),
-    (75, N'Pomeroon-Supenaam'),
-    (75, N'Essequibo Islands-West Demerara'),
-    (75, N'Demerara-Mahaica'),
-    (75, N'Mahaica-Berbice'),
-    (75, N'East Berbice-Corentyne'),
-    (75, N'Cuyuni-Mazaruni'),
-    (75, N'Potaro-Siparuni'),
-    (75, N'Upper Takutu-Upper Essequibo'),
-    (75, N'Upper Demerara-Berbice')
+    (@CountryId, N'Barima-Waini'),
+    (@CountryId, N'Pomeroon-Supenaam'),
+    (@CountryId, N'Essequibo Islands-West Demerara'),
+    (@CountryId, N'Demerara-Mahaica'),
+    (@CountryId, N'Mahaica-Berbice'),
+    (@CountryId, N'East Berbice-Corentyne'),
+    (@CountryId, N'Cuyuni-Mazaruni'),
+    (@CountryId, N'Potaro-Siparuni'),
+    (@CountryId, N'Upper Takutu-Upper Essequibo'),
+    (@CountryId, N'Upper Demerara-Berbice')
 GO
     
 -- Haiti
 -- Ref: https://en.wikipedia.org/wiki/Haiti#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HT'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (76, N'Nord-Ouest'),
-    (76, N'Nord'),
-    (76, N'Nord-Est'),
-    (76, N'Artibonite'),
-    (76, N'Centre'),
-    (76, N'Ouest'),
-    (76, N'Grand''Anse'),
-    (76, N'Nippes'),
-    (76, N'Sud'),
-    (76, N'Sud-Est')
+    (@CountryId, N'Nord-Ouest'),
+    (@CountryId, N'Nord'),
+    (@CountryId, N'Nord-Est'),
+    (@CountryId, N'Artibonite'),
+    (@CountryId, N'Centre'),
+    (@CountryId, N'Ouest'),
+    (@CountryId, N'Grand''Anse'),
+    (@CountryId, N'Nippes'),
+    (@CountryId, N'Sud'),
+    (@CountryId, N'Sud-Est')
 GO
 
 -- Honduras
 -- Ref: https://en.wikipedia.org/wiki/Honduras#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HN'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (77, N'Atlántida'),
-    (77, N'Choluteca'),
-    (77, N'Colón'),
-    (77, N'Comayagua'),
-    (77, N'Copán'),
-    (77, N'Cortés'),
-    (77, N'El Paraíso'),
-    (77, N'Francisco Morazán'),
-    (77, N'Gracias a Dios'),
-    (77, N'Intibucá'),
-    (77, N'Islas de la Bahía'),
-    (77, N'La Paz'),
-    (77, N'Lempira'),
-    (77, N'Ocotepeque'),
-    (77, N'Olancho'),
-    (77, N'Santa Bárbara'),
-    (77, N'Valle'),
-    (77, N'Yoro')
+    (@CountryId, N'Atlántida'),
+    (@CountryId, N'Choluteca'),
+    (@CountryId, N'Colón'),
+    (@CountryId, N'Comayagua'),
+    (@CountryId, N'Copán'),
+    (@CountryId, N'Cortés'),
+    (@CountryId, N'El Paraíso'),
+    (@CountryId, N'Francisco Morazán'),
+    (@CountryId, N'Gracias a Dios'),
+    (@CountryId, N'Intibucá'),
+    (@CountryId, N'Islas de la Bahía'),
+    (@CountryId, N'La Paz'),
+    (@CountryId, N'Lempira'),
+    (@CountryId, N'Ocotepeque'),
+    (@CountryId, N'Olancho'),
+    (@CountryId, N'Santa Bárbara'),
+    (@CountryId, N'Valle'),
+    (@CountryId, N'Yoro')
 GO
     
 -- Hungary
 -- Ref: https://en.wikipedia.org/wiki/Hungary#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HU'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (78, N'Bács-Kiskun'),
-    (78, N'Baranya'),
-    (78, N'Békés'),
-    (78, N'Borsod-Abaúj-Zemplén'),
-    (78, N'Capital City of Budapest'),
-    (78, N'Csongrád'),
-    (78, N'Fejér'),
-    (78, N'Győr-Moson-Sopron'),
-    (78, N'Hajdú-Bihar'),
-    (78, N'Heves'),
-    (78, N'Jász-Nagykun-Szolnok'),
-    (78, N'Komárom-Esztergom'),
-    (78, N'Nógrád'),
-    (78, N'Pest'),
-    (78, N'Somogy'),
-    (78, N'Szabolcs-Szatmár-Bereg'),
-    (78, N'Tolna'),
-    (78, N'Vas'),
-    (78, N'Veszprém'),
-    (78, N'Zala')
+    (@CountryId, N'Bács-Kiskun'),
+    (@CountryId, N'Baranya'),
+    (@CountryId, N'Békés'),
+    (@CountryId, N'Borsod-Abaúj-Zemplén'),
+    (@CountryId, N'Capital City of Budapest'),
+    (@CountryId, N'Csongrád'),
+    (@CountryId, N'Fejér'),
+    (@CountryId, N'Győr-Moson-Sopron'),
+    (@CountryId, N'Hajdú-Bihar'),
+    (@CountryId, N'Heves'),
+    (@CountryId, N'Jász-Nagykun-Szolnok'),
+    (@CountryId, N'Komárom-Esztergom'),
+    (@CountryId, N'Nógrád'),
+    (@CountryId, N'Pest'),
+    (@CountryId, N'Somogy'),
+    (@CountryId, N'Szabolcs-Szatmár-Bereg'),
+    (@CountryId, N'Tolna'),
+    (@CountryId, N'Vas'),
+    (@CountryId, N'Veszprém'),
+    (@CountryId, N'Zala')
 GO
     
 -- Iceland
 -- Ref: https://en.wikipedia.org/wiki/Constituencies_of_Iceland
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IS'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (79, N'Reykjavík North'),
-    (79, N'Reykjavík South'),
-    (79, N'Northwest Constituency'),
-    (79, N'Northeast Constituency'),
-    (79, N'South Constituency'),
-    (79, N'Southwest Constituency')
+    (@CountryId, N'Reykjavík North'),
+    (@CountryId, N'Reykjavík South'),
+    (@CountryId, N'Northwest Constituency'),
+    (@CountryId, N'Northeast Constituency'),
+    (@CountryId, N'South Constituency'),
+    (@CountryId, N'Southwest Constituency')
 GO
     
 -- India
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_India#States_and_union_territories
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IN'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (80, N'Andhra Pradesh'),
-    (80, N'Arunachal Pradesh'),
-    (80, N'Assam'),
-    (80, N'Bihar'),
-    (80, N'Chhattisgarh'),
-    (80, N'Goa'),
-    (80, N'Gujarat'),
-    (80, N'Haryana'),
-    (80, N'Himachal Pradesh'),
-    (80, N'Jammu and Kashmir'),
-    (80, N'Jharkhand'),
-    (80, N'Karnataka'),
-    (80, N'Kerala'),
-    (80, N'Madhya Pradesh'),
-    (80, N'Maharashtra'),
-    (80, N'Manipur'),
-    (80, N'Meghalaya'),
-    (80, N'Mizoram'),
-    (80, N'Nagaland'),
-    (80, N'Odisha'),
-    (80, N'Punjab'),
-    (80, N'Rajasthan'),
-    (80, N'Sikkim'),
-    (80, N'Tamil Nadu'),
-    (80, N'Telangana'),
-    (80, N'Tripura'),
-    (80, N'Uttar Pradesh'),
-    (80, N'Uttarakhand'),
-    (80, N'West Bengal'),
-    (80, N'Andaman and Nicobar Islands'),
-    (80, N'Chandigarh'),
-    (80, N'Dadra and Nagar Haveli'),
-    (80, N'Daman and Diu'),
-    (80, N'Lakshadweep'),
-    (80, N'Delhi'),
-    (80, N'Puducherry')
+    (@CountryId, N'Andhra Pradesh'),
+    (@CountryId, N'Arunachal Pradesh'),
+    (@CountryId, N'Assam'),
+    (@CountryId, N'Bihar'),
+    (@CountryId, N'Chhattisgarh'),
+    (@CountryId, N'Goa'),
+    (@CountryId, N'Gujarat'),
+    (@CountryId, N'Haryana'),
+    (@CountryId, N'Himachal Pradesh'),
+    (@CountryId, N'Jammu and Kashmir'),
+    (@CountryId, N'Jharkhand'),
+    (@CountryId, N'Karnataka'),
+    (@CountryId, N'Kerala'),
+    (@CountryId, N'Madhya Pradesh'),
+    (@CountryId, N'Maharashtra'),
+    (@CountryId, N'Manipur'),
+    (@CountryId, N'Meghalaya'),
+    (@CountryId, N'Mizoram'),
+    (@CountryId, N'Nagaland'),
+    (@CountryId, N'Odisha'),
+    (@CountryId, N'Punjab'),
+    (@CountryId, N'Rajasthan'),
+    (@CountryId, N'Sikkim'),
+    (@CountryId, N'Tamil Nadu'),
+    (@CountryId, N'Telangana'),
+    (@CountryId, N'Tripura'),
+    (@CountryId, N'Uttar Pradesh'),
+    (@CountryId, N'Uttarakhand'),
+    (@CountryId, N'West Bengal'),
+    (@CountryId, N'Andaman and Nicobar Islands'),
+    (@CountryId, N'Chandigarh'),
+    (@CountryId, N'Dadra and Nagar Haveli'),
+    (@CountryId, N'Daman and Diu'),
+    (@CountryId, N'Lakshadweep'),
+    (@CountryId, N'Delhi'),
+    (@CountryId, N'Puducherry')
 GO
 
 -- Indonesia
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Indonesia#Table_of_provinces
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ID'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (81, N'Aceh'),
-    (81, N'Bali'),
-    (81, N'Bangka Belitung Islands'),
-    (81, N'Banten'),
-    (81, N'Bengkulu'),
-    (81, N'Central Java'),
-    (81, N'Central Kalimantan'),
-    (81, N'Central Sulawesi'),
-    (81, N'East Java'),
-    (81, N'East Kalimantan'),
-    (81, N'East Nusa Tenggara'),
-    (81, N'Gorontalo'),
-    (81, N'Jakarta Special Capital Region'),
-    (81, N'Jambi'),
-    (81, N'Lampung'),
-    (81, N'Maluku'),
-    (81, N'North Kalimantan'),
-    (81, N'North Maluku'),
-    (81, N'North Sulawesi'),
-    (81, N'North Sumatra'),
-    (81, N'Special Region of Papua'),
-    (81, N'Riau'),
-    (81, N'Riau Islands'),
-    (81, N'South Kalimantan'),
-    (81, N'South Sulawesi'),
-    (81, N'South Sumatra'),
-    (81, N'Southeast Sulawesi'),
-    (81, N'West Java'),
-    (81, N'West Kalimantan'),
-    (81, N'West Nusa Tenggara'),
-    (81, N'Special Region of West Papua'),
-    (81, N'West Sulawesi'),
-    (81, N'West Sumatra'),
-    (81, N'Special Region of Yogyakarta')
+    (@CountryId, N'Aceh'),
+    (@CountryId, N'Bali'),
+    (@CountryId, N'Bangka Belitung Islands'),
+    (@CountryId, N'Banten'),
+    (@CountryId, N'Bengkulu'),
+    (@CountryId, N'Central Java'),
+    (@CountryId, N'Central Kalimantan'),
+    (@CountryId, N'Central Sulawesi'),
+    (@CountryId, N'East Java'),
+    (@CountryId, N'East Kalimantan'),
+    (@CountryId, N'East Nusa Tenggara'),
+    (@CountryId, N'Gorontalo'),
+    (@CountryId, N'Jakarta Special Capital Region'),
+    (@CountryId, N'Jambi'),
+    (@CountryId, N'Lampung'),
+    (@CountryId, N'Maluku'),
+    (@CountryId, N'North Kalimantan'),
+    (@CountryId, N'North Maluku'),
+    (@CountryId, N'North Sulawesi'),
+    (@CountryId, N'North Sumatra'),
+    (@CountryId, N'Special Region of Papua'),
+    (@CountryId, N'Riau'),
+    (@CountryId, N'Riau Islands'),
+    (@CountryId, N'South Kalimantan'),
+    (@CountryId, N'South Sulawesi'),
+    (@CountryId, N'South Sumatra'),
+    (@CountryId, N'Southeast Sulawesi'),
+    (@CountryId, N'West Java'),
+    (@CountryId, N'West Kalimantan'),
+    (@CountryId, N'West Nusa Tenggara'),
+    (@CountryId, N'Special Region of West Papua'),
+    (@CountryId, N'West Sulawesi'),
+    (@CountryId, N'West Sumatra'),
+    (@CountryId, N'Special Region of Yogyakarta')
 GO
 
 -- Iran
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Iran#Current_administrative_regions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IR'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (82, N'Tehran'),
-    (82, N'Isfahan'),
-    (82, N'Tabriz'),
-    (82, N'Kermanshah'),
-    (82, N'Mashhad')
+    (@CountryId, N'Tehran'),
+    (@CountryId, N'Isfahan'),
+    (@CountryId, N'Tabriz'),
+    (@CountryId, N'Kermanshah'),
+    (@CountryId, N'Mashhad')
 GO
     
 -- Iraq
 -- Ref: https://en.wikipedia.org/wiki/Iraq#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IQ'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (83, N'Dohuk'),
-    (83, N'Nineveh'),
-    (83, N'Erbil'),
-    (83, N'Kirkuk'),
-    (83, N'Sulaymaniyah'),
-    (83, N'Saladin'),
-    (83, N'Al Anbar'),
-    (83, N'Baghdad'),
-    (83, N'Diyala'),
-    (83, N'Karbala'),
-    (83, N'Babil'),
-    (83, N'Wasit'),
-    (83, N'Najaf'),
-    (83, N'Al-Qādisiyyah'),
-    (83, N'Maysan'),
-    (83, N'Muthanna'),
-    (83, N'Dhi Qar'),
-    (83, N'Basra'),
-    (83, N'Halabja')
+    (@CountryId, N'Dohuk'),
+    (@CountryId, N'Nineveh'),
+    (@CountryId, N'Erbil'),
+    (@CountryId, N'Kirkuk'),
+    (@CountryId, N'Sulaymaniyah'),
+    (@CountryId, N'Saladin'),
+    (@CountryId, N'Al Anbar'),
+    (@CountryId, N'Baghdad'),
+    (@CountryId, N'Diyala'),
+    (@CountryId, N'Karbala'),
+    (@CountryId, N'Babil'),
+    (@CountryId, N'Wasit'),
+    (@CountryId, N'Najaf'),
+    (@CountryId, N'Al-Qādisiyyah'),
+    (@CountryId, N'Maysan'),
+    (@CountryId, N'Muthanna'),
+    (@CountryId, N'Dhi Qar'),
+    (@CountryId, N'Basra'),
+    (@CountryId, N'Halabja')
 GO
 
 -- Ireland
 -- Ref: https://en.wikipedia.org/wiki/Republic_of_Ireland#Local_government
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IE'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (84, N'Fingal'),
-    (84, N'Dublin City'),
-    (84, N'Dún Laoghaire–Rathdown'),
-    (84, N'South Dublin'),
-    (84, N'Wicklow'),
-    (84, N'Wexford'),
-    (84, N'Carlow'),
-    (84, N'Kildare'),
-    (84, N'Meath'),
-    (84, N'Louth'),
-    (84, N'Monaghan'),
-    (84, N'Cavan'),
-    (84, N'Longford'),
-    (84, N'Westmeath'),
-    (84, N'Offaly'),
-    (84, N'Laois'),
-    (84, N'Kilkenny'),
-    (84, N'Waterford'),
-    (84, N'Cork City'),
-    (84, N'Cork'),
-    (84, N'Kerry'),
-    (84, N'Limerick'),
-    (84, N'Tipperary'),
-    (84, N'Clare'),
-    (84, N'Galway'),
-    (84, N'Galway City'),
-    (84, N'Mayo'),
-    (84, N'Roscommon'),
-    (84, N'Sligo'),
-    (84, N'Leitrim'),
-    (84, N'Donegal')
+    (@CountryId, N'Fingal'),
+    (@CountryId, N'Dublin City'),
+    (@CountryId, N'Dún Laoghaire–Rathdown'),
+    (@CountryId, N'South Dublin'),
+    (@CountryId, N'Wicklow'),
+    (@CountryId, N'Wexford'),
+    (@CountryId, N'Carlow'),
+    (@CountryId, N'Kildare'),
+    (@CountryId, N'Meath'),
+    (@CountryId, N'Louth'),
+    (@CountryId, N'Monaghan'),
+    (@CountryId, N'Cavan'),
+    (@CountryId, N'Longford'),
+    (@CountryId, N'Westmeath'),
+    (@CountryId, N'Offaly'),
+    (@CountryId, N'Laois'),
+    (@CountryId, N'Kilkenny'),
+    (@CountryId, N'Waterford'),
+    (@CountryId, N'Cork City'),
+    (@CountryId, N'Cork'),
+    (@CountryId, N'Kerry'),
+    (@CountryId, N'Limerick'),
+    (@CountryId, N'Tipperary'),
+    (@CountryId, N'Clare'),
+    (@CountryId, N'Galway'),
+    (@CountryId, N'Galway City'),
+    (@CountryId, N'Mayo'),
+    (@CountryId, N'Roscommon'),
+    (@CountryId, N'Sligo'),
+    (@CountryId, N'Leitrim'),
+    (@CountryId, N'Donegal')
 GO
     
 -- Israel
 -- Ref: https://en.wikipedia.org/wiki/Israel#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IL'
+
 INSERT INTO dbo.StateMaster
     (
         CountryId,
         StateName
     )
 VALUES
-    (85, N'Jerusalem'),
-    (85, N'North'),
-    (85, N'Haifa'),
-    (85, N'Center'),
-    (85, N'Tel Aviv'),
-    (85, N'South'),
-    (85, N'Judea and Samaria')
+    (@CountryId, N'Jerusalem'),
+    (@CountryId, N'North'),
+    (@CountryId, N'Haifa'),
+    (@CountryId, N'Center'),
+    (@CountryId, N'Tel Aviv'),
+    (@CountryId, N'South'),
+    (@CountryId, N'Judea and Samaria')
 GO
     
 -- Italy
 -- Ref: https://en.wikipedia.org/wiki/Italy#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IT'
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (86, N'Abruzzo'),
-    (86, N'Aosta Valley'),
-    (86, N'Apulia'),
-    (86, N'Basilicata'),
-    (86, N'Calabria'),
-    (86, N'Campania'),
-    (86, N'Emilia-Romagna'),
-    (86, N'Friuli-Venezia Giulia'),
-    (86, N'Lazio'),
-    (86, N'Liguria'),
-    (86, N'Lombardy'),
-    (86, N'Marche'),
-    (86, N'Molise'),
-    (86, N'Piedmont'),
-    (86, N'Sardinia'),
-    (86, N'Sicily'),
-    (86, N'Tuscany'),
-    (86, N'Trentino-Alto Adige/Südtirol'),
-    (86, N'Umbria'),
-    (86, N'Veneto')
+    (@CountryId, N'Abruzzo'),
+    (@CountryId, N'Aosta Valley'),
+    (@CountryId, N'Apulia'),
+    (@CountryId, N'Basilicata'),
+    (@CountryId, N'Calabria'),
+    (@CountryId, N'Campania'),
+    (@CountryId, N'Emilia-Romagna'),
+    (@CountryId, N'Friuli-Venezia Giulia'),
+    (@CountryId, N'Lazio'),
+    (@CountryId, N'Liguria'),
+    (@CountryId, N'Lombardy'),
+    (@CountryId, N'Marche'),
+    (@CountryId, N'Molise'),
+    (@CountryId, N'Piedmont'),
+    (@CountryId, N'Sardinia'),
+    (@CountryId, N'Sicily'),
+    (@CountryId, N'Tuscany'),
+    (@CountryId, N'Trentino-Alto Adige/Südtirol'),
+    (@CountryId, N'Umbria'),
+    (@CountryId, N'Veneto')
 GO
     
 -- Jamaica
 -- Ref: https://en.wikipedia.org/wiki/Jamaica#Administrative_divisions
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JM'
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (87, N'Hanover'),
-    (87, N'Saint Elizabeth'),
-    (87, N'Saint James'),
-    (87, N'Trelawny'),
-    (87, N'Westmoreland'),
-    (87, N'Clarendon'),
-    (87, N'Manchester'),
-    (87, N'Saint Ann'),
-    (87, N'Saint Catherine'),
-    (87, N'Saint Mary'),
-    (87, N'Kingston'),
-    (87, N'Portland'),
-    (87, N'Saint Andrew'),
-    (87, N'Saint Thomas')
+    (@CountryId, N'Hanover'),
+    (@CountryId, N'Saint Elizabeth'),
+    (@CountryId, N'Saint James'),
+    (@CountryId, N'Trelawny'),
+    (@CountryId, N'Westmoreland'),
+    (@CountryId, N'Clarendon'),
+    (@CountryId, N'Manchester'),
+    (@CountryId, N'Saint Ann'),
+    (@CountryId, N'Saint Catherine'),
+    (@CountryId, N'Saint Mary'),
+    (@CountryId, N'Kingston'),
+    (@CountryId, N'Portland'),
+    (@CountryId, N'Saint Andrew'),
+    (@CountryId, N'Saint Thomas')
 GO
     
 -- Japan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (88, N'')
+    (@CountryId, N''),
 GO
     
 -- Jordan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (89, N''),
+    (@CountryId, N''),
 GO
     
 -- Kazakhstan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (90, N''),
+    (@CountryId, N''),
 GO
     
 -- Kenya
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (91, N''),
+    (@CountryId, N''),
 GO
     
 -- Kiribati
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (92, N''),
+    (@CountryId, N''),
 GO
     
 -- Kuwait
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (93, N''),
+    (@CountryId, N''),
 GO
     
 -- Kyrgyzstan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (94, N''),
+    (@CountryId, N''),
 GO
     
 -- Laos
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (95, N''),
+    (@CountryId, N''),
 GO
     
 -- Latvia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (96, N''),
+    (@CountryId, N''),
 GO
     
 -- Lebanon
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (97, N''),
+    (@CountryId, N''),
 GO
     
 -- Lesotho
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (98, N''),
+    (@CountryId, N''),
 GO
     
 -- Liberia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (99, N''),
+    (@CountryId, N''),
 GO
     
 -- Libya
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (100, N''),
+    (@CountryId, N''),
 GO
     
 -- Liechtenstein
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (101, N''),
+    (@CountryId, N''),
 GO
     
 -- Lithuania
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (102, N''),
+    (@CountryId, N''),
 GO
     
 -- Luxembourg
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (103, N''),
+    (@CountryId, N''),
 GO
     
 -- Madagascar
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (104, N''),
+    (@CountryId, N''),
 GO
     
 -- Malawi
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (105, N''),
+    (@CountryId, N''),
 GO
     
 -- Malaysia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (106, N''),
+    (@CountryId, N''),
 GO
     
 -- Maldives
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (107, N''),
+    (@CountryId, N''),
 GO
     
 -- Mali
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (108, N''),
+    (@CountryId, N''),
 GO
     
 -- Malta
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (109, N''),
+    (@CountryId, N''),
 GO
     
 -- Marshall Islands
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (110, N''),
+    (@CountryId, N''),
 GO
     
 -- Mauritania
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (111, N''),
+    (@CountryId, N''),
 GO
     
 -- Mauritius
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (112, N''),
+    (@CountryId, N''),
 GO
     
 -- Mexico
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (113, N''),
+    (@CountryId, N''),
 GO
     
 -- Federated States of Micronesia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (114, N''),
+    (@CountryId, N''),
 GO
     
 -- Monaco
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (115, N''),
+    (@CountryId, N''),
 GO
     
 -- Mongolia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (116, N''),
+    (@CountryId, N''),
 GO
     
 -- Montenegro
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (117, N''),
+    (@CountryId, N''),
 GO
     
 -- Morocco
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (118, N''),
+    (@CountryId, N''),
 GO
     
 -- Mozambique
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (119, N''),
+    (@CountryId, N''),
 GO
     
 -- Myanmar
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (120, N''),
+    (@CountryId, N''),
 GO
     
 -- Namibia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (121, N''),
+    (@CountryId, N''),
 GO
     
 -- Nauru
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (122, N''),
+    (@CountryId, N''),
 GO
     
 -- Nepal
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (123, N''),
+    (@CountryId, N''),
 GO
     
 -- Netherlands
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (124, N''),
+    (@CountryId, N''),
 GO
     
 -- New Zealand
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (125, N''),
+    (@CountryId, N''),
 GO
     
 -- Nicaragua
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (126, N''),
+    (@CountryId, N''),
 GO
     
 -- Niger
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (127, N''),
+    (@CountryId, N''),
 GO
     
 -- Nigeria
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (128, N''),
+    (@CountryId, N''),
 GO
     
 -- Norway
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (129, N''),
+    (@CountryId, N''),
 GO
     
 -- Oman
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (130, N''),
+    (@CountryId, N''),
 GO
     
 -- Pakistan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (131, N''),
+    (@CountryId, N''),
 GO
     
 -- Palau
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (132, N''),
+    (@CountryId, N''),
 GO
     
 -- Palestine
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (133, N''),
+    (@CountryId, N''),
 GO
     
 -- Panama
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (134, N''),
+    (@CountryId, N''),
 GO
     
 -- Papua New Guinea
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (135, N''),
+    (@CountryId, N''),
 GO
     
 -- Paraguay
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (136, N''),
+    (@CountryId, N''),
 GO
     
 -- Peru
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (137, N''),
+    (@CountryId, N''),
 GO
     
 -- Philippines
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (138, N''),
+    (@CountryId, N''),
 GO
     
 -- Poland
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (139, N''),
+    (@CountryId, N''),
 GO
     
 -- Portugal
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (140, N''),
+    (@CountryId, N''),
 GO
     
 -- Qatar
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (141, N''),
+    (@CountryId, N''),
 GO
     
 -- Romania
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (142, N''),
+    (@CountryId, N''),
 GO
     
 -- Russia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (143, N''),
+    (@CountryId, N''),
 GO
     
 -- Rwanda
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (144, N''),
+    (@CountryId, N''),
 GO
     
 -- Saint Kitts and Nevis
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (145, N''),
+    (@CountryId, N''),
 GO
     
 -- Saint Lucia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (146, N''),
+    (@CountryId, N''),
 GO
     
 -- Saint Vincent
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (147, N''),
+    (@CountryId, N''),
 GO
     
 -- Samoa
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (148, N''),
+    (@CountryId, N''),
 GO
     
 -- San Marino
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (149, N''),
+    (@CountryId, N''),
 GO
     
 -- São Tomé and Príncipe
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (150, N''),
+    (@CountryId, N''),
 GO
     
 -- Saudi Arabia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (151, N''),
+    (@CountryId, N''),
 GO
     
 -- Senegal
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (152, N''),
+    (@CountryId, N''),
 GO
     
 -- Serbia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (153, N''),
+    (@CountryId, N''),
 GO
     
 -- Seychelles
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (154, N''),
+    (@CountryId, N''),
 GO
     
 -- Sierra Leone
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (155, N''),
+    (@CountryId, N''),
 GO
     
 -- Singapore
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (156, N''),
+    (@CountryId, N''),
 GO
     
 -- Slovakia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (157, N''),
+    (@CountryId, N''),
 GO
     
 -- Slovenia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (158, N''),
+    (@CountryId, N''),
 GO
     
 -- Solomon Islands
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (159, N''),
+    (@CountryId, N''),
 GO
     
 -- Somalia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (160, N''),
+    (@CountryId, N''),
 GO
     
 -- South Africa
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (161, N''),
+    (@CountryId, N''),
 GO
     
 -- South Sudan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (162, N''),
+    (@CountryId, N''),
 GO
     
 -- Spain
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (163, N''),
+    (@CountryId, N''),
 GO
     
 -- Sri Lanka
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (164, N''),
+    (@CountryId, N''),
 GO
     
 -- North Sudan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (165, N''),
+    (@CountryId, N''),
 GO
     
 -- Suriname
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (166, N''),
+    (@CountryId, N''),
 GO
     
 -- Swaziland
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (167, N''),
+    (@CountryId, N''),
 GO
     
 -- Sweden
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (168, N''),
+    (@CountryId, N''),
 GO
     
 -- Switzerland
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (169, N''),
+    (@CountryId, N''),
 GO
     
 -- Syria
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (170, N''),
+    (@CountryId, N''),
 GO
     
 -- Tajikistan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (171, N''),
+    (@CountryId, N''),
 GO
     
 -- Tanzania
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (172, N''),
+    (@CountryId, N''),
 GO
     
 -- Thailand
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (173, N''),
+    (@CountryId, N''),
 GO
     
 -- Togo
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (174, N''),
+    (@CountryId, N''),
 GO
     
 -- Tonga
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (175, N''),
+    (@CountryId, N''),
 GO
     
 -- Trinidad and Tobago
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (176, N''),
+    (@CountryId, N''),
 GO
     
 -- Tunisia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (177, N''),
+    (@CountryId, N''),
 GO
     
 -- Turkey
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (178, N''),
+    (@CountryId, N''),
 GO
     
 -- Turkmenistan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (179, N''),
+    (@CountryId, N''),
 GO
     
 -- Tuvalu
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (180, N''),
+    (@CountryId, N''),
 GO
     
 -- Uganda
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (181, N''),
+    (@CountryId, N''),
 GO
     
 -- Ukraine
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (182, N''),
+    (@CountryId, N''),
 GO
     
 -- United Arab Emirates
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (183, N''),
+    (@CountryId, N''),
 GO
     
 -- United Kingdom
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (184, N''),
+    (@CountryId, N''),
 GO
     
 -- United States
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (185, N''),
+    (@CountryId, N''),
 GO
     
 -- Uruguay
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (186, N''),
+    (@CountryId, N''),
 GO
     
 -- Uzbekistan
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (187, N''),
+    (@CountryId, N''),
 GO
     
 -- Vanuatu
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (188, N''),
+    (@CountryId, N''),
 GO
     
 -- Vatican City
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (189, N''),
+    (@CountryId, N''),
 GO
     
 -- Venezuela
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (190, N''),
+    (@CountryId, N''),
 GO
     
 -- Vietnam
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (191, N''),
+    (@CountryId, N''),
 GO
     
 -- Yemen
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (192, N''),
+    (@CountryId, N''),
 GO
     
 -- Zambia
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (193, N''),
+    (@CountryId, N''),
 GO
     
 -- Zimbabwe
 -- Ref: 
+
+DECLARE @CountryId INTO
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (194, N''),
+    (@CountryId, N''),
 GO
