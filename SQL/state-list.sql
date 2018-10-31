@@ -2203,14 +2203,27 @@ VALUES
 GO
     
 -- Jamaica
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Jamaica#Administrative_divisions
 INSERT INTO dbo.StateMaster
 (
     CountryId,
     StateName
 )
 VALUES
-    (87, N'')
+    (87, N'Hanover'),
+    (87, N'Saint Elizabeth'),
+    (87, N'Saint James'),
+    (87, N'Trelawny'),
+    (87, N'Westmoreland'),
+    (87, N'Clarendon'),
+    (87, N'Manchester'),
+    (87, N'Saint Ann'),
+    (87, N'Saint Catherine'),
+    (87, N'Saint Mary'),
+    (87, N'Kingston'),
+    (87, N'Portland'),
+    (87, N'Saint Andrew'),
+    (87, N'Saint Thomas')
 GO
     
 -- Japan
