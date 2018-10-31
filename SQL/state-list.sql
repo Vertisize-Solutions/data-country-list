@@ -2173,6 +2173,60 @@ VALUES
 GO
     
 -- Italy
+-- Ref: https://en.wikipedia.org/wiki/Italy#Administrative_divisions
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
+    (86, N'Abruzzo'),
+    (86, N'Aosta Valley'),
+    (86, N'Apulia'),
+    (86, N'Basilicata'),
+    (86, N'Calabria'),
+    (86, N'Campania'),
+    (86, N'Emilia-Romagna'),
+    (86, N'Friuli-Venezia Giulia'),
+    (86, N'Lazio'),
+    (86, N'Liguria'),
+    (86, N'Lombardy'),
+    (86, N'Marche'),
+    (86, N'Molise'),
+    (86, N'Piedmont'),
+    (86, N'Sardinia'),
+    (86, N'Sicily'),
+    (86, N'Tuscany'),
+    (86, N'Trentino-Alto Adige/Südtirol'),
+    (86, N'Umbria'),
+    (86, N'Veneto')
+GO
+    
+-- Jamaica
+-- Ref: https://en.wikipedia.org/wiki/Jamaica#Administrative_divisions
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
+    (87, N'Hanover'),
+    (87, N'Saint Elizabeth'),
+    (87, N'Saint James'),
+    (87, N'Trelawny'),
+    (87, N'Westmoreland'),
+    (87, N'Clarendon'),
+    (87, N'Manchester'),
+    (87, N'Saint Ann'),
+    (87, N'Saint Catherine'),
+    (87, N'Saint Mary'),
+    (87, N'Kingston'),
+    (87, N'Portland'),
+    (87, N'Saint Andrew'),
+    (87, N'Saint Thomas')
+GO
+    
+-- Japan
 -- Ref: 
 INSERT INTO dbo.StateMaster
 (
@@ -2180,437 +2234,1171 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (86, N'')
+    (88, N'')
 GO
     
-    -- Jamaica
-    -- Ref: 
-    (87, N''),
-    
-    -- Japan
-    -- Ref: 
-    (88, N''),
-    
-    -- Jordan
-    -- Ref: 
+-- Jordan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (89, N''),
+GO
     
-    -- Kazakhstan
-    -- Ref: 
+-- Kazakhstan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (90, N''),
+GO
     
-    -- Kenya
-    -- Ref: 
+-- Kenya
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (91, N''),
+GO
     
-    -- Kiribati
-    -- Ref: 
+-- Kiribati
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (92, N''),
+GO
     
-    -- Kuwait
-    -- Ref: 
+-- Kuwait
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (93, N''),
+GO
     
-    -- Kyrgyzstan
-    -- Ref: 
+-- Kyrgyzstan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (94, N''),
+GO
     
-    -- Laos
-    -- Ref: 
+-- Laos
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (95, N''),
+GO
     
-    -- Latvia
-    -- Ref: 
+-- Latvia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (96, N''),
+GO
     
-    -- Lebanon
-    -- Ref: 
+-- Lebanon
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (97, N''),
+GO
     
-    -- Lesotho
-    -- Ref: 
+-- Lesotho
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (98, N''),
+GO
     
-    -- Liberia
-    -- Ref: 
+-- Liberia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (99, N''),
+GO
     
-    -- Libya
-    -- Ref: 
+-- Libya
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (100, N''),
+GO
     
-    -- Liechtenstein
-    -- Ref: 
+-- Liechtenstein
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (101, N''),
+GO
     
-    -- Lithuania
-    -- Ref: 
+-- Lithuania
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (102, N''),
+GO
     
-    -- Luxembourg
-    -- Ref: 
+-- Luxembourg
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (103, N''),
+GO
     
-    -- Madagascar
-    -- Ref: 
+-- Madagascar
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (104, N''),
+GO
     
-    -- Malawi
-    -- Ref: 
+-- Malawi
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (105, N''),
+GO
     
-    -- Malaysia
-    -- Ref: 
+-- Malaysia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (106, N''),
+GO
     
-    -- Maldives
-    -- Ref: 
+-- Maldives
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (107, N''),
+GO
     
-    -- Mali
-    -- Ref: 
+-- Mali
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (108, N''),
+GO
     
-    -- Malta
-    -- Ref: 
+-- Malta
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (109, N''),
+GO
     
-    -- Marshall Islands
-    -- Ref: 
+-- Marshall Islands
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (110, N''),
+GO
     
-    -- Mauritania
-    -- Ref: 
+-- Mauritania
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (111, N''),
+GO
     
-    -- Mauritius
-    -- Ref: 
+-- Mauritius
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (112, N''),
+GO
     
-    -- Mexico
-    -- Ref: 
+-- Mexico
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (113, N''),
+GO
     
-    -- Federated States of Micronesia
-    -- Ref: 
+-- Federated States of Micronesia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (114, N''),
+GO
     
-    -- Monaco
-    -- Ref: 
+-- Monaco
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (115, N''),
+GO
     
-    -- Mongolia
-    -- Ref: 
+-- Mongolia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (116, N''),
+GO
     
-    -- Montenegro
-    -- Ref: 
+-- Montenegro
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (117, N''),
+GO
     
-    -- Morocco
-    -- Ref: 
+-- Morocco
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (118, N''),
+GO
     
-    -- Mozambique
-    -- Ref: 
+-- Mozambique
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (119, N''),
+GO
     
-    -- Myanmar
-    -- Ref: 
+-- Myanmar
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (120, N''),
+GO
     
-    -- Namibia
-    -- Ref: 
+-- Namibia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (121, N''),
+GO
     
-    -- Nauru
-    -- Ref: 
+-- Nauru
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (122, N''),
+GO
     
-    -- Nepal
-    -- Ref: 
+-- Nepal
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (123, N''),
+GO
     
-    -- Netherlands
-    -- Ref: 
+-- Netherlands
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (124, N''),
+GO
     
-    -- New Zealand
-    -- Ref: 
+-- New Zealand
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (125, N''),
+GO
     
-    -- Nicaragua
-    -- Ref: 
+-- Nicaragua
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (126, N''),
+GO
     
-    -- Niger
-    -- Ref: 
+-- Niger
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (127, N''),
+GO
     
-    -- Nigeria
-    -- Ref: 
+-- Nigeria
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (128, N''),
+GO
     
-    -- Norway
-    -- Ref: 
+-- Norway
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (129, N''),
+GO
     
-    -- Oman
-    -- Ref: 
+-- Oman
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (130, N''),
+GO
     
-    -- Pakistan
-    -- Ref: 
+-- Pakistan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (131, N''),
+GO
     
-    -- Palau
-    -- Ref: 
+-- Palau
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (132, N''),
+GO
     
-    -- Palestine
-    -- Ref: 
+-- Palestine
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (133, N''),
+GO
     
-    -- Panama
-    -- Ref: 
+-- Panama
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (134, N''),
+GO
     
-    -- Papua New Guinea
-    -- Ref: 
+-- Papua New Guinea
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (135, N''),
+GO
     
-    -- Paraguay
-    -- Ref: 
+-- Paraguay
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (136, N''),
+GO
     
-    -- Peru
-    -- Ref: 
+-- Peru
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (137, N''),
+GO
     
-    -- Philippines
-    -- Ref: 
+-- Philippines
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (138, N''),
+GO
     
-    -- Poland
-    -- Ref: 
+-- Poland
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (139, N''),
+GO
     
-    -- Portugal
-    -- Ref: 
+-- Portugal
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (140, N''),
+GO
     
-    -- Qatar
-    -- Ref: 
+-- Qatar
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (141, N''),
+GO
     
-    -- Romania
-    -- Ref: 
+-- Romania
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (142, N''),
+GO
     
-    -- Russia
-    -- Ref: 
+-- Russia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (143, N''),
+GO
     
-    -- Rwanda
-    -- Ref: 
+-- Rwanda
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (144, N''),
+GO
     
-    -- Saint Kitts and Nevis
-    -- Ref: 
+-- Saint Kitts and Nevis
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (145, N''),
+GO
     
-    -- Saint Lucia
-    -- Ref: 
+-- Saint Lucia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (146, N''),
+GO
     
-    -- Saint Vincent
-    -- Ref: 
+-- Saint Vincent
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (147, N''),
+GO
     
-    -- Samoa
-    -- Ref: 
+-- Samoa
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (148, N''),
+GO
     
-    -- San Marino
-    -- Ref: 
+-- San Marino
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (149, N''),
+GO
     
-    -- São Tomé and Príncipe
-    -- Ref: 
+-- São Tomé and Príncipe
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (150, N''),
+GO
     
-    -- Saudi Arabia
-    -- Ref: 
+-- Saudi Arabia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (151, N''),
+GO
     
-    -- Senegal
-    -- Ref: 
+-- Senegal
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (152, N''),
+GO
     
-    -- Serbia
-    -- Ref: 
+-- Serbia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (153, N''),
+GO
     
-    -- Seychelles
-    -- Ref: 
+-- Seychelles
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (154, N''),
+GO
     
-    -- Sierra Leone
-    -- Ref: 
+-- Sierra Leone
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (155, N''),
+GO
     
-    -- Singapore
-    -- Ref: 
+-- Singapore
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (156, N''),
+GO
     
-    -- Slovakia
-    -- Ref: 
+-- Slovakia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (157, N''),
+GO
     
-    -- Slovenia
-    -- Ref: 
+-- Slovenia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (158, N''),
+GO
     
-    -- Solomon Islands
-    -- Ref: 
+-- Solomon Islands
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (159, N''),
+GO
     
-    -- Somalia
-    -- Ref: 
+-- Somalia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (160, N''),
+GO
     
-    -- South Africa
-    -- Ref: 
+-- South Africa
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (161, N''),
+GO
     
-    -- South Sudan
-    -- Ref: 
+-- South Sudan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (162, N''),
+GO
     
-    -- Spain
-    -- Ref: 
+-- Spain
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (163, N''),
+GO
     
-    -- Sri Lanka
-    -- Ref: 
+-- Sri Lanka
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (164, N''),
+GO
     
-    -- North Sudan
-    -- Ref: 
+-- North Sudan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (165, N''),
+GO
     
-    -- Suriname
-    -- Ref: 
+-- Suriname
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (166, N''),
+GO
     
-    -- Swaziland
-    -- Ref: 
+-- Swaziland
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (167, N''),
+GO
     
-    -- Sweden
-    -- Ref: 
+-- Sweden
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (168, N''),
+GO
     
-    -- Switzerland
-    -- Ref: 
+-- Switzerland
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (169, N''),
+GO
     
-    -- Syria
-    -- Ref: 
+-- Syria
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (170, N''),
+GO
     
-    -- Tajikistan
-    -- Ref: 
+-- Tajikistan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (171, N''),
+GO
     
-    -- Tanzania
-    -- Ref: 
+-- Tanzania
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (172, N''),
+GO
     
-    -- Thailand
-    -- Ref: 
+-- Thailand
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (173, N''),
+GO
     
-    -- Togo
-    -- Ref: 
+-- Togo
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (174, N''),
+GO
     
-    -- Tonga
-    -- Ref: 
+-- Tonga
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (175, N''),
+GO
     
-    -- Trinidad and Tobago
-    -- Ref: 
+-- Trinidad and Tobago
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (176, N''),
+GO
     
-    -- Tunisia
-    -- Ref: 
+-- Tunisia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (177, N''),
+GO
     
-    -- Turkey
-    -- Ref: 
+-- Turkey
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (178, N''),
+GO
     
-    -- Turkmenistan
-    -- Ref: 
+-- Turkmenistan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (179, N''),
+GO
     
-    -- Tuvalu
-    -- Ref: 
+-- Tuvalu
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (180, N''),
+GO
     
-    -- Uganda
-    -- Ref: 
+-- Uganda
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (181, N''),
+GO
     
-    -- Ukraine
-    -- Ref: 
+-- Ukraine
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (182, N''),
+GO
     
-    -- United Arab Emirates
-    -- Ref: 
+-- United Arab Emirates
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (183, N''),
+GO
     
-    -- United Kingdom
-    -- Ref: 
+-- United Kingdom
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (184, N''),
+GO
     
-    -- United States
-    -- Ref: 
+-- United States
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (185, N''),
+GO
     
-    -- Uruguay
-    -- Ref: 
+-- Uruguay
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (186, N''),
+GO
     
-    -- Uzbekistan
-    -- Ref: 
+-- Uzbekistan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (187, N''),
+GO
     
-    -- Vanuatu
-    -- Ref: 
+-- Vanuatu
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (188, N''),
+GO
     
-    -- Vatican City
-    -- Ref: 
+-- Vatican City
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (189, N''),
+GO
     
-    -- Venezuela
-    -- Ref: 
+-- Venezuela
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (190, N''),
+GO
     
-    -- Vietnam
-    -- Ref: 
+-- Vietnam
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (191, N''),
+GO
     
-    -- Yemen
-    -- Ref: 
+-- Yemen
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (192, N''),
+GO
     
-    -- Zambia
-    -- Ref: 
+-- Zambia
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (193, N''),
+GO
     
-    -- Zimbabwe
-    -- Ref: 
+-- Zimbabwe
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
     (194, N''),
+GO
