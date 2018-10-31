@@ -2578,7 +2578,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JP'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2593,7 +2593,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JO'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2608,7 +2608,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KZ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2623,7 +2623,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EAT'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2638,7 +2638,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KI'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2653,7 +2653,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KW'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2668,7 +2668,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KGT'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2683,7 +2683,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2698,7 +2698,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LV'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2713,7 +2713,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LB'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2728,7 +2728,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LS'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2743,7 +2743,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LR'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2758,7 +2758,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LY'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2773,7 +2773,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LI'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2788,7 +2788,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LT'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2803,7 +2803,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LU'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2818,7 +2818,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MG'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2833,7 +2833,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MW'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2848,7 +2848,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MY'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2863,7 +2863,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MV'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2878,7 +2878,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ML'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2893,7 +2893,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MT'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2908,7 +2908,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MH'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2923,7 +2923,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MR'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2938,7 +2938,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MU'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2953,7 +2953,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MX'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2968,7 +2968,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FM'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2983,7 +2983,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MC'
 
 INSERT INTO dbo.StateMaster
 (
@@ -2998,7 +2998,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MN'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3013,7 +3013,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ME'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3028,7 +3028,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3043,7 +3043,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MZ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3058,7 +3058,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MM'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3073,7 +3073,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3088,7 +3088,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NR'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3103,7 +3103,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NP'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3118,7 +3118,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NL'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3133,7 +3133,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NZ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3148,7 +3148,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NI'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3163,7 +3163,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NE'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3178,7 +3178,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NG'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3193,7 +3193,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NO'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3208,7 +3208,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'OM'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3223,7 +3223,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PK'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3238,7 +3238,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PW'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3253,7 +3253,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PS'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3268,7 +3268,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3283,7 +3283,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PG'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3298,7 +3298,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PY'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3313,7 +3313,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PE'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3328,7 +3328,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PH'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3343,7 +3343,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PL'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3358,7 +3358,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PT'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3373,7 +3373,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'QA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3388,7 +3388,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RO'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3403,7 +3403,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RU'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3418,7 +3418,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RW'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3433,7 +3433,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KN'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3448,7 +3448,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LC'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3463,7 +3463,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VC'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3478,7 +3478,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'WS'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3493,7 +3493,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SM'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3508,7 +3508,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ST'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3523,7 +3523,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3538,7 +3538,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SN'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3553,7 +3553,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RS'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3568,7 +3568,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SC'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3583,7 +3583,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SL'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3598,7 +3598,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SG'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3613,7 +3613,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SK'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3628,7 +3628,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SI'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3643,7 +3643,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SB'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3658,7 +3658,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SO'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3673,7 +3673,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ZA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3688,7 +3688,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SS'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3703,7 +3703,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ES'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3718,7 +3718,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LK'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3733,7 +3733,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SD'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3748,7 +3748,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SR'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3763,7 +3763,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SZ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3778,7 +3778,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SE'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3793,7 +3793,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CH'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3808,7 +3808,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SY'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3823,7 +3823,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TJ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3838,7 +3838,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TZ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3868,7 +3868,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TH'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3883,7 +3883,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TG'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3898,7 +3898,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TT'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3913,7 +3913,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TN'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3928,7 +3928,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TR'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3943,7 +3943,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TM'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3958,7 +3958,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TV'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3973,7 +3973,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UG'
 
 INSERT INTO dbo.StateMaster
 (
@@ -3988,7 +3988,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4003,7 +4003,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AE'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4018,7 +4018,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GB'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4033,7 +4033,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'US'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4048,7 +4048,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UY'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4063,7 +4063,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UZ'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4078,7 +4078,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VU'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4093,7 +4093,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VA'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4108,7 +4108,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VE'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4123,7 +4123,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VN'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4138,7 +4138,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'YE'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4153,7 +4153,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ZM'
 
 INSERT INTO dbo.StateMaster
 (
@@ -4168,7 +4168,7 @@ GO
 -- Ref: 
 
 DECLARE @CountryId INTO
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ZW'
 
 INSERT INTO dbo.StateMaster
 (
