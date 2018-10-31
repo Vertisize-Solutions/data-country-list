@@ -2173,6 +2173,36 @@ VALUES
 GO
     
 -- Italy
+-- Ref: https://en.wikipedia.org/wiki/Italy#Administrative_divisions
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
+    (86, N'Abruzzo'),
+    (86, N'Aosta Valley'),
+    (86, N'Apulia'),
+    (86, N'Basilicata'),
+    (86, N'Calabria'),
+    (86, N'Campania'),
+    (86, N'Emilia-Romagna'),
+    (86, N'Friuli-Venezia Giulia'),
+    (86, N'Lazio'),
+    (86, N'Liguria'),
+    (86, N'Lombardy'),
+    (86, N'Marche'),
+    (86, N'Molise'),
+    (86, N'Piedmont'),
+    (86, N'Sardinia'),
+    (86, N'Sicily'),
+    (86, N'Tuscany'),
+    (86, N'Trentino-Alto Adige/Südtirol'),
+    (86, N'Umbria'),
+    (86, N'Veneto')
+GO
+    
+-- Jamaica
 -- Ref: 
 INSERT INTO dbo.StateMaster
 (
@@ -2180,16 +2210,19 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (86, N'')
+    (87, N'')
 GO
     
-    -- Jamaica
-    -- Ref: 
-    (87, N''),
-    
-    -- Japan
-    -- Ref: 
-    (88, N''),
+-- Japan
+-- Ref: 
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
+    (88, N'')
+GO
     
     -- Jordan
     -- Ref: 
