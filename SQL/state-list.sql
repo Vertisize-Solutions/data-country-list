@@ -2575,7 +2575,7 @@ VALUES
 GO
     
 -- Japan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Prefectures_of_Japan#By_English_name
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JP'
@@ -2586,11 +2586,57 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Aichi'),
+    (@CountryId, N'Akita'),
+    (@CountryId, N'Aomori'),
+    (@CountryId, N'Chiba'),
+    (@CountryId, N'Ehime'),
+    (@CountryId, N'Fukui'),
+    (@CountryId, N'Fukuoka'),
+    (@CountryId, N'Fukushima'),
+    (@CountryId, N'Gifu'),
+    (@CountryId, N'Gunma'),
+    (@CountryId, N'Hiroshima'),
+    (@CountryId, N'Hokkaido'),
+    (@CountryId, N'Hyōgo'),
+    (@CountryId, N'Ibaraki'),
+    (@CountryId, N'Ishikawa'),
+    (@CountryId, N'Iwate'),
+    (@CountryId, N'Kagawa'),
+    (@CountryId, N'Kagoshima'),
+    (@CountryId, N'Kanagawa'),
+    (@CountryId, N'Kōchi'),
+    (@CountryId, N'Kumamoto'),
+    (@CountryId, N'Kyoto'),
+    (@CountryId, N'Mie'),
+    (@CountryId, N'Miyagi'),
+    (@CountryId, N'Miyazaki'),
+    (@CountryId, N'Nagano'),
+    (@CountryId, N'Nagasaki'),
+    (@CountryId, N'Nara'),
+    (@CountryId, N'Niigata'),
+    (@CountryId, N'Ōita'),
+    (@CountryId, N'Okayama'),
+    (@CountryId, N'Okinawa'),
+    (@CountryId, N'Osaka'),
+    (@CountryId, N'Saga'),
+    (@CountryId, N'Saitama'),
+    (@CountryId, N'Shiga'),
+    (@CountryId, N'Shimane'),
+    (@CountryId, N'Shizuoka'),
+    (@CountryId, N'Tochigi'),
+    (@CountryId, N'Tokushima'),
+    (@CountryId, N'Tokyo'),
+    (@CountryId, N'Tottori'),
+    (@CountryId, N'Toyama'),
+    (@CountryId, N'Wakayama'),
+    (@CountryId, N'Yamagata'),
+    (@CountryId, N'Yamaguchi'),
+    (@CountryId, N'Yamanashi')
 GO
     
 -- Jordan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Jordan#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JO'
@@ -2602,6 +2648,17 @@ INSERT INTO dbo.StateMaster
 )
 VALUES
     (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N''),
+    (@CountryId, N'')
 GO
     
 -- Kazakhstan
