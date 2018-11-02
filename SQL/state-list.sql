@@ -2662,7 +2662,7 @@ VALUES
 GO
     
 -- Kazakhstan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Kazakhstan
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KZ'
@@ -2673,7 +2673,23 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Akmola'),
+    (@CountryId, N'Aktobe'),
+    (@CountryId, N'Almaty'),
+    (@CountryId, N'Astana'),
+    (@CountryId, N'Atyrau'),
+    (@CountryId, N'Baikonur'),
+    (@CountryId, N'East Kazakhstan'),
+    (@CountryId, N'Jambyl'),
+    (@CountryId, N'Karaganda'),
+    (@CountryId, N'Kostanay'),
+    (@CountryId, N'Kyzylorda'),
+    (@CountryId, N'Mangystau'),
+    (@CountryId, N'North Kazakhstan'),
+    (@CountryId, N'Pavlodar'),
+    (@CountryId, N'Shymkent'),
+    (@CountryId, N'Turkistan'),
+    (@CountryId, N'West Kazakhstan')
 GO
     
 -- Kenya
