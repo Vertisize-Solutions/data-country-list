@@ -2575,7 +2575,7 @@ VALUES
 GO
     
 -- Japan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Prefectures_of_Japan#By_English_name
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JP'
@@ -2586,11 +2586,57 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Aichi'),
+    (@CountryId, N'Akita'),
+    (@CountryId, N'Aomori'),
+    (@CountryId, N'Chiba'),
+    (@CountryId, N'Ehime'),
+    (@CountryId, N'Fukui'),
+    (@CountryId, N'Fukuoka'),
+    (@CountryId, N'Fukushima'),
+    (@CountryId, N'Gifu'),
+    (@CountryId, N'Gunma'),
+    (@CountryId, N'Hiroshima'),
+    (@CountryId, N'Hokkaido'),
+    (@CountryId, N'Hyōgo'),
+    (@CountryId, N'Ibaraki'),
+    (@CountryId, N'Ishikawa'),
+    (@CountryId, N'Iwate'),
+    (@CountryId, N'Kagawa'),
+    (@CountryId, N'Kagoshima'),
+    (@CountryId, N'Kanagawa'),
+    (@CountryId, N'Kōchi'),
+    (@CountryId, N'Kumamoto'),
+    (@CountryId, N'Kyoto'),
+    (@CountryId, N'Mie'),
+    (@CountryId, N'Miyagi'),
+    (@CountryId, N'Miyazaki'),
+    (@CountryId, N'Nagano'),
+    (@CountryId, N'Nagasaki'),
+    (@CountryId, N'Nara'),
+    (@CountryId, N'Niigata'),
+    (@CountryId, N'Ōita'),
+    (@CountryId, N'Okayama'),
+    (@CountryId, N'Okinawa'),
+    (@CountryId, N'Osaka'),
+    (@CountryId, N'Saga'),
+    (@CountryId, N'Saitama'),
+    (@CountryId, N'Shiga'),
+    (@CountryId, N'Shimane'),
+    (@CountryId, N'Shizuoka'),
+    (@CountryId, N'Tochigi'),
+    (@CountryId, N'Tokushima'),
+    (@CountryId, N'Tokyo'),
+    (@CountryId, N'Tottori'),
+    (@CountryId, N'Toyama'),
+    (@CountryId, N'Wakayama'),
+    (@CountryId, N'Yamagata'),
+    (@CountryId, N'Yamaguchi'),
+    (@CountryId, N'Yamanashi')
 GO
     
 -- Jordan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Jordan#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JO'
@@ -2601,11 +2647,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Irbid'),
+    (@CountryId, N'Ajloun'),
+    (@CountryId, N'Jerash'),
+    (@CountryId, N'Mafraq'),
+    (@CountryId, N'Balqa'),
+    (@CountryId, N'Madaba'),
+    (@CountryId, N'Amman'),
+    (@CountryId, N'Zarqa'),
+    (@CountryId, N'Karak'),
+    (@CountryId, N'Tafila'),
+    (@CountryId, N'Maan'),
+    (@CountryId, N'Aqaba')
 GO
     
 -- Kazakhstan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Kazakhstan
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KZ'
@@ -2616,11 +2673,27 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Akmola'),
+    (@CountryId, N'Aktobe'),
+    (@CountryId, N'Almaty'),
+    (@CountryId, N'Astana'),
+    (@CountryId, N'Atyrau'),
+    (@CountryId, N'Baikonur'),
+    (@CountryId, N'East Kazakhstan'),
+    (@CountryId, N'Jambyl'),
+    (@CountryId, N'Karaganda'),
+    (@CountryId, N'Kostanay'),
+    (@CountryId, N'Kyzylorda'),
+    (@CountryId, N'Mangystau'),
+    (@CountryId, N'North Kazakhstan'),
+    (@CountryId, N'Pavlodar'),
+    (@CountryId, N'Shymkent'),
+    (@CountryId, N'Turkistan'),
+    (@CountryId, N'West Kazakhstan')
 GO
     
 -- Kenya
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Counties_of_Kenya#List_of_counties
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EAT'
@@ -2631,7 +2704,53 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Mombasa'),
+    (@CountryId, N'Kwale'),
+    (@CountryId, N'Kilifi'),
+    (@CountryId, N'Tana River'),
+    (@CountryId, N'Lamu'),
+    (@CountryId, N'Taita–Taveta'),
+    (@CountryId, N'Garissa'),
+    (@CountryId, N'Wajir'),
+    (@CountryId, N'Mandera'),
+    (@CountryId, N'Marsabit'),
+    (@CountryId, N'Isiolo'),
+    (@CountryId, N'Meru'),
+    (@CountryId, N'Tharaka-Nithi'),
+    (@CountryId, N'Embu'),
+    (@CountryId, N'Kitui'),
+    (@CountryId, N'Machakos'),
+    (@CountryId, N'Makueni'),
+    (@CountryId, N'Nyandarua'),
+    (@CountryId, N'Nyeri'),
+    (@CountryId, N'Kirinyaga'),
+    (@CountryId, N'Muranga'),
+    (@CountryId, N'Kiambu'),
+    (@CountryId, N'Turkana'),
+    (@CountryId, N'West Pokot'),
+    (@CountryId, N'Samburu'),
+    (@CountryId, N'Trans-Nzoia'),
+    (@CountryId, N'Uasin Gishu'),
+    (@CountryId, N'Elgeyo-Marakwet'),
+    (@CountryId, N'Nandi'),
+    (@CountryId, N'Baringo'),
+    (@CountryId, N'Laikipia'),
+    (@CountryId, N'Nakuru'),
+    (@CountryId, N'Narok'),
+    (@CountryId, N'Kajiado'),
+    (@CountryId, N'Kericho'),
+    (@CountryId, N'Bomet'),
+    (@CountryId, N'Kakamega'),
+    (@CountryId, N'Vihiga'),
+    (@CountryId, N'Bungoma'),
+    (@CountryId, N'Busia'),
+    (@CountryId, N'Siaya'),
+    (@CountryId, N'Kisumu'),
+    (@CountryId, N'Homa Bay'),
+    (@CountryId, N'Migori'),
+    (@CountryId, N'Kisii'),
+    (@CountryId, N'Nyamira'),
+    (@CountryId, N'Nairobi')
 GO
     
 -- Kiribati
