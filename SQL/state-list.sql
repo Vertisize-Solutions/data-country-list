@@ -2693,7 +2693,7 @@ VALUES
 GO
     
 -- Kenya
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Counties_of_Kenya#List_of_counties
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EAT'
@@ -2704,7 +2704,53 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Mombasa'),
+    (@CountryId, N'Kwale'),
+    (@CountryId, N'Kilifi'),
+    (@CountryId, N'Tana River'),
+    (@CountryId, N'Lamu'),
+    (@CountryId, N'Taita–Taveta'),
+    (@CountryId, N'Garissa'),
+    (@CountryId, N'Wajir'),
+    (@CountryId, N'Mandera'),
+    (@CountryId, N'Marsabit'),
+    (@CountryId, N'Isiolo'),
+    (@CountryId, N'Meru'),
+    (@CountryId, N'Tharaka-Nithi'),
+    (@CountryId, N'Embu'),
+    (@CountryId, N'Kitui'),
+    (@CountryId, N'Machakos'),
+    (@CountryId, N'Makueni'),
+    (@CountryId, N'Nyandarua'),
+    (@CountryId, N'Nyeri'),
+    (@CountryId, N'Kirinyaga'),
+    (@CountryId, N'Muranga'),
+    (@CountryId, N'Kiambu'),
+    (@CountryId, N'Turkana'),
+    (@CountryId, N'West Pokot'),
+    (@CountryId, N'Samburu'),
+    (@CountryId, N'Trans-Nzoia'),
+    (@CountryId, N'Uasin Gishu'),
+    (@CountryId, N'Elgeyo-Marakwet'),
+    (@CountryId, N'Nandi'),
+    (@CountryId, N'Baringo'),
+    (@CountryId, N'Laikipia'),
+    (@CountryId, N'Nakuru'),
+    (@CountryId, N'Narok'),
+    (@CountryId, N'Kajiado'),
+    (@CountryId, N'Kericho'),
+    (@CountryId, N'Bomet'),
+    (@CountryId, N'Kakamega'),
+    (@CountryId, N'Vihiga'),
+    (@CountryId, N'Bungoma'),
+    (@CountryId, N'Busia'),
+    (@CountryId, N'Siaya'),
+    (@CountryId, N'Kisumu'),
+    (@CountryId, N'Homa Bay'),
+    (@CountryId, N'Migori'),
+    (@CountryId, N'Kisii'),
+    (@CountryId, N'Nyamira'),
+    (@CountryId, N'Nairobi')
 GO
     
 -- Kiribati
