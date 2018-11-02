@@ -2647,18 +2647,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N''),
-    (@CountryId, N'')
+    (@CountryId, N'Irbid'),
+    (@CountryId, N'Ajloun'),
+    (@CountryId, N'Jerash'),
+    (@CountryId, N'Mafraq'),
+    (@CountryId, N'Balqa'),
+    (@CountryId, N'Madaba'),
+    (@CountryId, N'Amman'),
+    (@CountryId, N'Zarqa'),
+    (@CountryId, N'Karak'),
+    (@CountryId, N'Tafila'),
+    (@CountryId, N'Maan'),
+    (@CountryId, N'Aqaba')
 GO
     
 -- Kazakhstan
