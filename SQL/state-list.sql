@@ -3139,7 +3139,7 @@ VALUES
 GO
     
 -- Luxembourg
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Cantons_of_Luxembourg
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LU'
@@ -3150,7 +3150,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Clervaux'),
+    (@CountryId, N'Diekirch'),
+    (@CountryId, N'Redange'),
+    (@CountryId, N'Vianden'),
+    (@CountryId, N'Wiltz'),
+    (@CountryId, N'Echternach'),
+    (@CountryId, N'Grevenmacher'),
+    (@CountryId, N'Remich'),
+    (@CountryId, N'Capellen'),
+    (@CountryId, N'Esch-sur-Alzette'),
+    (@CountryId, N'Luxembourg'),
+    (@CountryId, N'Mersch')
 GO
     
 -- Madagascar
