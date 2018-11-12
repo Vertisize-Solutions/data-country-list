@@ -3201,7 +3201,7 @@ VALUES
 GO
     
 -- Malawi
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Malawi#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MW'
@@ -3212,7 +3212,34 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Dedza'),
+    (@CountryId, N'Dowa'),
+    (@CountryId, N'Kasungu'),
+    (@CountryId, N'Lilongwe'),
+    (@CountryId, N'Mchinji'),
+    (@CountryId, N'Nkhotakhota'),
+    (@CountryId, N'Ntcheu'),
+    (@CountryId, N'Ntchisi'),
+    (@CountryId, N'Salima'),
+    (@CountryId, N'Chitipa'),
+    (@CountryId, N'Karonga'),
+    (@CountryId, N'Likoma'),
+    (@CountryId, N'Mzimba'),
+    (@CountryId, N'Nkhata Bay'),
+    (@CountryId, N'Rumphi'),
+    (@CountryId, N'Balaka'),
+    (@CountryId, N'Blantyre'),
+    (@CountryId, N'Chikhwawa'),
+    (@CountryId, N'Chiradzulu'),
+    (@CountryId, N'Machinga'),
+    (@CountryId, N'Mangochi'),
+    (@CountryId, N'Mulanje'),
+    (@CountryId, N'Mwanza'),
+    (@CountryId, N'Nsanje'),
+    (@CountryId, N'Thyolo'),
+    (@CountryId, N'Phalombe'),
+    (@CountryId, N'Zomba'),
+    (@CountryId, N'Neno')
 GO
     
 -- Malaysia
