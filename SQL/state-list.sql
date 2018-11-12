@@ -3115,7 +3115,7 @@ VALUES
 GO
     
 -- Lithuania
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Lithuania#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LT'
@@ -3126,7 +3126,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Alytus'),
+    (@CountryId, N'Kaunas'),
+    (@CountryId, N'Klaipėda'),
+    (@CountryId, N'Marijampolė'),
+    (@CountryId, N'Panevėžys'),
+    (@CountryId, N'Šiauliai'),
+    (@CountryId, N'Tauragė'),
+    (@CountryId, N'Telšiai'),
+    (@CountryId, N'Utena'),
+    (@CountryId, N'Vilnius')
 GO
     
 -- Luxembourg
