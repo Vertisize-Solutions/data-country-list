@@ -3054,7 +3054,7 @@ VALUES
 GO
     
 -- Libya
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Libya#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LY'
@@ -3065,7 +3065,28 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Nuqat al Khams'),
+    (@CountryId, N'Zawiya'),
+    (@CountryId, N'Jafara'),
+    (@CountryId, N'Tripoli'),
+    (@CountryId, N'Murqub'),
+    (@CountryId, N'Misrata'),
+    (@CountryId, N'Sirte'),
+    (@CountryId, N'Benghazi'),
+    (@CountryId, N'Marj'),
+    (@CountryId, N'Jabal al Akhdar'),
+    (@CountryId, N'Derna'),
+    (@CountryId, N'Tobruk'),
+    (@CountryId, N'Nalut'),
+    (@CountryId, N'Jabal al Gharbi'),
+    (@CountryId, N'Wadi al Shatii'),
+    (@CountryId, N'Jufra'),
+    (@CountryId, N'Al Wahat'),
+    (@CountryId, N'Ghat'),
+    (@CountryId, N'Wadi al Hayaa'),
+    (@CountryId, N'Sabha'),
+    (@CountryId, N'Murzuq'),
+    (@CountryId, N'Kufra')
 GO
     
 -- Liechtenstein
