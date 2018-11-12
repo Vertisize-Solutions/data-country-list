@@ -2771,7 +2771,7 @@ VALUES
 GO
     
 -- Kuwait
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Kuwait#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KW'
@@ -2782,7 +2782,12 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Al Asimah'),
+    (@CountryId, N'Hawalli'),
+    (@CountryId, N'Farwaniya'),
+    (@CountryId, N'Mubarak Al-Kabeer'),
+    (@CountryId, N'Ahmadi'),
+    (@CountryId, N'Jahra')
 GO
     
 -- Kyrgyzstan
