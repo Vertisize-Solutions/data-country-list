@@ -3165,7 +3165,7 @@ VALUES
 GO
     
 -- Madagascar
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Madagascar#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MG'
@@ -3176,7 +3176,28 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Diana'),
+    (@CountryId, N'Sava'),
+    (@CountryId, N'Itasy'),
+    (@CountryId, N'Analamanga'),
+    (@CountryId, N'Vakinankaratra'),
+    (@CountryId, N'Bongolava'),
+    (@CountryId, N'Sofia'),
+    (@CountryId, N'Boeny'),
+    (@CountryId, N'Betsiboka'),
+    (@CountryId, N'Melaky'),
+    (@CountryId, N'Alaotra Mangoro'),
+    (@CountryId, N'Atsinanana'),
+    (@CountryId, N'Analanjirofo'),
+    (@CountryId, N'Amoroni Mania'),
+    (@CountryId, N'Haute-Matsiatra'),
+    (@CountryId, N'Vatovavy-Fitovinany'),
+    (@CountryId, N'Atsimo-Atsinanana'),
+    (@CountryId, N'Ihorombe'),
+    (@CountryId, N'Menabe'),
+    (@CountryId, N'Atsimo-Andrefana'),
+    (@CountryId, N'Androy'),
+    (@CountryId, N'Anosy')
 GO
     
 -- Malawi
