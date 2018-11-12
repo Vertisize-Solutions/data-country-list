@@ -3025,7 +3025,7 @@ VALUES
 GO
     
 -- Liberia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Liberia#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LR'
@@ -3036,7 +3036,21 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bomi'),
+    (@CountryId, N'Bong'),
+    (@CountryId, N'Gbarpolu'),
+    (@CountryId, N'Grand Bassa'),
+    (@CountryId, N'Grand Cape Mount'),
+    (@CountryId, N'Grand Gedeh'),
+    (@CountryId, N'Grand Kru'),
+    (@CountryId, N'Lofa'),
+    (@CountryId, N'Margibi'),
+    (@CountryId, N'Maryland'),
+    (@CountryId, N'Montserrado'),
+    (@CountryId, N'Nimba'),
+    (@CountryId, N'Rivercess'),
+    (@CountryId, N'River Gee'),
+    (@CountryId, N'Sinoe')
 GO
     
 -- Libya
