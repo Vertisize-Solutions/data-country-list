@@ -3090,7 +3090,7 @@ VALUES
 GO
     
 -- Liechtenstein
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LI'
@@ -3101,7 +3101,17 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ruggell'),
+    (@CountryId, N'Schellenberg'),
+    (@CountryId, N'Gamprin'),
+    (@CountryId, N'Eschen'),
+    (@CountryId, N'Mauren'),
+    (@CountryId, N'Schaan'),
+    (@CountryId, N'Planken'),
+    (@CountryId, N'Vaduz'),
+    (@CountryId, N'Triesenberg'),
+    (@CountryId, N'Triesen'),
+    (@CountryId, N'Balzers')
 GO
     
 -- Lithuania
