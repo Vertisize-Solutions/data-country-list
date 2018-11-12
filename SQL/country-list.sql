@@ -4,7 +4,7 @@ INSERT INTO dbo.CountryMaster
         CountryCode, -- ISO3166 Code
         CountryName, -- Short name
         OfficialName,
-        PhoneCode -- Stored as csv
+        PhoneCode -- Stored as CSV
     )
 VALUES
     (1, N'AF', N'Afghanistan', N'Islamic Republic of Afghanistan', N'93'),
