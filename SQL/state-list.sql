@@ -3243,7 +3243,7 @@ VALUES
 GO
     
 -- Malaysia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Malaysia#Political_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MY'
@@ -3254,7 +3254,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Johor'),
+    (@CountryId, N'Kedah'),
+    (@CountryId, N'Kelantan'),
+    (@CountryId, N'Malacca'),
+    (@CountryId, N'Negeri Sembilan'),
+    (@CountryId, N'Pahang'),
+    (@CountryId, N'Penang'),
+    (@CountryId, N'Perak'),
+    (@CountryId, N'Perlis'),
+    (@CountryId, N'Sabah'),
+    (@CountryId, N'Sarawak'),
+    (@CountryId, N'Selangor'),
+    (@CountryId, N'Terengganu'),
+    (@CountryId, N'Kuala Lumpur'),
+    (@CountryId, N'Labuan'),
+    (@CountryId, N'Putrajaya')
 GO
     
 -- Maldives
