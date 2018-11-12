@@ -2754,7 +2754,7 @@ VALUES
 GO
     
 -- Kiribati
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Kiribati
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KI'
@@ -2765,7 +2765,9 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Gilbert Islands'),
+    (@CountryId, N'Phoenix Islands'),
+    (@CountryId, N'Line Islands')
 GO
     
 -- Kuwait
