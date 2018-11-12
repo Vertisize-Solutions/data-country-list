@@ -2791,7 +2791,7 @@ VALUES
 GO
     
 -- Kyrgyzstan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Kyrgyzstan#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KGT'
@@ -2802,7 +2802,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bishkek'),
+    (@CountryId, N'Batken'),
+    (@CountryId, N'Chuy'),
+    (@CountryId, N'Jalal-Abad'),
+    (@CountryId, N'Naryn'),
+    (@CountryId, N'Osh'),
+    (@CountryId, N'Talas'),
+    (@CountryId, N'Issyk-Kul'),
+    (@CountryId, N'Osh')
 GO
     
 -- Laos
