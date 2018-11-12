@@ -2754,7 +2754,7 @@ VALUES
 GO
     
 -- Kiribati
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Kiribati
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KI'
@@ -2765,11 +2765,13 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Gilbert Islands'),
+    (@CountryId, N'Phoenix Islands'),
+    (@CountryId, N'Line Islands')
 GO
     
 -- Kuwait
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Kuwait#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KW'
@@ -2780,11 +2782,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Al Asimah'),
+    (@CountryId, N'Hawalli'),
+    (@CountryId, N'Farwaniya'),
+    (@CountryId, N'Mubarak Al-Kabeer'),
+    (@CountryId, N'Ahmadi'),
+    (@CountryId, N'Jahra')
 GO
     
 -- Kyrgyzstan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Kyrgyzstan#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KGT'
@@ -2795,11 +2802,19 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bishkek'),
+    (@CountryId, N'Batken'),
+    (@CountryId, N'Chuy'),
+    (@CountryId, N'Jalal-Abad'),
+    (@CountryId, N'Naryn'),
+    (@CountryId, N'Osh'),
+    (@CountryId, N'Talas'),
+    (@CountryId, N'Issyk-Kul'),
+    (@CountryId, N'Osh')
 GO
     
 -- Laos
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Laos
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LA'
@@ -2810,11 +2825,28 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Attapeu'),
+    (@CountryId, N'Bokeo'),
+    (@CountryId, N'Bolikhamsai'),
+    (@CountryId, N'Champasak'),
+    (@CountryId, N'Hua Phan'),
+    (@CountryId, N'Khammouane'),
+    (@CountryId, N'Luang Namtha'),
+    (@CountryId, N'Luang Prabang'),
+    (@CountryId, N'Oudomxay'),
+    (@CountryId, N'Phongsali'),
+    (@CountryId, N'Sayabouly'),
+    (@CountryId, N'Salavan'),
+    (@CountryId, N'Savannakhet'),
+    (@CountryId, N'Sekong'),
+    (@CountryId, N'Vientiane Prefecture'),
+    (@CountryId, N'Vientiane Province'),
+    (@CountryId, N'Xieng Khouang'),
+    (@CountryId, N'Xaisomboun Province')
 GO
     
 -- Latvia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Latvia
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LV'
@@ -2825,11 +2857,129 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Daugavpils'),
+    (@CountryId, N'Jēkabpils'),
+    (@CountryId, N'Jelgava'),
+    (@CountryId, N'Jūrmala'),
+    (@CountryId, N'Liepāja'),
+    (@CountryId, N'Rēzekne'),
+    (@CountryId, N'Riga'),
+    (@CountryId, N'Valmiera'),
+    (@CountryId, N'Ventspils'),
+    (@CountryId, N'Aglona'),
+    (@CountryId, N'Aizkraukle'),
+    (@CountryId, N'Aizpute'),
+    (@CountryId, N'Aknīste'),
+    (@CountryId, N'Aloja'),
+    (@CountryId, N'Alsunga'),
+    (@CountryId, N'Alūksne'),
+    (@CountryId, N'Amata'),
+    (@CountryId, N'Ape'),
+    (@CountryId, N'Auce'),
+    (@CountryId, N'Ādaži'),
+    (@CountryId, N'Babīte'),
+    (@CountryId, N'Baldone'),
+    (@CountryId, N'Baltinava'),
+    (@CountryId, N'Balvi'),
+    (@CountryId, N'Bauska'),
+    (@CountryId, N'Beverīna'),
+    (@CountryId, N'Brocēni'),
+    (@CountryId, N'Burtnieki'),
+    (@CountryId, N'Carnikava'),
+    (@CountryId, N'Cēsis'),
+    (@CountryId, N'Cesvaine'),
+    (@CountryId, N'Cibla'),
+    (@CountryId, N'Dagda'),
+    (@CountryId, N'Daugavpils'),
+    (@CountryId, N'Dobele'),
+    (@CountryId, N'Dundaga'),
+    (@CountryId, N'Durbe'),
+    (@CountryId, N'Engure'),
+    (@CountryId, N'Ērgļi'),
+    (@CountryId, N'Garkalne'),
+    (@CountryId, N'Grobiņa'),
+    (@CountryId, N'Gulbene'),
+    (@CountryId, N'Iecava'),
+    (@CountryId, N'Ikšķile'),
+    (@CountryId, N'Inčukalns'),
+    (@CountryId, N'Ilūkste'),
+    (@CountryId, N'Jaunjelgava'),
+    (@CountryId, N'Jaunpiebalga'),
+    (@CountryId, N'Jaunpils'),
+    (@CountryId, N'Jēkabpils'),
+    (@CountryId, N'Jelgava'),
+    (@CountryId, N'Kandava'),
+    (@CountryId, N'Kārsava'),
+    (@CountryId, N'Kocēni'),
+    (@CountryId, N'Koknese'),
+    (@CountryId, N'Krāslava'),
+    (@CountryId, N'Krimulda'),
+    (@CountryId, N'Krustpils'),
+    (@CountryId, N'Kuldīga'),
+    (@CountryId, N'Ķegums'),
+    (@CountryId, N'Ķekava'),
+    (@CountryId, N'Lielvārde'),
+    (@CountryId, N'Līgatne'),
+    (@CountryId, N'Limbaži'),
+    (@CountryId, N'Līvāni'),
+    (@CountryId, N'Lubāna'),
+    (@CountryId, N'Ludza'),
+    (@CountryId, N'Madona'),
+    (@CountryId, N'Mālpils'),
+    (@CountryId, N'Mārupe'),
+    (@CountryId, N'Mazsalaca'),
+    (@CountryId, N'Mērsrags'),
+    (@CountryId, N'Naukšēni'),
+    (@CountryId, N'Nereta'),
+    (@CountryId, N'Nīca'),
+    (@CountryId, N'Ogre'),
+    (@CountryId, N'Olaine'),
+    (@CountryId, N'Ozolnieki'),
+    (@CountryId, N'Pārgauja'),
+    (@CountryId, N'Pāvilosta'),
+    (@CountryId, N'Pļaviņas'),
+    (@CountryId, N'Preiļi'),
+    (@CountryId, N'Priekule'),
+    (@CountryId, N'Priekuļi'),
+    (@CountryId, N'Rauna'),
+    (@CountryId, N'Rēzekne'),
+    (@CountryId, N'Riebiņi'),
+    (@CountryId, N'Roja'),
+    (@CountryId, N'Ropaži'),
+    (@CountryId, N'Rucava'),
+    (@CountryId, N'Rugāji'),
+    (@CountryId, N'Rundāle'),
+    (@CountryId, N'Rūjiena'),
+    (@CountryId, N'Salacgrīva'),
+    (@CountryId, N'Sala'),
+    (@CountryId, N'Salaspils'),
+    (@CountryId, N'Saldus'),
+    (@CountryId, N'Saulkrasti'),
+    (@CountryId, N'Seja'),
+    (@CountryId, N'Sigulda'),
+    (@CountryId, N'Skrīveri'),
+    (@CountryId, N'Skrunda'),
+    (@CountryId, N'Smiltene'),
+    (@CountryId, N'Stopini'),
+    (@CountryId, N'Strenci'),
+    (@CountryId, N'Talsi'),
+    (@CountryId, N'Tērvete'),
+    (@CountryId, N'Tukums'),
+    (@CountryId, N'Vaiņode'),
+    (@CountryId, N'Valka'),
+    (@CountryId, N'Varakļāni'),
+    (@CountryId, N'Vārkava'),
+    (@CountryId, N'Vecpiebalga'),
+    (@CountryId, N'Vecumnieki'),
+    (@CountryId, N'Ventspils'),
+    (@CountryId, N'Viesīte'),
+    (@CountryId, N'Viļaka'),
+    (@CountryId, N'Viļāni'),
+    (@CountryId, N'Zilupe')
 GO
     
 -- Lebanon
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Governorates_of_Lebanon
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LB'
@@ -2840,11 +2990,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Akkar'),
+    (@CountryId, N'Baalbek-Hermel'),
+    (@CountryId, N'Beirut'),
+    (@CountryId, N'Beqaa'),
+    (@CountryId, N'Mount Lebanon'),
+    (@CountryId, N'Nabatieh'),
+    (@CountryId, N'North'),
+    (@CountryId, N'South')
 GO
     
 -- Lesotho
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Lesotho#Districts
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LS'
@@ -2855,7 +3012,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Berea'),
+    (@CountryId, N'Butha-Buthe'),
+    (@CountryId, N'Leribe'),
+    (@CountryId, N'Mafeteng'),
+    (@CountryId, N'Maseru'),
+    (@CountryId, N'Mohales Hoek'),
+    (@CountryId, N'Mokhotlong'),
+    (@CountryId, N'Qachas Nek'),
+    (@CountryId, N'Quthing'),
+    (@CountryId, N'Thaba-Tseka')
 GO
     
 -- Liberia
