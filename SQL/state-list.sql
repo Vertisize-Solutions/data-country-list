@@ -3025,7 +3025,7 @@ VALUES
 GO
     
 -- Liberia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Liberia#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LR'
@@ -3036,11 +3036,25 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bomi'),
+    (@CountryId, N'Bong'),
+    (@CountryId, N'Gbarpolu'),
+    (@CountryId, N'Grand Bassa'),
+    (@CountryId, N'Grand Cape Mount'),
+    (@CountryId, N'Grand Gedeh'),
+    (@CountryId, N'Grand Kru'),
+    (@CountryId, N'Lofa'),
+    (@CountryId, N'Margibi'),
+    (@CountryId, N'Maryland'),
+    (@CountryId, N'Montserrado'),
+    (@CountryId, N'Nimba'),
+    (@CountryId, N'Rivercess'),
+    (@CountryId, N'River Gee'),
+    (@CountryId, N'Sinoe')
 GO
     
 -- Libya
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Libya#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LY'
@@ -3051,11 +3065,32 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Nuqat al Khams'),
+    (@CountryId, N'Zawiya'),
+    (@CountryId, N'Jafara'),
+    (@CountryId, N'Tripoli'),
+    (@CountryId, N'Murqub'),
+    (@CountryId, N'Misrata'),
+    (@CountryId, N'Sirte'),
+    (@CountryId, N'Benghazi'),
+    (@CountryId, N'Marj'),
+    (@CountryId, N'Jabal al Akhdar'),
+    (@CountryId, N'Derna'),
+    (@CountryId, N'Tobruk'),
+    (@CountryId, N'Nalut'),
+    (@CountryId, N'Jabal al Gharbi'),
+    (@CountryId, N'Wadi al Shatii'),
+    (@CountryId, N'Jufra'),
+    (@CountryId, N'Al Wahat'),
+    (@CountryId, N'Ghat'),
+    (@CountryId, N'Wadi al Hayaa'),
+    (@CountryId, N'Sabha'),
+    (@CountryId, N'Murzuq'),
+    (@CountryId, N'Kufra')
 GO
     
 -- Liechtenstein
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LI'
@@ -3066,11 +3101,21 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ruggell'),
+    (@CountryId, N'Schellenberg'),
+    (@CountryId, N'Gamprin'),
+    (@CountryId, N'Eschen'),
+    (@CountryId, N'Mauren'),
+    (@CountryId, N'Schaan'),
+    (@CountryId, N'Planken'),
+    (@CountryId, N'Vaduz'),
+    (@CountryId, N'Triesenberg'),
+    (@CountryId, N'Triesen'),
+    (@CountryId, N'Balzers')
 GO
     
 -- Lithuania
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Lithuania#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LT'
@@ -3081,11 +3126,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Alytus'),
+    (@CountryId, N'Kaunas'),
+    (@CountryId, N'Klaipėda'),
+    (@CountryId, N'Marijampolė'),
+    (@CountryId, N'Panevėžys'),
+    (@CountryId, N'Šiauliai'),
+    (@CountryId, N'Tauragė'),
+    (@CountryId, N'Telšiai'),
+    (@CountryId, N'Utena'),
+    (@CountryId, N'Vilnius')
 GO
     
 -- Luxembourg
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Cantons_of_Luxembourg
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LU'
@@ -3096,11 +3150,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Clervaux'),
+    (@CountryId, N'Diekirch'),
+    (@CountryId, N'Redange'),
+    (@CountryId, N'Vianden'),
+    (@CountryId, N'Wiltz'),
+    (@CountryId, N'Echternach'),
+    (@CountryId, N'Grevenmacher'),
+    (@CountryId, N'Remich'),
+    (@CountryId, N'Capellen'),
+    (@CountryId, N'Esch-sur-Alzette'),
+    (@CountryId, N'Luxembourg'),
+    (@CountryId, N'Mersch')
 GO
     
 -- Madagascar
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Madagascar#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MG'
@@ -3111,11 +3176,32 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Diana'),
+    (@CountryId, N'Sava'),
+    (@CountryId, N'Itasy'),
+    (@CountryId, N'Analamanga'),
+    (@CountryId, N'Vakinankaratra'),
+    (@CountryId, N'Bongolava'),
+    (@CountryId, N'Sofia'),
+    (@CountryId, N'Boeny'),
+    (@CountryId, N'Betsiboka'),
+    (@CountryId, N'Melaky'),
+    (@CountryId, N'Alaotra Mangoro'),
+    (@CountryId, N'Atsinanana'),
+    (@CountryId, N'Analanjirofo'),
+    (@CountryId, N'Amoroni Mania'),
+    (@CountryId, N'Haute-Matsiatra'),
+    (@CountryId, N'Vatovavy-Fitovinany'),
+    (@CountryId, N'Atsimo-Atsinanana'),
+    (@CountryId, N'Ihorombe'),
+    (@CountryId, N'Menabe'),
+    (@CountryId, N'Atsimo-Andrefana'),
+    (@CountryId, N'Androy'),
+    (@CountryId, N'Anosy')
 GO
     
 -- Malawi
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Malawi#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MW'
@@ -3126,11 +3212,38 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Dedza'),
+    (@CountryId, N'Dowa'),
+    (@CountryId, N'Kasungu'),
+    (@CountryId, N'Lilongwe'),
+    (@CountryId, N'Mchinji'),
+    (@CountryId, N'Nkhotakhota'),
+    (@CountryId, N'Ntcheu'),
+    (@CountryId, N'Ntchisi'),
+    (@CountryId, N'Salima'),
+    (@CountryId, N'Chitipa'),
+    (@CountryId, N'Karonga'),
+    (@CountryId, N'Likoma'),
+    (@CountryId, N'Mzimba'),
+    (@CountryId, N'Nkhata Bay'),
+    (@CountryId, N'Rumphi'),
+    (@CountryId, N'Balaka'),
+    (@CountryId, N'Blantyre'),
+    (@CountryId, N'Chikhwawa'),
+    (@CountryId, N'Chiradzulu'),
+    (@CountryId, N'Machinga'),
+    (@CountryId, N'Mangochi'),
+    (@CountryId, N'Mulanje'),
+    (@CountryId, N'Mwanza'),
+    (@CountryId, N'Nsanje'),
+    (@CountryId, N'Thyolo'),
+    (@CountryId, N'Phalombe'),
+    (@CountryId, N'Zomba'),
+    (@CountryId, N'Neno')
 GO
     
 -- Malaysia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Malaysia#Political_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MY'
@@ -3141,11 +3254,26 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Johor'),
+    (@CountryId, N'Kedah'),
+    (@CountryId, N'Kelantan'),
+    (@CountryId, N'Malacca'),
+    (@CountryId, N'Negeri Sembilan'),
+    (@CountryId, N'Pahang'),
+    (@CountryId, N'Penang'),
+    (@CountryId, N'Perak'),
+    (@CountryId, N'Perlis'),
+    (@CountryId, N'Sabah'),
+    (@CountryId, N'Sarawak'),
+    (@CountryId, N'Selangor'),
+    (@CountryId, N'Terengganu'),
+    (@CountryId, N'Kuala Lumpur'),
+    (@CountryId, N'Labuan'),
+    (@CountryId, N'Putrajaya')
 GO
     
 -- Maldives
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_the_Maldives#First-level_administrative_Divisions_of_Maldives
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MV'
@@ -3156,7 +3284,27 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Haa Alif'),
+    (@CountryId, N'Haa Dhaalu'),
+    (@CountryId, N'Shaviyani'),
+    (@CountryId, N'Noonu'),
+    (@CountryId, N'Raa'),
+    (@CountryId, N'Baa'),
+    (@CountryId, N'Lhaviyani'),
+    (@CountryId, N'Kaafu'),
+    (@CountryId, N'Alif Alif'),
+    (@CountryId, N'Alif Dhaal'),
+    (@CountryId, N'Vaavu'),
+    (@CountryId, N'Meemu'),
+    (@CountryId, N'Faafu'),
+    (@CountryId, N'Dhaalu'),
+    (@CountryId, N'Thaa'),
+    (@CountryId, N'Laamu'),
+    (@CountryId, N'Gaafu Alif'),
+    (@CountryId, N'Gaafu Dhaalu'),
+    (@CountryId, N'Gnaviyani'),
+    (@CountryId, N'Malé'),
+    (@CountryId, N'Seenu/Addu')
 GO
     
 -- Mali
