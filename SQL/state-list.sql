@@ -3001,7 +3001,7 @@ VALUES
 GO
     
 -- Lesotho
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Lesotho#Districts
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LS'
@@ -3012,7 +3012,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Berea'),
+    (@CountryId, N'Butha-Buthe'),
+    (@CountryId, N'Leribe'),
+    (@CountryId, N'Mafeteng'),
+    (@CountryId, N'Maseru'),
+    (@CountryId, N'Mohales Hoek'),
+    (@CountryId, N'Mokhotlong'),
+    (@CountryId, N'Qachas Nek'),
+    (@CountryId, N'Quthing'),
+    (@CountryId, N'Thaba-Tseka')
 GO
     
 -- Liberia
