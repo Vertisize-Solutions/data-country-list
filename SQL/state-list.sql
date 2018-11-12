@@ -2979,7 +2979,7 @@ VALUES
 GO
     
 -- Lebanon
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Governorates_of_Lebanon
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LB'
@@ -2990,7 +2990,14 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Akkar'),
+    (@CountryId, N'Baalbek-Hermel'),
+    (@CountryId, N'Beirut'),
+    (@CountryId, N'Beqaa'),
+    (@CountryId, N'Mount Lebanon'),
+    (@CountryId, N'Nabatieh'),
+    (@CountryId, N'North'),
+    (@CountryId, N'South')
 GO
     
 -- Lesotho
