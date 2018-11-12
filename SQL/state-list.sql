@@ -3273,7 +3273,7 @@ VALUES
 GO
     
 -- Maldives
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_the_Maldives#First-level_administrative_Divisions_of_Maldives
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MV'
@@ -3284,7 +3284,27 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Haa Alif'),
+    (@CountryId, N'Haa Dhaalu'),
+    (@CountryId, N'Shaviyani'),
+    (@CountryId, N'Noonu'),
+    (@CountryId, N'Raa'),
+    (@CountryId, N'Baa'),
+    (@CountryId, N'Lhaviyani'),
+    (@CountryId, N'Kaafu'),
+    (@CountryId, N'Alif Alif'),
+    (@CountryId, N'Alif Dhaal'),
+    (@CountryId, N'Vaavu'),
+    (@CountryId, N'Meemu'),
+    (@CountryId, N'Faafu'),
+    (@CountryId, N'Dhaalu'),
+    (@CountryId, N'Thaa'),
+    (@CountryId, N'Laamu'),
+    (@CountryId, N'Gaafu Alif'),
+    (@CountryId, N'Gaafu Dhaalu'),
+    (@CountryId, N'Gnaviyani'),
+    (@CountryId, N'Malé'),
+    (@CountryId, N'Seenu/Addu')
 GO
     
 -- Mali
