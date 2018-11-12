@@ -2814,7 +2814,7 @@ VALUES
 GO
     
 -- Laos
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Laos
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LA'
@@ -2825,7 +2825,24 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Attapeu'),
+    (@CountryId, N'Bokeo'),
+    (@CountryId, N'Bolikhamsai'),
+    (@CountryId, N'Champasak'),
+    (@CountryId, N'Hua Phan'),
+    (@CountryId, N'Khammouane'),
+    (@CountryId, N'Luang Namtha'),
+    (@CountryId, N'Luang Prabang'),
+    (@CountryId, N'Oudomxay'),
+    (@CountryId, N'Phongsali'),
+    (@CountryId, N'Sayabouly'),
+    (@CountryId, N'Salavan'),
+    (@CountryId, N'Savannakhet'),
+    (@CountryId, N'Sekong'),
+    (@CountryId, N'Vientiane Prefecture'),
+    (@CountryId, N'Vientiane Province'),
+    (@CountryId, N'Xieng Khouang'),
+    (@CountryId, N'Xaisomboun Province')
 GO
     
 -- Latvia
