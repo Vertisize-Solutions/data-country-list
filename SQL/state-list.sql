@@ -3308,7 +3308,7 @@ VALUES
 GO
     
 -- Mali
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Mali#Regions_and_cercles
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ML'
@@ -3319,7 +3319,17 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kayes'),
+    (@CountryId, N'Koulikoro'),
+    (@CountryId, N'Bamako'),
+    (@CountryId, N'Sikasso'),
+    (@CountryId, N'Ségou'),
+    (@CountryId, N'Mopti'),
+    (@CountryId, N'Tombouctou'),
+    (@CountryId, N'Gao'),
+    (@CountryId, N'Kidal'),
+    (@CountryId, N'Taoudénit'),
+    (@CountryId, N'Ménaka')
 GO
     
 -- Malta
