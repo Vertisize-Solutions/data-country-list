@@ -3333,7 +3333,7 @@ VALUES
 GO
     
 -- Malta
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Malta#Current_regions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MT'
@@ -3344,7 +3344,11 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central Region'),
+    (@CountryId, N'Gozo Region'),
+    (@CountryId, N'Northern Region'),
+    (@CountryId, N'South Eastern Region'),
+    (@CountryId, N'Southern Region')
 GO
     
 -- Marshall Islands
