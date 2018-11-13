@@ -3352,7 +3352,7 @@ VALUES
 GO
     
 -- Marshall Islands
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/List_of_islands_of_the_Marshall_Islands
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MH'
@@ -3363,7 +3363,30 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ailinglaplap'),
+    (@CountryId, N'Ailuk'),
+    (@CountryId, N'Arno'),
+    (@CountryId, N'Aur'),
+    (@CountryId, N'Ebon'),
+    (@CountryId, N'Enewetok'),
+    (@CountryId, N'Jabat'),
+    (@CountryId, N'Jaluit'),
+    (@CountryId, N'Kili / Bikini / Ejit'),
+    (@CountryId, N'Kwajalein'),
+    (@CountryId, N'Lae'),
+    (@CountryId, N'Lib'),
+    (@CountryId, N'Likiep'),
+    (@CountryId, N'Majuro'),
+    (@CountryId, N'Maloelap'),
+    (@CountryId, N'Mejit'),
+    (@CountryId, N'Mili'),
+    (@CountryId, N'Namorik'),
+    (@CountryId, N'Namu'),
+    (@CountryId, N'Rongelap'),
+    (@CountryId, N'Ujae'),
+    (@CountryId, N'Utirik'),
+    (@CountryId, N'Wotho'),
+    (@CountryId, N'Wotje')
 GO
     
 -- Mauritania
