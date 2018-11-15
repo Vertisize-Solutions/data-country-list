@@ -3308,7 +3308,7 @@ VALUES
 GO
     
 -- Mali
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Mali#Regions_and_cercles
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ML'
@@ -3319,11 +3319,21 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kayes'),
+    (@CountryId, N'Koulikoro'),
+    (@CountryId, N'Bamako'),
+    (@CountryId, N'Sikasso'),
+    (@CountryId, N'Ségou'),
+    (@CountryId, N'Mopti'),
+    (@CountryId, N'Tombouctou'),
+    (@CountryId, N'Gao'),
+    (@CountryId, N'Kidal'),
+    (@CountryId, N'Taoudénit'),
+    (@CountryId, N'Ménaka')
 GO
     
 -- Malta
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Malta#Current_regions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MT'
@@ -3334,11 +3344,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central Region'),
+    (@CountryId, N'Gozo Region'),
+    (@CountryId, N'Northern Region'),
+    (@CountryId, N'South Eastern Region'),
+    (@CountryId, N'Southern Region')
 GO
     
 -- Marshall Islands
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/List_of_islands_of_the_Marshall_Islands
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MH'
@@ -3349,11 +3363,34 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ailinglaplap'),
+    (@CountryId, N'Ailuk'),
+    (@CountryId, N'Arno'),
+    (@CountryId, N'Aur'),
+    (@CountryId, N'Ebon'),
+    (@CountryId, N'Enewetok'),
+    (@CountryId, N'Jabat'),
+    (@CountryId, N'Jaluit'),
+    (@CountryId, N'Kili / Bikini / Ejit'),
+    (@CountryId, N'Kwajalein'),
+    (@CountryId, N'Lae'),
+    (@CountryId, N'Lib'),
+    (@CountryId, N'Likiep'),
+    (@CountryId, N'Majuro'),
+    (@CountryId, N'Maloelap'),
+    (@CountryId, N'Mejit'),
+    (@CountryId, N'Mili'),
+    (@CountryId, N'Namorik'),
+    (@CountryId, N'Namu'),
+    (@CountryId, N'Rongelap'),
+    (@CountryId, N'Ujae'),
+    (@CountryId, N'Utirik'),
+    (@CountryId, N'Wotho'),
+    (@CountryId, N'Wotje')
 GO
     
 -- Mauritania
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Mauritania#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MR'
@@ -3364,11 +3401,25 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Adrar'),
+    (@CountryId, N'Assaba'),
+    (@CountryId, N'Brakna'),
+    (@CountryId, N'Dakhlet Nouadhibou'),
+    (@CountryId, N'Gorgol'),
+    (@CountryId, N'Guidimaka'),
+    (@CountryId, N'Hodh Ech Chargui'),
+    (@CountryId, N'Hodh El Gharbi'),
+    (@CountryId, N'Inchiri'),
+    (@CountryId, N'Nouakchott-Nord'),
+    (@CountryId, N'Nouakchott-Ouest'),
+    (@CountryId, N'Nouakchott-Sud'),
+    (@CountryId, N'Tagant'),
+    (@CountryId, N'Tiris Zemmour'),
+    (@CountryId, N'Trarza')
 GO
     
 -- Mauritius
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Districts_of_Mauritius
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MU'
@@ -3379,11 +3430,19 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Flacq'),
+    (@CountryId, N'Grand Port'),
+    (@CountryId, N'Moka'),
+    (@CountryId, N'Pamplemousses'),
+    (@CountryId, N'Plaines Wilhems'),
+    (@CountryId, N'Port Louis'),
+    (@CountryId, N'Rivière du Rempart'),
+    (@CountryId, N'Rivière Noire'),
+    (@CountryId, N'Savanne')
 GO
     
 -- Mexico
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Mexico#Postal_abbreviations_and_ISO_3166-2_codes
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MX'
@@ -3394,11 +3453,42 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Aguascalientes'),
+    (@CountryId, N'Baja California'),
+    (@CountryId, N'Baja California Sur'),
+    (@CountryId, N'Campeche'),
+    (@CountryId, N'Chiapas'),
+    (@CountryId, N'Chihuahua'),
+    (@CountryId, N'Coahuila'),
+    (@CountryId, N'Colima'),
+    (@CountryId, N'Mexico City'),
+    (@CountryId, N'Durango'),
+    (@CountryId, N'Guanajuato'),
+    (@CountryId, N'Guerrero'),
+    (@CountryId, N'Hidalgo'),
+    (@CountryId, N'Jalisco'),
+    (@CountryId, N'México'),
+    (@CountryId, N'Michoacán'),
+    (@CountryId, N'Morelos'),
+    (@CountryId, N'Nayarit'),
+    (@CountryId, N'Nuevo León'),
+    (@CountryId, N'Oaxaca'),
+    (@CountryId, N'Puebla'),
+    (@CountryId, N'Querétaro'),
+    (@CountryId, N'Quintana Roo'),
+    (@CountryId, N'San Luis Potosí'),
+    (@CountryId, N'Sinaloa'),
+    (@CountryId, N'Sonora'),
+    (@CountryId, N'Tabasco'),
+    (@CountryId, N'Tamaulipas'),
+    (@CountryId, N'Tlaxcala'),
+    (@CountryId, N'Veracruz'),
+    (@CountryId, N'Yucatán'),
+    (@CountryId, N'Zacatecas')
 GO
     
 -- Federated States of Micronesia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Federated_States_of_Micronesia#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FM'
@@ -3409,11 +3499,14 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Yap'),
+    (@CountryId, N'Chuuk'),
+    (@CountryId, N'Pohnpei'),
+    (@CountryId, N'Kosrae')
 GO
     
 -- Monaco
--- Ref: 
+-- Ref: http://monaco.me/monaco/monaco-districts/
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MC'
@@ -3424,11 +3517,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Monte Carlo'),
+    (@CountryId, N'La Rousse'),
+    (@CountryId, N'Larvotto'),
+    (@CountryId, N'La Condamine'),
+    (@CountryId, N'Monaco-Ville'),
+    (@CountryId, N'Fontvieille'),
+    (@CountryId, N'La Colle'),
+    (@CountryId, N'Les Révoires'),
+    (@CountryId, N'Moneghetti'),
+    (@CountryId, N'Saint Michel')
 GO
     
 -- Mongolia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Mongolia
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MN'
@@ -3439,11 +3541,32 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Arkhangai'),
+    (@CountryId, N'Bayankhongor'),
+    (@CountryId, N'Bayan-Ölgii'),
+    (@CountryId, N'Bulgan'),
+    (@CountryId, N'Darkhan-Uul'),
+    (@CountryId, N'Dornod'),
+    (@CountryId, N'Dornogovi'),
+    (@CountryId, N'Dundgovi'),
+    (@CountryId, N'Govi-Altai'),
+    (@CountryId, N'Govisümber'),
+    (@CountryId, N'Khentii'),
+    (@CountryId, N'Khovd'),
+    (@CountryId, N'Khövsgöl'),
+    (@CountryId, N'Orkhon'),
+    (@CountryId, N'Ömnögovi'),
+    (@CountryId, N'Övörkhangai'),
+    (@CountryId, N'Selenge'),
+    (@CountryId, N'Sükhbaatar'),
+    (@CountryId, N'Töv'),
+    (@CountryId, N'Uvs'),
+    (@CountryId, N'Zavkhan'),
+    (@CountryId, N'Ulaanbaatar')
 GO
     
 -- Montenegro
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Municipalities_of_Montenegro#List
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ME'
@@ -3454,7 +3577,29 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Andrijevica'),
+    (@CountryId, N'Bar'),
+    (@CountryId, N'Berane'),
+    (@CountryId, N'Bijelo Polje'),
+    (@CountryId, N'Budva'),
+    (@CountryId, N'Cetinje'),
+    (@CountryId, N'Danilovgrad'),
+    (@CountryId, N'Gusinje'),
+    (@CountryId, N'Herceg Novi'),
+    (@CountryId, N'Kolašin'),
+    (@CountryId, N'Kotor'),
+    (@CountryId, N'Mojkovac'),
+    (@CountryId, N'Nikšić'),
+    (@CountryId, N'Petnjica'),
+    (@CountryId, N'Plav'),
+    (@CountryId, N'Plužine'),
+    (@CountryId, N'Pljevlja'),
+    (@CountryId, N'Podgorica'),
+    (@CountryId, N'Rožaje'),
+    (@CountryId, N'Šavnik'),
+    (@CountryId, N'Tivat'),
+    (@CountryId, N'Ulcinj'),
+    (@CountryId, N'Žabljak')
 GO
     
 -- Morocco
