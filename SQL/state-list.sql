@@ -3442,7 +3442,7 @@ VALUES
 GO
     
 -- Mexico
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Mexico#Postal_abbreviations_and_ISO_3166-2_codes
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MX'
@@ -3453,7 +3453,38 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Aguascalientes'),
+    (@CountryId, N'Baja California'),
+    (@CountryId, N'Baja California Sur'),
+    (@CountryId, N'Campeche'),
+    (@CountryId, N'Chiapas'),
+    (@CountryId, N'Chihuahua'),
+    (@CountryId, N'Coahuila'),
+    (@CountryId, N'Colima'),
+    (@CountryId, N'Mexico City'),
+    (@CountryId, N'Durango'),
+    (@CountryId, N'Guanajuato'),
+    (@CountryId, N'Guerrero'),
+    (@CountryId, N'Hidalgo'),
+    (@CountryId, N'Jalisco'),
+    (@CountryId, N'México'),
+    (@CountryId, N'Michoacán'),
+    (@CountryId, N'Morelos'),
+    (@CountryId, N'Nayarit'),
+    (@CountryId, N'Nuevo León'),
+    (@CountryId, N'Oaxaca'),
+    (@CountryId, N'Puebla'),
+    (@CountryId, N'Querétaro'),
+    (@CountryId, N'Quintana Roo'),
+    (@CountryId, N'San Luis Potosí'),
+    (@CountryId, N'Sinaloa'),
+    (@CountryId, N'Sonora'),
+    (@CountryId, N'Tabasco'),
+    (@CountryId, N'Tamaulipas'),
+    (@CountryId, N'Tlaxcala'),
+    (@CountryId, N'Veracruz'),
+    (@CountryId, N'Yucatán'),
+    (@CountryId, N'Zacatecas')
 GO
     
 -- Federated States of Micronesia
