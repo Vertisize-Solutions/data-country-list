@@ -3488,7 +3488,7 @@ VALUES
 GO
     
 -- Federated States of Micronesia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Federated_States_of_Micronesia#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FM'
@@ -3499,7 +3499,10 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Yap'),
+    (@CountryId, N'Chuuk'),
+    (@CountryId, N'Pohnpei'),
+    (@CountryId, N'Kosrae')
 GO
     
 -- Monaco
