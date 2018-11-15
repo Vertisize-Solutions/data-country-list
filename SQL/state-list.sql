@@ -3566,7 +3566,7 @@ VALUES
 GO
     
 -- Montenegro
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Municipalities_of_Montenegro#List
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ME'
@@ -3577,7 +3577,29 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Andrijevica'),
+    (@CountryId, N'Bar'),
+    (@CountryId, N'Berane'),
+    (@CountryId, N'Bijelo Polje'),
+    (@CountryId, N'Budva'),
+    (@CountryId, N'Cetinje'),
+    (@CountryId, N'Danilovgrad'),
+    (@CountryId, N'Gusinje'),
+    (@CountryId, N'Herceg Novi'),
+    (@CountryId, N'Kolašin'),
+    (@CountryId, N'Kotor'),
+    (@CountryId, N'Mojkovac'),
+    (@CountryId, N'Nikšić'),
+    (@CountryId, N'Petnjica'),
+    (@CountryId, N'Plav'),
+    (@CountryId, N'Plužine'),
+    (@CountryId, N'Pljevlja'),
+    (@CountryId, N'Podgorica'),
+    (@CountryId, N'Rožaje'),
+    (@CountryId, N'Šavnik'),
+    (@CountryId, N'Tivat'),
+    (@CountryId, N'Ulcinj'),
+    (@CountryId, N'Žabljak')
 GO
     
 -- Morocco
