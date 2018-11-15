@@ -3506,7 +3506,7 @@ VALUES
 GO
     
 -- Monaco
--- Ref: 
+-- Ref: http://monaco.me/monaco/monaco-districts/
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MC'
@@ -3517,7 +3517,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Monte Carlo'),
+    (@CountryId, N'La Rousse'),
+    (@CountryId, N'Larvotto'),
+    (@CountryId, N'La Condamine'),
+    (@CountryId, N'Monaco-Ville'),
+    (@CountryId, N'Fontvieille'),
+    (@CountryId, N'La Colle'),
+    (@CountryId, N'Les Révoires'),
+    (@CountryId, N'Moneghetti'),
+    (@CountryId, N'Saint Michel')
 GO
     
 -- Mongolia
