@@ -3390,7 +3390,7 @@ VALUES
 GO
     
 -- Mauritania
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Mauritania#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MR'
@@ -3401,7 +3401,21 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Adrar'),
+    (@CountryId, N'Assaba'),
+    (@CountryId, N'Brakna'),
+    (@CountryId, N'Dakhlet Nouadhibou'),
+    (@CountryId, N'Gorgol'),
+    (@CountryId, N'Guidimaka'),
+    (@CountryId, N'Hodh Ech Chargui'),
+    (@CountryId, N'Hodh El Gharbi'),
+    (@CountryId, N'Inchiri'),
+    (@CountryId, N'Nouakchott-Nord'),
+    (@CountryId, N'Nouakchott-Ouest'),
+    (@CountryId, N'Nouakchott-Sud'),
+    (@CountryId, N'Tagant'),
+    (@CountryId, N'Tiris Zemmour'),
+    (@CountryId, N'Trarza')
 GO
     
 -- Mauritius
