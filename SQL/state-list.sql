@@ -3530,7 +3530,7 @@ VALUES
 GO
     
 -- Mongolia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Mongolia
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MN'
@@ -3541,7 +3541,28 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Arkhangai'),
+    (@CountryId, N'Bayankhongor'),
+    (@CountryId, N'Bayan-Ölgii'),
+    (@CountryId, N'Bulgan'),
+    (@CountryId, N'Darkhan-Uul'),
+    (@CountryId, N'Dornod'),
+    (@CountryId, N'Dornogovi'),
+    (@CountryId, N'Dundgovi'),
+    (@CountryId, N'Govi-Altai'),
+    (@CountryId, N'Govisümber'),
+    (@CountryId, N'Khentii'),
+    (@CountryId, N'Khovd'),
+    (@CountryId, N'Khövsgöl'),
+    (@CountryId, N'Orkhon'),
+    (@CountryId, N'Ömnögovi'),
+    (@CountryId, N'Övörkhangai'),
+    (@CountryId, N'Selenge'),
+    (@CountryId, N'Sükhbaatar'),
+    (@CountryId, N'Töv'),
+    (@CountryId, N'Uvs'),
+    (@CountryId, N'Zavkhan'),
+    (@CountryId, N'Ulaanbaatar')
 GO
     
 -- Montenegro
