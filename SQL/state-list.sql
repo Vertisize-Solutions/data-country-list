@@ -3419,7 +3419,7 @@ VALUES
 GO
     
 -- Mauritius
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Districts_of_Mauritius
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MU'
@@ -3430,7 +3430,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Flacq'),
+    (@CountryId, N'Grand Port'),
+    (@CountryId, N'Moka'),
+    (@CountryId, N'Pamplemousses'),
+    (@CountryId, N'Plaines Wilhems'),
+    (@CountryId, N'Port Louis'),
+    (@CountryId, N'Rivière du Rempart'),
+    (@CountryId, N'Rivière Noire'),
+    (@CountryId, N'Savanne')
 GO
     
 -- Mexico
