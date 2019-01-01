@@ -3603,7 +3603,7 @@ VALUES
 GO
     
 -- Morocco
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Morocco#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MA'
@@ -3614,7 +3614,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Tanger-Tetouan-Al Hoceima'),
+    (@CountryId, N'Oriental'),
+    (@CountryId, N'Fès-Meknès'),
+    (@CountryId, N'Rabat-Salé-Kénitra'),
+    (@CountryId, N'Béni Mellal-Khénifra'),
+    (@CountryId, N'Casablanca-Settat'),
+    (@CountryId, N'Marrakech-Safi'),
+    (@CountryId, N'Drâa-Tafilalet'),
+    (@CountryId, N'Souss-Massa'),
+    (@CountryId, N'Guelmim-Oued Noun'),
+    (@CountryId, N'Laâyoune-Sakia El Hamra'),
+    (@CountryId, N'Dakhla-Oued Ed-Dahab')
 GO
     
 -- Mozambique
