@@ -3629,7 +3629,7 @@ VALUES
 GO
     
 -- Mozambique
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Mozambique#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MZ'
@@ -3640,7 +3640,17 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Niassa'),
+    (@CountryId, N'Cabo Delgado'),
+    (@CountryId, N'Nampula'),
+    (@CountryId, N'Tete'),
+    (@CountryId, N'Zambezia'),
+    (@CountryId, N'Manica'),
+    (@CountryId, N'Sofala'),
+    (@CountryId, N'Gaza'),
+    (@CountryId, N'Inhambane'),
+    (@CountryId, N'Maputo (city)'),
+    (@CountryId, N'Maputo')
 GO
     
 -- Myanmar
