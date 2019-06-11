@@ -3654,7 +3654,7 @@ VALUES
 GO
     
 -- Myanmar
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Myanmar#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MM'
@@ -3669,7 +3669,7 @@ VALUES
 GO
     
 -- Namibia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Namibia
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NA'
@@ -3684,7 +3684,7 @@ VALUES
 GO
     
 -- Nauru
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Nauru#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NR'
@@ -3699,7 +3699,7 @@ VALUES
 GO
     
 -- Nepal
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Nepal#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NP'
@@ -3714,7 +3714,7 @@ VALUES
 GO
     
 -- Netherlands
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Netherlands#List_of_provinces
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NL'
@@ -3729,7 +3729,7 @@ VALUES
 GO
     
 -- New Zealand
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_New_Zealand#List_of_regions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NZ'
@@ -3744,7 +3744,7 @@ VALUES
 GO
     
 -- Nicaragua
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Nicaragua#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NI'
@@ -3759,7 +3759,7 @@ VALUES
 GO
     
 -- Niger
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Niger#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NE'
@@ -3774,7 +3774,7 @@ VALUES
 GO
     
 -- Nigeria
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/States_of_Nigeria
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NG'
@@ -3789,7 +3789,7 @@ VALUES
 GO
     
 -- Norway
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Norway#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NO'
@@ -3804,7 +3804,7 @@ VALUES
 GO
     
 -- Oman
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Oman#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'OM'
@@ -3819,7 +3819,7 @@ VALUES
 GO
     
 -- Pakistan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Pakistan#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PK'
@@ -3834,7 +3834,7 @@ VALUES
 GO
     
 -- Palau
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Palau#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PW'
@@ -3849,7 +3849,7 @@ VALUES
 GO
     
 -- Palestine
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/State_of_Palestine#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PS'
@@ -3864,7 +3864,7 @@ VALUES
 GO
     
 -- Panama
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Panama#Provinces
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PA'
@@ -3879,7 +3879,7 @@ VALUES
 GO
     
 -- Papua New Guinea
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Papua_New_Guinea#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PG'
@@ -3894,7 +3894,7 @@ VALUES
 GO
     
 -- Paraguay
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Paraguay#Administrative_subdivisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PY'
@@ -3909,7 +3909,7 @@ VALUES
 GO
     
 -- Peru
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Peru#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PE'
@@ -3924,7 +3924,7 @@ VALUES
 GO
     
 -- Philippines
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Philippines#Administrative_regions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PH'
@@ -3939,7 +3939,7 @@ VALUES
 GO
     
 -- Poland
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Poland#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PL'
@@ -3954,7 +3954,7 @@ VALUES
 GO
     
 -- Portugal
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Portugal#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PT'
@@ -3969,7 +3969,7 @@ VALUES
 GO
     
 -- Qatar
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Qatar#Administrative_divisions
 
 DECLARE @CountryId INTO
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'QA'
