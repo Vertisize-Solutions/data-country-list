@@ -3856,7 +3856,14 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Agadez'),
+    (@CountryId, N'Diffa'),
+    (@CountryId, N'Dosso'),
+    (@CountryId, N'Maradi'),
+    (@CountryId, N'Tahoua'),
+    (@CountryId, N'Tillabéri'),
+    (@CountryId, N'Zinder'),
+    (@CountryId, N'Niamey')
 GO
     
 -- Nigeria
@@ -3871,7 +3878,43 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Abia'),
+    (@CountryId, N'Adamawa'),
+    (@CountryId, N'Akwa Ibom'),
+    (@CountryId, N'Anambra'),
+    (@CountryId, N'Bauchi'),
+    (@CountryId, N'Bayelsa'),
+    (@CountryId, N'Benue'),
+    (@CountryId, N'Borno'),
+    (@CountryId, N'Cross River'),
+    (@CountryId, N'Delta'),
+    (@CountryId, N'Ebonyi'),
+    (@CountryId, N'Enugu'),
+    (@CountryId, N'Edo'),
+    (@CountryId, N'Ekiti'),
+    (@CountryId, N'Gombe'),
+    (@CountryId, N'Imo'),
+    (@CountryId, N'Jigawa'),
+    (@CountryId, N'Kaduna'),
+    (@CountryId, N'Kano'),
+    (@CountryId, N'Katsina'),
+    (@CountryId, N'Kebbi'),
+    (@CountryId, N'Kogi'),
+    (@CountryId, N'Kwara'),
+    (@CountryId, N'Lagos'),
+    (@CountryId, N'Nasarawa'),
+    (@CountryId, N'Niger'),
+    (@CountryId, N'Ogun'),
+    (@CountryId, N'Ondo'),
+    (@CountryId, N'Osun'),
+    (@CountryId, N'Oyo'),
+    (@CountryId, N'Plateau'),
+    (@CountryId, N'Rivers'),
+    (@CountryId, N'Sokoto'),
+    (@CountryId, N'Taraba'),
+    (@CountryId, N'Yobe'),
+    (@CountryId, N'Zamfara'),
+    (@CountryId, N'Federal Capital Territory (FCT)')
 GO
     
 -- Norway
@@ -3886,7 +3929,24 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Østfold'),
+    (@CountryId, N'Akershus'),
+    (@CountryId, N'Oslo'),
+    (@CountryId, N'Hedmark'),
+    (@CountryId, N'Oppland'),
+    (@CountryId, N'Buskerud'),
+    (@CountryId, N'Vestfold'),
+    (@CountryId, N'Telemark'),
+    (@CountryId, N'Aust-Agder'),
+    (@CountryId, N'Vest-Agder'),
+    (@CountryId, N'Rogaland'),
+    (@CountryId, N'Hordaland'),
+    (@CountryId, N'Sogn og Fjordane'),
+    (@CountryId, N'Møre og Romsdal'),
+    (@CountryId, N'Trøndelag'),
+    (@CountryId, N'Nordland'),
+    (@CountryId, N'Troms'),
+    (@CountryId, N'Finnmark')
 GO
     
 -- Oman
@@ -3901,7 +3961,17 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ad Dakhiliyah'),
+    (@CountryId, N'Ad Dhahirah'),
+    (@CountryId, N'Al Batinah North'),
+    (@CountryId, N'Al Batinah South'),
+    (@CountryId, N'Al Buraimi'),
+    (@CountryId, N'Al Wusta'),
+    (@CountryId, N'Ash Sharqiyah North'),
+    (@CountryId, N'Ash Sharqiyah South'),
+    (@CountryId, N'Dhofar'),
+    (@CountryId, N'Muscat'),
+    (@CountryId, N'Musandam')
 GO
     
 -- Pakistan
