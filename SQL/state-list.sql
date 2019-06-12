@@ -3748,7 +3748,13 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Province 1'),
+    (@CountryId, N'Province 2'),
+    (@CountryId, N'Province 3'),
+    (@CountryId, N'Gandaki Pradesh'),
+    (@CountryId, N'Province 5'),
+    (@CountryId, N'Karnali Pradesh'),
+    (@CountryId, N'Sudurpashchim Pradesh')
 GO
     
 -- Netherlands
@@ -3763,7 +3769,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Drenthe'),
+    (@CountryId, N'Flevoland'),
+    (@CountryId, N'Friesland'),
+    (@CountryId, N'Gelderland'),
+    (@CountryId, N'Groningen'),
+    (@CountryId, N'Limburg'),
+    (@CountryId, N'North Brabant'),
+    (@CountryId, N'North Holland'),
+    (@CountryId, N'Overijssel'),
+    (@CountryId, N'South Holland'),
+    (@CountryId, N'Utrecht'),
+    (@CountryId, N'Zeeland')
 GO
     
 -- New Zealand
@@ -3778,7 +3795,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Northland'),
+    (@CountryId, N'Auckland'),
+    (@CountryId, N'Waikato'),
+    (@CountryId, N'Bay of Plenty'),
+    (@CountryId, N'Gisborne'),
+    (@CountryId, N'Hawke`s Bay'),
+    (@CountryId, N'Taranaki'),
+    (@CountryId, N'Manawatu-Wanganui'),
+    (@CountryId, N'Wellington'),
+    (@CountryId, N'Tasman'),
+    (@CountryId, N'Nelson'),
+    (@CountryId, N'Marlborough'),
+    (@CountryId, N'West Coast'),
+    (@CountryId, N'Canterbury'),
+    (@CountryId, N'Otago'),
+    (@CountryId, N'Southland')
 GO
     
 -- Nicaragua
@@ -3793,7 +3825,23 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Boaco'),
+    (@CountryId, N'Carazo'),
+    (@CountryId, N'Chinandega'),
+    (@CountryId, N'Chontales'),
+    (@CountryId, N'Estelí'),
+    (@CountryId, N'Granada'),
+    (@CountryId, N'Jinotega'),
+    (@CountryId, N'León'),
+    (@CountryId, N'Madriz'),
+    (@CountryId, N'Managua'),
+    (@CountryId, N'Masaya'),
+    (@CountryId, N'Matagalpa'),
+    (@CountryId, N'Nueva Segovia'),
+    (@CountryId, N'Rivas'),
+    (@CountryId, N'Río San Juan'),
+    (@CountryId, N'North Caribbean Coast Autonomous Region'),
+    (@CountryId, N'South Caribbean Coast Autonomous Region')
 GO
     
 -- Niger
