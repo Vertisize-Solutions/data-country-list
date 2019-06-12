@@ -1,7 +1,7 @@
 -- Afghanistan
 -- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AF'
 
 INSERT INTO dbo.StateMaster
@@ -49,7 +49,7 @@ GO
 -- Albania
 -- Ref: https://en.wikipedia.org/wiki/Albania#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AL'
 
 INSERT INTO dbo.StateMaster
@@ -75,7 +75,7 @@ GO
 -- Algeria
 -- Ref: https://en.wikipedia.org/wiki/Algeria#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DZ'
 
 INSERT INTO dbo.StateMaster
@@ -137,7 +137,7 @@ GO
 -- Andorra
 -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Andorra
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AD'
 
 INSERT INTO dbo.StateMaster
@@ -158,7 +158,7 @@ GO
 -- Angola
 -- Ref: https://en.wikipedia.org/wiki/Angola#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AO'
 
 INSERT INTO dbo.StateMaster
@@ -190,7 +190,7 @@ GO
 -- Antigua and Barbuda
 -- Ref: https://en.wikipedia.org/wiki/Antigua_and_Barbuda#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AG'
 
 INSERT INTO dbo.StateMaster
@@ -212,7 +212,7 @@ GO
 -- Argentina
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Argentina
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AR'
 
 INSERT INTO dbo.StateMaster
@@ -250,7 +250,7 @@ GO
 -- Armenia
 -- Ref: https://en.wikipedia.org/wiki/Armenia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AM'
 
 INSERT INTO dbo.StateMaster
@@ -275,7 +275,7 @@ GO
 -- Australia
 -- Ref: https://en.wikipedia.org/wiki/Australia#States_and_territories
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AU'
 
 INSERT INTO dbo.StateMaster
@@ -295,7 +295,7 @@ GO
 -- Austria
 -- Ref: https://en.wikipedia.org/wiki/Austria#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AT'
 
 INSERT INTO dbo.StateMaster
@@ -318,7 +318,7 @@ GO
 -- Azerbaijan
 -- Ref: https://en.wikipedia.org/wiki/Azerbaijan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AZ'
 
 INSERT INTO dbo.StateMaster
@@ -410,7 +410,7 @@ GO
 -- The Bahamas
 -- Ref: https://en.wikipedia.org/wiki/The_Bahamas#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BS'
 
 INSERT INTO dbo.StateMaster
@@ -456,7 +456,7 @@ GO
 -- Bahrain
 -- Ref: https://en.wikipedia.org/wiki/Bahrain#Governorates
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BH'
 
 INSERT INTO dbo.StateMaster
@@ -474,7 +474,7 @@ GO
 -- Bangladesh
 -- Ref: https://en.wikipedia.org/wiki/Bangladesh#Administrative_geography
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BD'
 
 INSERT INTO dbo.StateMaster
@@ -496,7 +496,7 @@ GO
 -- Barbados
 -- Ref: https://en.wikipedia.org/wiki/Barbados#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BB'
 
 INSERT INTO dbo.StateMaster
@@ -521,7 +521,7 @@ GO
 -- Belarus
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Belarus
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BY'
 
 INSERT INTO dbo.StateMaster
@@ -542,7 +542,7 @@ GO
 -- Belgium
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Belgium
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BE'
 
 INSERT INTO dbo.StateMaster
@@ -567,7 +567,7 @@ GO
 -- Belize
 -- Ref: https://en.wikipedia.org/wiki/Belize#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BZ'
 
 INSERT INTO dbo.StateMaster
@@ -587,7 +587,7 @@ GO
 -- Benin
 -- Ref: https://en.wikipedia.org/wiki/Benin#Departments_and_communes
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BJ'
 
 INSERT INTO dbo.StateMaster
@@ -613,7 +613,7 @@ GO
 -- Bhutan
 -- Ref: https://en.wikipedia.org/wiki/Bhutan#Political_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BT'
 
 INSERT INTO dbo.StateMaster
@@ -647,7 +647,7 @@ GO
 -- Bolivia
 -- Ref: https://en.wikipedia.org/wiki/Bolivia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BO'
 
 INSERT INTO dbo.StateMaster
@@ -670,7 +670,7 @@ GO
 -- Bosnia and Herzegovina
 -- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_Bosnia_and_Herzegovina
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BA'
 
 INSERT INTO dbo.StateMaster
@@ -686,7 +686,7 @@ GO
 -- Botswana
 -- Ref: https://en.wikipedia.org/wiki/Botswana#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BW'
 
 INSERT INTO dbo.StateMaster
@@ -709,7 +709,7 @@ GO
 -- Brazil
 -- Ref: https://en.wikipedia.org/wiki/Brazil#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BR'
 
 INSERT INTO dbo.StateMaster
@@ -751,7 +751,7 @@ GO
 -- Brunei
 -- Ref: https://en.wikipedia.org/wiki/Brunei#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BN'
 
 INSERT INTO dbo.StateMaster
@@ -769,7 +769,7 @@ GO
 -- Bulgaria
 -- Ref: https://en.wikipedia.org/wiki/Bulgaria#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BG'
 
 INSERT INTO dbo.StateMaster
@@ -811,7 +811,7 @@ GO
 -- Burkina Faso
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Burkina_Faso
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BF'
 
 INSERT INTO dbo.StateMaster
@@ -838,7 +838,7 @@ GO
 -- Burundi
 -- Ref: https://en.wikipedia.org/wiki/Burundi#Subdivisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'BI'
 
 INSERT INTO dbo.StateMaster
@@ -870,7 +870,7 @@ GO
 -- Cabo Verde
 -- Ref: https://en.wikipedia.org/wiki/Cape_Verde#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CV'
 
 INSERT INTO dbo.StateMaster
@@ -906,7 +906,7 @@ GO
 -- Cambodia
 -- Ref: https://en.wikipedia.org/wiki/Cambodia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KH'
 
 INSERT INTO dbo.StateMaster
@@ -945,7 +945,7 @@ GO
 -- Cameroon
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Cameroon
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CM'
 
 INSERT INTO dbo.StateMaster
@@ -969,7 +969,7 @@ GO
 -- Canada
 -- Ref: https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada#Provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CA'
 
 INSERT INTO dbo.StateMaster
@@ -993,7 +993,7 @@ GO
 -- Central African Republic
 -- Ref: https://en.wikipedia.org/wiki/Central_African_Republic#Prefectures_and_sub-prefectures
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CF'
 
 INSERT INTO dbo.StateMaster
@@ -1025,7 +1025,7 @@ GO
 -- Chad
 -- Ref: https://en.wikipedia.org/wiki/Chad#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TD'
 
 INSERT INTO dbo.StateMaster
@@ -1062,7 +1062,7 @@ GO
 -- Chile
 -- Ref: https://en.wikipedia.org/wiki/Chile#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CL'
 
 INSERT INTO dbo.StateMaster
@@ -1091,7 +1091,7 @@ GO
 -- China
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_China#List_of_province-level_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CN'
 
 INSERT INTO dbo.StateMaster
@@ -1139,7 +1139,7 @@ GO
 -- Colombia
 -- Ref: https://en.wikipedia.org/wiki/Colombia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CO'
 
 INSERT INTO dbo.StateMaster
@@ -1186,7 +1186,7 @@ GO
 -- Comoros
 -- Ref: http://www.worldcitiesdb.com/Comoros/state
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KM'
 
 INSERT INTO dbo.StateMaster
@@ -1203,7 +1203,7 @@ GO
 -- Congo
 -- Ref: https://en.wikipedia.org/wiki/Republic_of_the_Congo#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CG'
 
 INSERT INTO dbo.StateMaster
@@ -1229,7 +1229,7 @@ GO
 -- Costa Rica
 -- Ref: https://en.wikipedia.org/wiki/Costa_Rica#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CR'
 
 INSERT INTO dbo.StateMaster
@@ -1250,7 +1250,7 @@ GO
 -- Ivory Coast
 -- Ref: https://en.wikipedia.org/wiki/Ivory_Coast#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CI'
 
 INSERT INTO dbo.StateMaster
@@ -1278,7 +1278,7 @@ GO
 -- Croatia
 -- Ref: https://en.wikipedia.org/wiki/Counties_of_Croatia#Current
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HR'
 
 INSERT INTO dbo.StateMaster
@@ -1313,7 +1313,7 @@ GO
 -- Cuba
 -- Ref: https://en.wikipedia.org/wiki/Cuba#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CU'
 
 INSERT INTO dbo.StateMaster
@@ -1343,7 +1343,7 @@ GO
 -- Cyprus
 -- Ref: https://en.wikipedia.org/wiki/Cyprus#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CY'
 
 INSERT INTO dbo.StateMaster
@@ -1363,7 +1363,7 @@ GO
 -- Czech Republic
 -- Ref: https://en.wikipedia.org/wiki/Czech_Republic#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CZ'
 
 INSERT INTO dbo.StateMaster
@@ -1391,7 +1391,7 @@ GO
 -- North Korea
 -- Ref: https://en.wikipedia.org/wiki/North_Korea#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KP'
 
 INSERT INTO dbo.StateMaster
@@ -1416,7 +1416,7 @@ GO
 -- DR Congo
 -- Ref: https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo#Provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CD'
 
 INSERT INTO dbo.StateMaster
@@ -1456,7 +1456,7 @@ GO
 -- Denmark
 -- Ref: https://en.wikipedia.org/wiki/Denmark#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DK'
 
 INSERT INTO dbo.StateMaster
@@ -1475,7 +1475,7 @@ GO
 -- Faroe Islands
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_the_Faroe_Islands
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FO'
 
 INSERT INTO dbo.StateMaster
@@ -1495,7 +1495,7 @@ GO
 -- Greenland
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Greenland
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GL'
 
 INSERT INTO dbo.StateMaster
@@ -1514,7 +1514,7 @@ GO
 -- Djibouti
 -- Ref: https://en.wikipedia.org/wiki/Djibouti#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DJ'
 
 INSERT INTO dbo.StateMaster
@@ -1534,7 +1534,7 @@ GO
 -- Dominica
 -- Ref: https://en.wikipedia.org/wiki/Dominica#Government_and_administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DM'
 
 INSERT INTO dbo.StateMaster
@@ -1558,7 +1558,7 @@ GO
 -- Dominican Republic
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Dominican_Republic#Statistics
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DO'
 
 INSERT INTO dbo.StateMaster
@@ -1604,7 +1604,7 @@ GO
 -- Ecuador
 -- Ref: https://en.wikipedia.org/wiki/Ecuador#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EC'
 
 INSERT INTO dbo.StateMaster
@@ -1642,7 +1642,7 @@ GO
 -- Egypt
 -- Ref: https://en.wikipedia.org/wiki/Egypt#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EG'
 
 INSERT INTO dbo.StateMaster
@@ -1683,7 +1683,7 @@ GO
 -- El Salvador
 -- Ref: https://en.wikipedia.org/wiki/Departments_of_El_Salvador
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SV'
 
 INSERT INTO dbo.StateMaster
@@ -1711,7 +1711,7 @@ GO
 -- Equatorial Guinea
 -- Ref: https://en.wikipedia.org/wiki/Equatorial_Guinea#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GQ'
 
 INSERT INTO dbo.StateMaster
@@ -1733,7 +1733,7 @@ GO
 -- Eritrea
 -- Ref: https://en.wikipedia.org/wiki/Eritrea#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ER'
 
 INSERT INTO dbo.StateMaster
@@ -1753,7 +1753,7 @@ GO
 -- Estonia
 -- Ref: https://en.wikipedia.org/wiki/Counties_of_Estonia#List_of_counties
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EE'
 
 INSERT INTO dbo.StateMaster
@@ -1782,7 +1782,7 @@ GO
 -- Ethiopia
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Ethiopia
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ET'
 
 INSERT INTO dbo.StateMaster
@@ -1807,7 +1807,7 @@ GO
 -- Swaziland
 -- Ref: https://en.wikipedia.org/wiki/Swaziland#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SZ'
 
 INSERT INTO dbo.StateMaster
@@ -1825,7 +1825,7 @@ GO
 -- Fiji
 -- Ref: https://en.wikipedia.org/wiki/Fiji#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FJ'
 
 INSERT INTO dbo.StateMaster
@@ -1843,7 +1843,7 @@ GO
 -- Finland
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Finland
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FI'
 
 INSERT INTO dbo.StateMaster
@@ -1876,7 +1876,7 @@ GO
 -- France
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_France#Regions_and_their_capitals
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FR'
 
 INSERT INTO dbo.StateMaster
@@ -1908,7 +1908,7 @@ GO
 -- Gabon
 -- Ref: https://en.wikipedia.org/wiki/Gabon#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GA'
 
 INSERT INTO dbo.StateMaster
@@ -1931,7 +1931,7 @@ GO
 -- The Gambia
 -- Ref: https://en.wikipedia.org/wiki/The_Gambia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GM'
 
 INSERT INTO dbo.StateMaster
@@ -1953,7 +1953,7 @@ GO
 -- Georgia
 -- Ref: https://en.wikipedia.org/wiki/Georgia_(country)#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GE'
 
 INSERT INTO dbo.StateMaster
@@ -1979,7 +1979,7 @@ GO
 -- Germany
 -- Ref: https://en.wikipedia.org/wiki/States_of_Germany#List
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'DE'
 
 INSERT INTO dbo.StateMaster
@@ -2009,7 +2009,7 @@ GO
 -- Ghana
 -- Ref: https://en.wikipedia.org/wiki/Ghana#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GH'
 
 INSERT INTO dbo.StateMaster
@@ -2033,7 +2033,7 @@ GO
 -- Greece
 -- Ref: https://en.wikipedia.org/wiki/Greece#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GR'
 
 INSERT INTO dbo.StateMaster
@@ -2061,7 +2061,7 @@ GO
 -- Grenada
 -- Ref: https://en.wikipedia.org/wiki/Parishes_of_Grenada
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GD'
 
 INSERT INTO dbo.StateMaster
@@ -2084,7 +2084,7 @@ GO
 -- Guatemala
 -- Ref: https://en.wikipedia.org/wiki/Departments_of_Guatemala
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GT'
 
 INSERT INTO dbo.StateMaster
@@ -2120,7 +2120,7 @@ GO
 -- Guinea
 -- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Guinea#Government_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GN'
 
 INSERT INTO dbo.StateMaster
@@ -2142,7 +2142,7 @@ GO
 -- Guinea-Bissau
 -- Ref: https://en.wikipedia.org/wiki/Guinea-Bissau#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GW'
 
 INSERT INTO dbo.StateMaster
@@ -2165,7 +2165,7 @@ GO
 -- Guyana
 -- Ref: https://en.wikipedia.org/wiki/Guyana#Regions_and_Neighbourhood_Councils
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GY'
 
 INSERT INTO dbo.StateMaster
@@ -2189,7 +2189,7 @@ GO
 -- Haiti
 -- Ref: https://en.wikipedia.org/wiki/Haiti#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HT'
 
 INSERT INTO dbo.StateMaster
@@ -2213,7 +2213,7 @@ GO
 -- Honduras
 -- Ref: https://en.wikipedia.org/wiki/Honduras#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HN'
 
 INSERT INTO dbo.StateMaster
@@ -2245,7 +2245,7 @@ GO
 -- Hungary
 -- Ref: https://en.wikipedia.org/wiki/Hungary#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'HU'
 
 INSERT INTO dbo.StateMaster
@@ -2279,7 +2279,7 @@ GO
 -- Iceland
 -- Ref: https://en.wikipedia.org/wiki/Constituencies_of_Iceland
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IS'
 
 INSERT INTO dbo.StateMaster
@@ -2299,7 +2299,7 @@ GO
 -- India
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_India#States_and_union_territories
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IN'
 
 INSERT INTO dbo.StateMaster
@@ -2349,7 +2349,7 @@ GO
 -- Indonesia
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Indonesia#Table_of_provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ID'
 
 INSERT INTO dbo.StateMaster
@@ -2397,7 +2397,7 @@ GO
 -- Iran
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Iran#Current_administrative_regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IR'
 
 INSERT INTO dbo.StateMaster
@@ -2416,7 +2416,7 @@ GO
 -- Iraq
 -- Ref: https://en.wikipedia.org/wiki/Iraq#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IQ'
 
 INSERT INTO dbo.StateMaster
@@ -2449,7 +2449,7 @@ GO
 -- Ireland
 -- Ref: https://en.wikipedia.org/wiki/Republic_of_Ireland#Local_government
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IE'
 
 INSERT INTO dbo.StateMaster
@@ -2494,7 +2494,7 @@ GO
 -- Israel
 -- Ref: https://en.wikipedia.org/wiki/Israel#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IL'
 
 INSERT INTO dbo.StateMaster
@@ -2515,7 +2515,7 @@ GO
 -- Italy
 -- Ref: https://en.wikipedia.org/wiki/Italy#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'IT'
 
 INSERT INTO dbo.StateMaster
@@ -2549,7 +2549,7 @@ GO
 -- Jamaica
 -- Ref: https://en.wikipedia.org/wiki/Jamaica#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JM'
 
 INSERT INTO dbo.StateMaster
@@ -2577,7 +2577,7 @@ GO
 -- Japan
 -- Ref: https://en.wikipedia.org/wiki/Prefectures_of_Japan#By_English_name
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JP'
 
 INSERT INTO dbo.StateMaster
@@ -2638,7 +2638,7 @@ GO
 -- Jordan
 -- Ref: https://en.wikipedia.org/wiki/Jordan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'JO'
 
 INSERT INTO dbo.StateMaster
@@ -2664,7 +2664,7 @@ GO
 -- Kazakhstan
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Kazakhstan
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KZ'
 
 INSERT INTO dbo.StateMaster
@@ -2695,7 +2695,7 @@ GO
 -- Kenya
 -- Ref: https://en.wikipedia.org/wiki/Counties_of_Kenya#List_of_counties
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'EAT'
 
 INSERT INTO dbo.StateMaster
@@ -2756,7 +2756,7 @@ GO
 -- Kiribati
 -- Ref: https://en.wikipedia.org/wiki/Subdivisions_of_Kiribati
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KI'
 
 INSERT INTO dbo.StateMaster
@@ -2773,7 +2773,7 @@ GO
 -- Kuwait
 -- Ref: https://en.wikipedia.org/wiki/Kuwait#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KW'
 
 INSERT INTO dbo.StateMaster
@@ -2793,7 +2793,7 @@ GO
 -- Kyrgyzstan
 -- Ref: https://en.wikipedia.org/wiki/Kyrgyzstan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KGT'
 
 INSERT INTO dbo.StateMaster
@@ -2816,7 +2816,7 @@ GO
 -- Laos
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Laos
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LA'
 
 INSERT INTO dbo.StateMaster
@@ -2848,7 +2848,7 @@ GO
 -- Latvia
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Latvia
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LV'
 
 INSERT INTO dbo.StateMaster
@@ -2981,7 +2981,7 @@ GO
 -- Lebanon
 -- Ref: https://en.wikipedia.org/wiki/Governorates_of_Lebanon
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LB'
 
 INSERT INTO dbo.StateMaster
@@ -3003,7 +3003,7 @@ GO
 -- Lesotho
 -- Ref: https://en.wikipedia.org/wiki/Lesotho#Districts
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LS'
 
 INSERT INTO dbo.StateMaster
@@ -3027,7 +3027,7 @@ GO
 -- Liberia
 -- Ref: https://en.wikipedia.org/wiki/Liberia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LR'
 
 INSERT INTO dbo.StateMaster
@@ -3056,7 +3056,7 @@ GO
 -- Libya
 -- Ref: https://en.wikipedia.org/wiki/Libya#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LY'
 
 INSERT INTO dbo.StateMaster
@@ -3092,7 +3092,7 @@ GO
 -- Liechtenstein
 -- Ref: https://en.wikipedia.org/wiki/Municipalities_of_Liechtenstein
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LI'
 
 INSERT INTO dbo.StateMaster
@@ -3117,7 +3117,7 @@ GO
 -- Lithuania
 -- Ref: https://en.wikipedia.org/wiki/Lithuania#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LT'
 
 INSERT INTO dbo.StateMaster
@@ -3141,7 +3141,7 @@ GO
 -- Luxembourg
 -- Ref: https://en.wikipedia.org/wiki/Cantons_of_Luxembourg
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LU'
 
 INSERT INTO dbo.StateMaster
@@ -3167,7 +3167,7 @@ GO
 -- Madagascar
 -- Ref: https://en.wikipedia.org/wiki/Madagascar#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MG'
 
 INSERT INTO dbo.StateMaster
@@ -3203,7 +3203,7 @@ GO
 -- Malawi
 -- Ref: https://en.wikipedia.org/wiki/Malawi#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MW'
 
 INSERT INTO dbo.StateMaster
@@ -3245,7 +3245,7 @@ GO
 -- Malaysia
 -- Ref: https://en.wikipedia.org/wiki/Malaysia#Political_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MY'
 
 INSERT INTO dbo.StateMaster
@@ -3275,7 +3275,7 @@ GO
 -- Maldives
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_the_Maldives#First-level_administrative_Divisions_of_Maldives
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MV'
 
 INSERT INTO dbo.StateMaster
@@ -3310,7 +3310,7 @@ GO
 -- Mali
 -- Ref: https://en.wikipedia.org/wiki/Mali#Regions_and_cercles
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ML'
 
 INSERT INTO dbo.StateMaster
@@ -3335,7 +3335,7 @@ GO
 -- Malta
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Malta#Current_regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MT'
 
 INSERT INTO dbo.StateMaster
@@ -3354,7 +3354,7 @@ GO
 -- Marshall Islands
 -- Ref: https://en.wikipedia.org/wiki/List_of_islands_of_the_Marshall_Islands
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MH'
 
 INSERT INTO dbo.StateMaster
@@ -3392,7 +3392,7 @@ GO
 -- Mauritania
 -- Ref: https://en.wikipedia.org/wiki/Mauritania#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MR'
 
 INSERT INTO dbo.StateMaster
@@ -3421,7 +3421,7 @@ GO
 -- Mauritius
 -- Ref: https://en.wikipedia.org/wiki/Districts_of_Mauritius
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MU'
 
 INSERT INTO dbo.StateMaster
@@ -3444,7 +3444,7 @@ GO
 -- Mexico
 -- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Mexico#Postal_abbreviations_and_ISO_3166-2_codes
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MX'
 
 INSERT INTO dbo.StateMaster
@@ -3490,7 +3490,7 @@ GO
 -- Federated States of Micronesia
 -- Ref: https://en.wikipedia.org/wiki/Federated_States_of_Micronesia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'FM'
 
 INSERT INTO dbo.StateMaster
@@ -3508,7 +3508,7 @@ GO
 -- Monaco
 -- Ref: http://monaco.me/monaco/monaco-districts/
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MC'
 
 INSERT INTO dbo.StateMaster
@@ -3532,7 +3532,7 @@ GO
 -- Mongolia
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Mongolia
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MN'
 
 INSERT INTO dbo.StateMaster
@@ -3568,7 +3568,7 @@ GO
 -- Montenegro
 -- Ref: https://en.wikipedia.org/wiki/Municipalities_of_Montenegro#List
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ME'
 
 INSERT INTO dbo.StateMaster
@@ -3605,7 +3605,7 @@ GO
 -- Morocco
 -- Ref: https://en.wikipedia.org/wiki/Morocco#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MA'
 
 INSERT INTO dbo.StateMaster
@@ -3631,7 +3631,7 @@ GO
 -- Mozambique
 -- Ref: https://en.wikipedia.org/wiki/Mozambique#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MZ'
 
 INSERT INTO dbo.StateMaster
@@ -3656,7 +3656,7 @@ GO
 -- Myanmar
 -- Ref: https://en.wikipedia.org/wiki/Myanmar#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'MM'
 
 INSERT INTO dbo.StateMaster
@@ -3671,7 +3671,7 @@ GO
 -- Namibia
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_Namibia
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NA'
 
 INSERT INTO dbo.StateMaster
@@ -3686,7 +3686,7 @@ GO
 -- Nauru
 -- Ref: https://en.wikipedia.org/wiki/Nauru#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NR'
 
 INSERT INTO dbo.StateMaster
@@ -3701,7 +3701,7 @@ GO
 -- Nepal
 -- Ref: https://en.wikipedia.org/wiki/Nepal#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NP'
 
 INSERT INTO dbo.StateMaster
@@ -3716,7 +3716,7 @@ GO
 -- Netherlands
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_the_Netherlands#List_of_provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NL'
 
 INSERT INTO dbo.StateMaster
@@ -3731,7 +3731,7 @@ GO
 -- New Zealand
 -- Ref: https://en.wikipedia.org/wiki/Regions_of_New_Zealand#List_of_regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NZ'
 
 INSERT INTO dbo.StateMaster
@@ -3746,7 +3746,7 @@ GO
 -- Nicaragua
 -- Ref: https://en.wikipedia.org/wiki/Nicaragua#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NI'
 
 INSERT INTO dbo.StateMaster
@@ -3761,7 +3761,7 @@ GO
 -- Niger
 -- Ref: https://en.wikipedia.org/wiki/Niger#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NE'
 
 INSERT INTO dbo.StateMaster
@@ -3776,7 +3776,7 @@ GO
 -- Nigeria
 -- Ref: https://en.wikipedia.org/wiki/States_of_Nigeria
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NG'
 
 INSERT INTO dbo.StateMaster
@@ -3791,7 +3791,7 @@ GO
 -- Norway
 -- Ref: https://en.wikipedia.org/wiki/Norway#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'NO'
 
 INSERT INTO dbo.StateMaster
@@ -3806,7 +3806,7 @@ GO
 -- Oman
 -- Ref: https://en.wikipedia.org/wiki/Oman#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'OM'
 
 INSERT INTO dbo.StateMaster
@@ -3821,7 +3821,7 @@ GO
 -- Pakistan
 -- Ref: https://en.wikipedia.org/wiki/Pakistan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PK'
 
 INSERT INTO dbo.StateMaster
@@ -3836,7 +3836,7 @@ GO
 -- Palau
 -- Ref: https://en.wikipedia.org/wiki/Palau#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PW'
 
 INSERT INTO dbo.StateMaster
@@ -3851,7 +3851,7 @@ GO
 -- Palestine
 -- Ref: https://en.wikipedia.org/wiki/State_of_Palestine#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PS'
 
 INSERT INTO dbo.StateMaster
@@ -3866,7 +3866,7 @@ GO
 -- Panama
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Panama#Provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PA'
 
 INSERT INTO dbo.StateMaster
@@ -3881,7 +3881,7 @@ GO
 -- Papua New Guinea
 -- Ref: https://en.wikipedia.org/wiki/Papua_New_Guinea#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PG'
 
 INSERT INTO dbo.StateMaster
@@ -3896,7 +3896,7 @@ GO
 -- Paraguay
 -- Ref: https://en.wikipedia.org/wiki/Paraguay#Administrative_subdivisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PY'
 
 INSERT INTO dbo.StateMaster
@@ -3911,7 +3911,7 @@ GO
 -- Peru
 -- Ref: https://en.wikipedia.org/wiki/Peru#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PE'
 
 INSERT INTO dbo.StateMaster
@@ -3926,7 +3926,7 @@ GO
 -- Philippines
 -- Ref: https://en.wikipedia.org/wiki/Philippines#Administrative_regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PH'
 
 INSERT INTO dbo.StateMaster
@@ -3941,7 +3941,7 @@ GO
 -- Poland
 -- Ref: https://en.wikipedia.org/wiki/Poland#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PL'
 
 INSERT INTO dbo.StateMaster
@@ -3956,7 +3956,7 @@ GO
 -- Portugal
 -- Ref: https://en.wikipedia.org/wiki/Portugal#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'PT'
 
 INSERT INTO dbo.StateMaster
@@ -3971,7 +3971,7 @@ GO
 -- Qatar
 -- Ref: https://en.wikipedia.org/wiki/Qatar#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'QA'
 
 INSERT INTO dbo.StateMaster
@@ -3984,9 +3984,9 @@ VALUES
 GO
     
 -- Romania
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Romania#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RO'
 
 INSERT INTO dbo.StateMaster
@@ -3999,9 +3999,9 @@ VALUES
 GO
     
 -- Russia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Federal_subjects_of_Russia#List
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RU'
 
 INSERT INTO dbo.StateMaster
@@ -4014,9 +4014,9 @@ VALUES
 GO
     
 -- Rwanda
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Rwanda#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RW'
 
 INSERT INTO dbo.StateMaster
@@ -4029,9 +4029,9 @@ VALUES
 GO
     
 -- Saint Kitts and Nevis
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'KN'
 
 INSERT INTO dbo.StateMaster
@@ -4044,9 +4044,9 @@ VALUES
 GO
     
 -- Saint Lucia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Quarters_of_Saint_Lucia#Quarters
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LC'
 
 INSERT INTO dbo.StateMaster
@@ -4059,9 +4059,9 @@ VALUES
 GO
     
 -- Saint Vincent
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Parishes_of_Saint_Vincent_and_the_Grenadines
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VC'
 
 INSERT INTO dbo.StateMaster
@@ -4074,9 +4074,9 @@ VALUES
 GO
     
 -- Samoa
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Districts_of_Samoa#Political_districts
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'WS'
 
 INSERT INTO dbo.StateMaster
@@ -4089,9 +4089,9 @@ VALUES
 GO
     
 -- San Marino
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/San_Marino#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SM'
 
 INSERT INTO dbo.StateMaster
@@ -4104,9 +4104,9 @@ VALUES
 GO
     
 -- São Tomé and Príncipe
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ST'
 
 INSERT INTO dbo.StateMaster
@@ -4119,9 +4119,9 @@ VALUES
 GO
     
 -- Saudi Arabia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Saudi_Arabia#Regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SA'
 
 INSERT INTO dbo.StateMaster
@@ -4134,9 +4134,9 @@ VALUES
 GO
     
 -- Senegal
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Senegal#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SN'
 
 INSERT INTO dbo.StateMaster
@@ -4149,9 +4149,9 @@ VALUES
 GO
     
 -- Serbia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Districts_of_Serbia#List_of_districts
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RS'
 
 INSERT INTO dbo.StateMaster
@@ -4164,9 +4164,9 @@ VALUES
 GO
     
 -- Seychelles
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Seychelles#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SC'
 
 INSERT INTO dbo.StateMaster
@@ -4179,9 +4179,9 @@ VALUES
 GO
     
 -- Sierra Leone
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Sierra_Leone#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SL'
 
 INSERT INTO dbo.StateMaster
@@ -4194,9 +4194,9 @@ VALUES
 GO
     
 -- Singapore
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Administrative_divisions_of_Singapore
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SG'
 
 INSERT INTO dbo.StateMaster
@@ -4209,9 +4209,9 @@ VALUES
 GO
     
 -- Slovakia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Slovakia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SK'
 
 INSERT INTO dbo.StateMaster
@@ -4224,9 +4224,9 @@ VALUES
 GO
     
 -- Slovenia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Slovenia#Administrative_divisions_and_traditional_regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SI'
 
 INSERT INTO dbo.StateMaster
@@ -4239,9 +4239,9 @@ VALUES
 GO
     
 -- Solomon Islands
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Solomon_Islands#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SB'
 
 INSERT INTO dbo.StateMaster
@@ -4254,9 +4254,9 @@ VALUES
 GO
     
 -- Somalia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Somalia#Regions_and_districts
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SO'
 
 INSERT INTO dbo.StateMaster
@@ -4269,9 +4269,9 @@ VALUES
 GO
     
 -- South Africa
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/South_Africa#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ZA'
 
 INSERT INTO dbo.StateMaster
@@ -4284,9 +4284,9 @@ VALUES
 GO
     
 -- South Sudan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/States_of_South_Sudan#32_states_(2017%E2%80%93present)
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SS'
 
 INSERT INTO dbo.StateMaster
@@ -4299,9 +4299,9 @@ VALUES
 GO
     
 -- Spain
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Autonomous_communities_of_Spain#Autonomous_communities
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ES'
 
 INSERT INTO dbo.StateMaster
@@ -4314,9 +4314,9 @@ VALUES
 GO
     
 -- Sri Lanka
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Sri_Lanka#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'LK'
 
 INSERT INTO dbo.StateMaster
@@ -4329,9 +4329,9 @@ VALUES
 GO
     
 -- North Sudan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Sudan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SD'
 
 INSERT INTO dbo.StateMaster
@@ -4344,9 +4344,9 @@ VALUES
 GO
     
 -- Suriname
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Suriname#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SR'
 
 INSERT INTO dbo.StateMaster
@@ -4359,9 +4359,9 @@ VALUES
 GO
     
 -- Swaziland
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Eswatini#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SZ'
 
 INSERT INTO dbo.StateMaster
@@ -4374,9 +4374,9 @@ VALUES
 GO
     
 -- Sweden
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Counties_of_Sweden#List_of_counties
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SE'
 
 INSERT INTO dbo.StateMaster
@@ -4389,9 +4389,9 @@ VALUES
 GO
     
 -- Switzerland
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Cantons_of_Switzerland#List
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'CH'
 
 INSERT INTO dbo.StateMaster
@@ -4404,9 +4404,9 @@ VALUES
 GO
     
 -- Syria
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Syria#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SY'
 
 INSERT INTO dbo.StateMaster
@@ -4419,9 +4419,9 @@ VALUES
 GO
     
 -- Tajikistan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Tajikistan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TJ'
 
 INSERT INTO dbo.StateMaster
@@ -4434,9 +4434,9 @@ VALUES
 GO
     
 -- Tanzania
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Tanzania#List_of_regions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TZ'
 
 INSERT INTO dbo.StateMaster
@@ -4449,9 +4449,9 @@ VALUES
 GO
     
 -- Thailand
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Thailand#The_provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
 
 INSERT INTO dbo.StateMaster
@@ -4464,9 +4464,9 @@ VALUES
 GO
     
 -- Togo
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Togo
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TH'
 
 INSERT INTO dbo.StateMaster
@@ -4479,9 +4479,9 @@ VALUES
 GO
     
 -- Tonga
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Tonga#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TG'
 
 INSERT INTO dbo.StateMaster
@@ -4494,9 +4494,9 @@ VALUES
 GO
     
 -- Trinidad and Tobago
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Trinidad_and_Tobago#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TT'
 
 INSERT INTO dbo.StateMaster
@@ -4509,9 +4509,9 @@ VALUES
 GO
     
 -- Tunisia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Governorates_of_Tunisia
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TN'
 
 INSERT INTO dbo.StateMaster
@@ -4524,9 +4524,9 @@ VALUES
 GO
     
 -- Turkey
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Turkey#List_of_provinces
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TR'
 
 INSERT INTO dbo.StateMaster
@@ -4539,9 +4539,9 @@ VALUES
 GO
     
 -- Turkmenistan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Turkmenistan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TM'
 
 INSERT INTO dbo.StateMaster
@@ -4554,9 +4554,9 @@ VALUES
 GO
     
 -- Tuvalu
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Tuvalu#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TV'
 
 INSERT INTO dbo.StateMaster
@@ -4569,9 +4569,9 @@ VALUES
 GO
     
 -- Uganda
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Uganda
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UG'
 
 INSERT INTO dbo.StateMaster
@@ -4584,9 +4584,9 @@ VALUES
 GO
     
 -- Ukraine
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Ukraine#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UA'
 
 INSERT INTO dbo.StateMaster
@@ -4599,9 +4599,9 @@ VALUES
 GO
     
 -- United Arab Emirates
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/United_Arab_Emirates#Political_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AE'
 
 INSERT INTO dbo.StateMaster
@@ -4614,9 +4614,9 @@ VALUES
 GO
     
 -- United Kingdom
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Countries_of_the_United_Kingdom
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'GB'
 
 INSERT INTO dbo.StateMaster
@@ -4629,9 +4629,9 @@ VALUES
 GO
     
 -- United States
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_the_United_States#States_and_their_subdivisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'US'
 
 INSERT INTO dbo.StateMaster
@@ -4644,9 +4644,9 @@ VALUES
 GO
     
 -- Uruguay
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Uruguay#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UY'
 
 INSERT INTO dbo.StateMaster
@@ -4659,9 +4659,9 @@ VALUES
 GO
     
 -- Uzbekistan
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Uzbekistan#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'UZ'
 
 INSERT INTO dbo.StateMaster
@@ -4674,9 +4674,9 @@ VALUES
 GO
     
 -- Vanuatu
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Vanuatu#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VU'
 
 INSERT INTO dbo.StateMaster
@@ -4689,9 +4689,9 @@ VALUES
 GO
     
 -- Vatican City
--- Ref: 
+-- Ref: NA
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VA'
 
 INSERT INTO dbo.StateMaster
@@ -4700,13 +4700,13 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Vatican City'),
 GO
     
 -- Venezuela
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/States_of_Venezuela#States
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VE'
 
 INSERT INTO dbo.StateMaster
@@ -4719,9 +4719,9 @@ VALUES
 GO
     
 -- Vietnam
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Vietnam#List_and_statistics
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'VN'
 
 INSERT INTO dbo.StateMaster
@@ -4734,9 +4734,9 @@ VALUES
 GO
     
 -- Yemen
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Yemen#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'YE'
 
 INSERT INTO dbo.StateMaster
@@ -4749,9 +4749,9 @@ VALUES
 GO
     
 -- Zambia
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Zambia#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ZM'
 
 INSERT INTO dbo.StateMaster
@@ -4764,9 +4764,9 @@ VALUES
 GO
     
 -- Zimbabwe
--- Ref: 
+-- Ref: https://en.wikipedia.org/wiki/Zimbabwe#Administrative_divisions
 
-DECLARE @CountryId INTO
+DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'ZW'
 
 INSERT INTO dbo.StateMaster
