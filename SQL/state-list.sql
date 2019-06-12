@@ -3665,7 +3665,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kachin'),
+    (@CountryId, N'Kayah'),
+    (@CountryId, N'Kayin'),
+    (@CountryId, N'Chin'),
+    (@CountryId, N'Sagaing'),
+    (@CountryId, N'Tanintharyi'),
+    (@CountryId, N'Bago'),
+    (@CountryId, N'Magway'),
+    (@CountryId, N'Mandalay'),
+    (@CountryId, N'Mon'),
+    (@CountryId, N'Rakhine'),
+    (@CountryId, N'Yangon'),
+    (@CountryId, N'Shan'),
+    (@CountryId, N'Ayeyarwady')
 GO
     
 -- Namibia
