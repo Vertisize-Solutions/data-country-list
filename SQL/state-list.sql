@@ -3693,7 +3693,19 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kunene'),
+    (@CountryId, N'Omusati'),
+    (@CountryId, N'Oshana'),
+    (@CountryId, N'Ohangwena'),
+    (@CountryId, N'Oshikoto'),
+    (@CountryId, N'Kavango West'),
+    (@CountryId, N'Kavango East'),
+    (@CountryId, N'Zambezi'),
+    (@CountryId, N'Erongo'),
+    (@CountryId, N'Otjozondjupa'),
+    (@CountryId, N'Omaheke'),
+    (@CountryId, N'Khomas'),
+    (@CountryId, N'ǁKaras')
 GO
     
 -- Nauru
@@ -3708,7 +3720,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Aiwo'),
+    (@CountryId, N'Anabar'),
+    (@CountryId, N'Anetan'),
+    (@CountryId, N'Anibare'),
+    (@CountryId, N'Baitsi'),
+    (@CountryId, N'Boe'),
+    (@CountryId, N'Buada'),
+    (@CountryId, N'Denigomodu'),
+    (@CountryId, N'Ewa'),
+    (@CountryId, N'Ijuw'),
+    (@CountryId, N'Meneng'),
+    (@CountryId, N'Nibok'),
+    (@CountryId, N'Uaboe'),
+    (@CountryId, N'Yaren')
 GO
     
 -- Nepal
