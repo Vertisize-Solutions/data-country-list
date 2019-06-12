@@ -4094,7 +4094,28 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central'),
+    (@CountryId, N'Chimbu (Simbu)'),
+    (@CountryId, N'Eastern Highlands'),
+    (@CountryId, N'East New Britain'),
+    (@CountryId, N'East Sepik'),
+    (@CountryId, N'Enga'),
+    (@CountryId, N'Gulf'),
+    (@CountryId, N'Madang'),
+    (@CountryId, N'Manus'),
+    (@CountryId, N'Milne Bay'),
+    (@CountryId, N'Morobe'),
+    (@CountryId, N'New Ireland'),
+    (@CountryId, N'Northern (Oro Province)'),
+    (@CountryId, N'Bougainville'),
+    (@CountryId, N'Southern Highlands'),
+    (@CountryId, N'Western Province'),
+    (@CountryId, N'Western Highlands'),
+    (@CountryId, N'West New Britain'),
+    (@CountryId, N'West Sepik (Sandaun)'),
+    (@CountryId, N'National Capital District (Port Moresby)'),
+    (@CountryId, N'Hela'),
+    (@CountryId, N'Jiwaka')
 GO
     
 -- Paraguay
@@ -4109,7 +4130,24 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Distrito Capital'),
+    (@CountryId, N'Concepción'),
+    (@CountryId, N'San Pedro'),
+    (@CountryId, N'Cordillera'),
+    (@CountryId, N'Guairá'),
+    (@CountryId, N'Caaguazú'),
+    (@CountryId, N'Caazapá'),
+    (@CountryId, N'Itapúa'),
+    (@CountryId, N'Misiones'),
+    (@CountryId, N'Paraguarí'),
+    (@CountryId, N'Alto Paraná'),
+    (@CountryId, N'Central'),
+    (@CountryId, N'Ñeembucú'),
+    (@CountryId, N'Amambay'),
+    (@CountryId, N'Canindeyú'),
+    (@CountryId, N'Presidente Hayes'),
+    (@CountryId, N'Alto Paraguay'),
+    (@CountryId, N'Boquerón')
 GO
     
 -- Peru
