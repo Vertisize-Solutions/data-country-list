@@ -3986,7 +3986,13 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Balochistan'),
+    (@CountryId, N'Punjab'),
+    (@CountryId, N'Sindh'),
+    (@CountryId, N'Khyber Pakhtunkhwa'),
+    (@CountryId, N'Gilgit-Baltistan'),
+    (@CountryId, N'Azad Kashmir'),
+    (@CountryId, N'Islamabad Capital Territory')
 GO
     
 -- Palau
@@ -4001,7 +4007,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kayangel'),
+    (@CountryId, N'Ngarchelong'),
+    (@CountryId, N'Ngaraard'),
+    (@CountryId, N'Ngardmau'),
+    (@CountryId, N'Ngaremlengui'),
+    (@CountryId, N'Ngatpang'),
+    (@CountryId, N'Ngiwal'),
+    (@CountryId, N'Melekeok'),
+    (@CountryId, N'Ngchesar'),
+    (@CountryId, N'Aimeliik'),
+    (@CountryId, N'Airai'),
+    (@CountryId, N'Koror'),
+    (@CountryId, N'Peleliu'),
+    (@CountryId, N'Angaur'),
+    (@CountryId, N'Sonsorol'),
+    (@CountryId, N'Hatohobei')
 GO
     
 -- Palestine
@@ -4016,7 +4037,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Jenin'),
+    (@CountryId, N'Tubas'),
+    (@CountryId, N'Tulkarm'),
+    (@CountryId, N'Nablus'),
+    (@CountryId, N'Qalqiliya'),
+    (@CountryId, N'Salfit'),
+    (@CountryId, N'Ramallah & Al-Bireh'),
+    (@CountryId, N'Jericho & Al Aghwar'),
+    (@CountryId, N'Jerusalem'),
+    (@CountryId, N'Bethlehem'),
+    (@CountryId, N'Hebron'),
+    (@CountryId, N'North Gaza'),
+    (@CountryId, N'Gaza'),
+    (@CountryId, N'Deir Al-Balah'),
+    (@CountryId, N'Khan Yunis'),
+    (@CountryId, N'Rafah'),
 GO
     
 -- Panama
@@ -4031,7 +4067,19 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bocas del Toro'),
+    (@CountryId, N'Chiriquí'),
+    (@CountryId, N'Coclé'),
+    (@CountryId, N'Colón'),
+    (@CountryId, N'Darién'),
+    (@CountryId, N'Herrera'),
+    (@CountryId, N'Los Santos'),
+    (@CountryId, N'Panamá'),
+    (@CountryId, N'Panamá Oeste'),
+    (@CountryId, N'Veraguas'),
+    (@CountryId, N'Emberá'),
+    (@CountryId, N'Guna Yala'),
+    (@CountryId, N'Ngäbe-Buglé')
 GO
     
 -- Papua New Guinea
