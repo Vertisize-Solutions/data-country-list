@@ -4162,7 +4162,31 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Amazonas'),
+    (@CountryId, N'Ancash'),
+    (@CountryId, N'Apurimac'),
+    (@CountryId, N'Arequipa'),
+    (@CountryId, N'Ayacucho'),
+    (@CountryId, N'Cajamarca'),
+    (@CountryId, N'Constitutional Province of Callao'),
+    (@CountryId, N'Cusco'),
+    (@CountryId, N'Huancavelica'),
+    (@CountryId, N'Huanuco'),
+    (@CountryId, N'Ica'),
+    (@CountryId, N'Junin'),
+    (@CountryId, N'La Libertad'),
+    (@CountryId, N'Lambayeque'),
+    (@CountryId, N'Lima'),
+    (@CountryId, N'Loreto'),
+    (@CountryId, N'Madre de Dios'),
+    (@CountryId, N'Moquegua'),
+    (@CountryId, N'Pasco'),
+    (@CountryId, N'Piura'),
+    (@CountryId, N'Puno'),
+    (@CountryId, N'San Martín'),
+    (@CountryId, N'Tacna'),
+    (@CountryId, N'Tumbes'),
+    (@CountryId, N'Ucayali')
 GO
     
 -- Philippines
@@ -4177,7 +4201,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Calabarzon'),
+    (@CountryId, N'National Capital Region'),
+    (@CountryId, N'Central Luzon'),
+    (@CountryId, N'Central Visayas'),
+    (@CountryId, N'Bicol Region'),
+    (@CountryId, N'Ilocos Region'),
+    (@CountryId, N'Davao Region'),
+    (@CountryId, N'Northern Mindanao'),
+    (@CountryId, N'SOCCSKSARGEN'),
+    (@CountryId, N'Western Visayas')
 GO
     
 -- Poland
@@ -4192,7 +4225,22 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Greater Poland'),
+    (@CountryId, N'Kuyavian-Pomeranian'),
+    (@CountryId, N'Lesser Poland'),
+    (@CountryId, N'Lodz'),
+    (@CountryId, N'Lower Silesian'),
+    (@CountryId, N'Lublin'),
+    (@CountryId, N'Lubusz'),
+    (@CountryId, N'Masovian'),
+    (@CountryId, N'Opole'),
+    (@CountryId, N'Podlaskie'),
+    (@CountryId, N'Pomeranian'),
+    (@CountryId, N'Silesian'),
+    (@CountryId, N'Subcarpathian'),
+    (@CountryId, N'Świętokrzyskie'),
+    (@CountryId, N'Warmian-Masurian'),
+    (@CountryId, N'West Pomeranian')
 GO
     
 -- Portugal
