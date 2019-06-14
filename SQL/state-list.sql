@@ -4255,7 +4255,24 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Lisbon'),
+    (@CountryId, N'Leiria'),
+    (@CountryId, N'Santarém'),
+    (@CountryId, N'Setúbal'),
+    (@CountryId, N'Beja'),
+    (@CountryId, N'Faro'),
+    (@CountryId, N'Évora'),
+    (@CountryId, N'Portalegre'),
+    (@CountryId, N'Castelo Branco'),
+    (@CountryId, N'Guarda'),
+    (@CountryId, N'Coimbra'),
+    (@CountryId, N'Aveiro'),
+    (@CountryId, N'Viseu'),
+    (@CountryId, N'Bragança'),
+    (@CountryId, N'Vila Real'),
+    (@CountryId, N'Porto'),
+    (@CountryId, N'Braga'),
+    (@CountryId, N'Viana do Castelo')
 GO
     
 -- Qatar
@@ -4270,11 +4287,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Al Shamal'),
+    (@CountryId, N'Al Khor'),
+    (@CountryId, N'Al-Shahaniya'),
+    (@CountryId, N'Umm Salal'),
+    (@CountryId, N'Al Daayen'),
+    (@CountryId, N'Doha'),
+    (@CountryId, N'Al Rayyan'),
+    (@CountryId, N'Al Wakrah')
 GO
     
 -- Romania
--- Ref: https://en.wikipedia.org/wiki/Romania#Administrative_divisions
+-- Ref: https://en.wikipedia.org/wiki/Counties_of_Romania#Current_list
 
 DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RO'
@@ -4285,7 +4309,48 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Alba'),
+    (@CountryId, N'Arad'),
+    (@CountryId, N'Argea'),
+    (@CountryId, N'Bacau'),
+    (@CountryId, N'Bihor'),
+    (@CountryId, N'Bistrita-Nasaud'),
+    (@CountryId, N'Botosani'),
+    (@CountryId, N'Brasov'),
+    (@CountryId, N'Braila'),
+    (@CountryId, N'Bucharest'),
+    (@CountryId, N'Buzau'),
+    (@CountryId, N'Caras-Severin'),
+    (@CountryId, N'Calarasi'),
+    (@CountryId, N'Cluj'),
+    (@CountryId, N'Constanta'),
+    (@CountryId, N'Covasna'),
+    (@CountryId, N'Dambovita'),
+    (@CountryId, N'Dolj'),
+    (@CountryId, N'Galati'),
+    (@CountryId, N'Giurgiu'),
+    (@CountryId, N'Gorj'),
+    (@CountryId, N'Harghita'),
+    (@CountryId, N'Hunedoara'),
+    (@CountryId, N'Ialomita'),
+    (@CountryId, N'Iasi'),
+    (@CountryId, N'Ilfov'),
+    (@CountryId, N'Maramures'),
+    (@CountryId, N'Mehedinti'),
+    (@CountryId, N'Mures'),
+    (@CountryId, N'Neamt'),
+    (@CountryId, N'Olt'),
+    (@CountryId, N'Prahova'),
+    (@CountryId, N'Satu Mare'),
+    (@CountryId, N'Salaj'),
+    (@CountryId, N'Sibiu'),
+    (@CountryId, N'Suceava'),
+    (@CountryId, N'Teleorman'),
+    (@CountryId, N'Timis'),
+    (@CountryId, N'Tulcea'),
+    (@CountryId, N'Vaslui'),
+    (@CountryId, N'Valcea'),
+    (@CountryId, N'Vrancea')
 GO
     
 -- Russia
