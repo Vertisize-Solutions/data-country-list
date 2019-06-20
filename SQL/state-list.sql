@@ -4452,7 +4452,7 @@ VALUES
 GO
     
 -- Rwanda
--- Ref: https://en.wikipedia.org/wiki/Rwanda#Administrative_divisions
+-- Ref: https://en.wikipedia.org/wiki/Provinces_of_Rwanda#Provinces
 
 DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'RW'
@@ -4463,7 +4463,11 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kigali Province'),
+    (@CountryId, N'Northern Province'),
+    (@CountryId, N'Eastern Province'),
+    (@CountryId, N'Southern Province'),
+    (@CountryId, N'Western Province')
 GO
     
 -- Saint Kitts and Nevis
@@ -4478,7 +4482,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Christ Church Nichola Town'),
+    (@CountryId, N'Saint Anne Sandy Point'),
+    (@CountryId, N'Saint George Basseterre'),
+    (@CountryId, N'Saint John Capisterre'),
+    (@CountryId, N'Saint Mary Cayon'),
+    (@CountryId, N'Saint Paul Capisterre'),
+    (@CountryId, N'Saint Peter Basseterre'),
+    (@CountryId, N'Saint Thomas Middle Island'),
+    (@CountryId, N'Trinity Palmetto Point'),
+    (@CountryId, N'Saint George Gingerland'),
+    (@CountryId, N'Saint James Windward'),
+    (@CountryId, N'Saint John Figtree'),
+    (@CountryId, N'Saint Paul Charlestown'),
+    (@CountryId, N'Saint Thomas Lowland')
 GO
     
 -- Saint Lucia
