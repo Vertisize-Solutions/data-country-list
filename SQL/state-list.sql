@@ -4722,7 +4722,31 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bel Air'),
+    (@CountryId, N'La Rivière Anglaise'),
+    (@CountryId, N'Les Mamelles'),
+    (@CountryId, N'Mont Buxton'),
+    (@CountryId, N'Mont Fleuri'),
+    (@CountryId, N'Plaisance'),
+    (@CountryId, N'Roche Caiman'),
+    (@CountryId, N'Saint Louis'),
+    (@CountryId, N'Anse aux Pins'),
+    (@CountryId, N'Anse Boileau'),
+    (@CountryId, N'Anse Etoile'),
+    (@CountryId, N'Au Cap'),
+    (@CountryId, N'Anse Royale'),
+    (@CountryId, N'Baie Lazare'),
+    (@CountryId, N'Beau Vallon'),
+    (@CountryId, N'Bel Ombre'),
+    (@CountryId, N'Cascade'),
+    (@CountryId, N'Glacis'),
+    (@CountryId, N'Grand`Anse Mahe'),
+    (@CountryId, N'Pointe La Rue'),
+    (@CountryId, N'Port Glaud'),
+    (@CountryId, N'Takamaka'),
+    (@CountryId, N'Baie Sainte Anne'),
+    (@CountryId, N'Grand`Anse Praslin'),
+    (@CountryId, N'La Digue')
 GO
     
 -- Sierra Leone
@@ -4737,7 +4761,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bombali'),
+    (@CountryId, N'Koinadugu'),
+    (@CountryId, N'Port Loko'),
+    (@CountryId, N'Tonkolili'),
+    (@CountryId, N'Kambia'),
+    (@CountryId, N'Kenema'),
+    (@CountryId, N'Kono'),
+    (@CountryId, N'Kailahun'),
+    (@CountryId, N'Bo'),
+    (@CountryId, N'Bonthe'),
+    (@CountryId, N'Pujehun'),
+    (@CountryId, N'Moyamba'),
+    (@CountryId, N'Western Area Urban'),
+    (@CountryId, N'Western Area Rural')
 GO
     
 -- Singapore
