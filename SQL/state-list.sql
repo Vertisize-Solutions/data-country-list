@@ -4856,7 +4856,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central Province'),
+    (@CountryId, N'Choiseul Province'),
+    (@CountryId, N'Guadalcanal Province'),
+    (@CountryId, N'Isabel Province'),
+    (@CountryId, N'Makira-Ulawa Province'),
+    (@CountryId, N'Malaita Province'),
+    (@CountryId, N'Rennell and Bellona Province'),
+    (@CountryId, N'Temotu Province'),
+    (@CountryId, N'Western Province'),
+    (@CountryId, N'Capital Territory')
 GO
     
 -- Somalia
@@ -4871,7 +4880,24 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Awdal'),
+    (@CountryId, N'Woqooyi Galbeed'),
+    (@CountryId, N'Togdheer'),
+    (@CountryId, N'Sanaag'),
+    (@CountryId, N'Sool'),
+    (@CountryId, N'Bari'),
+    (@CountryId, N'Nugal'),
+    (@CountryId, N'Mudug'),
+    (@CountryId, N'Galguduud'),
+    (@CountryId, N'Hiran'),
+    (@CountryId, N'Middle Shabelle'),
+    (@CountryId, N'Banaadir'),
+    (@CountryId, N'Lower Shabelle'),
+    (@CountryId, N'Bakool'),
+    (@CountryId, N'Bay'),
+    (@CountryId, N'Gedo'),
+    (@CountryId, N'Middle Juba'),
+    (@CountryId, N'Lower Juba')
 GO
     
 -- South Africa
@@ -4886,7 +4912,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Eastern Cape'),
+    (@CountryId, N'Free State'),
+    (@CountryId, N'Gauteng'),
+    (@CountryId, N'KwaZulu-Natal'),
+    (@CountryId, N'Limpopo'),
+    (@CountryId, N'Mpumalanga'),
+    (@CountryId, N'North West'),
+    (@CountryId, N'Northern Cape'),
+    (@CountryId, N'Western Cape')
 GO
     
 -- South Sudan
