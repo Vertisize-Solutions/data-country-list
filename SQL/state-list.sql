@@ -4510,7 +4510,17 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Anse la Raye'),
+    (@CountryId, N'Babonneau'),
+    (@CountryId, N'Canaries'),
+    (@CountryId, N'Castries'),
+    (@CountryId, N'Choiseul'),
+    (@CountryId, N'Dennery'),
+    (@CountryId, N'Gros Islet'),
+    (@CountryId, N'Laborie'),
+    (@CountryId, N'Micoud'),
+    (@CountryId, N'Soufrière'),
+    (@CountryId, N'Vieux Fort')
 GO
     
 -- Saint Vincent
@@ -4525,7 +4535,12 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Charlotte'),
+    (@CountryId, N'Grenadines'),
+    (@CountryId, N'Saint Andrew'),
+    (@CountryId, N'Saint David'),
+    (@CountryId, N'Saint George'),
+    (@CountryId, N'Saint Patrick')
 GO
     
 -- Samoa
@@ -4540,7 +4555,17 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Tuamasaga'),
+    (@CountryId, N'A`ana'),
+    (@CountryId, N'Aiga-i-le-Tai'),
+    (@CountryId, N'Atua'),
+    (@CountryId, N'Va`a-o-Fonoti'),
+    (@CountryId, N'Fa`asaleleaga'),
+    (@CountryId, N'Gaga`emauga'),
+    (@CountryId, N'Gaga`ifomauga'),
+    (@CountryId, N'Vaisigano'),
+    (@CountryId, N'Satupa`itea'),
+    (@CountryId, N'Palauli')
 GO
     
 -- San Marino
@@ -4555,7 +4580,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'San Marino'),
+    (@CountryId, N'Acquaviva'),
+    (@CountryId, N'Borgo Maggiore'),
+    (@CountryId, N'Chiesanuova'),
+    (@CountryId, N'Domagnano'),
+    (@CountryId, N'Faetano'),
+    (@CountryId, N'Fiorentino'),
+    (@CountryId, N'Montegiardino'),
+    (@CountryId, N'Serravalle')
 GO
     
 -- São Tomé and Príncipe
@@ -4570,7 +4603,13 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Agua Grande'),
+    (@CountryId, N'Cantagalo'),
+    (@CountryId, N'Caue'),
+    (@CountryId, N'Lemba'),
+    (@CountryId, N'Lobata'),
+    (@CountryId, N'Me-Zochi'),
+    (@CountryId, N'Pague')
 GO
     
 -- Saudi Arabia
