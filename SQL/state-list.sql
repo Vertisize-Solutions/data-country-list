@@ -4624,7 +4624,19 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Qassim'),
+    (@CountryId, N'Riyadh'),
+    (@CountryId, N'Tabuk'),
+    (@CountryId, N'Madinah'),
+    (@CountryId, N'Makkah'),
+    (@CountryId, N'Northern Borders'),
+    (@CountryId, N'Jawf'),
+    (@CountryId, N'Ha`il'),
+    (@CountryId, N'Bahah'),
+    (@CountryId, N'Jizan'),
+    (@CountryId, N'Asir'),
+    (@CountryId, N'Najran'),
+    (@CountryId, N'Eastern Province')
 GO
     
 -- Senegal
@@ -4639,7 +4651,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Dakar'),
+    (@CountryId, N'Diourbel'),
+    (@CountryId, N'Fatick'),
+    (@CountryId, N'Kaffrine'),
+    (@CountryId, N'Kaolack'),
+    (@CountryId, N'Kedougou'),
+    (@CountryId, N'Kolda'),
+    (@CountryId, N'Louga'),
+    (@CountryId, N'Matam'),
+    (@CountryId, N'Saint-Louis'),
+    (@CountryId, N'Sedhiou'),
+    (@CountryId, N'Tambacounda'),
+    (@CountryId, N'Thies'),
+    (@CountryId, N'Ziguinchor')
 GO
     
 -- Serbia
@@ -4654,7 +4679,35 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Kolubara'),
+    (@CountryId, N'Macva'),
+    (@CountryId, N'Moravica'),
+    (@CountryId, N'Pomoravlje'),
+    (@CountryId, N'Rasina'),
+    (@CountryId, N'Raska'),
+    (@CountryId, N'Sumadija'),
+    (@CountryId, N'Zlatibor'),
+    (@CountryId, N'Bor'),
+    (@CountryId, N'Branicevo'),
+    (@CountryId, N'Jablanica'),
+    (@CountryId, N'Nisava'),
+    (@CountryId, N'Pcinja'),
+    (@CountryId, N'Pirot'),
+    (@CountryId, N'Podunavlje'),
+    (@CountryId, N'Toplica'),
+    (@CountryId, N'Zajecar'),
+    (@CountryId, N'Central Banat'),
+    (@CountryId, N'North Backa'),
+    (@CountryId, N'North Banat'),
+    (@CountryId, N'South Backa'),
+    (@CountryId, N'South Banat'),
+    (@CountryId, N'Srem'),
+    (@CountryId, N'West Backa'),
+    (@CountryId, N'Kosovo'),
+    (@CountryId, N'Kosovo-Pomoravlje'),
+    (@CountryId, N'Kosovska Mitrovica'),
+    (@CountryId, N'Pec'),
+    (@CountryId, N'Prizren')
 GO
     
 -- Seychelles
