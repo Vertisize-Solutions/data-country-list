@@ -4789,7 +4789,11 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'North East'),
+    (@CountryId, N'North West'),
+    (@CountryId, N'South East'),
+    (@CountryId, N'South West'),
+    (@CountryId, N'Central Singapore')
 GO
     
 -- Slovakia
@@ -4804,11 +4808,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bratislava'),
+    (@CountryId, N'Trnava'),
+    (@CountryId, N'Nitra'),
+    (@CountryId, N'Trencin'),
+    (@CountryId, N'Banska Bystrica'),
+    (@CountryId, N'Zilina'),
+    (@CountryId, N'Kosice'),
+    (@CountryId, N'Presov'),
 GO
     
 -- Slovenia
--- Ref: https://en.wikipedia.org/wiki/Slovenia#Administrative_divisions_and_traditional_regions
+-- Ref: https://en.wikipedia.org/wiki/Statistical_regions_of_Slovenia
 
 DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SI'
@@ -4819,7 +4830,18 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Mura'),
+    (@CountryId, N'Drava'),
+    (@CountryId, N'Carinthia'),
+    (@CountryId, N'Savinja'),
+    (@CountryId, N'Central Sava'),
+    (@CountryId, N'Lower Sava'),
+    (@CountryId, N'Southeast Slovenia'),
+    (@CountryId, N'Littoral–Inner Carniola'),
+    (@CountryId, N'Central Slovenia'),
+    (@CountryId, N'Upper Carniola'),
+    (@CountryId, N'Gorizia'),
+    (@CountryId, N'Coastal–Karst')
 GO
     
 -- Solomon Islands
