@@ -5569,7 +5569,12 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ashgabat City'),
+    (@CountryId, N'Ahal '),
+    (@CountryId, N'Balkan'),
+    (@CountryId, N'Dasoguz'),
+    (@CountryId, N'Lebap'),
+    (@CountryId, N'Mary')
 GO
     
 -- Tuvalu
@@ -5584,7 +5589,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Funafuti'),
+    (@CountryId, N'Nanumea'),
+    (@CountryId, N'Nui'),
+    (@CountryId, N'Nukufetau'),
+    (@CountryId, N'Nukulaelae'),
+    (@CountryId, N'Vaitupu'),
+    (@CountryId, N'Nanumanga'),
+    (@CountryId, N'Niulakita'),
+    (@CountryId, N'Niutao')
 GO
     
 -- Uganda
@@ -5599,7 +5612,10 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central Region'),
+    (@CountryId, N'Western Region'),
+    (@CountryId, N'Eastern Region'),
+    (@CountryId, N'Northern Region')
 GO
     
 -- Ukraine
@@ -5614,7 +5630,33 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Cherkasy'),
+    (@CountryId, N'Chernihiv'),
+    (@CountryId, N'Chernivtsi'),
+    (@CountryId, N'Dnipropetrovsk'),
+    (@CountryId, N'Donetsk'),
+    (@CountryId, N'Ivano-Frankivsk'),
+    (@CountryId, N'Kharkiv'),
+    (@CountryId, N'Kherson'),
+    (@CountryId, N'Khmelnytskyi'),
+    (@CountryId, N'Kiev'),
+    (@CountryId, N'Kirovohrad'),
+    (@CountryId, N'Luhansk'),
+    (@CountryId, N'Lviv'),
+    (@CountryId, N'Mykolaiv'),
+    (@CountryId, N'Odessa'),
+    (@CountryId, N'Poltava'),
+    (@CountryId, N'Rivne'),
+    (@CountryId, N'Sumy'),
+    (@CountryId, N'Ternopil'),
+    (@CountryId, N'Vinnytsia'),
+    (@CountryId, N'Volyn'),
+    (@CountryId, N'Zakarpattia'),
+    (@CountryId, N'Zaporizhia'),
+    (@CountryId, N'Zhytomyr'),
+    (@CountryId, N'Autonomous Republic of Crimea'),
+    (@CountryId, N'City of Kiev'),
+    (@CountryId, N'City of Sevastopol')
 GO
     
 -- United Arab Emirates
@@ -5629,7 +5671,13 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Abu Dhabi'),
+    (@CountryId, N'Ajman'),
+    (@CountryId, N'Dubai'),
+    (@CountryId, N'Fujairah'),
+    (@CountryId, N'Ras al-Khaimah'),
+    (@CountryId, N'Sharjah'),
+    (@CountryId, N'Umm al-Quwain')
 GO
     
 -- United Kingdom
@@ -5644,11 +5692,14 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'England'),
+    (@CountryId, N'Northern Ireland'),
+    (@CountryId, N'Scotland'),
+    (@CountryId, N'Wales')
 GO
     
 -- United States
--- Ref: https://en.wikipedia.org/wiki/Political_divisions_of_the_United_States#States_and_their_subdivisions
+-- Ref: https://en.wikipedia.org/wiki/U.S._state#States_of_the_United_States
 
 DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'US'
@@ -5659,7 +5710,54 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N' Alabama'),
+    (@CountryId, N'Alaska'),
+    (@CountryId, N'Arizona'),
+    (@CountryId, N'Arkansas'),
+    (@CountryId, N'California'),
+    (@CountryId, N'Colorado'),
+    (@CountryId, N'Connecticut'),
+    (@CountryId, N'Delaware'),
+    (@CountryId, N'Florida'),
+    (@CountryId, N'Georgia'),
+    (@CountryId, N'Hawaii'),
+    (@CountryId, N'Idaho'),
+    (@CountryId, N'Illinois'),
+    (@CountryId, N'Indiana'),
+    (@CountryId, N'Iowa'),
+    (@CountryId, N'Kansas'),
+    (@CountryId, N'Kentucky'),
+    (@CountryId, N'Louisiana'),
+    (@CountryId, N'Maine'),
+    (@CountryId, N'Maryland'),
+    (@CountryId, N'Massachusetts'),
+    (@CountryId, N'Michigan'),
+    (@CountryId, N'Minnesota'),
+    (@CountryId, N'Mississippi'),
+    (@CountryId, N'Missouri'),
+    (@CountryId, N'Montana'),
+    (@CountryId, N'Nebraska'),
+    (@CountryId, N'Nevada'),
+    (@CountryId, N'New Hampshire'),
+    (@CountryId, N'New Jersey'),
+    (@CountryId, N'New Mexico'),
+    (@CountryId, N'New York'),
+    (@CountryId, N'North Carolina'),
+    (@CountryId, N'North Dakota'),
+    (@CountryId, N'Ohio'),
+    (@CountryId, N'Oklahoma'),
+    (@CountryId, N'Oregon'),
+    (@CountryId, N'Pennsylvania'),
+    (@CountryId, N'Rhode Island'),
+    (@CountryId, N'South Carolina'),
+    (@CountryId, N'South Dakota'),
+    (@CountryId, N'Tennessee'),
+    (@CountryId, N'Texas'),
+    (@CountryId, N'Utah'),
+    (@CountryId, N'Vermont'),
+    (@CountryId, N'Virginia'),
+    (@CountryId, N'Washington'),
+    (@CountryId, N'West Virginia')
 GO
     
 -- Uruguay
