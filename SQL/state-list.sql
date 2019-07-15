@@ -5146,7 +5146,32 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Aargau'),
+    (@CountryId, N'Appenzell Ausserrhoden'),
+    (@CountryId, N'Appenzell Innerrhoden'),
+    (@CountryId, N'Basel-Landschaft'),
+    (@CountryId, N'Basel-Stadt'),
+    (@CountryId, N'Bern'),
+    (@CountryId, N'Fribourg'),
+    (@CountryId, N'Geneva'),
+    (@CountryId, N'Glarus'),
+    (@CountryId, N'Grisons'),
+    (@CountryId, N'Jura'),
+    (@CountryId, N'Luzern'),
+    (@CountryId, N'Neuchatel'),
+    (@CountryId, N'Nidwalden'),
+    (@CountryId, N'Obwalden'),
+    (@CountryId, N'Schaffhausen'),
+    (@CountryId, N'Schwyz'),
+    (@CountryId, N'Solothurn'),
+    (@CountryId, N'St. Gallen'),
+    (@CountryId, N'Thurgau'),
+    (@CountryId, N'Ticino'),
+    (@CountryId, N'Uri'),
+    (@CountryId, N'Valais'),
+    (@CountryId, N'Vaud'),
+    (@CountryId, N'Zug'),
+    (@CountryId, N'Zurich')
 GO
     
 -- Syria
@@ -5161,7 +5186,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Latakia'),
+    (@CountryId, N'Idlib'),
+    (@CountryId, N'Aleppo'),
+    (@CountryId, N'Raqqa'),
+    (@CountryId, N'Al-Hasakah'),
+    (@CountryId, N'Tartus'),
+    (@CountryId, N'Hama'),
+    (@CountryId, N'Deir ez-Zor'),
+    (@CountryId, N'Homs'),
+    (@CountryId, N'Damascus'),
+    (@CountryId, N'Rif Dimashq'),
+    (@CountryId, N'Quneitra'),
+    (@CountryId, N'Daraa'),
+    (@CountryId, N'Al-Suwayda'),
 GO
     
 -- Tajikistan
@@ -5176,7 +5214,11 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Sughd'),
+    (@CountryId, N'Region of Republican Subordination'),
+    (@CountryId, N'Khatlon'),
+    (@CountryId, N'Gorno-Badakhshan'),
+    (@CountryId, N'Dushanbe')
 GO
     
 -- Tanzania
@@ -5191,7 +5233,37 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Arusha'),
+    (@CountryId, N'Dar es Salaam'),
+    (@CountryId, N'Dodoma'),
+    (@CountryId, N'Geita'),
+    (@CountryId, N'Iringa'),
+    (@CountryId, N'Kagera'),
+    (@CountryId, N'Katavi'),
+    (@CountryId, N'Kigoma'),
+    (@CountryId, N'Kilimanjaro'),
+    (@CountryId, N'Lindi'),
+    (@CountryId, N'Manyara'),
+    (@CountryId, N'Mara'),
+    (@CountryId, N'Mbeya'),
+    (@CountryId, N'Mjini Magharibi'),
+    (@CountryId, N'Morogoro'),
+    (@CountryId, N'Mtwara'),
+    (@CountryId, N'Mwanza'),
+    (@CountryId, N'Njombe'),
+    (@CountryId, N'Pemba North'),
+    (@CountryId, N'Pemba South'),
+    (@CountryId, N'Pwani'),
+    (@CountryId, N'Rukwa'),
+    (@CountryId, N'Ruvuma'),
+    (@CountryId, N'Shinyanga'),
+    (@CountryId, N'Simiyu'),
+    (@CountryId, N'Singida'),
+    (@CountryId, N'Songwe'),
+    (@CountryId, N'Tabora'),
+    (@CountryId, N'Tanga'),
+    (@CountryId, N'Unguja North'),
+    (@CountryId, N'Unguja South')
 GO
     
 -- Thailand
