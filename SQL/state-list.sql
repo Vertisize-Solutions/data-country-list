@@ -5983,7 +5983,28 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Saada'),
+    (@CountryId, N'Al Jawf'),
+    (@CountryId, N'Hadhramaut'),
+    (@CountryId, N'Al Mahrah'),
+    (@CountryId, N'Hajjah'),
+    (@CountryId, N'`Amran'),
+    (@CountryId, N'Al Mahwit'),
+    (@CountryId, N'Amanat Al Asimah'),
+    (@CountryId, N'Sana`a'),
+    (@CountryId, N'Ma`rib'),
+    (@CountryId, N'Al Hudaydah'),
+    (@CountryId, N'Raymah'),
+    (@CountryId, N'Dhamar'),
+    (@CountryId, N'Ibb'),
+    (@CountryId, N'Dhale'),
+    (@CountryId, N'Al Bayda'),
+    (@CountryId, N'Shabwah'),
+    (@CountryId, N'Taiz'),
+    (@CountryId, N'Lahij'),
+    (@CountryId, N'Abyan'),
+    (@CountryId, N'Aden'),
+    (@CountryId, N'Socotra')
 GO
     
 -- Zambia
@@ -5998,7 +6019,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central Province'),
+    (@CountryId, N'Copperbelt'),
+    (@CountryId, N'Eastern Province'),
+    (@CountryId, N'Luapula'),
+    (@CountryId, N'Lusaka'),
+    (@CountryId, N'Muchinga'),
+    (@CountryId, N'North-Western Province'),
+    (@CountryId, N'Northern Province'),
+    (@CountryId, N'Southern Province'),
+    (@CountryId, N'Western Province')
 GO
     
 -- Zimbabwe
@@ -6013,5 +6043,14 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Bulawayo'),
+    (@CountryId, N'Harare'),
+    (@CountryId, N'Manicaland'),
+    (@CountryId, N'Mashonaland Central'),
+    (@CountryId, N'Mashonaland East'),
+    (@CountryId, N'Mashonaland West'),
+    (@CountryId, N'Masvingo'),
+    (@CountryId, N'Matabeleland North'),
+    (@CountryId, N'Matabeleland South'),
+    (@CountryId, N'Midlands')
 GO
