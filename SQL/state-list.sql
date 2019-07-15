@@ -5270,21 +5270,6 @@ GO
 -- Ref: https://en.wikipedia.org/wiki/Provinces_of_Thailand#The_provinces
 
 DECLARE @CountryId INT
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N''
-
-INSERT INTO dbo.StateMaster
-(
-    CountryId,
-    StateName
-)
-VALUES
-    (@CountryId, N''),
-GO
-    
--- Togo
--- Ref: https://en.wikipedia.org/wiki/Regions_of_Togo
-
-DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TH'
 
 INSERT INTO dbo.StateMaster
@@ -5293,11 +5278,87 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Amnat Charoen'),
+    (@CountryId, N'Ang Thong'),
+    (@CountryId, N'Bangkok'),
+    (@CountryId, N'Bueng Kan'),
+    (@CountryId, N'Buriram'),
+    (@CountryId, N'Chachoengsao'),
+    (@CountryId, N'Chai Nat'),
+    (@CountryId, N'Chaiyaphum'),
+    (@CountryId, N'Chanthaburi'),
+    (@CountryId, N'Chiang Mai'),
+    (@CountryId, N'Chiang Rai'),
+    (@CountryId, N'Chonburi'),
+    (@CountryId, N'Chumphon'),
+    (@CountryId, N'Kalasin'),
+    (@CountryId, N'Kamphaeng Phet'),
+    (@CountryId, N'Kanchanaburi'),
+    (@CountryId, N'Khon Kaen'),
+    (@CountryId, N'Krabi'),
+    (@CountryId, N'Lampang'),
+    (@CountryId, N'Lamphun'),
+    (@CountryId, N'Loei'),
+    (@CountryId, N'Lopburi'),
+    (@CountryId, N'Mae Hong Son'),
+    (@CountryId, N'Maha Sarakham'),
+    (@CountryId, N'Mukdahan'),
+    (@CountryId, N'Nakhon Nayok'),
+    (@CountryId, N'Nakhon Pathom'),
+    (@CountryId, N'Nakhon Phanom'),
+    (@CountryId, N'Nakhon Ratchasima'),
+    (@CountryId, N'Nakhon Sawan'),
+    (@CountryId, N'Nakhon Si Thammarat'),
+    (@CountryId, N'Nan'),
+    (@CountryId, N'Narathiwat'),
+    (@CountryId, N'Nong Bua Lam Phu'),
+    (@CountryId, N'Nong Khai'),
+    (@CountryId, N'Nonthaburi'),
+    (@CountryId, N'Pathum Thani'),
+    (@CountryId, N'Pattani'),
+    (@CountryId, N'Phang Nga'),
+    (@CountryId, N'Phatthalung'),
+    (@CountryId, N'Phayao'),
+    (@CountryId, N'Phetchabun'),
+    (@CountryId, N'Phetchaburi'),
+    (@CountryId, N'Phichit'),
+    (@CountryId, N'Phitsanulok'),
+    (@CountryId, N'Phra Nakhon Si Ayutthaya'),
+    (@CountryId, N'Phrae'),
+    (@CountryId, N'Phuket'),
+    (@CountryId, N'Prachinburi'),
+    (@CountryId, N'Prachuap Khiri Khan'),
+    (@CountryId, N'Ranong'),
+    (@CountryId, N'Ratchaburi'),
+    (@CountryId, N'Rayong'),
+    (@CountryId, N'Roi Et'),
+    (@CountryId, N'Sa Kaeo'),
+    (@CountryId, N'Sakon Nakhon'),
+    (@CountryId, N'Samut Prakan'),
+    (@CountryId, N'Samut Sakhon'),
+    (@CountryId, N'Samut Songkhram'),
+    (@CountryId, N'Saraburi'),
+    (@CountryId, N'Satun'),
+    (@CountryId, N'Sing Buri'),
+    (@CountryId, N'Sisaket'),
+    (@CountryId, N'Songkhla'),
+    (@CountryId, N'Sukhothai'),
+    (@CountryId, N'Suphan Buri'),
+    (@CountryId, N'Surat Thani'),
+    (@CountryId, N'Surin'),
+    (@CountryId, N'Tak'),
+    (@CountryId, N'Trang'),
+    (@CountryId, N'Trat'),
+    (@CountryId, N'Ubon Ratchathani'),
+    (@CountryId, N'Udon Thani'),
+    (@CountryId, N'Uthai Thani'),
+    (@CountryId, N'Uttaradit'),
+    (@CountryId, N'Yala'),
+    (@CountryId, N'Yasothon')
 GO
     
--- Tonga
--- Ref: https://en.wikipedia.org/wiki/Tonga#Administrative_divisions
+-- Togo
+-- Ref: https://en.wikipedia.org/wiki/Regions_of_Togo
 
 DECLARE @CountryId INT
 SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TG'
@@ -5308,7 +5369,30 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Centrale'),
+    (@CountryId, N'Kara'),
+    (@CountryId, N'Maritime'),
+    (@CountryId, N'Plateaux'),
+    (@CountryId, N'Savanes')
+GO
+    
+-- Tonga
+-- Ref: https://en.wikipedia.org/wiki/Tonga#Administrative_divisions
+
+DECLARE @CountryId INT
+SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'TO'
+
+INSERT INTO dbo.StateMaster
+(
+    CountryId,
+    StateName
+)
+VALUES
+    (@CountryId, N'ʻEua'),
+    (@CountryId, N'Haʻapai'),
+    (@CountryId, N'Niuas'),
+    (@CountryId, N'Tongatapu'),
+    (@CountryId, N'Vavaʻu')
 GO
     
 -- Trinidad and Tobago
@@ -5323,7 +5407,21 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Tobago'),
+    (@CountryId, N'Port of Spain'),
+    (@CountryId, N'San Fernando'),
+    (@CountryId, N'Chaguanas'),
+    (@CountryId, N'Arima'),
+    (@CountryId, N'Point Fortin'),
+    (@CountryId, N'Couva–Tabaquite–Talparo'),
+    (@CountryId, N'Diego Martin'),
+    (@CountryId, N'Mayaro–Rio Claro'),
+    (@CountryId, N'Penal–Debe'),
+    (@CountryId, N'Princes Town'),
+    (@CountryId, N'San Juan–Laventille'),
+    (@CountryId, N'Sangre Grande'),
+    (@CountryId, N'Siparia'),
+    (@CountryId, N'Tunapuna–Piarco')
 GO
     
 -- Tunisia
@@ -5338,7 +5436,30 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Ariana'),
+    (@CountryId, N'Beja'),
+    (@CountryId, N'Ben Arous'),
+    (@CountryId, N'Bizerte'),
+    (@CountryId, N'Gabes'),
+    (@CountryId, N'Gafsa'),
+    (@CountryId, N'Jendouba'),
+    (@CountryId, N'Kairouan'),
+    (@CountryId, N'Kasserine'),
+    (@CountryId, N'Kebili'),
+    (@CountryId, N'Kef'),
+    (@CountryId, N'Mahdia'),
+    (@CountryId, N'Manouba'),
+    (@CountryId, N'Medenine'),
+    (@CountryId, N'Monastir'),
+    (@CountryId, N'Nabeul'),
+    (@CountryId, N'Sfax'),
+    (@CountryId, N'Sidi Bouzid'),
+    (@CountryId, N'Siliana'),
+    (@CountryId, N'Sousse'),
+    (@CountryId, N'Tataouine'),
+    (@CountryId, N'Tozeur'),
+    (@CountryId, N'Tunis'),
+    (@CountryId, N'Zaghouan')
 GO
     
 -- Turkey
