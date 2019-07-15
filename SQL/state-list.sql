@@ -5772,7 +5772,25 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Artigas'),
+    (@CountryId, N'Canelones'),
+    (@CountryId, N'Cerro Largo'),
+    (@CountryId, N'Colonia'),
+    (@CountryId, N'Durazno'),
+    (@CountryId, N'Flores'),
+    (@CountryId, N'Florida'),
+    (@CountryId, N'Lavalleja'),
+    (@CountryId, N'Maldonado'),
+    (@CountryId, N'Montevideo'),
+    (@CountryId, N'Paysandú'),
+    (@CountryId, N'Río Negro'),
+    (@CountryId, N'Rivera'),
+    (@CountryId, N'Rocha'),
+    (@CountryId, N'Salto'),
+    (@CountryId, N'San Jose'),
+    (@CountryId, N'Soriano'),
+    (@CountryId, N'Tacuarembo'),
+    (@CountryId, N'Treinta y Tres')
 GO
     
 -- Uzbekistan
@@ -5787,7 +5805,20 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Tashkent City'),
+    (@CountryId, N'Andijan'),
+    (@CountryId, N'Bukhara'),
+    (@CountryId, N'Fergana'),
+    (@CountryId, N'Jizzakh'),
+    (@CountryId, N'Namangan'),
+    (@CountryId, N'Navoiy'),
+    (@CountryId, N'Kashkadarya'),
+    (@CountryId, N'Samarkand'),
+    (@CountryId, N'Syrdarya'),
+    (@CountryId, N'Surkhandarya'),
+    (@CountryId, N'Tashkent'),
+    (@CountryId, N'Khorezm'),
+    (@CountryId, N'Karakalpakstan Republic')
 GO
     
 -- Vanuatu
@@ -5802,7 +5833,12 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Malampa'),
+    (@CountryId, N'Penama'),
+    (@CountryId, N'Sanma'),
+    (@CountryId, N'Shefa'),
+    (@CountryId, N'Tafea'),
+    (@CountryId, N'Torba')
 GO
     
 -- Vatican City
@@ -5832,7 +5868,29 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Amazonas'),
+    (@CountryId, N'Anzoategui'),
+    (@CountryId, N'Apure'),
+    (@CountryId, N'Aragua'),
+    (@CountryId, N'Barinas'),
+    (@CountryId, N'Bolivar'),
+    (@CountryId, N'Carabobo'),
+    (@CountryId, N'Cojedes'),
+    (@CountryId, N'Delta Amacuro'),
+    (@CountryId, N'Falcon'),
+    (@CountryId, N'Guarico'),
+    (@CountryId, N'La Guaira'),
+    (@CountryId, N'Lara'),
+    (@CountryId, N'Merida'),
+    (@CountryId, N'Miranda'),
+    (@CountryId, N'Monagas'),
+    (@CountryId, N'Nueva Esparta'),
+    (@CountryId, N'Portuguesa'),
+    (@CountryId, N'Sucre'),
+    (@CountryId, N'Tachira'),
+    (@CountryId, N'Trujillo'),
+    (@CountryId, N'Yaracuy'),
+    (@CountryId, N'Zulia')
 GO
     
 -- Vietnam
@@ -5847,7 +5905,70 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'An Giang'),
+    (@CountryId, N'Bà Rịa–Vũng Tàu'),
+    (@CountryId, N'Bắc Giang'),
+    (@CountryId, N'Bắc Kạn'),
+    (@CountryId, N'Bạc Liêu'),
+    (@CountryId, N'Bắc Ninh'),
+    (@CountryId, N'Bến Tre'),
+    (@CountryId, N'Bình Định'),
+    (@CountryId, N'Bình Dương'),
+    (@CountryId, N'Bình Phước'),
+    (@CountryId, N'Bình Thuận'),
+    (@CountryId, N'Cà Mau'),
+    (@CountryId, N'Cần Thơ'),
+    (@CountryId, N'Cao Bằng'),
+    (@CountryId, N'Đà Nẵng'),
+    (@CountryId, N'Đắk Lắk'),
+    (@CountryId, N'Đắk Nông'),
+    (@CountryId, N'Điện Biên'),
+    (@CountryId, N'Đồng Nai'),
+    (@CountryId, N'Đồng Tháp'),
+    (@CountryId, N'Gia Lai'),
+    (@CountryId, N'Hà Giang'),
+    (@CountryId, N'Hà Nam'),
+    (@CountryId, N'Hà Nội'),
+    (@CountryId, N'Hà Tĩnh'),
+    (@CountryId, N'Hải Dương'),
+    (@CountryId, N'Hải Phòng'),
+    (@CountryId, N'Hậu Giang'),
+    (@CountryId, N'Hồ Chí Minh'),
+    (@CountryId, N'Hòa Bình'),
+    (@CountryId, N'Hưng Yên'),
+    (@CountryId, N'Khánh Hòa'),
+    (@CountryId, N'Kiên Giang'),
+    (@CountryId, N'Kon Tum'),
+    (@CountryId, N'Lai Châu'),
+    (@CountryId, N'Lâm Đồng'),
+    (@CountryId, N'Lạng Sơn'),
+    (@CountryId, N'Lào Cai'),
+    (@CountryId, N'Long An'),
+    (@CountryId, N'Nam Định'),
+    (@CountryId, N'Nghệ An'),
+    (@CountryId, N'Ninh Bình'),
+    (@CountryId, N'Ninh Thuận'),
+    (@CountryId, N'Phú Thọ'),
+    (@CountryId, N'Phú Yên'),
+    (@CountryId, N'Quảng Bình'),
+    (@CountryId, N'Quảng Nam'),
+    (@CountryId, N'Quảng Ngãi'),
+    (@CountryId, N'Quảng Ninh'),
+    (@CountryId, N'Quảng Trị'),
+    (@CountryId, N'Sóc Trăng'),
+    (@CountryId, N'Sơn La'),
+    (@CountryId, N'Tây Ninh'),
+    (@CountryId, N'Thái Bình'),
+    (@CountryId, N'Thái Nguyên'),
+    (@CountryId, N'Thanh Hóa'),
+    (@CountryId, N'Thừa Thiên–Huế'),
+    (@CountryId, N'Tiền Giang'),
+    (@CountryId, N'Trà Vinh'),
+    (@CountryId, N'Tuyên Quang'),
+    (@CountryId, N'Vĩnh Long'),
+    (@CountryId, N'Vĩnh Phúc'),
+    (@CountryId, N'Yên Bái')
+
 GO
     
 -- Yemen
