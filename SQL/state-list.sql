@@ -4935,7 +4935,38 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Jonglei'),
+    (@CountryId, N'Fangak'),
+    (@CountryId, N'Bieh'),
+    (@CountryId, N'Akobo'),
+    (@CountryId, N'Maiwut'),
+    (@CountryId, N'Latjor'),
+    (@CountryId, N'Boma'),
+    (@CountryId, N'Central Upper Nile'),
+    (@CountryId, N'Northern Upper Nile'),
+    (@CountryId, N'Fashoda'),
+    (@CountryId, N'Ruweng'),
+    (@CountryId, N'Southern Liech'),
+    (@CountryId, N'Northern Liech'),
+    (@CountryId, N'Gogrial'),
+    (@CountryId, N'Twic'),
+    (@CountryId, N'Tonj'),
+    (@CountryId, N'Gok'),
+    (@CountryId, N'Western Lake'),
+    (@CountryId, N'Eastern Lake'),
+    (@CountryId, N'Aweil East'),
+    (@CountryId, N'Lol'),
+    (@CountryId, N'Aweil'),
+    (@CountryId, N'Wau'),
+    (@CountryId, N'Jubek'),
+    (@CountryId, N'Terekeka'),
+    (@CountryId, N'Yei River'),
+    (@CountryId, N'Tambura'),
+    (@CountryId, N'Gbudwe'),
+    (@CountryId, N'Amadi'),
+    (@CountryId, N'Maridi'),
+    (@CountryId, N'Imatong'),
+    (@CountryId, N'Kapoeta')
 GO
     
 -- Spain
@@ -4950,7 +4981,25 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Andalusia'),
+    (@CountryId, N'Catalonia'),
+    (@CountryId, N'Community of Madrid'),
+    (@CountryId, N'Valencian Community'),
+    (@CountryId, N'Galicia'),
+    (@CountryId, N'Castile and Leon'),
+    (@CountryId, N'Basque Autonomous Community'),
+    (@CountryId, N'Castilla-La Mancha'),
+    (@CountryId, N'Canary Islands'),
+    (@CountryId, N'Region of Murcia'),
+    (@CountryId, N'Aragon'),
+    (@CountryId, N'Extremadura'),
+    (@CountryId, N'Balearic Islands'),
+    (@CountryId, N'Principality of Asturias'),
+    (@CountryId, N'Chartered Community of Navarre'),
+    (@CountryId, N'Cantabria'),
+    (@CountryId, N'La Rioja'),
+    (@CountryId, N'Ceuta'),
+    (@CountryId, N'Melilla')
 GO
     
 -- Sri Lanka
@@ -4965,7 +5014,15 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Central Province'),
+    (@CountryId, N'Eastern Province'),
+    (@CountryId, N'North Central Province'),
+    (@CountryId, N'Northern Province'),
+    (@CountryId, N'North Western Province'),
+    (@CountryId, N'Sabaragamuwa Province'),
+    (@CountryId, N'Southern Province'),
+    (@CountryId, N'Uva Province'),
+    (@CountryId, N'Western Province')
 GO
     
 -- North Sudan
@@ -4980,7 +5037,24 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Gezira'),
+    (@CountryId, N'Blue Nile'),
+    (@CountryId, N'East Darfur'),
+    (@CountryId, N'Khartoum'),
+    (@CountryId, N'North Kordofan'),
+    (@CountryId, N'Red Sea'),
+    (@CountryId, N'Sennar'),
+    (@CountryId, N'South Kordofan'),
+    (@CountryId, N'West Kordofan'),
+    (@CountryId, N'Al Qadarif'),
+    (@CountryId, N'Central Darfur'),
+    (@CountryId, N'Kassala'),
+    (@CountryId, N'North Darfur'),
+    (@CountryId, N'Northern'),
+    (@CountryId, N'River Nile'),
+    (@CountryId, N'South Darfur'),
+    (@CountryId, N'West Darfur'),
+    (@CountryId, N'White Nile')
 GO
     
 -- Suriname
@@ -4995,7 +5069,16 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Brokopondo'),
+    (@CountryId, N'Commewijne'),
+    (@CountryId, N'Coronie'),
+    (@CountryId, N'Marowijne'),
+    (@CountryId, N'Nickerie'),
+    (@CountryId, N'Para'),
+    (@CountryId, N'Paramaribo'),
+    (@CountryId, N'Saramacca'),
+    (@CountryId, N'Sipaliwini'),
+    (@CountryId, N'Wanica')
 GO
     
 -- Swaziland
@@ -5010,7 +5093,10 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Hhohho'),
+    (@CountryId, N'Manzini'),
+    (@CountryId, N'Shiselweni'),
+    (@CountryId, N'Lubombo')
 GO
     
 -- Sweden
@@ -5025,7 +5111,27 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N''),
+    (@CountryId, N'Stockholm'),
+    (@CountryId, N'Vasterbotten'),
+    (@CountryId, N'Norrbotten'),
+    (@CountryId, N'Uppsala'),
+    (@CountryId, N'Sodermanland'),
+    (@CountryId, N'Ostergotland'),
+    (@CountryId, N'Jonkoping'),
+    (@CountryId, N'Kronoberg'),
+    (@CountryId, N'Kalmar'),
+    (@CountryId, N'Gotland'),
+    (@CountryId, N'Blekinge'),
+    (@CountryId, N'Skane'),
+    (@CountryId, N'Halland'),
+    (@CountryId, N'Vastra Gotaland'),
+    (@CountryId, N'Varmland'),
+    (@CountryId, N'Orebro'),
+    (@CountryId, N'Vastmanland'),
+    (@CountryId, N'Dalarna'),
+    (@CountryId, N'Gavleborg'),
+    (@CountryId, N'Vasternorrland'),
+    (@CountryId, N'Jamtland')
 GO
     
 -- Switzerland
