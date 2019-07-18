@@ -1,3 +1,7 @@
+
+
+
+
 -- Afghanistan
 -- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
 
@@ -1802,24 +1806,6 @@ VALUES
     (@CountryId, N'Somali'),
     (@CountryId, N'Southern Nations, Nationalities, and Peoples'' Region'),
     (@CountryId, N'Tigray')
-GO
-    
--- Swaziland
--- Ref: https://en.wikipedia.org/wiki/Swaziland#Administrative_divisions
-
-DECLARE @CountryId INT
-SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'SZ'
-
-INSERT INTO dbo.StateMaster
-    (
-        CountryId,
-        StateName
-    )
-VALUES
-    (@CountryId, N'Hhohho'),
-    (@CountryId, N'Lubombo'),
-    (@CountryId, N'Manzini'),
-    (@CountryId, N'Shiselweni')
 GO
     
 -- Fiji
