@@ -16,9 +16,12 @@ Below are the set of guidelines for contributing to this project.
 1. The new country must be a Member or observer state in the United Nations (See Datasources in ReadMe).
 2. Make sure to include all the fields in the list.
 3. Include new countries at the last.
-4. If a country has more than one phone code make it an CSV without spaces.
 
 #### Editing or deleting existing country
 
 1. Provide a link for reference along with the pull request.
 2. When deleting a country, kindly delete the correcponding state list.
+
+#### Common
+
+1. If a country has more than one phone code make it an CSV without spaces.
