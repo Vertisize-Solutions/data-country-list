@@ -1,8 +1,16 @@
+-- Table creation script
+
 CREATE TABLE dbo.StateMaster(
 	StateId     INT             NOT NULL IDENTITY(1,1), -- Automatically generated Id
 	StateName   NVARCHAR(255)   NOT NULL,               -- Name of the administrative division
 	CountryId   INT             NOT NULL                -- Id of the country in CountryMaster
 )
+GO
+
+-- Index for country id as states are most likely to be searched by country
+
+CREATE INDEX statemaster_coutry_index
+ON dbo.StateMaster (CountryId)
 GO
 
 -- Afghanistan
@@ -65,18 +73,18 @@ INSERT INTO dbo.StateMaster
         StateName
     )
 VALUES
-    (@CountryId, N'Shkodër'),
-    (@CountryId, N'Kukës'),
-    (@CountryId, N'Lezhë'),
-    (@CountryId, N'Dibër'),
-    (@CountryId, N'Durrës'),
-    (@CountryId, N'Tiranë'),
+    (@CountryId, N'Shkoder'),
+    (@CountryId, N'Kukes'),
+    (@CountryId, N'Lezhe'),
+    (@CountryId, N'Diber'),
+    (@CountryId, N'Durres'),
+    (@CountryId, N'Tirane'),
     (@CountryId, N'Elbasan'),
-    (@CountryId, N'Korçë'),
+    (@CountryId, N'Korce'),
     (@CountryId, N'Fier'),
     (@CountryId, N'Berat'),
-    (@CountryId, N'Vlorë'),
-    (@CountryId, N'Gjirokastër')
+    (@CountryId, N'Vlore'),
+    (@CountryId, N'Gjirokaster')
 GO
 
 -- Algeria
@@ -96,27 +104,27 @@ VALUES
     (@CountryId, N'Laghouat'),
     (@CountryId, N'Oum El Bouaghi'),
     (@CountryId, N'Batna'),
-    (@CountryId, N'Béjaïa'),
+    (@CountryId, N'Bejaia'),
     (@CountryId, N'Biskra'),
-    (@CountryId, N'Béchar'),
+    (@CountryId, N'Bechar'),
     (@CountryId, N'Blida'),
-    (@CountryId, N'Bouïra'),
+    (@CountryId, N'Bouira'),
     (@CountryId, N'Tamanrasset'),
-    (@CountryId, N'Tébessa'),
+    (@CountryId, N'Tebessa'),
     (@CountryId, N'Tlemcen'),
     (@CountryId, N'Tiaret'),
     (@CountryId, N'Tizi Ouzou'),
     (@CountryId, N'Algiers'),
     (@CountryId, N'Djelfa'),
     (@CountryId, N'Jijel'),
-    (@CountryId, N'Sétif'),
+    (@CountryId, N'Setif'),
     (@CountryId, N'Saïda'),
     (@CountryId, N'Skikda'),
     (@CountryId, N'Sidi Bel Abbès'),
     (@CountryId, N'Annaba'),
     (@CountryId, N'Guelma'),
     (@CountryId, N'Constantine'),
-    (@CountryId, N'Médéa'),
+    (@CountryId, N'Medea'),
     (@CountryId, N'Mostaganem'),
     (@CountryId, N'M''Sila'),
     (@CountryId, N'Mascara'),
@@ -124,7 +132,7 @@ VALUES
     (@CountryId, N'Oran'),
     (@CountryId, N'El Bayadh'),
     (@CountryId, N'Illizi'),
-    (@CountryId, N'Bordj Bou Arréridj'),
+    (@CountryId, N'Bordj Bou Arreridj'),
     (@CountryId, N'Boumerdes'),
     (@CountryId, N'El Taref'),
     (@CountryId, N'Tindouf'),
@@ -135,7 +143,7 @@ VALUES
     (@CountryId, N'Tipaza'),
     (@CountryId, N'Mila'),
     (@CountryId, N'Ain Defla'),
-    (@CountryId, N'Naâma'),
+    (@CountryId, N'Naama'),
     (@CountryId, N'Ain Timouchent'),
     (@CountryId, N'Ghardaia'),
     (@CountryId, N'Relizane')
@@ -159,7 +167,7 @@ VALUES
     (@CountryId, N'Escaldes-Engordany'),
     (@CountryId, N'La Massana'),
     (@CountryId, N'Ordino'),
-    (@CountryId, N'Sant Julià de Lòria')
+    (@CountryId, N'Sant Julià de Loria')
 GO    
 
 -- Angola
@@ -176,21 +184,21 @@ INSERT INTO dbo.StateMaster
 VALUES
     (@CountryId, N'Bengo'),
     (@CountryId, N'Benguela'),
-    (@CountryId, N'Bié'),
+    (@CountryId, N'Bie'),
     (@CountryId, N'Cabinda'),
     (@CountryId, N'Cuando Cubango'),
     (@CountryId, N'Cuanza Norte'),
     (@CountryId, N'Cuanza Sul'),
     (@CountryId, N'Cunene'),
     (@CountryId, N'Huambo'),
-    (@CountryId, N'Huíla'),
+    (@CountryId, N'Huila'),
     (@CountryId, N'Luanda'),
     (@CountryId, N'Lunda Norte'),
     (@CountryId, N'Lunda Sul'),
     (@CountryId, N'Malanje'),
     (@CountryId, N'Moxico'),
     (@CountryId, N'Namibe'),
-    (@CountryId, N'Uíge'),
+    (@CountryId, N'Uige'),
     (@CountryId, N'Zaire')
 GO    
 
@@ -235,15 +243,15 @@ VALUES
     (@CountryId, N'Ciudad de Buenos Aires'),
     (@CountryId, N'Corrientes'),
     (@CountryId, N'Córdoba'),
-    (@CountryId, N'Entre Ríos'),
+    (@CountryId, N'Entre Rios'),
     (@CountryId, N'Formosa'),
     (@CountryId, N'Jujuy'),
     (@CountryId, N'La Pampa'),
     (@CountryId, N'La Rioja'),
     (@CountryId, N'Mendoza'),
     (@CountryId, N'Misiones'),
-    (@CountryId, N'Neuquén'),
-    (@CountryId, N'Río Negro'),
+    (@CountryId, N'Neuquen'),
+    (@CountryId, N'Rio Negro'),
     (@CountryId, N'Salta'),
     (@CountryId, N'San Juan'),
     (@CountryId, N'San Luis'),
@@ -612,7 +620,7 @@ VALUES
     (@CountryId, N'Kouffo'),
     (@CountryId, N'Littoral'),
     (@CountryId, N'Mono'),
-    (@CountryId, N'Ouémé'),
+    (@CountryId, N'Oueme'),
     (@CountryId, N'Plateau'),
     (@CountryId, N'Zou')
 GO
@@ -669,7 +677,7 @@ VALUES
     (@CountryId, N'Oruro'),
     (@CountryId, N'Cochabamba'),
     (@CountryId, N'Santa Cruz'),
-    (@CountryId, N'Potosí'),
+    (@CountryId, N'Potosi'),
     (@CountryId, N'Chuquisaca'),
     (@CountryId, N'Tarija')
 GO
@@ -732,17 +740,17 @@ VALUES
     (@CountryId, N'Bahia'),
     (@CountryId, N'Ceará'),
     (@CountryId, N'Distrito Federal'),
-    (@CountryId, N'Espírito Santo'),
+    (@CountryId, N'Espirito Santo'),
     (@CountryId, N'Goiás'),
     (@CountryId, N'Maranhão'),
     (@CountryId, N'Mato Grosso'),
     (@CountryId, N'Mato Grosso do Sul'),
     (@CountryId, N'Minas Gerais'),
     (@CountryId, N'Paraná'),
-    (@CountryId, N'Paraíba'),
+    (@CountryId, N'Paraiba'),
     (@CountryId, N'Pará'),
     (@CountryId, N'Pernambuco'),
-    (@CountryId, N'Piauí'),
+    (@CountryId, N'Piaui'),
     (@CountryId, N'Rio de Janeiro'),
     (@CountryId, N'Rio Grande do Norte'),
     (@CountryId, N'Rio Grande do Sul'),
@@ -932,7 +940,7 @@ VALUES
     (@CountryId, N'Kandal'),
     (@CountryId, N'Kep'),
     (@CountryId, N'Koh Kong'),
-    (@CountryId, N'Kratié'),
+    (@CountryId, N'Kratie'),
     (@CountryId, N'Mondulkiri'),
     (@CountryId, N'Oddar Meanchey'),
     (@CountryId, N'Pailin'),
@@ -945,7 +953,7 @@ VALUES
     (@CountryId, N'Siem Reap'),
     (@CountryId, N'Stung Treng'),
     (@CountryId, N'Svay Rieng'),
-    (@CountryId, N'Takéo'),
+    (@CountryId, N'Takeo'),
     (@CountryId, N'Tboung Khmom')
 GO    
     
@@ -1014,17 +1022,17 @@ VALUES
     (@CountryId, N'Basse-Kotto'),
     (@CountryId, N'Haut-Mbomou'),
     (@CountryId, N'Haute-Kotto'),
-    (@CountryId, N'Kémo'),
+    (@CountryId, N'Kemo'),
     (@CountryId, N'Lobaye'),
-    (@CountryId, N'Mambéré-Kadéï'),
+    (@CountryId, N'Mambere-Kadeï'),
     (@CountryId, N'Mbomou'),
-    (@CountryId, N'Nana-Grébizi'),
-    (@CountryId, N'Nana-Mambéré'),
+    (@CountryId, N'Nana-Grebizi'),
+    (@CountryId, N'Nana-Mambere'),
     (@CountryId, N'Ombella-M`Poko'),
     (@CountryId, N'Ouaka'),
     (@CountryId, N'Ouham'),
-    (@CountryId, N'Ouham-Pendé'),
-    (@CountryId, N'Sangha-Mbaéré'),
+    (@CountryId, N'Ouham-Pende'),
+    (@CountryId, N'Sangha-Mbaere'),
     (@CountryId, N'Vakaga')
 GO    
 
@@ -1047,7 +1055,7 @@ VALUES
     (@CountryId, N'Chari-Baguirmi'),
     (@CountryId, N'Ennedi-Est'),
     (@CountryId, N'Ennedi-Ouest'),
-    (@CountryId, N'Guéra'),
+    (@CountryId, N'Guera'),
     (@CountryId, N'Hadjer-Lamis'),
     (@CountryId, N'Kanem'),
     (@CountryId, N'Lac'),
@@ -1061,7 +1069,7 @@ VALUES
     (@CountryId, N'Ouaddaï'),
     (@CountryId, N'Salamat'),
     (@CountryId, N'Sila'),
-    (@CountryId, N'Tandjilé'),
+    (@CountryId, N'Tandjile'),
     (@CountryId, N'Tibesti'),
     (@CountryId, N'Wadi Fira')
 GO    
@@ -1083,15 +1091,15 @@ VALUES
     (@CountryId, N'Antofagasta'),
     (@CountryId, N'Atacama'),
     (@CountryId, N'Coquimbo'),
-    (@CountryId, N'Valparaíso'),
+    (@CountryId, N'Valparaiso'),
     (@CountryId, N'Santiago Metropolitan'),
     (@CountryId, N'Libertador General Bernardo O`Higgins'),
     (@CountryId, N'Maule'),
-    (@CountryId, N'Biobío'),
-    (@CountryId, N'Araucanía'),
-    (@CountryId, N'Los Ríos'),
+    (@CountryId, N'Biobio'),
+    (@CountryId, N'Araucania'),
+    (@CountryId, N'Los Rios'),
     (@CountryId, N'Los Lagos'),
-    (@CountryId, N'Aysén del General Carlos Ibáñez del Campo'),
+    (@CountryId, N'Aysen del General Carlos Ibáñez del Campo'),
     (@CountryId, N'Magallanes and Chilean Antarctica')
 GO
 
@@ -1159,7 +1167,7 @@ VALUES
     (@CountryId, N'Antioquia'),
     (@CountryId, N'Arauca'),
     (@CountryId, N'Atlántico'),
-    (@CountryId, N'Bolívar'),
+    (@CountryId, N'Bolivar'),
     (@CountryId, N'Boyacá'),
     (@CountryId, N'Caldas'),
     (@CountryId, N'Caquetá'),
@@ -1169,7 +1177,7 @@ VALUES
     (@CountryId, N'Chocó'),
     (@CountryId, N'Córdoba'),
     (@CountryId, N'Cundinamarca'),
-    (@CountryId, N'Guainía'),
+    (@CountryId, N'Guainia'),
     (@CountryId, N'Guaviare'),
     (@CountryId, N'Huila'),
     (@CountryId, N'La Guajira'),
@@ -1178,14 +1186,14 @@ VALUES
     (@CountryId, N'Nariño'),
     (@CountryId, N'Norte de Santander'),
     (@CountryId, N'Putumayo'),
-    (@CountryId, N'Quindío'),
+    (@CountryId, N'Quindio'),
     (@CountryId, N'Risaralda'),
-    (@CountryId, N'San Andrés, Providencia and Santa Catalina'),
+    (@CountryId, N'San Andres, Providencia and Santa Catalina'),
     (@CountryId, N'Santander'),
     (@CountryId, N'Sucre'),
     (@CountryId, N'Tolima'),
     (@CountryId, N'Valle del Cauca'),
-    (@CountryId, N'Vaupés'),
+    (@CountryId, N'Vaupes'),
     (@CountryId, N'Vichada'),
     (@CountryId, N'Bogotá')
 GO
@@ -1223,7 +1231,7 @@ VALUES
     (@CountryId, N'Cuvette'),
     (@CountryId, N'Cuvette-Ouest'),
     (@CountryId, N'Kouilou'),
-    (@CountryId, N'Lékoumou'),
+    (@CountryId, N'Lekoumou'),
     (@CountryId, N'Brazzaville'),
     (@CountryId, N'Likouala'),
     (@CountryId, N'Niari'),
@@ -1251,7 +1259,7 @@ VALUES
     (@CountryId, N'Heredia'),
     (@CountryId, N'Limón'),
     (@CountryId, N'Puntarenas'),
-    (@CountryId, N'San José')
+    (@CountryId, N'San Jose')
 GO
     
 -- Ivory Coast
@@ -1268,15 +1276,15 @@ INSERT INTO dbo.StateMaster
 VALUES
     (@CountryId, N'Abidjan'),
     (@CountryId, N'Bas-Sassandra'),
-    (@CountryId, N'Comoé'),
-    (@CountryId, N'Denguélé'),
+    (@CountryId, N'Comoe'),
+    (@CountryId, N'Denguele'),
     (@CountryId, N'Gôh-Djiboua'),
     (@CountryId, N'Lacs'),
     (@CountryId, N'Lagunes'),
     (@CountryId, N'Montagnes'),
-    (@CountryId, N'Sassandra-Marahoué'),
+    (@CountryId, N'Sassandra-Marahoue'),
     (@CountryId, N'Savanes'),
-    (@CountryId, N'Vallée du Bandama'),
+    (@CountryId, N'Vallee du Bandama'),
     (@CountryId, N'Woroba'),
     (@CountryId, N'Yamoussoukro'),
     (@CountryId, N'Zanzan')
@@ -1329,19 +1337,19 @@ INSERT INTO dbo.StateMaster
         StateName
     )
 VALUES
-    (@CountryId, N'Pinar del Río'),
+    (@CountryId, N'Pinar del Rio'),
     (@CountryId, N'Artemisa'),
     (@CountryId, N'Havana'),
     (@CountryId, N'Mayabeque'),
     (@CountryId, N'Matanzas'),
     (@CountryId, N'Cienfuegos'),
     (@CountryId, N'Villa Clara'),
-    (@CountryId, N'Sancti Spíritus'),
+    (@CountryId, N'Sancti Spiritus'),
     (@CountryId, N'Ciego de Ávila'),
     (@CountryId, N'Camagüey'),
     (@CountryId, N'Las Tunas'),
     (@CountryId, N'Granma'),
-    (@CountryId, N'Holguín'),
+    (@CountryId, N'Holguin'),
     (@CountryId, N'Santiago de Cuba'),
     (@CountryId, N'Guantánamo'),
     (@CountryId, N'Isla de la Juventud')
@@ -1384,14 +1392,14 @@ VALUES
     (@CountryId, N'South Bohemian'),
     (@CountryId, N'Plzeň'),
     (@CountryId, N'Karlovy Vary'),
-    (@CountryId, N'Ústí nad Labem'),
+    (@CountryId, N'Ústi nad Labem'),
     (@CountryId, N'Liberec'),
-    (@CountryId, N'Hradec Králové'),
+    (@CountryId, N'Hradec Králove'),
     (@CountryId, N'Pardubice'),
     (@CountryId, N'Olomouc'),
     (@CountryId, N'Moravian-Silesian'),
     (@CountryId, N'South Moravian'),
-    (@CountryId, N'Zlín'),
+    (@CountryId, N'Zlin'),
     (@CountryId, N'Vysočina')
 GO
     
@@ -1452,7 +1460,7 @@ VALUES
     (@CountryId, N'Nord-Ubangi'),
     (@CountryId, N'Mongala'),
     (@CountryId, N'Sud-Ubangi'),
-    (@CountryId, N'Équateur'),
+    (@CountryId, N'equateur'),
     (@CountryId, N'Tshuapa'),
     (@CountryId, N'Tanganyika Province'),
     (@CountryId, N'Haut-Lomami'),
@@ -1581,7 +1589,7 @@ VALUES
     (@CountryId, N'Distrito Nacional'),
     (@CountryId, N'Duarte'),
     (@CountryId, N'El Seibo'),
-    (@CountryId, N'Elías Piña'),
+    (@CountryId, N'Elias Piña'),
     (@CountryId, N'Espaillat'),
     (@CountryId, N'Hato Mayor'),
     (@CountryId, N'Hermanas Mirabal'),
@@ -1589,7 +1597,7 @@ VALUES
     (@CountryId, N'La Altagracia'),
     (@CountryId, N'La Romana'),
     (@CountryId, N'La Vega'),
-    (@CountryId, N'María Trinidad Sánchez'),
+    (@CountryId, N'Maria Trinidad Sánchez'),
     (@CountryId, N'Monseñor Nouel'),
     (@CountryId, N'Monte Cristi'),
     (@CountryId, N'Monte Plata'),
@@ -1598,12 +1606,12 @@ VALUES
     (@CountryId, N'Puerto Plata'),
     (@CountryId, N'Samaná'),
     (@CountryId, N'San Cristóbal'),
-    (@CountryId, N'San José de Ocoa'),
+    (@CountryId, N'San Jose de Ocoa'),
     (@CountryId, N'San Juan'),
-    (@CountryId, N'San Pedro de Macorís'),
-    (@CountryId, N'Sánchez Ramírez'),
+    (@CountryId, N'San Pedro de Macoris'),
+    (@CountryId, N'Sánchez Ramirez'),
     (@CountryId, N'Santiago'),
-    (@CountryId, N'Santiago Rodríguez'),
+    (@CountryId, N'Santiago Rodriguez'),
     (@CountryId, N'Santo Domingo'),
     (@CountryId, N'Valverde')
 GO
@@ -1621,7 +1629,7 @@ INSERT INTO dbo.StateMaster
     )
 VALUES
     (@CountryId, N'Azuay'),
-    (@CountryId, N'Bolívar'),
+    (@CountryId, N'Bolivar'),
     (@CountryId, N'Cañar'),
     (@CountryId, N'Carchi'),
     (@CountryId, N'Chimborazo'),
@@ -1632,8 +1640,8 @@ VALUES
     (@CountryId, N'Guayas'),
     (@CountryId, N'Imbabura'),
     (@CountryId, N'Loja'),
-    (@CountryId, N'Los Ríos'),
-    (@CountryId, N'Manabí'),
+    (@CountryId, N'Los Rios'),
+    (@CountryId, N'Manabi'),
     (@CountryId, N'Morona-Santiago'),
     (@CountryId, N'Napo'),
     (@CountryId, N'Orellana'),
@@ -1641,7 +1649,7 @@ VALUES
     (@CountryId, N'Pichincha'),
     (@CountryId, N'Santa Elena'),
     (@CountryId, N'Santo Domingo de los Tsáchilas'),
-    (@CountryId, N'Sucumbíos'),
+    (@CountryId, N'Sucumbios'),
     (@CountryId, N'Tungurahua'),
     (@CountryId, N'Zamora-Chinchipe')
 GO
@@ -1732,7 +1740,7 @@ VALUES
     (@CountryId, N'Bioko Norte'),
     (@CountryId, N'Bioko Sur'),
     (@CountryId, N'Centro Sur'),
-    (@CountryId, N'Kié-Ntem'),
+    (@CountryId, N'Kie-Ntem'),
     (@CountryId, N'Litoral'),
     (@CountryId, N'Wele-Nzas')
 GO
@@ -1877,7 +1885,7 @@ VALUES
     (@CountryId, N'Grand Est'),
     (@CountryId, N'Nouvelle-Aquitaine'),
     (@CountryId, N'Auvergne-Rhône-Alpes'),
-    (@CountryId, N'Bourgogne-Franche-Comté'),
+    (@CountryId, N'Bourgogne-Franche-Comte'),
     (@CountryId, N'Brittany'),
     (@CountryId, N'Centre-Val de Loire'),
     (@CountryId, N'Île-de-France'),
@@ -1891,7 +1899,7 @@ VALUES
     (@CountryId, N'Guadeloupe'),
     (@CountryId, N'Martinique'),
     (@CountryId, N'Mayotte'),
-    (@CountryId, N'Réunion')
+    (@CountryId, N'Reunion')
 GO
     
 -- Gabon
@@ -1907,13 +1915,13 @@ INSERT INTO dbo.StateMaster
     )
 VALUES
     (@CountryId, N'Estuaire'),
-    (@CountryId, N'Haut-Ogooué'),
-    (@CountryId, N'Moyen-Ogooué'),
-    (@CountryId, N'Ngounié'),
+    (@CountryId, N'Haut-Ogooue'),
+    (@CountryId, N'Moyen-Ogooue'),
+    (@CountryId, N'Ngounie'),
     (@CountryId, N'Nyanga'),
-    (@CountryId, N'Ogooué-Ivindo'),
-    (@CountryId, N'Ogooué-Lolo'),
-    (@CountryId, N'Ogooué-Maritime'),
+    (@CountryId, N'Ogooue-Ivindo'),
+    (@CountryId, N'Ogooue-Lolo'),
+    (@CountryId, N'Ogooue-Maritime'),
     (@CountryId, N'Woleu-Ntem')
 GO
     
@@ -2093,15 +2101,15 @@ VALUES
     (@CountryId, N'Izabal'),
     (@CountryId, N'Jalapa'),
     (@CountryId, N'Jutiapa'),
-    (@CountryId, N'Petén'),
+    (@CountryId, N'Peten'),
     (@CountryId, N'Quetzaltenango'),
-    (@CountryId, N'Quiché'),
+    (@CountryId, N'Quiche'),
     (@CountryId, N'Retalhuleu'),
-    (@CountryId, N'Sacatepéquez'),
+    (@CountryId, N'Sacatepequez'),
     (@CountryId, N'San Marcos'),
     (@CountryId, N'Santa Rosa'),
     (@CountryId, N'Sololá'),
-    (@CountryId, N'Suchitepéquez'),
+    (@CountryId, N'Suchitepequez'),
     (@CountryId, N'Totonicapán'),
     (@CountryId, N'Zacapa')
 GO
@@ -2119,11 +2127,11 @@ INSERT INTO dbo.StateMaster
     )
 VALUES
     (@CountryId, N'Conakry Region'),
-    (@CountryId, N'Nzérékoré Region'),
+    (@CountryId, N'Nzerekore Region'),
     (@CountryId, N'Kankan Region'),
     (@CountryId, N'Kindia Region'),
-    (@CountryId, N'Boké Region'),
-    (@CountryId, N'Labé Region'),
+    (@CountryId, N'Boke Region'),
+    (@CountryId, N'Labe Region'),
     (@CountryId, N'Faranah Region'),
     (@CountryId, N'Mamou Region')
 GO
@@ -2216,12 +2224,12 @@ VALUES
     (@CountryId, N'Colón'),
     (@CountryId, N'Comayagua'),
     (@CountryId, N'Copán'),
-    (@CountryId, N'Cortés'),
-    (@CountryId, N'El Paraíso'),
+    (@CountryId, N'Cortes'),
+    (@CountryId, N'El Paraiso'),
     (@CountryId, N'Francisco Morazán'),
     (@CountryId, N'Gracias a Dios'),
     (@CountryId, N'Intibucá'),
-    (@CountryId, N'Islas de la Bahía'),
+    (@CountryId, N'Islas de la Bahia'),
     (@CountryId, N'La Paz'),
     (@CountryId, N'Lempira'),
     (@CountryId, N'Ocotepeque'),
@@ -2245,11 +2253,11 @@ INSERT INTO dbo.StateMaster
 VALUES
     (@CountryId, N'Bács-Kiskun'),
     (@CountryId, N'Baranya'),
-    (@CountryId, N'Békés'),
-    (@CountryId, N'Borsod-Abaúj-Zemplén'),
+    (@CountryId, N'Bekes'),
+    (@CountryId, N'Borsod-Abaúj-Zemplen'),
     (@CountryId, N'Capital City of Budapest'),
     (@CountryId, N'Csongrád'),
-    (@CountryId, N'Fejér'),
+    (@CountryId, N'Fejer'),
     (@CountryId, N'Győr-Moson-Sopron'),
     (@CountryId, N'Hajdú-Bihar'),
     (@CountryId, N'Heves'),
@@ -2261,7 +2269,7 @@ VALUES
     (@CountryId, N'Szabolcs-Szatmár-Bereg'),
     (@CountryId, N'Tolna'),
     (@CountryId, N'Vas'),
-    (@CountryId, N'Veszprém'),
+    (@CountryId, N'Veszprem'),
     (@CountryId, N'Zala')
 GO
     
@@ -2277,8 +2285,8 @@ INSERT INTO dbo.StateMaster
         StateName
     )
 VALUES
-    (@CountryId, N'Reykjavík North'),
-    (@CountryId, N'Reykjavík South'),
+    (@CountryId, N'Reykjavik North'),
+    (@CountryId, N'Reykjavik South'),
     (@CountryId, N'Northwest Constituency'),
     (@CountryId, N'Northeast Constituency'),
     (@CountryId, N'South Constituency'),
@@ -3292,7 +3300,7 @@ VALUES
     (@CountryId, N'Gaafu Alif'),
     (@CountryId, N'Gaafu Dhaalu'),
     (@CountryId, N'Gnaviyani'),
-    (@CountryId, N'Malé'),
+    (@CountryId, N'Male'),
     (@CountryId, N'Seenu/Addu')
 GO
     
@@ -3312,13 +3320,13 @@ VALUES
     (@CountryId, N'Koulikoro'),
     (@CountryId, N'Bamako'),
     (@CountryId, N'Sikasso'),
-    (@CountryId, N'Ségou'),
+    (@CountryId, N'Segou'),
     (@CountryId, N'Mopti'),
     (@CountryId, N'Tombouctou'),
     (@CountryId, N'Gao'),
     (@CountryId, N'Kidal'),
-    (@CountryId, N'Taoudénit'),
-    (@CountryId, N'Ménaka')
+    (@CountryId, N'Taoudenit'),
+    (@CountryId, N'Menaka')
 GO
     
 -- Malta
@@ -3456,16 +3464,16 @@ VALUES
     (@CountryId, N'Guerrero'),
     (@CountryId, N'Hidalgo'),
     (@CountryId, N'Jalisco'),
-    (@CountryId, N'México'),
+    (@CountryId, N'Mexico'),
     (@CountryId, N'Michoacán'),
     (@CountryId, N'Morelos'),
     (@CountryId, N'Nayarit'),
     (@CountryId, N'Nuevo León'),
     (@CountryId, N'Oaxaca'),
     (@CountryId, N'Puebla'),
-    (@CountryId, N'Querétaro'),
+    (@CountryId, N'Queretaro'),
     (@CountryId, N'Quintana Roo'),
-    (@CountryId, N'San Luis Potosí'),
+    (@CountryId, N'San Luis Potosi'),
     (@CountryId, N'Sinaloa'),
     (@CountryId, N'Sonora'),
     (@CountryId, N'Tabasco'),
@@ -3513,7 +3521,7 @@ VALUES
     (@CountryId, N'Monaco-Ville'),
     (@CountryId, N'Fontvieille'),
     (@CountryId, N'La Colle'),
-    (@CountryId, N'Les Révoires'),
+    (@CountryId, N'Les Revoires'),
     (@CountryId, N'Moneghetti'),
     (@CountryId, N'Saint Michel')
 GO
@@ -3606,14 +3614,14 @@ VALUES
     (@CountryId, N'Tanger-Tetouan-Al Hoceima'),
     (@CountryId, N'Oriental'),
     (@CountryId, N'Fès-Meknès'),
-    (@CountryId, N'Rabat-Salé-Kénitra'),
-    (@CountryId, N'Béni Mellal-Khénifra'),
+    (@CountryId, N'Rabat-Sale-Kenitra'),
+    (@CountryId, N'Beni Mellal-Khenifra'),
     (@CountryId, N'Casablanca-Settat'),
     (@CountryId, N'Marrakech-Safi'),
-    (@CountryId, N'Drâa-Tafilalet'),
+    (@CountryId, N'Draa-Tafilalet'),
     (@CountryId, N'Souss-Massa'),
     (@CountryId, N'Guelmim-Oued Noun'),
-    (@CountryId, N'Laâyoune-Sakia El Hamra'),
+    (@CountryId, N'Laayoune-Sakia El Hamra'),
     (@CountryId, N'Dakhla-Oued Ed-Dahab')
 GO
     
@@ -3818,7 +3826,7 @@ VALUES
     (@CountryId, N'Carazo'),
     (@CountryId, N'Chinandega'),
     (@CountryId, N'Chontales'),
-    (@CountryId, N'Estelí'),
+    (@CountryId, N'Esteli'),
     (@CountryId, N'Granada'),
     (@CountryId, N'Jinotega'),
     (@CountryId, N'León'),
@@ -3828,7 +3836,7 @@ VALUES
     (@CountryId, N'Matagalpa'),
     (@CountryId, N'Nueva Segovia'),
     (@CountryId, N'Rivas'),
-    (@CountryId, N'Río San Juan'),
+    (@CountryId, N'Rio San Juan'),
     (@CountryId, N'North Caribbean Coast Autonomous Region'),
     (@CountryId, N'South Caribbean Coast Autonomous Region')
 GO
@@ -3850,7 +3858,7 @@ VALUES
     (@CountryId, N'Dosso'),
     (@CountryId, N'Maradi'),
     (@CountryId, N'Tahoua'),
-    (@CountryId, N'Tillabéri'),
+    (@CountryId, N'Tillaberi'),
     (@CountryId, N'Zinder'),
     (@CountryId, N'Niamey')
 GO
@@ -4041,7 +4049,7 @@ VALUES
     (@CountryId, N'Gaza'),
     (@CountryId, N'Deir Al-Balah'),
     (@CountryId, N'Khan Yunis'),
-    (@CountryId, N'Rafah'),
+    (@CountryId, N'Rafah')
 GO
     
 -- Panama
@@ -4057,10 +4065,10 @@ INSERT INTO dbo.StateMaster
 )
 VALUES
     (@CountryId, N'Bocas del Toro'),
-    (@CountryId, N'Chiriquí'),
-    (@CountryId, N'Coclé'),
+    (@CountryId, N'Chiriqui'),
+    (@CountryId, N'Cocle'),
     (@CountryId, N'Colón'),
-    (@CountryId, N'Darién'),
+    (@CountryId, N'Darien'),
     (@CountryId, N'Herrera'),
     (@CountryId, N'Los Santos'),
     (@CountryId, N'Panamá'),
@@ -4068,7 +4076,7 @@ VALUES
     (@CountryId, N'Veraguas'),
     (@CountryId, N'Emberá'),
     (@CountryId, N'Guna Yala'),
-    (@CountryId, N'Ngäbe-Buglé')
+    (@CountryId, N'Ngäbe-Bugle')
 GO
     
 -- Papua New Guinea
@@ -4128,7 +4136,7 @@ VALUES
     (@CountryId, N'Caazapá'),
     (@CountryId, N'Itapúa'),
     (@CountryId, N'Misiones'),
-    (@CountryId, N'Paraguarí'),
+    (@CountryId, N'Paraguari'),
     (@CountryId, N'Alto Paraná'),
     (@CountryId, N'Central'),
     (@CountryId, N'Ñeembucú'),
@@ -4172,7 +4180,7 @@ VALUES
     (@CountryId, N'Pasco'),
     (@CountryId, N'Piura'),
     (@CountryId, N'Puno'),
-    (@CountryId, N'San Martín'),
+    (@CountryId, N'San Martin'),
     (@CountryId, N'Tacna'),
     (@CountryId, N'Tumbes'),
     (@CountryId, N'Ucayali')
@@ -4246,11 +4254,11 @@ INSERT INTO dbo.StateMaster
 VALUES
     (@CountryId, N'Lisbon'),
     (@CountryId, N'Leiria'),
-    (@CountryId, N'Santarém'),
+    (@CountryId, N'Santarem'),
     (@CountryId, N'Setúbal'),
     (@CountryId, N'Beja'),
     (@CountryId, N'Faro'),
-    (@CountryId, N'Évora'),
+    (@CountryId, N'evora'),
     (@CountryId, N'Portalegre'),
     (@CountryId, N'Castelo Branco'),
     (@CountryId, N'Guarda'),
@@ -4580,7 +4588,7 @@ VALUES
     (@CountryId, N'Serravalle')
 GO
     
--- São Tomé and Príncipe
+-- São Tome and Principe
 -- Ref: https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe#Administrative_divisions
 
 DECLARE @CountryId INT
@@ -4804,7 +4812,7 @@ VALUES
     (@CountryId, N'Banska Bystrica'),
     (@CountryId, N'Zilina'),
     (@CountryId, N'Kosice'),
-    (@CountryId, N'Presov'),
+    (@CountryId, N'Presov')
 GO
     
 -- Slovenia
@@ -5188,7 +5196,7 @@ VALUES
     (@CountryId, N'Rif Dimashq'),
     (@CountryId, N'Quneitra'),
     (@CountryId, N'Daraa'),
-    (@CountryId, N'Al-Suwayda'),
+    (@CountryId, N'Al-Suwayda')
 GO
     
 -- Tajikistan
@@ -5772,7 +5780,7 @@ VALUES
     (@CountryId, N'Maldonado'),
     (@CountryId, N'Montevideo'),
     (@CountryId, N'Paysandú'),
-    (@CountryId, N'Río Negro'),
+    (@CountryId, N'Rio Negro'),
     (@CountryId, N'Rivera'),
     (@CountryId, N'Rocha'),
     (@CountryId, N'Salto'),
@@ -5842,7 +5850,7 @@ INSERT INTO dbo.StateMaster
     StateName
 )
 VALUES
-    (@CountryId, N'Vatican City'),
+    (@CountryId, N'Vatican City')
 GO
     
 -- Venezuela
@@ -5920,16 +5928,16 @@ VALUES
     (@CountryId, N'Hà Nội'),
     (@CountryId, N'Hà Tĩnh'),
     (@CountryId, N'Hải Dương'),
-    (@CountryId, N'Hải Phòng'),
+    (@CountryId, N'Hải Phong'),
     (@CountryId, N'Hậu Giang'),
-    (@CountryId, N'Hồ Chí Minh'),
-    (@CountryId, N'Hòa Bình'),
+    (@CountryId, N'Hồ Chi Minh'),
+    (@CountryId, N'Hoa Bình'),
     (@CountryId, N'Hưng Yên'),
-    (@CountryId, N'Khánh Hòa'),
+    (@CountryId, N'Khánh Hoa'),
     (@CountryId, N'Kiên Giang'),
     (@CountryId, N'Kon Tum'),
-    (@CountryId, N'Lai Châu'),
-    (@CountryId, N'Lâm Đồng'),
+    (@CountryId, N'Lai Chau'),
+    (@CountryId, N'Lam Đồng'),
     (@CountryId, N'Lạng Sơn'),
     (@CountryId, N'Lào Cai'),
     (@CountryId, N'Long An'),
@@ -5946,7 +5954,7 @@ VALUES
     (@CountryId, N'Quảng Trị'),
     (@CountryId, N'Sóc Trăng'),
     (@CountryId, N'Sơn La'),
-    (@CountryId, N'Tây Ninh'),
+    (@CountryId, N'Tay Ninh'),
     (@CountryId, N'Thái Bình'),
     (@CountryId, N'Thái Nguyên'),
     (@CountryId, N'Thanh Hóa'),

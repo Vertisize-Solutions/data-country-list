@@ -1,3 +1,5 @@
+-- Table creation script
+
 CREATE TABLE dbo.CountryMaster(
     CountryId       INT             NOT NULL IDENTITY(1,1), -- Automatically generated Id
     CountryCode     NVARCHAR(10)    NOT NULL PRIMARY KEY,   -- ISO3166 Code
