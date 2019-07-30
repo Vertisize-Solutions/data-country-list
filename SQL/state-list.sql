@@ -1,6 +1,9 @@
-
-
-
+CREATE TABLE dbo.StateMaster(
+	StateId     INT             NOT NULL IDENTITY(1,1), -- Automatically generated Id
+	StateName   NVARCHAR(255)   NOT NULL,               -- Name of the administrative division
+	CountryId   INT             NOT NULL                -- Id of the country in CountryMaster
+)
+GO
 
 -- Afghanistan
 -- Ref: https://en.wikipedia.org/wiki/Afghanistan#Administrative_divisions
@@ -11,7 +14,7 @@ SELECT @CountryId = CountryId FROM dbo.CountryMaster WHERE CountryCode = N'AF'
 INSERT INTO dbo.StateMaster
     (
         CountryId,
-        StateName -- Administrative divisions
+        StateName
     )
 VALUES
     (@CountryId, N'Badakhshan'),
