@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/root.json",
+    "type": "object",
+    "title": "root schema",
+    "required": [
+        "countries"
+    ],
+    "properties": {
+        "countries": {
+            "$id": "#/properties/countries",
+            "type": "array",
+            "title": "country list",
+            "items": {
+                "$id": "#/properties/countries/items",
+                "type": "object",
+                "title": "country",
+                "required": [
+                    "id",
+                    "shortName",
+                    "officialName",
+                    "countryCode",
+                    "phoneCodes",
+                    "states"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#/properties/countries/items/properties/id",
+                        "type": "integer",
+                        "title": "country id",
+                        "examples": [
+                            1
+                        ]
+                    },
+                    "shortName": {
+                        "$id": "#/properties/countries/items/properties/shortName",
+                        "type": "string",
+                        "title": "country short name",
+                        "examples": [
+                            "Afghanistan"
+                        ]
+                    },
+                    "officialName": {
+                        "$id": "#/properties/countries/items/properties/officialName",
+                        "type": "string",
+                        "title": "country official name",
+                        "examples": [
+                            "Islamic Republic of Afghanistan"
+                        ]
+                    },
+                    "countryCode": {
+                        "$id": "#/properties/countries/items/properties/countryCode",
+                        "type": "string",
+                        "title": "country code",
+                        "examples": [
+                            "AF"
+                        ]
+                    },
+                    "phoneCodes": {
+                        "$id": "#/properties/countries/items/properties/phoneCodes",
+                        "type": "array",
+                        "title": "phoneCodess",
+                        "items": {
+                            "$id": "#/properties/countries/items/properties/phoneCodes/items",
+                            "type": "string",
+                            "title": "phoneCode",
+                            "examples": [
+                                "93"
+                            ]
+                        }
+                    },
+                    "states": {
+                        "$id": "#/properties/countries/items/properties/states",
+                        "type": "array",
+                        "title": "states list",
+                        "items": {
+                            "$id": "#/properties/countries/items/properties/states/items",
+                            "type": "string",
+                            "title": "state name",
+                            "examples": [
+                                "Badakhshan"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

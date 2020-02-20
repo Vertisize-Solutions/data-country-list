@@ -1,0 +1,5468 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "shortName": "Afghanistan",
+            "officialName": "Islamic Republic of Afghanistan",
+            "countryCode": "AF",
+            "phoneCodes": [
+                "93"
+            ],
+            "states": [
+                "Badakhshan",
+                "Badghis",
+                "Baghlan",
+                "Balkh",
+                "Bamyan",
+                "Daykundi",
+                "Farah",
+                "Faryab",
+                "Ghazni",
+                "Ghor",
+                "Helmand",
+                "Herat",
+                "Jowzjan",
+                "Kabul",
+                "Kandahar",
+                "Kapisa",
+                "Khost",
+                "Kunar",
+                "Kunduz",
+                "Laghman",
+                "Logar",
+                "Nangarhar",
+                "Nimruz",
+                "Nuristan",
+                "Oruzgan",
+                "Paktia",
+                "Paktika",
+                "Panjshir",
+                "Parwan",
+                "Samangan",
+                "Sar-e Pol",
+                "Takhar",
+                "Wardak",
+                "Zabul"
+            ]
+        },
+        {
+            "id": 2,
+            "shortName": "Albania",
+            "officialName": "Republic of Albania",
+            "countryCode": "AL",
+            "phoneCodes": [
+                "355"
+            ],
+            "states": [
+                "Berat",
+                "Diber",
+                "Durres",
+                "Elbasan",
+                "Fier",
+                "Gjirokaster",
+                "Korce",
+                "Kukes",
+                "Lezhe",
+                "Shkoder",
+                "Tirane",
+                "Vlore"
+            ]
+        },
+        {
+            "id": 3,
+            "shortName": "Algeria",
+            "officialName": "People's Democratic Republic of Algeria",
+            "countryCode": "DZ",
+            "phoneCodes": [
+                "213"
+            ],
+            "states": [
+                "Adrar",
+                "Ain Defla",
+                "Ain Timouchent",
+                "Algiers",
+                "Annaba",
+                "Batna",
+                "Bechar",
+                "Bejaia",
+                "Biskra",
+                "Blida",
+                "Bordj Bou Arreridj",
+                "Bouira",
+                "Boumerdes",
+                "Chlef",
+                "Constantine",
+                "Djelfa",
+                "El Bayadh",
+                "El Oued",
+                "El Taref",
+                "Ghardaia",
+                "Guelma",
+                "Illizi",
+                "Jijel",
+                "Khenchela",
+                "Laghouat",
+                "Mascara",
+                "Medea",
+                "Mila",
+                "Mostaganem",
+                "M'Sila",
+                "Naama",
+                "Oran",
+                "Ouargla",
+                "Oum El Bouaghi",
+                "Relizane",
+                "Saïda",
+                "Setif",
+                "Sidi Bel Abbès",
+                "Skikda",
+                "Souk Ahras",
+                "Tamanrasset",
+                "Tebessa",
+                "Tiaret",
+                "Tindouf",
+                "Tipaza",
+                "Tissemsilt",
+                "Tizi Ouzou",
+                "Tlemcen"
+            ]
+        },
+        {
+            "id": 4,
+            "shortName": "Andorra",
+            "officialName": "Principality of the Valleys of Andorra",
+            "countryCode": "AD",
+            "phoneCodes": [
+                "316"
+            ],
+            "states": [
+                "Andorra la Vella",
+                "Canillo",
+                "Encamp",
+                "Escaldes-Engordany",
+                "La Massana",
+                "Ordino",
+                "Sant Julià de Loria"
+            ]
+        },
+        {
+            "id": 5,
+            "shortName": "Angola",
+            "officialName": "Republic of Angola",
+            "countryCode": "AO",
+            "phoneCodes": [
+                "244"
+            ],
+            "states": [
+                "Bengo",
+                "Benguela",
+                "Bie",
+                "Cabinda",
+                "Cuando Cubango",
+                "Cuanza Norte",
+                "Cuanza Sul",
+                "Cunene",
+                "Huambo",
+                "Huila",
+                "Luanda",
+                "Lunda Norte",
+                "Lunda Sul",
+                "Malanje",
+                "Moxico",
+                "Namibe",
+                "Uige",
+                "Zaire"
+            ]
+        },
+        {
+            "id": 6,
+            "shortName": "Antigua and Barbuda",
+            "officialName": "Antigua and Barbuda",
+            "countryCode": "AG",
+            "phoneCodes": [
+                "1-268"
+            ],
+            "states": [
+                "Barbuda",
+                "Redonda",
+                "Saint George",
+                "Saint John",
+                "Saint Mary",
+                "Saint Paul",
+                "Saint Peter",
+                "Saint Philip"
+            ]
+        },
+        {
+            "id": 7,
+            "shortName": "Argentina",
+            "officialName": "Argentine Republic",
+            "countryCode": "AR",
+            "phoneCodes": [
+                "54"
+            ],
+            "states": [
+                "Buenos Aires",
+                "Catamarca",
+                "Chaco",
+                "Chubut",
+                "Ciudad de Buenos Aires",
+                "Córdoba",
+                "Corrientes",
+                "Entre Rios",
+                "Formosa",
+                "Jujuy",
+                "La Pampa",
+                "La Rioja",
+                "Mendoza",
+                "Misiones",
+                "Neuquen",
+                "Rio Negro",
+                "Salta",
+                "San Juan",
+                "San Luis",
+                "Santa Cruz",
+                "Santa Fe",
+                "Santiago del Estero",
+                "Tierra del Fuego",
+                "Tucumán"
+            ]
+        },
+        {
+            "id": 8,
+            "shortName": "Armenia",
+            "officialName": "Republic of Armenia",
+            "countryCode": "AM",
+            "phoneCodes": [
+                "378"
+            ],
+            "states": [
+                "Aragatsotn",
+                "Ararat",
+                "Armavir",
+                "Gegharkunik",
+                "Kotayk",
+                "Lori",
+                "Shirak",
+                "Syunik",
+                "Tavush",
+                "Vayots Dzor",
+                "Yerevan"
+            ]
+        },
+        {
+            "id": 9,
+            "shortName": "Australia",
+            "officialName": "Commonwealth of Australia",
+            "countryCode": "AU",
+            "phoneCodes": [
+                "61"
+            ],
+            "states": [
+                "New South Wales",
+                "Queensland",
+                "South Australia",
+                "Tasmania",
+                "Victoria",
+                "Western Australia"
+            ]
+        },
+        {
+            "id": 10,
+            "shortName": "Austria",
+            "officialName": "Republic of Austria",
+            "countryCode": "AT",
+            "phoneCodes": [
+                "43"
+            ],
+            "states": [
+                "Burgenland",
+                "Carinthia",
+                "Lower Austria",
+                "Salzburg",
+                "Styria",
+                "Tyrol",
+                "Upper Austria",
+                "Vienna",
+                "Vorarlberg"
+            ]
+        },
+        {
+            "id": 11,
+            "shortName": "Azerbaijan",
+            "officialName": "Republic of Azerbaijan ",
+            "countryCode": "AZ",
+            "phoneCodes": [
+                "994"
+            ],
+            "states": [
+                "Absheron",
+                "Aghdam",
+                "Aghdash",
+                "Aghjabadi",
+                "Aghstafa",
+                "Aghsu",
+                "Astara",
+                "Babek",
+                "Baku",
+                "Balakan",
+                "Barda",
+                "Beylagan",
+                "Bilasuvar",
+                "Dashkasan",
+                "Fuzuli",
+                "Gabala",
+                "Gadabay",
+                "Gakh",
+                "Ganja",
+                "Gazakh",
+                "Gobustan",
+                "Goranboy",
+                "Goychay",
+                "Goygol",
+                "Guba",
+                "Gubadly",
+                "Gusar",
+                "Hajigabul",
+                "Imishli",
+                "Ismailly",
+                "Jabrayil",
+                "Jalilabad",
+                "Julfa",
+                "Kalbajar",
+                "Kangarli",
+                "Khachmaz",
+                "Khankendi",
+                "Khizi",
+                "Khojaly",
+                "Khojavend",
+                "Kurdamir",
+                "Lachin",
+                "Lankaran",
+                "Lankaran",
+                "Lerik",
+                "Masally",
+                "Mingachevir",
+                "Naftalan",
+                "Nakhchivan",
+                "Neftchala",
+                "Oghuz",
+                "Ordubad",
+                "Saatly",
+                "Sabirabad",
+                "Sadarak",
+                "Salyan",
+                "Samukh",
+                "Shabran",
+                "Shahbuz",
+                "Shaki",
+                "Shaki",
+                "Shamakhy",
+                "Shamkir",
+                "Sharur",
+                "Shirvan",
+                "Shusha",
+                "Shusha",
+                "Siyazan",
+                "Sumqayit",
+                "Tartar",
+                "Tovuz",
+                "Ujar",
+                "Yardimly",
+                "Yevlakh",
+                "Yevlakh",
+                "Zangilan",
+                "Zaqatala",
+                "Zardab"
+            ]
+        },
+        {
+            "id": 13,
+            "shortName": "Bahrain",
+            "officialName": "Kingdom of Bahrain",
+            "countryCode": "BH",
+            "phoneCodes": [
+                "973"
+            ],
+            "states": [
+                "Capital Governorate",
+                "Muharraq Governorate",
+                "Northern Governorate",
+                "Southern Governorate"
+            ]
+        },
+        {
+            "id": 14,
+            "shortName": "Bangladesh",
+            "officialName": "People's Republic of Bangladesh",
+            "countryCode": "BD",
+            "phoneCodes": [
+                "880"
+            ],
+            "states": [
+                "Barisal",
+                "Chittagong",
+                "Dhaka",
+                "Khulna",
+                "Mymensingh",
+                "Rajshahi",
+                "Rangpur",
+                "Sylhet"
+            ]
+        },
+        {
+            "id": 15,
+            "shortName": "Barbados",
+            "officialName": "Barbados",
+            "countryCode": "BB",
+            "phoneCodes": [
+                "1-246"
+            ],
+            "states": [
+                "Christ Church",
+                "Saint Andrew",
+                "Saint George",
+                "Saint James",
+                "Saint John",
+                "Saint Joseph",
+                "Saint Lucy",
+                "Saint Michael",
+                "Saint Peter",
+                "Saint Philip",
+                "Saint Thomas"
+            ]
+        },
+        {
+            "id": 16,
+            "shortName": "Belarus",
+            "officialName": "Republic of Belarus",
+            "countryCode": "BY",
+            "phoneCodes": [
+                "375"
+            ],
+            "states": [
+                "Brest",
+                "City of Minsk",
+                "Gomel",
+                "Grodno",
+                "Minsk",
+                "Mogilev",
+                "Vitebsk"
+            ]
+        },
+        {
+            "id": 17,
+            "shortName": "Belgium",
+            "officialName": "Kingdom of Belgium",
+            "countryCode": "BE",
+            "phoneCodes": [
+                "32"
+            ],
+            "states": [
+                "Antwerp",
+                "Brussels-Capital Region",
+                "East Flanders",
+                "Flemish Brabant",
+                "Hainaut",
+                "Liège",
+                "Limburg",
+                "Luxembourg",
+                "Namur",
+                "Walloon Brabant",
+                "West Flanders"
+            ]
+        },
+        {
+            "id": 18,
+            "shortName": "Belize",
+            "officialName": "Belize",
+            "countryCode": "BZ",
+            "phoneCodes": [
+                "501"
+            ],
+            "states": [
+                "Belize",
+                "Cayo",
+                "Corozal",
+                "Orange Walk",
+                "Stann Creek",
+                "Toledo"
+            ]
+        },
+        {
+            "id": 19,
+            "shortName": "Benin",
+            "officialName": "Republic of Benin",
+            "countryCode": "BJ",
+            "phoneCodes": [
+                "229"
+            ],
+            "states": [
+                "Alibori",
+                "Atakora",
+                "Atlantique",
+                "Borgou",
+                "Collines",
+                "Donga",
+                "Kouffo",
+                "Littoral",
+                "Mono",
+                "Oueme",
+                "Plateau",
+                "Zou"
+            ]
+        },
+        {
+            "id": 20,
+            "shortName": "Bhutan",
+            "officialName": "Kingdom of Bhutan",
+            "countryCode": "BT",
+            "phoneCodes": [
+                "975"
+            ],
+            "states": [
+                "Bumthang",
+                "Chukha",
+                "Dagana",
+                "Gasa",
+                "Haa",
+                "Lhuntse",
+                "Mongar",
+                "Paro",
+                "Pemagatshel",
+                "Punakha",
+                "Samdrup Jongkhar",
+                "Samtse",
+                "Sarpang",
+                "Thimphu",
+                "Trashigang",
+                "Trashiyangtse",
+                "Trongsa",
+                "Tsirang",
+                "Wangdue Phodrang",
+                "Zhemgang"
+            ]
+        },
+        {
+            "id": 21,
+            "shortName": "Bolivia",
+            "officialName": "Plurinational State of Bolivia",
+            "countryCode": "BO",
+            "phoneCodes": [
+                "591"
+            ],
+            "states": [
+                "Beni",
+                "Chuquisaca",
+                "Cochabamba",
+                "La Paz",
+                "Oruro",
+                "Pando",
+                "Potosi",
+                "Santa Cruz",
+                "Tarija"
+            ]
+        },
+        {
+            "id": 22,
+            "shortName": "Bosnia and Herzegovina",
+            "officialName": "Bosnia and Herzegovina",
+            "countryCode": "BA",
+            "phoneCodes": [
+                "387"
+            ],
+            "states": [
+                "Federation of Bosnia and Herzegovina",
+                "Republika Srpska"
+            ]
+        },
+        {
+            "id": 23,
+            "shortName": "Botswana",
+            "officialName": "Republic of Botswana",
+            "countryCode": "BW",
+            "phoneCodes": [
+                "267"
+            ],
+            "states": [
+                "Central District",
+                "Ghanzi District",
+                "Kgalagadi District",
+                "Kgatleng District",
+                "Kweneng District",
+                "North-East District",
+                "North-West District",
+                "South-East District",
+                "Southern District"
+            ]
+        },
+        {
+            "id": 24,
+            "shortName": "Brazil",
+            "officialName": "Federative Republic of Brazil",
+            "countryCode": "BR",
+            "phoneCodes": [
+                "55"
+            ],
+            "states": [
+                "Acre",
+                "Alagoas",
+                "Amapá",
+                "Amazonas",
+                "Bahia",
+                "Ceará",
+                "Distrito Federal",
+                "Espirito Santo",
+                "Federal District",
+                "Goiás",
+                "Maranhão",
+                "Mato Grosso",
+                "Mato Grosso do Sul",
+                "Minas Gerais",
+                "Pará",
+                "Paraiba",
+                "Paraná",
+                "Pernambuco",
+                "Piaui",
+                "Rio de Janeiro",
+                "Rio Grande do Norte",
+                "Rio Grande do Sul",
+                "Rondônia",
+                "Roraima",
+                "Santa Catarina",
+                "São Paulo",
+                "Sergipe",
+                "Tocantins"
+            ]
+        },
+        {
+            "id": 25,
+            "shortName": "Brunei",
+            "officialName": "Nation of Brunei, the Abode of Peace",
+            "countryCode": "BN",
+            "phoneCodes": [
+                "673"
+            ],
+            "states": [
+                "Belait",
+                "Brunei-Muara",
+                "Temburong",
+                "Tutong"
+            ]
+        },
+        {
+            "id": 26,
+            "shortName": "Bulgaria",
+            "officialName": "Republic of Bulgaria",
+            "countryCode": "BG",
+            "phoneCodes": [
+                "359"
+            ],
+            "states": [
+                "Blagoevgrad",
+                "Burgas",
+                "Dobrich",
+                "Gabrovo",
+                "Haskovo",
+                "Kardzhali",
+                "Kyustendil",
+                "Lovech",
+                "Montana",
+                "Pazardzhik",
+                "Pernik",
+                "Pleven",
+                "Plovdiv",
+                "Razgrad",
+                "Ruse",
+                "Shumen",
+                "Silistra",
+                "Sliven",
+                "Smolyan",
+                "Sofia Province",
+                "Sofia-Grad",
+                "Stara Zagora",
+                "Targovishte",
+                "Varna",
+                "Veliko Tarnovo",
+                "Vidin",
+                "Vratsa",
+                "Yambol"
+            ]
+        },
+        {
+            "id": 27,
+            "shortName": "Burkina Faso",
+            "officialName": "Burkina Faso",
+            "countryCode": "BF",
+            "phoneCodes": [
+                "226"
+            ],
+            "states": [
+                "Boucle du Mouhoun",
+                "Cascades",
+                "Centre",
+                "Centre-Est",
+                "Centre-Nord",
+                "Centre-Ouest",
+                "Centre-Sud",
+                "Est",
+                "Hauts-Bassins",
+                "Nord",
+                "Plateau-Central",
+                "Sahel",
+                "Sud-Ouest"
+            ]
+        },
+        {
+            "id": 28,
+            "shortName": "Burundi",
+            "officialName": "Republic of Burundi",
+            "countryCode": "BI",
+            "phoneCodes": [
+                "257"
+            ],
+            "states": [
+                "Bubanza",
+                "Bujumbura Mairie",
+                "Bujumbura Rural",
+                "Bururi",
+                "Cankuzo",
+                "Cibitoke",
+                "Gitega",
+                "Karuzi",
+                "Kayanza",
+                "Kirundo",
+                "Makamba",
+                "Muramvya",
+                "Muyinga",
+                "Mwaro",
+                "Ngozi",
+                "Rumonge",
+                "Rutana",
+                "Ruyigi"
+            ]
+        },
+        {
+            "id": 29,
+            "shortName": "Cabo Verde",
+            "officialName": "Republic of Cabo Verde",
+            "countryCode": "CV",
+            "phoneCodes": [
+                "238"
+            ],
+            "states": [
+                "Boa Vista",
+                "Brava",
+                "Maio",
+                "Mosteiros",
+                "Paúl",
+                "Porto Novo",
+                "Praia",
+                "Ribeira Brava",
+                "Ribeira Grande",
+                "Ribeira Grande de Santiago",
+                "Sal",
+                "Santa Catarina",
+                "Santa Catarina do Fogo",
+                "Santa Cruz",
+                "São Domingos",
+                "São Filipe",
+                "São Lourenço dos Órgãos",
+                "São Miguel",
+                "São Salvador do Mundo",
+                "São Vicente",
+                "Tarrafal",
+                "Tarrafal de São Nicolau"
+            ]
+        },
+        {
+            "id": 30,
+            "shortName": "Cambodia",
+            "officialName": "Kingdom of Cambodia",
+            "countryCode": "KH",
+            "phoneCodes": [
+                "855"
+            ],
+            "states": [
+                "Banteay Meanchey",
+                "Battambang",
+                "Kampong Cham",
+                "Kampong Chhnang",
+                "Kampong Speu",
+                "Kampong Thom",
+                "Kampot",
+                "Kandal",
+                "Kep",
+                "Koh Kong",
+                "Kratie",
+                "Mondulkiri",
+                "Oddar Meanchey",
+                "Pailin",
+                "Phnom Penh",
+                "Preah Sihanouk",
+                "Preah Vihear",
+                "Prey Veng",
+                "Pursat",
+                "Ratanakiri",
+                "Siem Reap",
+                "Stung Treng",
+                "Svay Rieng",
+                "Takeo",
+                "Tboung Khmom"
+            ]
+        },
+        {
+            "id": 31,
+            "shortName": "Cameroon",
+            "officialName": "Republic of Cameroon",
+            "countryCode": "CM",
+            "phoneCodes": [
+                "237"
+            ],
+            "states": [
+                "Adamawa",
+                "Central Cameroon",
+                "East Cameroon",
+                "Far North Cameroon",
+                "Littoral Cameroon",
+                "North Cameroon",
+                "Northwest Cameroon",
+                "South Cameroon",
+                "Southwest Cameroon",
+                "West Cameroon"
+            ]
+        },
+        {
+            "id": 32,
+            "shortName": "Canada",
+            "officialName": "Canada",
+            "countryCode": "CA",
+            "phoneCodes": [
+                "1"
+            ],
+            "states": [
+                "Alberta",
+                "British Columbia",
+                "Manitoba",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Ontario",
+                "Prince Edward Island",
+                "Quebec",
+                "Saskatchewan"
+            ]
+        },
+        {
+            "id": 33,
+            "shortName": "Central African Republic",
+            "officialName": "Central African Republic",
+            "countryCode": "CF",
+            "phoneCodes": [
+                "236"
+            ],
+            "states": [
+                "Bamingui-Bangoran",
+                "Bangui",
+                "Basse-Kotto",
+                "Haute-Kotto",
+                "Haut-Mbomou",
+                "Kemo",
+                "Lobaye",
+                "Mambere-Kadeï",
+                "Mbomou",
+                "Nana-Grebizi",
+                "Nana-Mambere",
+                "Ombella-M`Poko",
+                "Ouaka",
+                "Ouham",
+                "Ouham-Pende",
+                "Sangha-Mbaere",
+                "Vakaga"
+            ]
+        },
+        {
+            "id": 34,
+            "shortName": "Chad",
+            "officialName": "Republic of Chad",
+            "countryCode": "TD",
+            "phoneCodes": [
+                "235"
+            ],
+            "states": [
+                "Bahr El Gazel",
+                "Batha",
+                "Borkou",
+                "Chari-Baguirmi",
+                "Ennedi-Est",
+                "Ennedi-Ouest",
+                "Guera",
+                "Hadjer-Lamis",
+                "Kanem",
+                "Lac",
+                "Logone Occidental",
+                "Logone Oriental",
+                "Mandoul",
+                "Mayo-Kebbi Est",
+                "Mayo-Kebbi Ouest",
+                "Moyen-Chari",
+                "N Djamena",
+                "Ouaddaï",
+                "Salamat",
+                "Sila",
+                "Tandjile",
+                "Tibesti",
+                "Wadi Fira"
+            ]
+        },
+        {
+            "id": 35,
+            "shortName": "Chile",
+            "officialName": "Republic of Chile",
+            "countryCode": "CL",
+            "phoneCodes": [
+                "56"
+            ],
+            "states": [
+                "Antofagasta",
+                "Araucania",
+                "Arica y Parinacota",
+                "Atacama",
+                "Aysen del General Carlos Ibáñez del Campo",
+                "Biobio",
+                "Coquimbo",
+                "Libertador General Bernardo O`Higgins",
+                "Los Lagos",
+                "Los Rios",
+                "Magallanes and Chilean Antarctica",
+                "Maule",
+                "Santiago Metropolitan",
+                "Tarapacá",
+                "Valparaiso"
+            ]
+        },
+        {
+            "id": 36,
+            "shortName": "China",
+            "officialName": "People's Republic of China",
+            "countryCode": "CN",
+            "phoneCodes": [
+                "86"
+            ],
+            "states": [
+                "Anhui",
+                "Beijing",
+                "Chongqing",
+                "Fujian",
+                "Gansu",
+                "Guangdong",
+                "Guangxi Zhuang",
+                "Guizhou",
+                "Hainan",
+                "Hebei",
+                "Heilongjiang",
+                "Henan",
+                "Hong Kong",
+                "Hubei",
+                "Hunan",
+                "Inner Mongolia",
+                "Jiangsu",
+                "Jiangxi",
+                "Jilin",
+                "Liaoning",
+                "Macau",
+                "Ningxia Hui",
+                "Qinghai",
+                "Shaanxi",
+                "Shandong",
+                "Shanghai",
+                "Shanxi",
+                "Sichuan",
+                "Taiwan",
+                "Tianjin",
+                "Tibet",
+                "Xinjiang Uyghur",
+                "Yunnan",
+                "Zhejiang"
+            ]
+        },
+        {
+            "id": 37,
+            "shortName": "Colombia",
+            "officialName": "Republic of Colombia",
+            "countryCode": "CO",
+            "phoneCodes": [
+                "57"
+            ],
+            "states": [
+                "Amazonas",
+                "Antioquia",
+                "Arauca",
+                "Atlántico",
+                "Bogotá",
+                "Bolivar",
+                "Boyacá",
+                "Caldas",
+                "Caquetá",
+                "Casanare",
+                "Cauca",
+                "Cesar",
+                "Chocó",
+                "Córdoba",
+                "Cundinamarca",
+                "Guainia",
+                "Guaviare",
+                "Huila",
+                "La Guajira",
+                "Magdalena",
+                "Meta",
+                "Nariño",
+                "Norte de Santander",
+                "Putumayo",
+                "Quindio",
+                "Risaralda",
+                "San Andres, Providencia and Santa Catalina",
+                "Santander",
+                "Sucre",
+                "Tolima",
+                "Valle del Cauca",
+                "Vaupes",
+                "Vichada"
+            ]
+        },
+        {
+            "id": 38,
+            "shortName": "Comoros",
+            "officialName": "Union of the Comoros",
+            "countryCode": "KM",
+            "phoneCodes": [
+                "269"
+            ],
+            "states": [
+                "Grande Comore",
+                "Moheli",
+                "Ndzuwani"
+            ]
+        },
+        {
+            "id": 39,
+            "shortName": "Congo",
+            "officialName": "Republic of the Congo",
+            "countryCode": "CG",
+            "phoneCodes": [
+                "242"
+            ],
+            "states": [
+                "Bouenza",
+                "Brazzaville",
+                "Cuvette",
+                "Cuvette-Ouest",
+                "Kouilou",
+                "Lekoumou",
+                "Likouala",
+                "Niari",
+                "Plateaux",
+                "Pointe Noire",
+                "Pool",
+                "Sangha"
+            ]
+        },
+        {
+            "id": 40,
+            "shortName": "Costa Rica",
+            "officialName": "Republic of Costa Rica",
+            "countryCode": "CR",
+            "phoneCodes": [
+                "506"
+            ],
+            "states": [
+                "Alajuela",
+                "Cartago",
+                "Guanacaste",
+                "Heredia",
+                "Limón",
+                "Puntarenas",
+                "San Jose"
+            ]
+        },
+        {
+            "id": 42,
+            "shortName": "Croatia",
+            "officialName": "Republic of Croatia",
+            "countryCode": "HR",
+            "phoneCodes": [
+                "385"
+            ],
+            "states": [
+                "Bjelovar-Bilogora",
+                "Brod-Posavina",
+                "City of Zagreb",
+                "Dubrovnik-Neretva",
+                "Istria",
+                "Karlovac",
+                "Koprivnica-Križevci",
+                "Krapina-Zagorje",
+                "Lika-Senj",
+                "Međimurje",
+                "Osijek-Baranja",
+                "Požega-Slavonia",
+                "Primorje-Gorski Kotar",
+                "Šibenik-Knin",
+                "Sisak-Moslavina",
+                "Split-Dalmatia",
+                "Varaždin",
+                "Virovitica-Podravina",
+                "Vukovar-Srijem",
+                "Zadar",
+                "Zagreb County"
+            ]
+        },
+        {
+            "id": 43,
+            "shortName": "Cuba",
+            "officialName": "Republic of Cuba",
+            "countryCode": "CU",
+            "phoneCodes": [
+                "53"
+            ],
+            "states": [
+                "Artemisa",
+                "Camagüey",
+                "Ciego de Ávila",
+                "Cienfuegos",
+                "Granma",
+                "Guantánamo",
+                "Havana",
+                "Holguin",
+                "Isla de la Juventud",
+                "Las Tunas",
+                "Matanzas",
+                "Mayabeque",
+                "Pinar del Rio",
+                "Sancti Spiritus",
+                "Santiago de Cuba",
+                "Villa Clara"
+            ]
+        },
+        {
+            "id": 44,
+            "shortName": "Cyprus",
+            "officialName": "Republic of Cyprus",
+            "countryCode": "CY",
+            "phoneCodes": [
+                "357"
+            ],
+            "states": [
+                "Famagusta",
+                "Kyrenia",
+                "Larnaca",
+                "Limassol",
+                "Nicosia",
+                "Paphos"
+            ]
+        },
+        {
+            "id": 45,
+            "shortName": "Czech Republic",
+            "officialName": "Czech Republic",
+            "countryCode": "CZ",
+            "phoneCodes": [
+                "420"
+            ],
+            "states": [
+                "Central Bohemian",
+                "Hradec Králove",
+                "Karlovy Vary",
+                "Liberec",
+                "Moravian-Silesian",
+                "Olomouc",
+                "Pardubice",
+                "Plzeň",
+                "Prague",
+                "South Bohemian",
+                "South Moravian",
+                "Ústi nad Labem",
+                "Vysočina",
+                "Zlin"
+            ]
+        },
+        {
+            "id": 48,
+            "shortName": "Denmark",
+            "officialName": "Kingdom of Denmark",
+            "countryCode": "DK",
+            "phoneCodes": [
+                "45"
+            ],
+            "states": [
+                "Hovedstaden",
+                "Midtjylland",
+                "Nordjylland",
+                "Sjælland",
+                "Syddanmark"
+            ]
+        },
+        {
+            "id": 51,
+            "shortName": "Djibouti",
+            "officialName": "Republic of Djibouti",
+            "countryCode": "DJ",
+            "phoneCodes": [
+                "253"
+            ],
+            "states": [
+                "Ali Sabieh",
+                "Arta",
+                "Dikhil",
+                "Djibouti",
+                "Obock",
+                "Tadjourah"
+            ]
+        },
+        {
+            "id": 52,
+            "shortName": "Dominica",
+            "officialName": "Commonwealth of Dominica",
+            "countryCode": "DM",
+            "phoneCodes": [
+                "1-767"
+            ],
+            "states": [
+                "Saint Andrew Parish",
+                "Saint David Parish",
+                "Saint George Parish",
+                "Saint John Parish",
+                "Saint Joseph Parish",
+                "Saint Luke Parish",
+                "Saint Mark Parish",
+                "Saint Patrick Parish",
+                "Saint Paul Parish",
+                "Saint Peter Parish"
+            ]
+        },
+        {
+            "id": 53,
+            "shortName": "Dominican Republic",
+            "officialName": "Dominican Republic",
+            "countryCode": "DO",
+            "phoneCodes": [
+                "1-809",
+                "1-829",
+                "1-849"
+            ],
+            "states": [
+                "Azua",
+                "Baoruco",
+                "Barahona",
+                "Dajabón",
+                "Distrito Nacional",
+                "Duarte",
+                "El Seibo",
+                "Elias Piña",
+                "Espaillat",
+                "Hato Mayor",
+                "Hermanas Mirabal",
+                "Independencia",
+                "La Altagracia",
+                "La Romana",
+                "La Vega",
+                "Maria Trinidad Sánchez",
+                "Monseñor Nouel",
+                "Monte Cristi",
+                "Monte Plata",
+                "Pedernales",
+                "Peravia",
+                "Puerto Plata",
+                "Samaná",
+                "San Cristóbal",
+                "San Jose de Ocoa",
+                "San Juan",
+                "San Pedro de Macoris",
+                "Sánchez Ramirez",
+                "Santiago",
+                "Santiago Rodriguez",
+                "Santo Domingo",
+                "Valverde"
+            ]
+        },
+        {
+            "id": 47,
+            "shortName": "DR Congo",
+            "officialName": "Democratic Republic of the Congo",
+            "countryCode": "CD",
+            "phoneCodes": [
+                "243"
+            ],
+            "states": [
+                "Bas-Uele",
+                "equateur",
+                "Haut-Katanga Province",
+                "Haut-Lomami",
+                "Haut-Uele",
+                "Ituri Province",
+                "Kasaï Province",
+                "Kasaï-Central",
+                "Kasaï-Oriental",
+                "Kinshasa",
+                "Kongo Central",
+                "Kwango",
+                "Kwilu Province",
+                "Lomami Province",
+                "Lualaba Province",
+                "Mai-Ndombe Province",
+                "Maniema",
+                "Mongala",
+                "Nord-Ubangi",
+                "North Kivu",
+                "Sankuru",
+                "South Kivu",
+                "Sud-Ubangi",
+                "Tanganyika Province",
+                "Tshopo",
+                "Tshuapa"
+            ]
+        },
+        {
+            "id": 54,
+            "shortName": "Ecuador",
+            "officialName": "Republic of Ecuador",
+            "countryCode": "EC",
+            "phoneCodes": [
+                "593"
+            ],
+            "states": [
+                "Azuay",
+                "Bolivar",
+                "Cañar",
+                "Carchi",
+                "Chimborazo",
+                "Cotopaxi",
+                "El Oro",
+                "Esmeraldas",
+                "Galápagos",
+                "Guayas",
+                "Imbabura",
+                "Loja",
+                "Los Rios",
+                "Manabi",
+                "Morona-Santiago",
+                "Napo",
+                "Orellana",
+                "Pastaza",
+                "Pichincha",
+                "Santa Elena",
+                "Santo Domingo de los Tsáchilas",
+                "Sucumbios",
+                "Tungurahua",
+                "Zamora-Chinchipe"
+            ]
+        },
+        {
+            "id": 55,
+            "shortName": "Egypt",
+            "officialName": "Arab Republic of Egypt",
+            "countryCode": "EG",
+            "phoneCodes": [
+                "20"
+            ],
+            "states": [
+                "Alexandria",
+                "Aswan",
+                "Asyut",
+                "Beheira",
+                "Beni Suef",
+                "Cairo",
+                "Dakahlia",
+                "Damietta",
+                "Faiyum",
+                "Gharbia",
+                "Giza",
+                "Ismailia",
+                "Kafr El Sheikh",
+                "Luxor",
+                "Matrouh",
+                "Minya",
+                "Monufia",
+                "New Valley",
+                "North Sinai",
+                "Port Said",
+                "Qalyubia",
+                "Qena",
+                "Red Sea",
+                "Sharqia",
+                "Sohag",
+                "South Sinai",
+                "Suez"
+            ]
+        },
+        {
+            "id": 56,
+            "shortName": "El Salvador",
+            "officialName": "Republic of El Salvador",
+            "countryCode": "SV",
+            "phoneCodes": [
+                "503"
+            ],
+            "states": [
+                "Ahuachapán",
+                "Cabañas",
+                "Chalatenango",
+                "Cuscatlán",
+                "La Libertad",
+                "La Paz",
+                "La Unión",
+                "Morazán",
+                "San Miguel",
+                "San Salvador",
+                "San Vicente",
+                "Santa Ana",
+                "Sonsonate",
+                "Usulután"
+            ]
+        },
+        {
+            "id": 57,
+            "shortName": "Equatorial Guinea",
+            "officialName": "Republic of Equatorial Guinea",
+            "countryCode": "GQ",
+            "phoneCodes": [
+                "240"
+            ],
+            "states": [
+                "Annobón",
+                "Bioko Norte",
+                "Bioko Sur",
+                "Centro Sur",
+                "Djibloho",
+                "Kie-Ntem",
+                "Litoral",
+                "Wele-Nzas"
+            ]
+        },
+        {
+            "id": 58,
+            "shortName": "Eritrea",
+            "officialName": "State of Eritrea",
+            "countryCode": "ER",
+            "phoneCodes": [
+                "291"
+            ],
+            "states": [
+                "Anseba",
+                "Central",
+                "Gash-Barka",
+                "Northern Red Sea",
+                "Southern",
+                "Southern Red Sea"
+            ]
+        },
+        {
+            "id": 59,
+            "shortName": "Estonia",
+            "officialName": "Republic of Estonia",
+            "countryCode": "EE",
+            "phoneCodes": [
+                "372"
+            ],
+            "states": [
+                "Harju",
+                "Hiiu",
+                "Ida-Viru",
+                "Järva",
+                "Jõgeva",
+                "Lääne",
+                "Lääne-Viru",
+                "Pärnu",
+                "Põlva",
+                "Rapla",
+                "Saare",
+                "Tartu",
+                "Valga",
+                "Viljandi",
+                "Võru"
+            ]
+        },
+        {
+            "id": 60,
+            "shortName": "Ethiopia",
+            "officialName": "Federal Democratic Republic of Ethiopia ",
+            "countryCode": "ET",
+            "phoneCodes": [
+                "251"
+            ],
+            "states": [
+                "Addis Ababa",
+                "Afar",
+                "Amhara",
+                "Benishangul-Gumuz",
+                "Dire Dawa",
+                "Gambela",
+                "Harari",
+                "Oromia",
+                "Somali",
+                "Southern Nations, Nationalities, and Peoples' Region",
+                "Tigray"
+            ]
+        },
+        {
+            "id": 49,
+            "shortName": "Faroe Islands",
+            "officialName": "Faroe Islands",
+            "countryCode": "FO",
+            "phoneCodes": [
+                "298"
+            ],
+            "states": [
+                "Eysturoyar",
+                "Norðoyar",
+                "Sandoyar",
+                "Streymoyar",
+                "Suðuroyar",
+                "Vága"
+            ]
+        },
+        {
+            "id": 114,
+            "shortName": "Federated States of Micronesia",
+            "officialName": "Federated States of Micronesia",
+            "countryCode": "FM",
+            "phoneCodes": [
+                "691"
+            ],
+            "states": [
+                "Chuuk",
+                "Kosrae",
+                "Pohnpei",
+                "Yap"
+            ]
+        },
+        {
+            "id": 62,
+            "shortName": "Fiji",
+            "officialName": "Republic of Fiji",
+            "countryCode": "FJ",
+            "phoneCodes": [
+                "679"
+            ],
+            "states": [
+                "Central Division",
+                "Eastern Division",
+                "Northern Division",
+                "Western Division"
+            ]
+        },
+        {
+            "id": 63,
+            "shortName": "Finland",
+            "officialName": "Republic of Finland",
+            "countryCode": "FI",
+            "phoneCodes": [
+                "358"
+            ],
+            "states": [
+                "Åland Islands",
+                "Central Finland",
+                "Central Ostrobothnia",
+                "Kainuu",
+                "Kymenlaakso",
+                "Lapland",
+                "North Karelia",
+                "Northern Ostrobothnia",
+                "Northern Savonia",
+                "Ostrobothnia",
+                "Päijänne Tavastia",
+                "Pirkanmaa",
+                "Satakunta",
+                "South Karelia",
+                "Southern Ostrobothnia",
+                "Southern Savonia",
+                "Southwest Finland",
+                "Tavastia Proper",
+                "Uusimaa"
+            ]
+        },
+        {
+            "id": 64,
+            "shortName": "France",
+            "officialName": "French Republic",
+            "countryCode": "FR",
+            "phoneCodes": [
+                "33"
+            ],
+            "states": [
+                "Auvergne-Rhône-Alpes",
+                "Bourgogne-Franche-Comte",
+                "Brittany",
+                "Centre-Val de Loire",
+                "Corsica",
+                "French Guiana",
+                "Grand Est",
+                "Guadeloupe",
+                "Hauts-de-France",
+                "Île-de-France",
+                "Martinique",
+                "Mayotte",
+                "Normandy",
+                "Nouvelle-Aquitaine",
+                "Occitanie",
+                "Pays de la Loire",
+                "Provence-Alpes-Côte d'Azur",
+                "Reunion"
+            ]
+        },
+        {
+            "id": 65,
+            "shortName": "Gabon",
+            "officialName": "Gabonese Republic",
+            "countryCode": "GA",
+            "phoneCodes": [
+                "241"
+            ],
+            "states": [
+                "Estuaire",
+                "Haut-Ogooue",
+                "Moyen-Ogooue",
+                "Ngounie",
+                "Nyanga",
+                "Ogooue-Ivindo",
+                "Ogooue-Lolo",
+                "Ogooue-Maritime",
+                "Woleu-Ntem"
+            ]
+        },
+        {
+            "id": 67,
+            "shortName": "Georgia",
+            "officialName": "Georgia",
+            "countryCode": "GE",
+            "phoneCodes": [
+                "995"
+            ],
+            "states": [
+                "Abkhazia",
+                "Adjara",
+                "Guria",
+                "Imereti",
+                "Kakheti",
+                "Kvemo Kartli",
+                "Mtskheta-Mtianeti",
+                "Racha-Lechkhumi and Kvemo Svaneti",
+                "Samegrelo-Zemo Svaneti",
+                "Samtskhe-Javakheti",
+                "Shida Kartli",
+                "Tbilisi"
+            ]
+        },
+        {
+            "id": 68,
+            "shortName": "Germany",
+            "officialName": "Federal Republic of Germany",
+            "countryCode": "DE",
+            "phoneCodes": [
+                "49"
+            ],
+            "states": [
+                "Baden-Württemberg",
+                "Bavaria",
+                "Berlin",
+                "Brandenburg",
+                "Bremen",
+                "Hamburg",
+                "Hesse",
+                "Lower Saxony",
+                "Mecklenburg-Vorpommern",
+                "North Rhine-Westphalia",
+                "Rhineland-Palatinate",
+                "Saarland",
+                "Saxony",
+                "Saxony-Anhalt",
+                "Schleswig-Holstein",
+                "Thuringia"
+            ]
+        },
+        {
+            "id": 69,
+            "shortName": "Ghana",
+            "officialName": "Republic of Ghana",
+            "countryCode": "GH",
+            "phoneCodes": [
+                "233"
+            ],
+            "states": [
+                "Ashanti Region",
+                "Brong-Ahafo Region",
+                "Central Region",
+                "Eastern Region",
+                "Greater Accra Region",
+                "Northern Region",
+                "Upper East Region",
+                "Upper West Region",
+                "Volta Region",
+                "Western Region"
+            ]
+        },
+        {
+            "id": 70,
+            "shortName": "Greece",
+            "officialName": "Hellenic Republic",
+            "countryCode": "GR",
+            "phoneCodes": [
+                "30"
+            ],
+            "states": [
+                "Attica",
+                "Central Greece",
+                "Central Macedonia",
+                "Crete",
+                "East Macedonia and Thrace",
+                "Epirus",
+                "Ionian Islands",
+                "Mount Athos",
+                "North Aegean",
+                "Peloponnese",
+                "South Aegean",
+                "Thessaly",
+                "West Greece",
+                "West Macedonia"
+            ]
+        },
+        {
+            "id": 50,
+            "shortName": "Greenland",
+            "officialName": "Greenland",
+            "countryCode": "GL",
+            "phoneCodes": [
+                "299"
+            ],
+            "states": [
+                "Avannaata",
+                "Kujalleq",
+                "Qeqertalik",
+                "Qeqqata",
+                "Sermersooq"
+            ]
+        },
+        {
+            "id": 71,
+            "shortName": "Grenada",
+            "officialName": "Grenada",
+            "countryCode": "GD",
+            "phoneCodes": [
+                "1-473"
+            ],
+            "states": [
+                "Carriacou",
+                "Grenada",
+                "Petite Martinique",
+                "Saint Andrew",
+                "Saint David",
+                "Saint George",
+                "Saint John",
+                "Saint Mark",
+                "Saint Patrick"
+            ]
+        },
+        {
+            "id": 72,
+            "shortName": "Guatemala",
+            "officialName": "Republic of Guatemala",
+            "countryCode": "GT",
+            "phoneCodes": [
+                "502"
+            ],
+            "states": [
+                "Alta Verapaz",
+                "Baja Verapaz",
+                "Chimaltenango",
+                "Chiquimula",
+                "El Progreso",
+                "Escuintla",
+                "Guatemala",
+                "Huehuetenango",
+                "Izabal",
+                "Jalapa",
+                "Jutiapa",
+                "Peten",
+                "Quetzaltenango",
+                "Quiche",
+                "Retalhuleu",
+                "Sacatepequez",
+                "San Marcos",
+                "Santa Rosa",
+                "Sololá",
+                "Suchitepequez",
+                "Totonicapán",
+                "Zacapa"
+            ]
+        },
+        {
+            "id": 73,
+            "shortName": "Guinea",
+            "officialName": "Republic of Guinea",
+            "countryCode": "GN",
+            "phoneCodes": [
+                "224"
+            ],
+            "states": [
+                "Boke Region",
+                "Conakry Region",
+                "Faranah Region",
+                "Kankan Region",
+                "Kindia Region",
+                "Labe Region",
+                "Mamou Region",
+                "Nzerekore Region"
+            ]
+        },
+        {
+            "id": 74,
+            "shortName": "Guinea-Bissau",
+            "officialName": "Republic of Guinea-Bissau",
+            "countryCode": "GW",
+            "phoneCodes": [
+                "245"
+            ],
+            "states": [
+                "Bafatá",
+                "Biombo",
+                "Bissau",
+                "Bolama",
+                "Cacheu",
+                "Gabu",
+                "Oio",
+                "Quinara",
+                "Tombali"
+            ]
+        },
+        {
+            "id": 75,
+            "shortName": "Guyana",
+            "officialName": "Co-operative Republic of Guyana",
+            "countryCode": "GY",
+            "phoneCodes": [
+                "592"
+            ],
+            "states": [
+                "Barima-Waini",
+                "Cuyuni-Mazaruni",
+                "Demerara-Mahaica",
+                "East Berbice-Corentyne",
+                "Essequibo Islands-West Demerara",
+                "Mahaica-Berbice",
+                "Pomeroon-Supenaam",
+                "Potaro-Siparuni",
+                "Upper Demerara-Berbice",
+                "Upper Takutu-Upper Essequibo"
+            ]
+        },
+        {
+            "id": 76,
+            "shortName": "Haiti",
+            "officialName": "Republic of Haiti",
+            "countryCode": "HT",
+            "phoneCodes": [
+                "509"
+            ],
+            "states": [
+                "Artibonite",
+                "Centre",
+                "Grand'Anse",
+                "Nippes",
+                "Nord",
+                "Nord-Est",
+                "Nord-Ouest",
+                "Ouest",
+                "Sud",
+                "Sud-Est"
+            ]
+        },
+        {
+            "id": 77,
+            "shortName": "Honduras",
+            "officialName": "Republic of Honduras",
+            "countryCode": "HN",
+            "phoneCodes": [
+                "504"
+            ],
+            "states": [
+                "Atlántida",
+                "Choluteca",
+                "Colón",
+                "Comayagua",
+                "Copán",
+                "Cortes",
+                "El Paraiso",
+                "Francisco Morazán",
+                "Gracias a Dios",
+                "Intibucá",
+                "Islas de la Bahia",
+                "La Paz",
+                "Lempira",
+                "Ocotepeque",
+                "Olancho",
+                "Santa Bárbara",
+                "Valle",
+                "Yoro"
+            ]
+        },
+        {
+            "id": 78,
+            "shortName": "Hungary",
+            "officialName": "Hungary",
+            "countryCode": "HU",
+            "phoneCodes": [
+                "36"
+            ],
+            "states": [
+                "Bács-Kiskun",
+                "Baranya",
+                "Bekes",
+                "Borsod-Abaúj-Zemplen",
+                "Capital City of Budapest",
+                "Csongrád",
+                "Fejer",
+                "Győr-Moson-Sopron",
+                "Hajdú-Bihar",
+                "Heves",
+                "Jász-Nagykun-Szolnok",
+                "Komárom-Esztergom",
+                "Nógrád",
+                "Pest",
+                "Somogy",
+                "Szabolcs-Szatmár-Bereg",
+                "Tolna",
+                "Vas",
+                "Veszprem",
+                "Zala"
+            ]
+        },
+        {
+            "id": 79,
+            "shortName": "Iceland",
+            "officialName": "Iceland",
+            "countryCode": "IS",
+            "phoneCodes": [
+                "358"
+            ],
+            "states": [
+                "Northeast Constituency",
+                "Northwest Constituency",
+                "Reykjavik North",
+                "Reykjavik South",
+                "South Constituency",
+                "Southwest Constituency"
+            ]
+        },
+        {
+            "id": 80,
+            "shortName": "India",
+            "officialName": "Republic of India",
+            "countryCode": "IN",
+            "phoneCodes": [
+                "91"
+            ],
+            "states": [
+                "Andaman and Nicobar Islands",
+                "Andhra Pradesh",
+                "Arunachal Pradesh",
+                "Assam",
+                "Bihar",
+                "Chandigarh",
+                "Chhattisgarh",
+                "Dadra and Nagar Haveli",
+                "Daman and Diu",
+                "Delhi",
+                "Goa",
+                "Gujarat",
+                "Haryana",
+                "Himachal Pradesh",
+                "Jammu and Kashmir",
+                "Jharkhand",
+                "Karnataka",
+                "Kerala",
+                "Lakshadweep",
+                "Madhya Pradesh",
+                "Maharashtra",
+                "Manipur",
+                "Meghalaya",
+                "Mizoram",
+                "Nagaland",
+                "Odisha",
+                "Puducherry",
+                "Punjab",
+                "Rajasthan",
+                "Sikkim",
+                "Tamil Nadu",
+                "Telangana",
+                "Tripura",
+                "Uttar Pradesh",
+                "Uttarakhand",
+                "West Bengal"
+            ]
+        },
+        {
+            "id": 81,
+            "shortName": "Indonesia",
+            "officialName": "Republic of Indonesia",
+            "countryCode": "ID",
+            "phoneCodes": [
+                "62"
+            ],
+            "states": [
+                "Aceh",
+                "Bali",
+                "Bangka Belitung Islands",
+                "Banten",
+                "Bengkulu",
+                "Central Java",
+                "Central Kalimantan",
+                "Central Sulawesi",
+                "East Java",
+                "East Kalimantan",
+                "East Nusa Tenggara",
+                "Gorontalo",
+                "Jakarta Special Capital Region",
+                "Jambi",
+                "Lampung",
+                "Maluku",
+                "North Kalimantan",
+                "North Maluku",
+                "North Sulawesi",
+                "North Sumatra",
+                "Riau",
+                "Riau Islands",
+                "South Kalimantan",
+                "South Sulawesi",
+                "South Sumatra",
+                "Southeast Sulawesi",
+                "Special Region of Papua",
+                "Special Region of West Papua",
+                "Special Region of Yogyakarta",
+                "West Java",
+                "West Kalimantan",
+                "West Nusa Tenggara",
+                "West Sulawesi",
+                "West Sumatra"
+            ]
+        },
+        {
+            "id": 82,
+            "shortName": "Iran",
+            "officialName": "Islamic Republic of Iran",
+            "countryCode": "IR",
+            "phoneCodes": [
+                "98"
+            ],
+            "states": [
+                "Isfahan",
+                "Kermanshah",
+                "Mashhad",
+                "Tabriz",
+                "Tehran"
+            ]
+        },
+        {
+            "id": 83,
+            "shortName": "Iraq",
+            "officialName": "Republic of Iraq",
+            "countryCode": "IQ",
+            "phoneCodes": [
+                "964"
+            ],
+            "states": [
+                "Al Anbar",
+                "Al-Qādisiyyah",
+                "Babil",
+                "Baghdad",
+                "Basra",
+                "Dhi Qar",
+                "Diyala",
+                "Dohuk",
+                "Erbil",
+                "Halabja",
+                "Karbala",
+                "Kirkuk",
+                "Maysan",
+                "Muthanna",
+                "Najaf",
+                "Nineveh",
+                "Saladin",
+                "Sulaymaniyah",
+                "Wasit"
+            ]
+        },
+        {
+            "id": 84,
+            "shortName": "Ireland",
+            "officialName": "Republic of Ireland",
+            "countryCode": "IE",
+            "phoneCodes": [
+                "353"
+            ],
+            "states": [
+                "Carlow",
+                "Cavan",
+                "Clare",
+                "Cork",
+                "Cork City",
+                "Donegal",
+                "Dublin City",
+                "Dún Laoghaire–Rathdown",
+                "Fingal",
+                "Galway",
+                "Galway City",
+                "Kerry",
+                "Kildare",
+                "Kilkenny",
+                "Laois",
+                "Leitrim",
+                "Limerick",
+                "Longford",
+                "Louth",
+                "Mayo",
+                "Meath",
+                "Monaghan",
+                "Offaly",
+                "Roscommon",
+                "Sligo",
+                "South Dublin",
+                "Tipperary",
+                "Waterford",
+                "Westmeath",
+                "Wexford",
+                "Wicklow"
+            ]
+        },
+        {
+            "id": 85,
+            "shortName": "Israel",
+            "officialName": "State of Israel",
+            "countryCode": "IL",
+            "phoneCodes": [
+                "972"
+            ],
+            "states": [
+                "Center",
+                "Haifa",
+                "Jerusalem",
+                "Judea and Samaria",
+                "North",
+                "South",
+                "Tel Aviv"
+            ]
+        },
+        {
+            "id": 86,
+            "shortName": "Italy",
+            "officialName": "Italian Republic",
+            "countryCode": "IT",
+            "phoneCodes": [
+                "39"
+            ],
+            "states": [
+                "Abruzzo",
+                "Aosta Valley",
+                "Apulia",
+                "Basilicata",
+                "Calabria",
+                "Campania",
+                "Emilia-Romagna",
+                "Friuli-Venezia Giulia",
+                "Lazio",
+                "Liguria",
+                "Lombardy",
+                "Marche",
+                "Molise",
+                "Piedmont",
+                "Sardinia",
+                "Sicily",
+                "Trentino-Alto Adige/Südtirol",
+                "Tuscany",
+                "Umbria",
+                "Veneto"
+            ]
+        },
+        {
+            "id": 41,
+            "shortName": "Ivory Coast",
+            "officialName": "Republic of Côte d'Ivoire",
+            "countryCode": "CI",
+            "phoneCodes": [
+                "225"
+            ],
+            "states": [
+                "Abidjan",
+                "Bas-Sassandra",
+                "Comoe",
+                "Denguele",
+                "Gôh-Djiboua",
+                "Lacs",
+                "Lagunes",
+                "Montagnes",
+                "Sassandra-Marahoue",
+                "Savanes",
+                "Vallee du Bandama",
+                "Woroba",
+                "Yamoussoukro",
+                "Zanzan"
+            ]
+        },
+        {
+            "id": 87,
+            "shortName": "Jamaica",
+            "officialName": "Jamaica",
+            "countryCode": "JM",
+            "phoneCodes": [
+                "1-876",
+                "1-658"
+            ],
+            "states": [
+                "Clarendon",
+                "Hanover",
+                "Kingston",
+                "Manchester",
+                "Portland",
+                "Saint Andrew",
+                "Saint Ann",
+                "Saint Catherine",
+                "Saint Elizabeth",
+                "Saint James",
+                "Saint Mary",
+                "Saint Thomas",
+                "Trelawny",
+                "Westmoreland"
+            ]
+        },
+        {
+            "id": 88,
+            "shortName": "Japan",
+            "officialName": "Japan",
+            "countryCode": "JP",
+            "phoneCodes": [
+                "81"
+            ],
+            "states": [
+                "Aichi",
+                "Akita",
+                "Aomori",
+                "Chiba",
+                "Ehime",
+                "Fukui",
+                "Fukuoka",
+                "Fukushima",
+                "Gifu",
+                "Gunma",
+                "Hiroshima",
+                "Hokkaido",
+                "Hyōgo",
+                "Ibaraki",
+                "Ishikawa",
+                "Iwate",
+                "Kagawa",
+                "Kagoshima",
+                "Kanagawa",
+                "Kōchi",
+                "Kumamoto",
+                "Kyoto",
+                "Mie",
+                "Miyagi",
+                "Miyazaki",
+                "Nagano",
+                "Nagasaki",
+                "Nara",
+                "Niigata",
+                "Ōita",
+                "Okayama",
+                "Okinawa",
+                "Osaka",
+                "Saga",
+                "Saitama",
+                "Shiga",
+                "Shimane",
+                "Shizuoka",
+                "Tochigi",
+                "Tokushima",
+                "Tokyo",
+                "Tottori",
+                "Toyama",
+                "Wakayama",
+                "Yamagata",
+                "Yamaguchi",
+                "Yamanashi"
+            ]
+        },
+        {
+            "id": 89,
+            "shortName": "Jordan",
+            "officialName": "The Hashemite Kingdom of Jordan",
+            "countryCode": "JO",
+            "phoneCodes": [
+                "962"
+            ],
+            "states": [
+                "Ajloun",
+                "Amman",
+                "Aqaba",
+                "Balqa",
+                "Irbid",
+                "Jerash",
+                "Karak",
+                "Maan",
+                "Madaba",
+                "Mafraq",
+                "Tafila",
+                "Zarqa"
+            ]
+        },
+        {
+            "id": 90,
+            "shortName": "Kazakhstan",
+            "officialName": "Republic of Kazakhstan",
+            "countryCode": "KZ",
+            "phoneCodes": [
+                "7"
+            ],
+            "states": [
+                "Akmola",
+                "Aktobe",
+                "Almaty",
+                "Astana",
+                "Atyrau",
+                "Baikonur",
+                "East Kazakhstan",
+                "Jambyl",
+                "Karaganda",
+                "Kostanay",
+                "Kyzylorda",
+                "Mangystau",
+                "North Kazakhstan",
+                "Pavlodar",
+                "Shymkent",
+                "Turkistan",
+                "West Kazakhstan"
+            ]
+        },
+        {
+            "id": 91,
+            "shortName": "Kenya",
+            "officialName": "Republic of Kenya",
+            "countryCode": "EAT",
+            "phoneCodes": [
+                "254"
+            ],
+            "states": [
+                "Baringo",
+                "Bomet",
+                "Bungoma",
+                "Busia",
+                "Elgeyo-Marakwet",
+                "Embu",
+                "Garissa",
+                "Homa Bay",
+                "Isiolo",
+                "Kajiado",
+                "Kakamega",
+                "Kericho",
+                "Kiambu",
+                "Kilifi",
+                "Kirinyaga",
+                "Kisii",
+                "Kisumu",
+                "Kitui",
+                "Kwale",
+                "Laikipia",
+                "Lamu",
+                "Machakos",
+                "Makueni",
+                "Mandera",
+                "Marsabit",
+                "Meru",
+                "Migori",
+                "Mombasa",
+                "Muranga",
+                "Nairobi",
+                "Nakuru",
+                "Nandi",
+                "Narok",
+                "Nyamira",
+                "Nyandarua",
+                "Nyeri",
+                "Samburu",
+                "Siaya",
+                "Taita–Taveta",
+                "Tana River",
+                "Tharaka-Nithi",
+                "Trans-Nzoia",
+                "Turkana",
+                "Uasin Gishu",
+                "Vihiga",
+                "Wajir",
+                "West Pokot"
+            ]
+        },
+        {
+            "id": 92,
+            "shortName": "Kiribati",
+            "officialName": "Republic of Kiribati",
+            "countryCode": "KI",
+            "phoneCodes": [
+                "686"
+            ],
+            "states": [
+                "Gilbert Islands",
+                "Line Islands",
+                "Phoenix Islands"
+            ]
+        },
+        {
+            "id": 93,
+            "shortName": "Kuwait",
+            "officialName": "State of Kuwait",
+            "countryCode": "KW",
+            "phoneCodes": [
+                "965"
+            ],
+            "states": [
+                "Ahmadi",
+                "Al Asimah",
+                "Farwaniya",
+                "Hawalli",
+                "Jahra",
+                "Mubarak Al-Kabeer"
+            ]
+        },
+        {
+            "id": 94,
+            "shortName": "Kyrgyzstan",
+            "officialName": "Kyrgyz Republic",
+            "countryCode": "KGT",
+            "phoneCodes": [
+                "996"
+            ],
+            "states": [
+                "Batken",
+                "Bishkek",
+                "Chuy",
+                "Issyk-Kul",
+                "Jalal-Abad",
+                "Naryn",
+                "Osh",
+                "Osh",
+                "Talas"
+            ]
+        },
+        {
+            "id": 95,
+            "shortName": "Laos",
+            "officialName": "Lao People's Democratic Republic",
+            "countryCode": "LA",
+            "phoneCodes": [
+                "856"
+            ],
+            "states": [
+                "Attapeu",
+                "Bokeo",
+                "Bolikhamsai",
+                "Champasak",
+                "Hua Phan",
+                "Khammouane",
+                "Luang Namtha",
+                "Luang Prabang",
+                "Oudomxay",
+                "Phongsali",
+                "Salavan",
+                "Savannakhet",
+                "Sayabouly",
+                "Sekong",
+                "Vientiane Prefecture",
+                "Vientiane Province",
+                "Xaisomboun Province",
+                "Xieng Khouang"
+            ]
+        },
+        {
+            "id": 96,
+            "shortName": "Latvia",
+            "officialName": "Republic of Latvia",
+            "countryCode": "LV",
+            "phoneCodes": [
+                "371"
+            ],
+            "states": [
+                "Ādaži",
+                "Aglona",
+                "Aizkraukle",
+                "Aizpute",
+                "Aknīste",
+                "Aloja",
+                "Alsunga",
+                "Alūksne",
+                "Amata",
+                "Ape",
+                "Auce",
+                "Babīte",
+                "Baldone",
+                "Baltinava",
+                "Balvi",
+                "Bauska",
+                "Beverīna",
+                "Brocēni",
+                "Burtnieki",
+                "Carnikava",
+                "Cēsis",
+                "Cesvaine",
+                "Cibla",
+                "Dagda",
+                "Daugavpils",
+                "Daugavpils",
+                "Dobele",
+                "Dundaga",
+                "Durbe",
+                "Engure",
+                "Ērgļi",
+                "Garkalne",
+                "Grobiņa",
+                "Gulbene",
+                "Iecava",
+                "Ikšķile",
+                "Ilūkste",
+                "Inčukalns",
+                "Jaunjelgava",
+                "Jaunpiebalga",
+                "Jaunpils",
+                "Jēkabpils",
+                "Jēkabpils",
+                "Jelgava",
+                "Jelgava",
+                "Jūrmala",
+                "Kandava",
+                "Kārsava",
+                "Ķegums",
+                "Ķekava",
+                "Kocēni",
+                "Koknese",
+                "Krāslava",
+                "Krimulda",
+                "Krustpils",
+                "Kuldīga",
+                "Lielvārde",
+                "Liepāja",
+                "Līgatne",
+                "Limbaži",
+                "Līvāni",
+                "Lubāna",
+                "Ludza",
+                "Madona",
+                "Mālpils",
+                "Mārupe",
+                "Mazsalaca",
+                "Mērsrags",
+                "Naukšēni",
+                "Nereta",
+                "Nīca",
+                "Ogre",
+                "Olaine",
+                "Ozolnieki",
+                "Pārgauja",
+                "Pāvilosta",
+                "Pļaviņas",
+                "Preiļi",
+                "Priekule",
+                "Priekuļi",
+                "Rauna",
+                "Rēzekne",
+                "Rēzekne",
+                "Riebiņi",
+                "Riga",
+                "Roja",
+                "Ropaži",
+                "Rucava",
+                "Rugāji",
+                "Rūjiena",
+                "Rundāle",
+                "Sala",
+                "Salacgrīva",
+                "Salaspils",
+                "Saldus",
+                "Saulkrasti",
+                "Seja",
+                "Sigulda",
+                "Skrīveri",
+                "Skrunda",
+                "Smiltene",
+                "Stopini",
+                "Strenci",
+                "Talsi",
+                "Tērvete",
+                "Tukums",
+                "Vaiņode",
+                "Valka",
+                "Valmiera",
+                "Varakļāni",
+                "Vārkava",
+                "Vecpiebalga",
+                "Vecumnieki",
+                "Ventspils",
+                "Ventspils",
+                "Viesīte",
+                "Viļaka",
+                "Viļāni",
+                "Zilupe"
+            ]
+        },
+        {
+            "id": 97,
+            "shortName": "Lebanon",
+            "officialName": "Lebanese Republic",
+            "countryCode": "LB",
+            "phoneCodes": [
+                "961"
+            ],
+            "states": [
+                "Akkar",
+                "Baalbek-Hermel",
+                "Beirut",
+                "Beqaa",
+                "Mount Lebanon",
+                "Nabatieh",
+                "North",
+                "South"
+            ]
+        },
+        {
+            "id": 98,
+            "shortName": "Lesotho",
+            "officialName": "Kingdom of Lesotho",
+            "countryCode": "LS",
+            "phoneCodes": [
+                "266"
+            ],
+            "states": [
+                "Berea",
+                "Butha-Buthe",
+                "Leribe",
+                "Mafeteng",
+                "Maseru",
+                "Mohales Hoek",
+                "Mokhotlong",
+                "Qachas Nek",
+                "Quthing",
+                "Thaba-Tseka"
+            ]
+        },
+        {
+            "id": 99,
+            "shortName": "Liberia",
+            "officialName": "Republic of Liberia",
+            "countryCode": "LR",
+            "phoneCodes": [
+                "231"
+            ],
+            "states": [
+                "Bomi",
+                "Bong",
+                "Gbarpolu",
+                "Grand Bassa",
+                "Grand Cape Mount",
+                "Grand Gedeh",
+                "Grand Kru",
+                "Lofa",
+                "Margibi",
+                "Maryland",
+                "Montserrado",
+                "Nimba",
+                "River Gee",
+                "Rivercess",
+                "Sinoe"
+            ]
+        },
+        {
+            "id": 100,
+            "shortName": "Libya",
+            "officialName": "State of Libya",
+            "countryCode": "LY",
+            "phoneCodes": [
+                "218"
+            ],
+            "states": [
+                "Al Wahat",
+                "Benghazi",
+                "Derna",
+                "Ghat",
+                "Jabal al Akhdar",
+                "Jabal al Gharbi",
+                "Jafara",
+                "Jufra",
+                "Kufra",
+                "Marj",
+                "Misrata",
+                "Murqub",
+                "Murzuq",
+                "Nalut",
+                "Nuqat al Khams",
+                "Sabha",
+                "Sirte",
+                "Tobruk",
+                "Tripoli",
+                "Wadi al Hayaa",
+                "Wadi al Shatii",
+                "Zawiya"
+            ]
+        },
+        {
+            "id": 101,
+            "shortName": "Liechtenstein",
+            "officialName": "Principality of Liechtenstein",
+            "countryCode": "LI",
+            "phoneCodes": [
+                "423"
+            ],
+            "states": [
+                "Balzers",
+                "Eschen",
+                "Gamprin",
+                "Mauren",
+                "Planken",
+                "Ruggell",
+                "Schaan",
+                "Schellenberg",
+                "Triesen",
+                "Triesenberg",
+                "Vaduz"
+            ]
+        },
+        {
+            "id": 102,
+            "shortName": "Lithuania",
+            "officialName": "Republic of Lithuania",
+            "countryCode": "LT",
+            "phoneCodes": [
+                "370"
+            ],
+            "states": [
+                "Alytus",
+                "Kaunas",
+                "Klaipėda",
+                "Marijampolė",
+                "Panevėžys",
+                "Šiauliai",
+                "Tauragė",
+                "Telšiai",
+                "Utena",
+                "Vilnius"
+            ]
+        },
+        {
+            "id": 103,
+            "shortName": "Luxembourg",
+            "officialName": "Grand Duchy of Luxembourg",
+            "countryCode": "LU",
+            "phoneCodes": [
+                "352"
+            ],
+            "states": [
+                "Capellen",
+                "Clervaux",
+                "Diekirch",
+                "Echternach",
+                "Esch-sur-Alzette",
+                "Grevenmacher",
+                "Luxembourg",
+                "Mersch",
+                "Redange",
+                "Remich",
+                "Vianden",
+                "Wiltz"
+            ]
+        },
+        {
+            "id": 104,
+            "shortName": "Madagascar",
+            "officialName": "Republic of Madagascar",
+            "countryCode": "MG",
+            "phoneCodes": [
+                "261"
+            ],
+            "states": [
+                "Alaotra Mangoro",
+                "Amoroni Mania",
+                "Analamanga",
+                "Analanjirofo",
+                "Androy",
+                "Anosy",
+                "Atsimo-Andrefana",
+                "Atsimo-Atsinanana",
+                "Atsinanana",
+                "Betsiboka",
+                "Boeny",
+                "Bongolava",
+                "Diana",
+                "Haute-Matsiatra",
+                "Ihorombe",
+                "Itasy",
+                "Melaky",
+                "Menabe",
+                "Sava",
+                "Sofia",
+                "Vakinankaratra",
+                "Vatovavy-Fitovinany"
+            ]
+        },
+        {
+            "id": 105,
+            "shortName": "Malawi",
+            "officialName": "Republic of Malawi",
+            "countryCode": "MW",
+            "phoneCodes": [
+                "265"
+            ],
+            "states": [
+                "Balaka",
+                "Blantyre",
+                "Chikhwawa",
+                "Chiradzulu",
+                "Chitipa",
+                "Dedza",
+                "Dowa",
+                "Karonga",
+                "Kasungu",
+                "Likoma",
+                "Lilongwe",
+                "Machinga",
+                "Mangochi",
+                "Mchinji",
+                "Mulanje",
+                "Mwanza",
+                "Mzimba",
+                "Neno",
+                "Nkhata Bay",
+                "Nkhotakhota",
+                "Nsanje",
+                "Ntcheu",
+                "Ntchisi",
+                "Phalombe",
+                "Rumphi",
+                "Salima",
+                "Thyolo",
+                "Zomba"
+            ]
+        },
+        {
+            "id": 106,
+            "shortName": "Malaysia",
+            "officialName": "Malaysia",
+            "countryCode": "MY",
+            "phoneCodes": [
+                "60"
+            ],
+            "states": [
+                "Johor",
+                "Kedah",
+                "Kelantan",
+                "Kuala Lumpur",
+                "Labuan",
+                "Malacca",
+                "Negeri Sembilan",
+                "Pahang",
+                "Penang",
+                "Perak",
+                "Perlis",
+                "Putrajaya",
+                "Sabah",
+                "Sarawak",
+                "Selangor",
+                "Terengganu"
+            ]
+        },
+        {
+            "id": 107,
+            "shortName": "Maldives",
+            "officialName": "Republic of Maldives",
+            "countryCode": "MV",
+            "phoneCodes": [
+                "960"
+            ],
+            "states": [
+                "Alif Alif",
+                "Alif Dhaal",
+                "Baa",
+                "Dhaalu",
+                "Faafu",
+                "Gaafu Alif",
+                "Gaafu Dhaalu",
+                "Gnaviyani",
+                "Haa Alif",
+                "Haa Dhaalu",
+                "Kaafu",
+                "Laamu",
+                "Lhaviyani",
+                "Male",
+                "Meemu",
+                "Noonu",
+                "Raa",
+                "Seenu/Addu",
+                "Shaviyani",
+                "Thaa",
+                "Vaavu"
+            ]
+        },
+        {
+            "id": 108,
+            "shortName": "Mali",
+            "officialName": "Republic of Mali",
+            "countryCode": "ML",
+            "phoneCodes": [
+                "223"
+            ],
+            "states": [
+                "Bamako",
+                "Gao",
+                "Kayes",
+                "Kidal",
+                "Koulikoro",
+                "Menaka",
+                "Mopti",
+                "Segou",
+                "Sikasso",
+                "Taoudenit",
+                "Tombouctou"
+            ]
+        },
+        {
+            "id": 109,
+            "shortName": "Malta",
+            "officialName": "Republic of Malta",
+            "countryCode": "MT",
+            "phoneCodes": [
+                "356"
+            ],
+            "states": [
+                "Central Region",
+                "Gozo Region",
+                "Northern Region",
+                "South Eastern Region",
+                "Southern Region"
+            ]
+        },
+        {
+            "id": 110,
+            "shortName": "Marshall Islands",
+            "officialName": "Republic of the Marshall Islands",
+            "countryCode": "MH",
+            "phoneCodes": [
+                "692"
+            ],
+            "states": [
+                "Ailinglaplap",
+                "Ailuk",
+                "Arno",
+                "Aur",
+                "Ebon",
+                "Enewetok",
+                "Jabat",
+                "Jaluit",
+                "Kili / Bikini / Ejit",
+                "Kwajalein",
+                "Lae",
+                "Lib",
+                "Likiep",
+                "Majuro",
+                "Maloelap",
+                "Mejit",
+                "Mili",
+                "Namorik",
+                "Namu",
+                "Rongelap",
+                "Ujae",
+                "Utirik",
+                "Wotho",
+                "Wotje"
+            ]
+        },
+        {
+            "id": 111,
+            "shortName": "Mauritania",
+            "officialName": "Islamic Republic of Mauritania",
+            "countryCode": "MR",
+            "phoneCodes": [
+                "222"
+            ],
+            "states": [
+                "Adrar",
+                "Assaba",
+                "Brakna",
+                "Dakhlet Nouadhibou",
+                "Gorgol",
+                "Guidimaka",
+                "Hodh Ech Chargui",
+                "Hodh El Gharbi",
+                "Inchiri",
+                "Nouakchott-Nord",
+                "Nouakchott-Ouest",
+                "Nouakchott-Sud",
+                "Tagant",
+                "Tiris Zemmour",
+                "Trarza"
+            ]
+        },
+        {
+            "id": 112,
+            "shortName": "Mauritius",
+            "officialName": "Republic of Mauritius",
+            "countryCode": "MU",
+            "phoneCodes": [
+                "230"
+            ],
+            "states": [
+                "Flacq",
+                "Grand Port",
+                "Moka",
+                "Pamplemousses",
+                "Plaines Wilhems",
+                "Port Louis",
+                "Rivière du Rempart",
+                "Rivière Noire",
+                "Savanne"
+            ]
+        },
+        {
+            "id": 113,
+            "shortName": "Mexico",
+            "officialName": "United Mexican States",
+            "countryCode": "MX",
+            "phoneCodes": [
+                "52"
+            ],
+            "states": [
+                "Aguascalientes",
+                "Baja California",
+                "Baja California Sur",
+                "Campeche",
+                "Chiapas",
+                "Chihuahua",
+                "Coahuila",
+                "Colima",
+                "Durango",
+                "Guanajuato",
+                "Guerrero",
+                "Hidalgo",
+                "Jalisco",
+                "Mexico",
+                "Mexico City",
+                "Michoacán",
+                "Morelos",
+                "Nayarit",
+                "Nuevo León",
+                "Oaxaca",
+                "Puebla",
+                "Queretaro",
+                "Quintana Roo",
+                "San Luis Potosi",
+                "Sinaloa",
+                "Sonora",
+                "Tabasco",
+                "Tamaulipas",
+                "Tlaxcala",
+                "Veracruz",
+                "Yucatán",
+                "Zacatecas"
+            ]
+        },
+        {
+            "id": 115,
+            "shortName": "Monaco",
+            "officialName": "Principality of Monaco",
+            "countryCode": "MC",
+            "phoneCodes": [
+                "377"
+            ],
+            "states": [
+                "Fontvieille",
+                "La Colle",
+                "La Condamine",
+                "La Rousse",
+                "Larvotto",
+                "Les Revoires",
+                "Monaco-Ville",
+                "Moneghetti",
+                "Monte Carlo",
+                "Saint Michel"
+            ]
+        },
+        {
+            "id": 116,
+            "shortName": "Mongolia",
+            "officialName": "Mongolia",
+            "countryCode": "MN",
+            "phoneCodes": [
+                "976"
+            ],
+            "states": [
+                "Arkhangai",
+                "Bayankhongor",
+                "Bayan-Ölgii",
+                "Bulgan",
+                "Darkhan-Uul",
+                "Dornod",
+                "Dornogovi",
+                "Dundgovi",
+                "Govi-Altai",
+                "Govisümber",
+                "Khentii",
+                "Khovd",
+                "Khövsgöl",
+                "Ömnögovi",
+                "Orkhon",
+                "Övörkhangai",
+                "Selenge",
+                "Sükhbaatar",
+                "Töv",
+                "Ulaanbaatar",
+                "Uvs",
+                "Zavkhan"
+            ]
+        },
+        {
+            "id": 117,
+            "shortName": "Montenegro",
+            "officialName": "Montenegro",
+            "countryCode": "ME",
+            "phoneCodes": [
+                "382"
+            ],
+            "states": [
+                "Andrijevica",
+                "Bar",
+                "Berane",
+                "Bijelo Polje",
+                "Budva",
+                "Cetinje",
+                "Danilovgrad",
+                "Gusinje",
+                "Herceg Novi",
+                "Kolašin",
+                "Kotor",
+                "Mojkovac",
+                "Nikšić",
+                "Petnjica",
+                "Plav",
+                "Pljevlja",
+                "Plužine",
+                "Podgorica",
+                "Rožaje",
+                "Šavnik",
+                "Tivat",
+                "Ulcinj",
+                "Žabljak"
+            ]
+        },
+        {
+            "id": 118,
+            "shortName": "Morocco",
+            "officialName": "Kingdom of Morocco",
+            "countryCode": "MA",
+            "phoneCodes": [
+                "212"
+            ],
+            "states": [
+                "Beni Mellal-Khenifra",
+                "Casablanca-Settat",
+                "Dakhla-Oued Ed-Dahab",
+                "Draa-Tafilalet",
+                "Fès-Meknès",
+                "Guelmim-Oued Noun",
+                "Laayoune-Sakia El Hamra",
+                "Marrakech-Safi",
+                "Oriental",
+                "Rabat-Sale-Kenitra",
+                "Souss-Massa",
+                "Tanger-Tetouan-Al Hoceima"
+            ]
+        },
+        {
+            "id": 119,
+            "shortName": "Mozambique",
+            "officialName": "Republic of Mozambique",
+            "countryCode": "MZ",
+            "phoneCodes": [
+                "258"
+            ],
+            "states": [
+                "Cabo Delgado",
+                "Gaza",
+                "Inhambane",
+                "Manica",
+                "Maputo",
+                "Maputo (city)",
+                "Nampula",
+                "Niassa",
+                "Sofala",
+                "Tete",
+                "Zambezia"
+            ]
+        },
+        {
+            "id": 120,
+            "shortName": "Myanmar",
+            "officialName": "Republic of the Union of Myanmar",
+            "countryCode": "MM",
+            "phoneCodes": [
+                "95"
+            ],
+            "states": [
+                "Ayeyarwady",
+                "Bago",
+                "Chin",
+                "Kachin",
+                "Kayah",
+                "Kayin",
+                "Magway",
+                "Mandalay",
+                "Mon",
+                "Rakhine",
+                "Sagaing",
+                "Shan",
+                "Tanintharyi",
+                "Yangon"
+            ]
+        },
+        {
+            "id": 121,
+            "shortName": "Namibia",
+            "officialName": "Republic of Namibia",
+            "countryCode": "NA",
+            "phoneCodes": [
+                "264"
+            ],
+            "states": [
+                "ǁKaras",
+                "Erongo",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi"
+            ]
+        },
+        {
+            "id": 122,
+            "shortName": "Nauru",
+            "officialName": "Republic of Nauru",
+            "countryCode": "NR",
+            "phoneCodes": [
+                "674"
+            ],
+            "states": [
+                "Aiwo",
+                "Anabar",
+                "Anetan",
+                "Anibare",
+                "Baitsi",
+                "Boe",
+                "Buada",
+                "Denigomodu",
+                "Ewa",
+                "Ijuw",
+                "Meneng",
+                "Nibok",
+                "Uaboe",
+                "Yaren"
+            ]
+        },
+        {
+            "id": 123,
+            "shortName": "Nepal",
+            "officialName": "Federal Democratic Republic of Nepal",
+            "countryCode": "NP",
+            "phoneCodes": [
+                "977"
+            ],
+            "states": [
+                "Gandaki Pradesh",
+                "Karnali Pradesh",
+                "Province 1",
+                "Province 2",
+                "Province 3",
+                "Province 5",
+                "Sudurpashchim Pradesh"
+            ]
+        },
+        {
+            "id": 124,
+            "shortName": "Netherlands",
+            "officialName": "Kingdom of the Netherlands",
+            "countryCode": "NL",
+            "phoneCodes": [
+                "31",
+                "297",
+                "599",
+                "1-721"
+            ],
+            "states": [
+                "Drenthe",
+                "Flevoland",
+                "Friesland",
+                "Gelderland",
+                "Groningen",
+                "Limburg",
+                "North Brabant",
+                "North Holland",
+                "Overijssel",
+                "South Holland",
+                "Utrecht",
+                "Zeeland"
+            ]
+        },
+        {
+            "id": 125,
+            "shortName": "New Zealand",
+            "officialName": "New Zealand",
+            "countryCode": "NZ",
+            "phoneCodes": [
+                "64"
+            ],
+            "states": [
+                "Auckland",
+                "Bay of Plenty",
+                "Canterbury",
+                "Gisborne",
+                "Hawke`s Bay",
+                "Manawatu-Wanganui",
+                "Marlborough",
+                "Nelson",
+                "Northland",
+                "Otago",
+                "Southland",
+                "Taranaki",
+                "Tasman",
+                "Waikato",
+                "Wellington",
+                "West Coast"
+            ]
+        },
+        {
+            "id": 126,
+            "shortName": "Nicaragua",
+            "officialName": "Republic of Nicaragua",
+            "countryCode": "NI",
+            "phoneCodes": [
+                "505"
+            ],
+            "states": [
+                "Boaco",
+                "Carazo",
+                "Chinandega",
+                "Chontales",
+                "Esteli",
+                "Granada",
+                "Jinotega",
+                "León",
+                "Madriz",
+                "Managua",
+                "Masaya",
+                "Matagalpa",
+                "North Caribbean Coast Autonomous Region",
+                "Nueva Segovia",
+                "Rio San Juan",
+                "Rivas",
+                "South Caribbean Coast Autonomous Region"
+            ]
+        },
+        {
+            "id": 127,
+            "shortName": "Niger",
+            "officialName": "Republic of the Niger",
+            "countryCode": "NE",
+            "phoneCodes": [
+                "227"
+            ],
+            "states": [
+                "Agadez",
+                "Diffa",
+                "Dosso",
+                "Maradi",
+                "Niamey",
+                "Tahoua",
+                "Tillaberi",
+                "Zinder"
+            ]
+        },
+        {
+            "id": 128,
+            "shortName": "Nigeria",
+            "officialName": "Federal Republic of Nigeria",
+            "countryCode": "NG",
+            "phoneCodes": [
+                "234"
+            ],
+            "states": [
+                "Abia",
+                "Adamawa",
+                "Akwa Ibom",
+                "Anambra",
+                "Bauchi",
+                "Bayelsa",
+                "Benue",
+                "Borno",
+                "Cross River",
+                "Delta",
+                "Ebonyi",
+                "Edo",
+                "Ekiti",
+                "Enugu",
+                "Federal Capital Territory (FCT)",
+                "Gombe",
+                "Imo",
+                "Jigawa",
+                "Kaduna",
+                "Kano",
+                "Katsina",
+                "Kebbi",
+                "Kogi",
+                "Kwara",
+                "Lagos",
+                "Nasarawa",
+                "Niger",
+                "Ogun",
+                "Ondo",
+                "Osun",
+                "Oyo",
+                "Plateau",
+                "Rivers",
+                "Sokoto",
+                "Taraba",
+                "Yobe",
+                "Zamfara"
+            ]
+        },
+        {
+            "id": 46,
+            "shortName": "North Korea",
+            "officialName": "Democratic People's Republic of Korea",
+            "countryCode": "KP",
+            "phoneCodes": [
+                "850"
+            ],
+            "states": [
+                "Chagang",
+                "Kangwon",
+                "North Hamgyong",
+                "North Hwanghae",
+                "North Pyongan",
+                "Pyongyang",
+                "Rason",
+                "Ryanggang",
+                "South Hamgyong",
+                "South Hwanghae",
+                "South Pyongan"
+            ]
+        },
+        {
+            "id": 165,
+            "shortName": "North Sudan",
+            "officialName": "Republic of the Sudan",
+            "countryCode": "SD",
+            "phoneCodes": [
+                "249"
+            ],
+            "states": [
+                "Al Qadarif",
+                "Blue Nile",
+                "Central Darfur",
+                "East Darfur",
+                "Gezira",
+                "Kassala",
+                "Khartoum",
+                "North Darfur",
+                "North Kordofan",
+                "Northern",
+                "Red Sea",
+                "River Nile",
+                "Sennar",
+                "South Darfur",
+                "South Kordofan",
+                "West Darfur",
+                "West Kordofan",
+                "White Nile"
+            ]
+        },
+        {
+            "id": 129,
+            "shortName": "Norway",
+            "officialName": "Kingdom of Norway",
+            "countryCode": "NO",
+            "phoneCodes": [
+                "47"
+            ],
+            "states": [
+                "Akershus",
+                "Aust-Agder",
+                "Buskerud",
+                "Finnmark",
+                "Hedmark",
+                "Hordaland",
+                "Møre og Romsdal",
+                "Nordland",
+                "Oppland",
+                "Oslo",
+                "Østfold",
+                "Rogaland",
+                "Sogn og Fjordane",
+                "Telemark",
+                "Troms",
+                "Trøndelag",
+                "Vest-Agder",
+                "Vestfold"
+            ]
+        },
+        {
+            "id": 130,
+            "shortName": "Oman",
+            "officialName": "Sultanate of Oman",
+            "countryCode": "OM",
+            "phoneCodes": [
+                "968"
+            ],
+            "states": [
+                "Ad Dakhiliyah",
+                "Ad Dhahirah",
+                "Al Batinah North",
+                "Al Batinah South",
+                "Al Buraimi",
+                "Al Wusta",
+                "Ash Sharqiyah North",
+                "Ash Sharqiyah South",
+                "Dhofar",
+                "Musandam",
+                "Muscat"
+            ]
+        },
+        {
+            "id": 131,
+            "shortName": "Pakistan",
+            "officialName": "Islamic Republic of Pakistan",
+            "countryCode": "PK",
+            "phoneCodes": [
+                "92"
+            ],
+            "states": [
+                "Azad Kashmir",
+                "Balochistan",
+                "Gilgit-Baltistan",
+                "Islamabad Capital Territory",
+                "Khyber Pakhtunkhwa",
+                "Punjab",
+                "Sindh"
+            ]
+        },
+        {
+            "id": 132,
+            "shortName": "Palau",
+            "officialName": "Republic of Palau",
+            "countryCode": "PW",
+            "phoneCodes": [
+                "680"
+            ],
+            "states": [
+                "Aimeliik",
+                "Airai",
+                "Angaur",
+                "Hatohobei",
+                "Kayangel",
+                "Koror",
+                "Melekeok",
+                "Ngaraard",
+                "Ngarchelong",
+                "Ngardmau",
+                "Ngaremlengui",
+                "Ngatpang",
+                "Ngchesar",
+                "Ngiwal",
+                "Peleliu",
+                "Sonsorol"
+            ]
+        },
+        {
+            "id": 133,
+            "shortName": "Palestine",
+            "officialName": "State of Palestine",
+            "countryCode": "PS",
+            "phoneCodes": [
+                "970"
+            ],
+            "states": [
+                "Bethlehem",
+                "Deir Al-Balah",
+                "Gaza",
+                "Hebron",
+                "Jenin",
+                "Jericho & Al Aghwar",
+                "Jerusalem",
+                "Khan Yunis",
+                "Nablus",
+                "North Gaza",
+                "Qalqiliya",
+                "Rafah",
+                "Ramallah & Al-Bireh",
+                "Salfit",
+                "Tubas",
+                "Tulkarm"
+            ]
+        },
+        {
+            "id": 134,
+            "shortName": "Panama",
+            "officialName": "Republic of Panama",
+            "countryCode": "PA",
+            "phoneCodes": [
+                "507"
+            ],
+            "states": [
+                "Bocas del Toro",
+                "Chiriqui",
+                "Cocle",
+                "Colón",
+                "Darien",
+                "Emberá",
+                "Guna Yala",
+                "Herrera",
+                "Los Santos",
+                "Ngäbe-Bugle",
+                "Panamá",
+                "Panamá Oeste",
+                "Veraguas"
+            ]
+        },
+        {
+            "id": 135,
+            "shortName": "Papua New Guinea",
+            "officialName": "Independent State of Papua New Guinea",
+            "countryCode": "PG",
+            "phoneCodes": [
+                "675"
+            ],
+            "states": [
+                "Bougainville",
+                "Central",
+                "Chimbu (Simbu)",
+                "East New Britain",
+                "East Sepik",
+                "Eastern Highlands",
+                "Enga",
+                "Gulf",
+                "Hela",
+                "Jiwaka",
+                "Madang",
+                "Manus",
+                "Milne Bay",
+                "Morobe",
+                "National Capital District (Port Moresby)",
+                "New Ireland",
+                "Northern (Oro Province)",
+                "Southern Highlands",
+                "West New Britain",
+                "West Sepik (Sandaun)",
+                "Western Highlands",
+                "Western Province"
+            ]
+        },
+        {
+            "id": 136,
+            "shortName": "Paraguay",
+            "officialName": "Republic of Paraguay",
+            "countryCode": "PY",
+            "phoneCodes": [
+                "595"
+            ],
+            "states": [
+                "Alto Paraguay",
+                "Alto Paraná",
+                "Amambay",
+                "Boquerón",
+                "Caaguazú",
+                "Caazapá",
+                "Canindeyú",
+                "Central",
+                "Concepción",
+                "Cordillera",
+                "Distrito Capital",
+                "Guairá",
+                "Itapúa",
+                "Misiones",
+                "Ñeembucú",
+                "Paraguari",
+                "Presidente Hayes",
+                "San Pedro"
+            ]
+        },
+        {
+            "id": 137,
+            "shortName": "Peru",
+            "officialName": "Republic of Peru",
+            "countryCode": "PE",
+            "phoneCodes": [
+                "51"
+            ],
+            "states": [
+                "Amazonas",
+                "Ancash",
+                "Apurimac",
+                "Arequipa",
+                "Ayacucho",
+                "Cajamarca",
+                "Constitutional Province of Callao",
+                "Cusco",
+                "Huancavelica",
+                "Huanuco",
+                "Ica",
+                "Junin",
+                "La Libertad",
+                "Lambayeque",
+                "Lima",
+                "Loreto",
+                "Madre de Dios",
+                "Moquegua",
+                "Pasco",
+                "Piura",
+                "Puno",
+                "San Martin",
+                "Tacna",
+                "Tumbes",
+                "Ucayali"
+            ]
+        },
+        {
+            "id": 138,
+            "shortName": "Philippines",
+            "officialName": "Republic of the Philippines ",
+            "countryCode": "PH",
+            "phoneCodes": [
+                "63"
+            ],
+            "states": [
+                "Bicol Region",
+                "Calabarzon",
+                "Central Luzon",
+                "Central Visayas",
+                "Davao Region",
+                "Ilocos Region",
+                "National Capital Region",
+                "Northern Mindanao",
+                "SOCCSKSARGEN",
+                "Western Visayas"
+            ]
+        },
+        {
+            "id": 139,
+            "shortName": "Poland",
+            "officialName": "Republic of Poland",
+            "countryCode": "PL",
+            "phoneCodes": [
+                "48"
+            ],
+            "states": [
+                "Greater Poland",
+                "Kuyavian-Pomeranian",
+                "Lesser Poland",
+                "Lodz",
+                "Lower Silesian",
+                "Lublin",
+                "Lubusz",
+                "Masovian",
+                "Opole",
+                "Podlaskie",
+                "Pomeranian",
+                "Silesian",
+                "Subcarpathian",
+                "Świętokrzyskie",
+                "Warmian-Masurian",
+                "West Pomeranian"
+            ]
+        },
+        {
+            "id": 140,
+            "shortName": "Portugal",
+            "officialName": "Portuguese Republic",
+            "countryCode": "PT",
+            "phoneCodes": [
+                "351"
+            ],
+            "states": [
+                "Aveiro",
+                "Beja",
+                "Braga",
+                "Bragança",
+                "Castelo Branco",
+                "Coimbra",
+                "evora",
+                "Faro",
+                "Guarda",
+                "Leiria",
+                "Lisbon",
+                "Portalegre",
+                "Porto",
+                "Santarem",
+                "Setúbal",
+                "Viana do Castelo",
+                "Vila Real",
+                "Viseu"
+            ]
+        },
+        {
+            "id": 141,
+            "shortName": "Qatar",
+            "officialName": "State of Qatar",
+            "countryCode": "QA",
+            "phoneCodes": [
+                "974"
+            ],
+            "states": [
+                "Al Daayen",
+                "Al Khor",
+                "Al Rayyan",
+                "Al Shamal",
+                "Al Wakrah",
+                "Al-Shahaniya",
+                "Doha",
+                "Umm Salal"
+            ]
+        },
+        {
+            "id": 142,
+            "shortName": "Romania",
+            "officialName": "Romania",
+            "countryCode": "RO",
+            "phoneCodes": [
+                "40"
+            ],
+            "states": [
+                "Alba",
+                "Arad",
+                "Argea",
+                "Bacau",
+                "Bihor",
+                "Bistrita-Nasaud",
+                "Botosani",
+                "Braila",
+                "Brasov",
+                "Bucharest",
+                "Buzau",
+                "Calarasi",
+                "Caras-Severin",
+                "Cluj",
+                "Constanta",
+                "Covasna",
+                "Dambovita",
+                "Dolj",
+                "Galati",
+                "Giurgiu",
+                "Gorj",
+                "Harghita",
+                "Hunedoara",
+                "Ialomita",
+                "Iasi",
+                "Ilfov",
+                "Maramures",
+                "Mehedinti",
+                "Mures",
+                "Neamt",
+                "Olt",
+                "Prahova",
+                "Salaj",
+                "Satu Mare",
+                "Sibiu",
+                "Suceava",
+                "Teleorman",
+                "Timis",
+                "Tulcea",
+                "Valcea",
+                "Vaslui",
+                "Vrancea"
+            ]
+        },
+        {
+            "id": 143,
+            "shortName": "Russia",
+            "officialName": "Russian Federation",
+            "countryCode": "RU",
+            "phoneCodes": [
+                "7"
+            ],
+            "states": [
+                "Adygea",
+                "Altai",
+                "Altai",
+                "Amur",
+                "Arkhangelsk",
+                "Astrakhan",
+                "Bashkortostan",
+                "Belgorod",
+                "Bryansk",
+                "Buryatia",
+                "Chechen",
+                "Chelyabinsk",
+                "Chukotka Autonomous Okrug",
+                "Chuvash",
+                "Crimea",
+                "Dagestan",
+                "Ingushetia",
+                "Irkutsk",
+                "Ivanovo",
+                "Jewish Autonomous Oblast",
+                "Kabardino-Balkar",
+                "Kaliningrad",
+                "Kalmykia",
+                "Kaluga",
+                "Kamchatka",
+                "Karachay-Cherkess",
+                "Karelia",
+                "Kemerovo",
+                "Khabarovsk",
+                "Khakassia",
+                "Khanty–Mansi Autonomous Okrug",
+                "Kirov",
+                "Komi",
+                "Kostroma",
+                "Krasnodar",
+                "Krasnoyarsk",
+                "Kurgan",
+                "Kursk",
+                "Leningrad",
+                "Lipetsk",
+                "Magadan",
+                "Mari El",
+                "Mordovia",
+                "Moscow",
+                "Moscow Oblast",
+                "Murmansk",
+                "Nenets Autonomous Okrug",
+                "Nizhny Novgorod",
+                "North Ossetia-Alania",
+                "Novgorod",
+                "Novosibirsk",
+                "Omsk",
+                "Orenburg",
+                "Oryol",
+                "Penza",
+                "Perm",
+                "Primorsky",
+                "Pskov",
+                "Rostov",
+                "Ryazan",
+                "Saint Petersburg",
+                "Sakha (Yakutia)",
+                "Sakhalin",
+                "Samara",
+                "Saratov",
+                "Smolensk",
+                "Stavropol",
+                "Sverdlovsk",
+                "Tambov",
+                "Tatarstan",
+                "Tomsk",
+                "Tula",
+                "Tuva",
+                "Tver",
+                "Tyumen",
+                "Udmurt",
+                "Ulyanovsk",
+                "Vladimir",
+                "Volgograd",
+                "Vologda",
+                "Voronezh",
+                "Yamalo-Nenets Autonomous Okrug",
+                "Yaroslavl",
+                "Zabaykalsky"
+            ]
+        },
+        {
+            "id": 144,
+            "shortName": "Rwanda",
+            "officialName": "Republic of Rwanda",
+            "countryCode": "RW",
+            "phoneCodes": [
+                "250"
+            ],
+            "states": [
+                "Eastern Province",
+                "Kigali Province",
+                "Northern Province",
+                "Southern Province",
+                "Western Province"
+            ]
+        },
+        {
+            "id": 145,
+            "shortName": "Saint Kitts and Nevis",
+            "officialName": "Federation of Saint Christopher and Nevis",
+            "countryCode": "KN",
+            "phoneCodes": [
+                "1869"
+            ],
+            "states": [
+                "Christ Church Nichola Town",
+                "Saint Anne Sandy Point",
+                "Saint George Basseterre",
+                "Saint George Gingerland",
+                "Saint James Windward",
+                "Saint John Capisterre",
+                "Saint John Figtree",
+                "Saint Mary Cayon",
+                "Saint Paul Capisterre",
+                "Saint Paul Charlestown",
+                "Saint Peter Basseterre",
+                "Saint Thomas Lowland",
+                "Saint Thomas Middle Island",
+                "Trinity Palmetto Point"
+            ]
+        },
+        {
+            "id": 146,
+            "shortName": "Saint Lucia",
+            "officialName": "Saint Lucia",
+            "countryCode": "LC",
+            "phoneCodes": [
+                "1758"
+            ],
+            "states": [
+                "Anse la Raye",
+                "Babonneau",
+                "Canaries",
+                "Castries",
+                "Choiseul",
+                "Dennery",
+                "Gros Islet",
+                "Laborie",
+                "Micoud",
+                "Soufrière",
+                "Vieux Fort"
+            ]
+        },
+        {
+            "id": 147,
+            "shortName": "Saint Vincent",
+            "officialName": "Saint Vincent and the Grenadines",
+            "countryCode": "VC",
+            "phoneCodes": [
+                "1784"
+            ],
+            "states": [
+                "Charlotte",
+                "Grenadines",
+                "Saint Andrew",
+                "Saint David",
+                "Saint George",
+                "Saint Patrick"
+            ]
+        },
+        {
+            "id": 148,
+            "shortName": "Samoa",
+            "officialName": "Independent State of Samoa",
+            "countryCode": "WS",
+            "phoneCodes": [
+                "685"
+            ],
+            "states": [
+                "A`ana",
+                "Aiga-i-le-Tai",
+                "Atua",
+                "Fa`asaleleaga",
+                "Gaga`emauga",
+                "Gaga`ifomauga",
+                "Palauli",
+                "Satupa`itea",
+                "Tuamasaga",
+                "Va`a-o-Fonoti",
+                "Vaisigano"
+            ]
+        },
+        {
+            "id": 149,
+            "shortName": "San Marino",
+            "officialName": "Republic of San Marino",
+            "countryCode": "SM",
+            "phoneCodes": [
+                "378"
+            ],
+            "states": [
+                "Acquaviva",
+                "Borgo Maggiore",
+                "Chiesanuova",
+                "Domagnano",
+                "Faetano",
+                "Fiorentino",
+                "Montegiardino",
+                "San Marino",
+                "Serravalle"
+            ]
+        },
+        {
+            "id": 150,
+            "shortName": "São Tomé and Príncipe",
+            "officialName": "Democratic Republic of São Tomé and Príncipe",
+            "countryCode": "ST",
+            "phoneCodes": [
+                "239"
+            ],
+            "states": [
+                "Agua Grande",
+                "Cantagalo",
+                "Caue",
+                "Lemba",
+                "Lobata",
+                "Me-Zochi",
+                "Pague"
+            ]
+        },
+        {
+            "id": 151,
+            "shortName": "Saudi Arabia",
+            "officialName": "Kingdom of Saudi Arabia",
+            "countryCode": "SA",
+            "phoneCodes": [
+                "966"
+            ],
+            "states": [
+                "Asir",
+                "Bahah",
+                "Eastern Province",
+                "Ha`il",
+                "Jawf",
+                "Jizan",
+                "Madinah",
+                "Makkah",
+                "Najran",
+                "Northern Borders",
+                "Qassim",
+                "Riyadh",
+                "Tabuk"
+            ]
+        },
+        {
+            "id": 152,
+            "shortName": "Senegal",
+            "officialName": "Republic of Senegal",
+            "countryCode": "SN",
+            "phoneCodes": [
+                "221"
+            ],
+            "states": [
+                "Dakar",
+                "Diourbel",
+                "Fatick",
+                "Kaffrine",
+                "Kaolack",
+                "Kedougou",
+                "Kolda",
+                "Louga",
+                "Matam",
+                "Saint-Louis",
+                "Sedhiou",
+                "Tambacounda",
+                "Thies",
+                "Ziguinchor"
+            ]
+        },
+        {
+            "id": 153,
+            "shortName": "Serbia",
+            "officialName": "Republic of Serbia",
+            "countryCode": "RS",
+            "phoneCodes": [
+                "381"
+            ],
+            "states": [
+                "Bor",
+                "Branicevo",
+                "Central Banat",
+                "Jablanica",
+                "Kolubara",
+                "Kosovo",
+                "Kosovo-Pomoravlje",
+                "Kosovska Mitrovica",
+                "Macva",
+                "Moravica",
+                "Nisava",
+                "North Backa",
+                "North Banat",
+                "Pcinja",
+                "Pec",
+                "Pirot",
+                "Podunavlje",
+                "Pomoravlje",
+                "Prizren",
+                "Rasina",
+                "Raska",
+                "South Backa",
+                "South Banat",
+                "Srem",
+                "Sumadija",
+                "Toplica",
+                "West Backa",
+                "Zajecar",
+                "Zlatibor"
+            ]
+        },
+        {
+            "id": 154,
+            "shortName": "Seychelles",
+            "officialName": "Republic of Seychelles",
+            "countryCode": "SC",
+            "phoneCodes": [
+                "248"
+            ],
+            "states": [
+                "Anse aux Pins",
+                "Anse Boileau",
+                "Anse Etoile",
+                "Anse Royale",
+                "Au Cap",
+                "Baie Lazare",
+                "Baie Sainte Anne",
+                "Beau Vallon",
+                "Bel Air",
+                "Bel Ombre",
+                "Cascade",
+                "Glacis",
+                "Grand`Anse Mahe",
+                "Grand`Anse Praslin",
+                "La Digue",
+                "La Rivière Anglaise",
+                "Les Mamelles",
+                "Mont Buxton",
+                "Mont Fleuri",
+                "Plaisance",
+                "Pointe La Rue",
+                "Port Glaud",
+                "Roche Caiman",
+                "Saint Louis",
+                "Takamaka"
+            ]
+        },
+        {
+            "id": 155,
+            "shortName": "Sierra Leone",
+            "officialName": "Republic of Sierra Leone",
+            "countryCode": "SL",
+            "phoneCodes": [
+                "232"
+            ],
+            "states": [
+                "Bo",
+                "Bombali",
+                "Bonthe",
+                "Kailahun",
+                "Kambia",
+                "Kenema",
+                "Koinadugu",
+                "Kono",
+                "Moyamba",
+                "Port Loko",
+                "Pujehun",
+                "Tonkolili",
+                "Western Area Rural",
+                "Western Area Urban"
+            ]
+        },
+        {
+            "id": 156,
+            "shortName": "Singapore",
+            "officialName": "Republic of Singapore",
+            "countryCode": "SG",
+            "phoneCodes": [
+                "65"
+            ],
+            "states": [
+                "Central Singapore",
+                "North East",
+                "North West",
+                "South East",
+                "South West"
+            ]
+        },
+        {
+            "id": 157,
+            "shortName": "Slovakia",
+            "officialName": "Slovak Republic",
+            "countryCode": "SK",
+            "phoneCodes": [
+                "421"
+            ],
+            "states": [
+                "Banska Bystrica",
+                "Bratislava",
+                "Kosice",
+                "Nitra",
+                "Presov",
+                "Trencin",
+                "Trnava",
+                "Zilina"
+            ]
+        },
+        {
+            "id": 158,
+            "shortName": "Slovenia",
+            "officialName": "Republic of Slovenia",
+            "countryCode": "SI",
+            "phoneCodes": [
+                "386"
+            ],
+            "states": [
+                "Carinthia",
+                "Central Sava",
+                "Central Slovenia",
+                "Coastal–Karst",
+                "Drava",
+                "Gorizia",
+                "Littoral–Inner Carniola",
+                "Lower Sava",
+                "Mura",
+                "Savinja",
+                "Southeast Slovenia",
+                "Upper Carniola"
+            ]
+        },
+        {
+            "id": 159,
+            "shortName": "Solomon Islands",
+            "officialName": "Solomon Islands",
+            "countryCode": "SB",
+            "phoneCodes": [
+                "677"
+            ],
+            "states": [
+                "Capital Territory",
+                "Central Province",
+                "Choiseul Province",
+                "Guadalcanal Province",
+                "Isabel Province",
+                "Makira-Ulawa Province",
+                "Malaita Province",
+                "Rennell and Bellona Province",
+                "Temotu Province",
+                "Western Province"
+            ]
+        },
+        {
+            "id": 160,
+            "shortName": "Somalia",
+            "officialName": "Federal Republic of Somalia",
+            "countryCode": "SO",
+            "phoneCodes": [
+                "252"
+            ],
+            "states": [
+                "Awdal",
+                "Bakool",
+                "Banaadir",
+                "Bari",
+                "Bay",
+                "Galguduud",
+                "Gedo",
+                "Hiran",
+                "Lower Juba",
+                "Lower Shabelle",
+                "Middle Juba",
+                "Middle Shabelle",
+                "Mudug",
+                "Nugal",
+                "Sanaag",
+                "Sool",
+                "Togdheer",
+                "Woqooyi Galbeed"
+            ]
+        },
+        {
+            "id": 161,
+            "shortName": "South Africa",
+            "officialName": "Republic of South Africa",
+            "countryCode": "ZA",
+            "phoneCodes": [
+                "27"
+            ],
+            "states": [
+                "Eastern Cape",
+                "Free State",
+                "Gauteng",
+                "KwaZulu-Natal",
+                "Limpopo",
+                "Mpumalanga",
+                "North West",
+                "Northern Cape",
+                "Western Cape"
+            ]
+        },
+        {
+            "id": 162,
+            "shortName": "South Sudan",
+            "officialName": "Republic of South Sudan",
+            "countryCode": "SS",
+            "phoneCodes": [
+                "211"
+            ],
+            "states": [
+                "Akobo",
+                "Amadi",
+                "Aweil",
+                "Aweil East",
+                "Bieh",
+                "Boma",
+                "Central Upper Nile",
+                "Eastern Lake",
+                "Fangak",
+                "Fashoda",
+                "Gbudwe",
+                "Gogrial",
+                "Gok",
+                "Imatong",
+                "Jonglei",
+                "Jubek",
+                "Kapoeta",
+                "Latjor",
+                "Lol",
+                "Maiwut",
+                "Maridi",
+                "Northern Liech",
+                "Northern Upper Nile",
+                "Ruweng",
+                "Southern Liech",
+                "Tambura",
+                "Terekeka",
+                "Tonj",
+                "Twic",
+                "Wau",
+                "Western Lake",
+                "Yei River"
+            ]
+        },
+        {
+            "id": 163,
+            "shortName": "Spain",
+            "officialName": "Kingdom of Spain",
+            "countryCode": "ES",
+            "phoneCodes": [
+                "34"
+            ],
+            "states": [
+                "Andalusia",
+                "Aragon",
+                "Balearic Islands",
+                "Basque Autonomous Community",
+                "Canary Islands",
+                "Cantabria",
+                "Castile and Leon",
+                "Castilla-La Mancha",
+                "Catalonia",
+                "Ceuta",
+                "Chartered Community of Navarre",
+                "Community of Madrid",
+                "Extremadura",
+                "Galicia",
+                "La Rioja",
+                "Melilla",
+                "Principality of Asturias",
+                "Region of Murcia",
+                "Valencian Community"
+            ]
+        },
+        {
+            "id": 164,
+            "shortName": "Sri Lanka",
+            "officialName": "Democratic Socialist Republic of Sri Lanka",
+            "countryCode": "LK",
+            "phoneCodes": [
+                "94"
+            ],
+            "states": [
+                "Central Province",
+                "Eastern Province",
+                "North Central Province",
+                "North Western Province",
+                "Northern Province",
+                "Sabaragamuwa Province",
+                "Southern Province",
+                "Uva Province",
+                "Western Province"
+            ]
+        },
+        {
+            "id": 166,
+            "shortName": "Suriname",
+            "officialName": "Republic of Suriname",
+            "countryCode": "SR",
+            "phoneCodes": [
+                "597"
+            ],
+            "states": [
+                "Brokopondo",
+                "Commewijne",
+                "Coronie",
+                "Marowijne",
+                "Nickerie",
+                "Para",
+                "Paramaribo",
+                "Saramacca",
+                "Sipaliwini",
+                "Wanica"
+            ]
+        },
+        {
+            "id": 61,
+            "shortName": "Swaziland",
+            "officialName": "Kingdom of eSwatini",
+            "countryCode": "SZ",
+            "phoneCodes": [
+                "268"
+            ],
+            "states": [
+                "Hhohho",
+                "Lubombo",
+                "Manzini",
+                "Shiselweni"
+            ]
+        },
+        {
+            "id": 167,
+            "shortName": "Sweden",
+            "officialName": "Kingdom of Sweden",
+            "countryCode": "SE",
+            "phoneCodes": [
+                "46"
+            ],
+            "states": [
+                "Blekinge",
+                "Dalarna",
+                "Gavleborg",
+                "Gotland",
+                "Halland",
+                "Jamtland",
+                "Jonkoping",
+                "Kalmar",
+                "Kronoberg",
+                "Norrbotten",
+                "Orebro",
+                "Ostergotland",
+                "Skane",
+                "Sodermanland",
+                "Stockholm",
+                "Uppsala",
+                "Varmland",
+                "Vasterbotten",
+                "Vasternorrland",
+                "Vastmanland",
+                "Vastra Gotaland"
+            ]
+        },
+        {
+            "id": 168,
+            "shortName": "Switzerland",
+            "officialName": "Swiss Confederation",
+            "countryCode": "CH",
+            "phoneCodes": [
+                "41"
+            ],
+            "states": [
+                "Aargau",
+                "Appenzell Ausserrhoden",
+                "Appenzell Innerrhoden",
+                "Basel-Landschaft",
+                "Basel-Stadt",
+                "Bern",
+                "Fribourg",
+                "Geneva",
+                "Glarus",
+                "Grisons",
+                "Jura",
+                "Luzern",
+                "Neuchatel",
+                "Nidwalden",
+                "Obwalden",
+                "Schaffhausen",
+                "Schwyz",
+                "Solothurn",
+                "St. Gallen",
+                "Thurgau",
+                "Ticino",
+                "Uri",
+                "Valais",
+                "Vaud",
+                "Zug",
+                "Zurich"
+            ]
+        },
+        {
+            "id": 169,
+            "shortName": "Syria",
+            "officialName": "Syrian Arab Republic",
+            "countryCode": "SY",
+            "phoneCodes": [
+                "963"
+            ],
+            "states": [
+                "Aleppo",
+                "Al-Hasakah",
+                "Al-Suwayda",
+                "Damascus",
+                "Daraa",
+                "Deir ez-Zor",
+                "Hama",
+                "Homs",
+                "Idlib",
+                "Latakia",
+                "Quneitra",
+                "Raqqa",
+                "Rif Dimashq",
+                "Tartus"
+            ]
+        },
+        {
+            "id": 170,
+            "shortName": "Tajikistan",
+            "officialName": "Republic of Tajikistan",
+            "countryCode": "TJ",
+            "phoneCodes": [
+                "992"
+            ],
+            "states": [
+                "Dushanbe",
+                "Gorno-Badakhshan",
+                "Khatlon",
+                "Region of Republican Subordination",
+                "Sughd"
+            ]
+        },
+        {
+            "id": 171,
+            "shortName": "Tanzania",
+            "officialName": "United Republic of Tanzania",
+            "countryCode": "TZ",
+            "phoneCodes": [
+                "255"
+            ],
+            "states": [
+                "Arusha",
+                "Dar es Salaam",
+                "Dodoma",
+                "Geita",
+                "Iringa",
+                "Kagera",
+                "Katavi",
+                "Kigoma",
+                "Kilimanjaro",
+                "Lindi",
+                "Manyara",
+                "Mara",
+                "Mbeya",
+                "Mjini Magharibi",
+                "Morogoro",
+                "Mtwara",
+                "Mwanza",
+                "Njombe",
+                "Pemba North",
+                "Pemba South",
+                "Pwani",
+                "Rukwa",
+                "Ruvuma",
+                "Shinyanga",
+                "Simiyu",
+                "Singida",
+                "Songwe",
+                "Tabora",
+                "Tanga",
+                "Unguja North",
+                "Unguja South"
+            ]
+        },
+        {
+            "id": 172,
+            "shortName": "Thailand",
+            "officialName": "Kingdom of Thailand",
+            "countryCode": "TH",
+            "phoneCodes": [
+                "66"
+            ],
+            "states": [
+                "Amnat Charoen",
+                "Ang Thong",
+                "Bangkok",
+                "Bueng Kan",
+                "Buriram",
+                "Chachoengsao",
+                "Chai Nat",
+                "Chaiyaphum",
+                "Chanthaburi",
+                "Chiang Mai",
+                "Chiang Rai",
+                "Chonburi",
+                "Chumphon",
+                "Kalasin",
+                "Kamphaeng Phet",
+                "Kanchanaburi",
+                "Khon Kaen",
+                "Krabi",
+                "Lampang",
+                "Lamphun",
+                "Loei",
+                "Lopburi",
+                "Mae Hong Son",
+                "Maha Sarakham",
+                "Mukdahan",
+                "Nakhon Nayok",
+                "Nakhon Pathom",
+                "Nakhon Phanom",
+                "Nakhon Ratchasima",
+                "Nakhon Sawan",
+                "Nakhon Si Thammarat",
+                "Nan",
+                "Narathiwat",
+                "Nong Bua Lam Phu",
+                "Nong Khai",
+                "Nonthaburi",
+                "Pathum Thani",
+                "Pattani",
+                "Phang Nga",
+                "Phatthalung",
+                "Phayao",
+                "Phetchabun",
+                "Phetchaburi",
+                "Phichit",
+                "Phitsanulok",
+                "Phra Nakhon Si Ayutthaya",
+                "Phrae",
+                "Phuket",
+                "Prachinburi",
+                "Prachuap Khiri Khan",
+                "Ranong",
+                "Ratchaburi",
+                "Rayong",
+                "Roi Et",
+                "Sa Kaeo",
+                "Sakon Nakhon",
+                "Samut Prakan",
+                "Samut Sakhon",
+                "Samut Songkhram",
+                "Saraburi",
+                "Satun",
+                "Sing Buri",
+                "Sisaket",
+                "Songkhla",
+                "Sukhothai",
+                "Suphan Buri",
+                "Surat Thani",
+                "Surin",
+                "Tak",
+                "Trang",
+                "Trat",
+                "Ubon Ratchathani",
+                "Udon Thani",
+                "Uthai Thani",
+                "Uttaradit",
+                "Yala",
+                "Yasothon"
+            ]
+        },
+        {
+            "id": 12,
+            "shortName": "The Bahamas",
+            "officialName": "Commonwealth of The Bahamas",
+            "countryCode": "BS",
+            "phoneCodes": [
+                "1 242"
+            ],
+            "states": [
+                "Acklins",
+                "Berry Islands",
+                "Bimini",
+                "Black Point, Exuma",
+                "Cat Island",
+                "Central Abaco",
+                "Central Andros",
+                "Central Eleuthera",
+                "City of Freeport, Grand Bahama",
+                "Crooked Island",
+                "East Grand Bahama",
+                "Exuma",
+                "Grand Cay, Abaco",
+                "Harbour Island, Eleuthera",
+                "Hope Town, Abaco",
+                "Inagua",
+                "Long Island",
+                "Mangrove Cay, Andros",
+                "Mayaguana",
+                "Moore`s Island, Abaco",
+                "New Providence",
+                "North Abaco",
+                "North Andros",
+                "North Eleuthera",
+                "Ragged Island",
+                "Rum Cay",
+                "San Salvador",
+                "South Abaco",
+                "South Andros",
+                "South Eleuthera",
+                "Spanish Wells, Eleuthera",
+                "West Grand Bahama"
+            ]
+        },
+        {
+            "id": 66,
+            "shortName": "The Gambia",
+            "officialName": "Republic of the Gambia",
+            "countryCode": "GM",
+            "phoneCodes": [
+                "220"
+            ],
+            "states": [
+                "Banjul",
+                "Basse",
+                "Brikama",
+                "Janjanbureh",
+                "Kanifing",
+                "Kerewan",
+                "Kuntaur",
+                "Mansa Konko"
+            ]
+        },
+        {
+            "id": 173,
+            "shortName": "Togo",
+            "officialName": "Togolese Republic",
+            "countryCode": "TG",
+            "phoneCodes": [
+                "228"
+            ],
+            "states": [
+                "Centrale",
+                "Kara",
+                "Maritime",
+                "Plateaux",
+                "Savanes"
+            ]
+        },
+        {
+            "id": 174,
+            "shortName": "Tonga",
+            "officialName": "Kingdom of Tonga",
+            "countryCode": "TO",
+            "phoneCodes": [
+                "676"
+            ],
+            "states": [
+                "ʻEua",
+                "Haʻapai",
+                "Niuas",
+                "Tongatapu",
+                "Vavaʻu"
+            ]
+        },
+        {
+            "id": 175,
+            "shortName": "Trinidad and Tobago",
+            "officialName": "Republic of Trinidad and Tobago",
+            "countryCode": "TT",
+            "phoneCodes": [
+                "1 868"
+            ],
+            "states": [
+                "Arima",
+                "Chaguanas",
+                "Couva–Tabaquite–Talparo",
+                "Diego Martin",
+                "Mayaro–Rio Claro",
+                "Penal–Debe",
+                "Point Fortin",
+                "Port of Spain",
+                "Princes Town",
+                "San Fernando",
+                "San Juan–Laventille",
+                "Sangre Grande",
+                "Siparia",
+                "Tobago",
+                "Tunapuna–Piarco"
+            ]
+        },
+        {
+            "id": 176,
+            "shortName": "Tunisia",
+            "officialName": "Republic of Tunisia",
+            "countryCode": "TN",
+            "phoneCodes": [
+                "216"
+            ],
+            "states": [
+                "Ariana",
+                "Beja",
+                "Ben Arous",
+                "Bizerte",
+                "Gabes",
+                "Gafsa",
+                "Jendouba",
+                "Kairouan",
+                "Kasserine",
+                "Kebili",
+                "Kef",
+                "Mahdia",
+                "Manouba",
+                "Medenine",
+                "Monastir",
+                "Nabeul",
+                "Sfax",
+                "Sidi Bouzid",
+                "Siliana",
+                "Sousse",
+                "Tataouine",
+                "Tozeur",
+                "Tunis",
+                "Zaghouan"
+            ]
+        },
+        {
+            "id": 177,
+            "shortName": "Turkey",
+            "officialName": "Republic of Turkey",
+            "countryCode": "TR",
+            "phoneCodes": [
+                "90"
+            ],
+            "states": [
+                "Adana",
+                "Adıyaman",
+                "Afyonkarahisar",
+                "Agrı",
+                "Aksaray",
+                "Amasya",
+                "Ankara",
+                "Antalya",
+                "Ardahan",
+                "Artvin",
+                "Aydın",
+                "Balıkesir",
+                "Bartın",
+                "Batman",
+                "Bayburt",
+                "Bilecik",
+                "Bingol",
+                "Bitlis",
+                "Bolu",
+                "Burdur",
+                "Bursa",
+                "Canakkale",
+                "Cankırı",
+                "Corum",
+                "Denizli",
+                "Diyarbakır",
+                "Duzce",
+                "Edirne",
+                "Elazıg",
+                "Erzincan",
+                "Erzurum",
+                "Eskisehir",
+                "Gaziantep",
+                "Giresun",
+                "Gumushane",
+                "Hakkari",
+                "Hatay",
+                "Igdır",
+                "Isparta",
+                "Istanbul",
+                "Izmir",
+                "Kahramanmaras",
+                "Karabuk",
+                "Karaman",
+                "Kars",
+                "Kastamonu",
+                "Kayseri",
+                "Kilis",
+                "Kırıkkale",
+                "Kırklareli",
+                "Kırsehir",
+                "Kocaeli",
+                "Konya",
+                "Kütahya",
+                "Malatya",
+                "Manisa",
+                "Mardin",
+                "Mersin",
+                "Mugla",
+                "Mus",
+                "Nevsehir",
+                "Nigde",
+                "Ordu",
+                "Osmaniye",
+                "Rize",
+                "Sakarya",
+                "Samsun",
+                "Sanlıurfa",
+                "Siirt",
+                "Sinop",
+                "Şırnak",
+                "Sivas",
+                "Tekirdag",
+                "Tokat",
+                "Trabzon",
+                "Tunceli",
+                "Usak",
+                "Van",
+                "Yalova",
+                "Yozgat",
+                "Zonguldak"
+            ]
+        },
+        {
+            "id": 178,
+            "shortName": "Turkmenistan",
+            "officialName": "Turkmenistan",
+            "countryCode": "TM",
+            "phoneCodes": [
+                "993"
+            ],
+            "states": [
+                "Ahal ",
+                "Ashgabat City",
+                "Balkan",
+                "Dasoguz",
+                "Lebap",
+                "Mary"
+            ]
+        },
+        {
+            "id": 179,
+            "shortName": "Tuvalu",
+            "officialName": "Tuvalu",
+            "countryCode": "TV",
+            "phoneCodes": [
+                "65"
+            ],
+            "states": [
+                "Funafuti",
+                "Nanumanga",
+                "Nanumea",
+                "Niulakita",
+                "Niutao",
+                "Nui",
+                "Nukufetau",
+                "Nukulaelae",
+                "Vaitupu"
+            ]
+        },
+        {
+            "id": 180,
+            "shortName": "Uganda",
+            "officialName": "Republic of Uganda",
+            "countryCode": "UG",
+            "phoneCodes": [
+                "256"
+            ],
+            "states": [
+                "Central Region",
+                "Eastern Region",
+                "Northern Region",
+                "Western Region"
+            ]
+        },
+        {
+            "id": 181,
+            "shortName": "Ukraine",
+            "officialName": "Ukraine",
+            "countryCode": "UA",
+            "phoneCodes": [
+                "380"
+            ],
+            "states": [
+                "Autonomous Republic of Crimea",
+                "Cherkasy",
+                "Chernihiv",
+                "Chernivtsi",
+                "City of Kiev",
+                "City of Sevastopol",
+                "Dnipropetrovsk",
+                "Donetsk",
+                "Ivano-Frankivsk",
+                "Kharkiv",
+                "Kherson",
+                "Khmelnytskyi",
+                "Kiev",
+                "Kirovohrad",
+                "Luhansk",
+                "Lviv",
+                "Mykolaiv",
+                "Odessa",
+                "Poltava",
+                "Rivne",
+                "Sumy",
+                "Ternopil",
+                "Vinnytsia",
+                "Volyn",
+                "Zakarpattia",
+                "Zaporizhia",
+                "Zhytomyr"
+            ]
+        },
+        {
+            "id": 182,
+            "shortName": "United Arab Emirates",
+            "officialName": "United Arab Emirates",
+            "countryCode": "AE",
+            "phoneCodes": [
+                "971"
+            ],
+            "states": [
+                "Abu Dhabi",
+                "Ajman",
+                "Dubai",
+                "Fujairah",
+                "Ras al-Khaimah",
+                "Sharjah",
+                "Umm al-Quwain"
+            ]
+        },
+        {
+            "id": 183,
+            "shortName": "United Kingdom",
+            "officialName": "United Kingdom",
+            "countryCode": "GB",
+            "phoneCodes": [
+                "44"
+            ],
+            "states": [
+                "England",
+                "Northern Ireland",
+                "Scotland",
+                "Wales"
+            ]
+        },
+        {
+            "id": 184,
+            "shortName": "United States",
+            "officialName": "United States of America",
+            "countryCode": "US",
+            "phoneCodes": [
+                "1"
+            ],
+            "states": [
+                " Alabama",
+                "Alaska",
+                "Arizona",
+                "Arkansas",
+                "California",
+                "Colorado",
+                "Connecticut",
+                "Delaware",
+                "Florida",
+                "Georgia",
+                "Hawaii",
+                "Idaho",
+                "Illinois",
+                "Indiana",
+                "Iowa",
+                "Kansas",
+                "Kentucky",
+                "Louisiana",
+                "Maine",
+                "Maryland",
+                "Massachusetts",
+                "Michigan",
+                "Minnesota",
+                "Mississippi",
+                "Missouri",
+                "Montana",
+                "Nebraska",
+                "Nevada",
+                "New Hampshire",
+                "New Jersey",
+                "New Mexico",
+                "New York",
+                "North Carolina",
+                "North Dakota",
+                "Ohio",
+                "Oklahoma",
+                "Oregon",
+                "Pennsylvania",
+                "Rhode Island",
+                "South Carolina",
+                "South Dakota",
+                "Tennessee",
+                "Texas",
+                "Utah",
+                "Vermont",
+                "Virginia",
+                "Washington",
+                "West Virginia"
+            ]
+        },
+        {
+            "id": 185,
+            "shortName": "Uruguay",
+            "officialName": "Oriental Republic of Uruguay",
+            "countryCode": "UY",
+            "phoneCodes": [
+                "598"
+            ],
+            "states": [
+                "Artigas",
+                "Canelones",
+                "Cerro Largo",
+                "Colonia",
+                "Durazno",
+                "Flores",
+                "Florida",
+                "Lavalleja",
+                "Maldonado",
+                "Montevideo",
+                "Paysandú",
+                "Rio Negro",
+                "Rivera",
+                "Rocha",
+                "Salto",
+                "San Jose",
+                "Soriano",
+                "Tacuarembo",
+                "Treinta y Tres"
+            ]
+        },
+        {
+            "id": 186,
+            "shortName": "Uzbekistan",
+            "officialName": "Republic of Uzbekistan",
+            "countryCode": "UZ",
+            "phoneCodes": [
+                "998"
+            ],
+            "states": [
+                "Andijan",
+                "Bukhara",
+                "Fergana",
+                "Jizzakh",
+                "Karakalpakstan Republic",
+                "Kashkadarya",
+                "Khorezm",
+                "Namangan",
+                "Navoiy",
+                "Samarkand",
+                "Surkhandarya",
+                "Syrdarya",
+                "Tashkent",
+                "Tashkent City"
+            ]
+        },
+        {
+            "id": 187,
+            "shortName": "Vanuatu",
+            "officialName": "Republic of Vanuatu",
+            "countryCode": "VU",
+            "phoneCodes": [
+                "678"
+            ],
+            "states": [
+                "Malampa",
+                "Penama",
+                "Sanma",
+                "Shefa",
+                "Tafea",
+                "Torba"
+            ]
+        },
+        {
+            "id": 188,
+            "shortName": "Vatican City",
+            "officialName": "State of Vatican City",
+            "countryCode": "VA",
+            "phoneCodes": [
+                "349"
+            ],
+            "states": [
+                "Vatican City"
+            ]
+        },
+        {
+            "id": 189,
+            "shortName": "Venezuela",
+            "officialName": "Bolivarian Republic of Venezuela",
+            "countryCode": "VE",
+            "phoneCodes": [
+                "58"
+            ],
+            "states": [
+                "Amazonas",
+                "Anzoategui",
+                "Apure",
+                "Aragua",
+                "Barinas",
+                "Bolivar",
+                "Carabobo",
+                "Cojedes",
+                "Delta Amacuro",
+                "Falcon",
+                "Guarico",
+                "La Guaira",
+                "Lara",
+                "Merida",
+                "Miranda",
+                "Monagas",
+                "Nueva Esparta",
+                "Portuguesa",
+                "Sucre",
+                "Tachira",
+                "Trujillo",
+                "Yaracuy",
+                "Zulia"
+            ]
+        },
+        {
+            "id": 190,
+            "shortName": "Vietnam",
+            "officialName": "Socialist Republic of Vietnam",
+            "countryCode": "VN",
+            "phoneCodes": [
+                "84"
+            ],
+            "states": [
+                "An Giang",
+                "Bà Rịa–Vũng Tàu",
+                "Bắc Giang",
+                "Bắc Kạn",
+                "Bạc Liêu",
+                "Bắc Ninh",
+                "Bến Tre",
+                "Bình Định",
+                "Bình Dương",
+                "Bình Phước",
+                "Bình Thuận",
+                "Cà Mau",
+                "Cần Thơ",
+                "Cao Bằng",
+                "Đà Nẵng",
+                "Đắk Lắk",
+                "Đắk Nông",
+                "Điện Biên",
+                "Đồng Nai",
+                "Đồng Tháp",
+                "Gia Lai",
+                "Hà Giang",
+                "Hà Nam",
+                "Hà Nội",
+                "Hà Tĩnh",
+                "Hải Dương",
+                "Hải Phong",
+                "Hậu Giang",
+                "Hồ Chi Minh",
+                "Hoa Bình",
+                "Hưng Yên",
+                "Khánh Hoa",
+                "Kiên Giang",
+                "Kon Tum",
+                "Lai Chau",
+                "Lam Đồng",
+                "Lạng Sơn",
+                "Lào Cai",
+                "Long An",
+                "Nam Định",
+                "Nghệ An",
+                "Ninh Bình",
+                "Ninh Thuận",
+                "Phú Thọ",
+                "Phú Yên",
+                "Quảng Bình",
+                "Quảng Nam",
+                "Quảng Ngãi",
+                "Quảng Ninh",
+                "Quảng Trị",
+                "Sóc Trăng",
+                "Sơn La",
+                "Tay Ninh",
+                "Thái Bình",
+                "Thái Nguyên",
+                "Thanh Hóa",
+                "Thừa Thiên–Huế",
+                "Tiền Giang",
+                "Trà Vinh",
+                "Tuyên Quang",
+                "Vĩnh Long",
+                "Vĩnh Phúc",
+                "Yên Bái"
+            ]
+        },
+        {
+            "id": 191,
+            "shortName": "Yemen",
+            "officialName": "Republic of Yemen",
+            "countryCode": "YE",
+            "phoneCodes": [
+                "967"
+            ],
+            "states": [
+                "`Amran",
+                "Abyan",
+                "Aden",
+                "Al Bayda",
+                "Al Hudaydah",
+                "Al Jawf",
+                "Al Mahrah",
+                "Al Mahwit",
+                "Amanat Al Asimah",
+                "Dhale",
+                "Dhamar",
+                "Hadhramaut",
+                "Hajjah",
+                "Ibb",
+                "Lahij",
+                "Ma`rib",
+                "Raymah",
+                "Saada",
+                "Sana`a",
+                "Shabwah",
+                "Socotra",
+                "Taiz"
+            ]
+        },
+        {
+            "id": 192,
+            "shortName": "Zambia",
+            "officialName": "Republic of Zambia",
+            "countryCode": "ZM",
+            "phoneCodes": [
+                "260"
+            ],
+            "states": [
+                "Central Province",
+                "Copperbelt",
+                "Eastern Province",
+                "Luapula",
+                "Lusaka",
+                "Muchinga",
+                "Northern Province",
+                "North-Western Province",
+                "Southern Province",
+                "Western Province"
+            ]
+        },
+        {
+            "id": 193,
+            "shortName": "Zimbabwe",
+            "officialName": "Republic of Zimbabwe",
+            "countryCode": "ZW",
+            "phoneCodes": [
+                "263"
+            ],
+            "states": [
+                "Bulawayo",
+                "Harare",
+                "Manicaland",
+                "Mashonaland Central",
+                "Mashonaland East",
+                "Mashonaland West",
+                "Masvingo",
+                "Matabeleland North",
+                "Matabeleland South",
+                "Midlands"
+            ]
+        }
+    ]
+}
