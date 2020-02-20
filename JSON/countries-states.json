@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/Vertisize-Solutions/Country-List/master/JSON/schema.json",
     "countries": [
         {
             "id": 1,
